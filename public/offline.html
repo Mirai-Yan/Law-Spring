@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>离线 · 法脉·刑法学</title>
+<link rel="icon" href="/favicon.ico">
+<style>
+  :root { --bg:#fcfcfb; --surface:#ffffff; --ink:#141413; --ink-2:#52514e; --ink-3:#85837b; --border:#e4e2dc; }
+  :root[data-theme="dark"] { --bg:#141413; --surface:#1a1a19; --ink:#f5f5f2; --ink-2:#c3c2b7; --ink-3:#8f8d84; --border:#34332f; }
+  :root[data-theme="green"] { --bg:#dbe7d6; --surface:#e8f1e4; --ink:#1b261a; --ink-2:#3d4c3a; --ink-3:#5f6e58; --border:#b9ccb1; }
+  :root[data-theme="sepia"] { --bg:#f3ead6; --surface:#faf4e6; --ink:#2a2216; --ink-2:#594b36; --ink-3:#85765c; --border:#dacca9; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.7 -apple-system, "PingFang SC", "Noto Sans SC", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-family: "Songti SC", "Noto Serif SC", serif; font-size: 26px; margin: 0 0 8px; }
+  p { color: var(--ink-2); margin: 0 0 16px; }
+  button { font: inherit; padding: 6px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); cursor: pointer; }
+  ul { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 6px; }
+  a { display:block; padding: 8px 12px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); color: var(--ink); text-decoration: none; }
+  a:hover { border-color: var(--ink-3); }
+  small { color: var(--ink-3); }
+</style>
+<script>
+  try {
+    var t = localStorage.getItem("fm-theme");
+    if (!t || t === "system") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    document.documentElement.dataset.theme = t;
+  } catch (e) {}
+</script>
+</head>
+<body>
+<main>
+  <h1>现在没有网络</h1>
+  <p>这一页还没有存到本机。联网后再打开即可；下面这些页面你看过，离线也能打开。</p>
+  <button onclick="location.reload()">重新连接</button>
+  <ul id="list"></ul>
+</main>
+<script>
+  (async function () {
+    if (!("caches" in window)) return;
+    var cache = await caches.open("fm-pages-v1");
+    var keys = (await cache.keys()).slice(-200).reverse();
+    var list = document.getElementById("list");
+    for (var i = 0; i < keys.length; i++) {
+      var res = await cache.match(keys[i]);
+      var html = res ? await res.text() : "";
+      var m = html.match(/<title>([^<]*)<\/title>/);
+      var url = new URL(keys[i].url);
+      var a = document.createElement("a");
+      a.href = url.pathname + url.search;
+      a.textContent = m ? m[1].replace(/&amp;/g, "&").replace(/&#x27;/g, "'").replace(/\s*·\s*法脉·刑法学$/, "") || "首页" : url.pathname;
+      var s = document.createElement("small");
+      s.textContent = "  " + decodeURIComponent(url.pathname);
+      a.appendChild(s);
+      var li = document.createElement("li");
+      li.appendChild(a);
+      list.appendChild(li);
+    }
+  })();
+</script>
+</body>
+</html>

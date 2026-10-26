@@ -1,0 +1,596 @@
+# 分论重点争议问题·第二批（据张明楷《刑法学》第七版整理）：概念、问题与先决关系为编者整理，全部待核实。
+# 学说史起点尚未考证的专题标 originPending，不为通过校验编造奇点。
+concepts:
+  - id: theft-completion
+    name: 盗窃罪的既遂
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      盗窃罪什么时候既遂：行为人接触、转移、藏匿财物时，被害人失去控制时，还是行为人取得控制时？
+      判断要结合财物的性质、形状、体积以及场所（如超市、工厂、他人住宅）具体进行。
+
+  - id: possession
+    name: 刑法上的占有
+    original:
+      de: Gewahrsam
+      ja: 占有
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      财物由谁占有、是否脱离占有，决定行为成立 [[crime:crime-207|盗窃罪]] 还是侵占罪。
+      争点包括死者能否继续占有财物、遗忘物如何理解、封闭空间与场所管理者的占有等。
+
+  - id: appropriation-intent
+    name: 非法占有目的
+    original:
+      de: Zueignungsabsicht
+      ja: 不法領得の意思
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      取得型财产犯罪在故意之外是否还需要「非法占有目的」，以及它的内容是什么。
+      它承担着两项区分机能：把不可罚的一时盗用排除在外（排除意思），把盗窃与故意毁坏财物区分开（利用意思）。
+
+  - id: illegal-cause-delivery
+    name: 不法原因给付与侵占
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      基于不法原因交付的财物（如托人转交的贿赂款、购毒款），给付者在民法上不能请求返还；
+      受领人据为己有的，刑法上是否成立侵占罪？这是检验法秩序统一性与法益保护原则的典型问题。
+
+  - id: property-loss
+    name: 财产损失（整体财产与个别财产）
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      财产犯罪是对个别财产的犯罪（丧失特定财物即为损失），还是对整体财产的犯罪（得失相抵后整体减少才算损失）？
+      直接影响 [[crime:crime-212|诈骗罪]] 中「支付了对价」「得到了等值商品」等情形的认定。
+
+  - id: suicide-participation
+    name: 参与自杀
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      我国刑法没有规定教唆自杀罪、帮助自杀罪。具有间接正犯性质的（欺骗儿童、以心理强制逼人自杀等）成立故意杀人罪没有争议；
+      争议在于普通的教唆、帮助自杀行为能否以故意杀人罪论处，刑法上的根据是什么。
+
+  - id: hit-and-run
+    name: 交通肇事后逃逸
+    kind: problem
+    area: sp-public
+    originPending: true
+    summary: >-
+      刑法第 133 条把「交通运输肇事后逃逸」「因逃逸致人死亡」规定为法定刑升格条件。
+      争点在于逃逸的含义与动机、因逃逸致人死亡的范围，以及指使肇事人逃逸者能否成立共犯。
+
+  - id: aiding-cybercrime
+    name: 帮助信息网络犯罪活动罪
+    kind: problem
+    area: sp-order
+    originPending: true
+    summary: >-
+      刑法第 287 条之二处罚明知他人利用信息网络实施犯罪而为其提供技术支持、支付结算等帮助的行为。
+      争议集中于该罪的保护法益，以及它究竟是「共犯的正犯化」还是仍从属于正犯。
+
+  - id: bribery-benefit
+    name: 受贿罪中的「为他人谋取利益」
+    kind: problem
+    area: sp-duty
+    originPending: true
+    summary: >-
+      收受型受贿以「为他人谋取利益」为要件。它是客观要件还是主观要素？客观上需要做到什么程度？
+      这决定了只收钱、未办事，或者只作虚假许诺的国家工作人员是否成立受贿罪。
+
+questions:
+  - id: q-theft-completion
+    concept: theft-completion
+    text: 盗窃罪的既遂标准是什么？
+    level: intermediate
+    aliases: [盗窃既遂, 控制说, 失控说, 取得说]
+    answers:
+      - id: contact
+        label: 接触说
+        summary: 行为人接触到财物时既遂。
+      - id: removal
+        label: 转移说
+        summary: 行为人把财物转移出原来的场所时既遂。
+      - id: concealment
+        label: 隐匿说
+        summary: 行为人把财物藏匿起来时既遂。
+      - id: loss
+        label: 失控说
+        summary: 被害人丧失对财物的控制时既遂。
+      - id: control
+        label: 控制说（取得说）
+        summary: 行为人取得对财物的控制时既遂。
+      - id: loss-and-control
+        label: 失控加控制说
+        summary: 被害人丧失控制且行为人取得控制时既遂。
+
+  - id: q-dead-possession
+    concept: possession
+    text: 杀人后才起意拿走死者财物，或者无关的第三者从死者身上取财，成立盗窃罪还是侵占罪？（死者的占有）
+    level: applied
+    aliases: [死者的占有, 杀人后取财, 遗忘物]
+    answers:
+      - id: affirm
+        label: 死者占有肯定说
+        summary: 死者仍占有财物，两种情形都成立盗窃罪。
+      - id: deny
+        label: 死者占有否定说
+        summary: 死者不再占有财物，两种情形都成立侵占罪。
+      - id: compromise
+        label: 折中说
+        summary: 杀害者取财成立盗窃、第三者取财成立侵占；或者按死亡时间长短决定死者是否继续占有。
+
+  - id: q-appropriation-intent-required
+    concept: appropriation-intent
+    text: 盗窃罪的成立，是否需要故意之外的「非法占有目的」？
+    level: intermediate
+    aliases: [非法占有目的, 不法领得意思, 盗用, 必要说]
+    answers:
+      - id: required
+        label: 必要说
+        summary: 非法占有目的是不成文的主观要素，用来区分盗窃与盗用、盗窃与毁坏财物。
+      - id: not-required
+        label: 不要说
+        summary: 有盗窃故意即可；这些区分可以从客观方面完成。
+
+  - id: q-appropriation-intent-content
+    concept: appropriation-intent
+    text: 非法占有目的的内容是什么：排除意思、利用意思，还是二者兼备？
+    level: intermediate
+    aliases: [排除意思, 利用意思, 非法占有目的的内容, 永久剥夺意图]
+    answers:
+      - id: both
+        label: 排除意思＋利用意思
+        summary: 排除权利人、把他人财物当作自己的财物支配，并遵从财物的用途利用或处分。
+      - id: exclusion-only
+        label: 仅需排除意思
+        summary: 以所有权人自居支配财物的意思即可。
+      - id: use-only
+        label: 仅需利用意思
+        summary: 遵从财物的（经济）用途加以利用的意图即可。
+      - id: permanent-deprivation
+        label: 永久剥夺他人财产的意图
+        summary: 英国普通法的表述；暂时盗用不成立盗窃，但不要求获利意思。
+
+  - id: q-illegal-cause-embezzlement
+    concept: illegal-cause-delivery
+    text: 受领人将不法原因给付物（如受托转交的贿赂款）据为己有，是否成立侵占罪？
+    level: applied
+    aliases: [不法原因给付, 截贿, 侵占罪, 不法原因委托]
+    answers:
+      - id: affirm
+        label: 肯定说
+        summary: 成立侵占罪。
+      - id: two-way
+        label: 两分说（折中说）
+        summary: 把不法原因给付分为两类，一类成立侵占罪，一类不成立；最主要的是以给付是否具有终局性为标准。
+      - id: deny
+        label: 否定说
+        summary: 给付者已丧失返还请求权，受领人没有侵害侵占罪的保护法益，不成立侵占罪。
+
+  - id: q-fraud-whole-property
+    concept: property-loss
+    text: 诈骗罪是对个别财产的犯罪，还是对整体财产的犯罪？
+    level: intermediate
+    aliases: [整体财产, 个别财产, 财产损失, 诈骗罪的财产损失]
+    answers:
+      - id: individual
+        label: 对个别财产的犯罪
+        summary: 被害人丧失特定财产即有损失，不以得失相抵后整体减少为必要。
+      - id: whole
+        label: 对整体财产的犯罪
+        summary: 把财产的丧失与取得作整体评价，整体没有减少就没有损失。
+
+  - id: q-suicide-participation
+    concept: suicide-participation
+    text: 不具有间接正犯性质的教唆、帮助他人自杀行为，能否以故意杀人罪论处？
+    level: applied
+    aliases: [教唆自杀, 帮助自杀, 相约自杀, 自杀关联行为]
+    answers:
+      - id: homicide
+        label: 以（情节较轻的）故意杀人罪论处
+        summary: 我国司法实践的一般做法；理论上需要说明其刑法根据。
+      - id: no-crime
+        label: 不成立犯罪
+        summary: 找不到刑法上的处罚根据时，处罚即违反罪刑法定原则。
+
+  - id: q-hit-and-run-death
+    concept: hit-and-run
+    text: 交通肇事「因逃逸致人死亡」，是否以行为人「为逃避法律追究」而逃跑为限？
+    level: applied
+    aliases: [逃逸致人死亡, 交通肇事逃逸, 救助义务]
+    answers:
+      - id: evade-law
+        label: 以逃避法律追究为限
+        summary: 指为逃避法律追究而逃跑，致使被害人因得不到救助而死亡。
+      - id: failure-to-rescue
+        label: 不履行救助义务即可
+        summary: 逃逸的实质是不履行救助义务；不救助导致被害人死亡的，不论出于何种动机。
+
+  - id: q-aiding-cybercrime-nature
+    concept: aiding-cybercrime
+    text: 帮助信息网络犯罪活动罪是「共犯的正犯化」，还是仍从属于正犯的帮助犯量刑规则？
+    level: intermediate
+    aliases: [帮信罪, 共犯的正犯化, 量刑规则说, 帮助行为正犯化]
+    answers:
+      - id: principalization
+        label: 共犯（帮助行为）的正犯化
+        summary: 立法把帮助行为独立成罪并配置法定刑，其成立不依附于被帮助者的犯罪。
+      - id: sentencing-rule
+        label: 帮助犯的量刑规则
+        summary: 成立仍以他人实施信息网络犯罪为前提，只是量刑时不再适用总则关于共犯从宽的规定。
+
+  - id: q-bribery-benefit
+    concept: bribery-benefit
+    text: 受贿罪中的「为他人谋取利益」是什么性质的要件？客观上至少需要什么？
+    level: intermediate
+    aliases: [为他人谋取利益, 许诺, 收受型受贿, 虚假许诺]
+    answers:
+      - id: old-objective
+        label: 旧客观要件说
+        summary: 客观上要有为他人谋取利益的行为，但不要求利益已经实现。
+      - id: subjective
+        label: 主观要素说
+        summary: 是主观上为他人谋取利益的意图，而非客观要件。
+      - id: promise
+        label: 新客观要件说（许诺即可）
+        summary: 仍是客观要件，最低要求是许诺为他人谋取利益。
+
+prerequisites:
+  - question: q-theft-completion
+    requires: q-theft-rechtsgut
+    kind: conceptual
+    why: 既遂以行为人建立新的占有、被害人丧失事实上的支配为标准，先要明确盗窃罪保护什么、「占有」指什么。
+
+  - question: q-dead-possession
+    requires: q-theft-rechtsgut
+    kind: conceptual
+    why: 盗窃以违反占有者意志转移占有为内容；死者还能不能「占有」，取决于对占有（事实支配与支配意思）的理解。
+
+  - question: q-dead-possession
+    requires: q-interp-goal
+    kind: systematic
+    why: 否认死者的占有又不想放过取财行为，就要把「遗忘物」作规范意义的解释，这涉及解释方法的立场。
+    branches:
+      - answer: objective
+        leadsTo: 可以把死者身上或身边的财物归入「遗忘物」，以侵占罪论处。
+      - answer: subjective
+        leadsTo: 「遗忘物」更可能按字面理解，否定死者占有时处罚会出现空白。
+
+  - question: q-appropriation-intent-required
+    requires: q-theft-rechtsgut
+    kind: systematic
+    why: 有人认为要求非法占有目的与盗窃罪的法益论有关；但法益关乎被害人一方，非法占有目的关乎行为人一方，两者可以分开讨论。
+
+  - question: q-appropriation-intent-required
+    requires: q-su-exists
+    kind: systematic
+    why: 非法占有目的是故意之外的主观要素；它是违法要素还是责任要素，与是否承认主观的违法要素有关。
+
+  - question: q-appropriation-intent-content
+    requires: q-appropriation-intent-required
+    kind: logical
+    why: 只有承认非法占有目的，才需要讨论它的内容。
+    branches:
+      - answer: required
+        leadsTo: 进入排除意思与利用意思之争。
+      - answer: not-required
+        leadsTo: 不需要讨论；盗用与毁坏要从客观方面区分。
+
+  - question: q-illegal-cause-embezzlement
+    requires: q-unity
+    kind: foundational
+    why: 民法上给付者不得请求返还，刑法上却保护他的财产，是否违反法秩序的统一性，是这一问题的核心。
+    branches:
+      - answer: strict
+        leadsTo: 民法不保护的财产，刑法也不应保护，通向否定说。
+      - answer: moderate
+        leadsTo: 民法上不受保护的财产不能成为刑法上的保护法益，通向否定说；但两分说认为部分给付并非真正的不法原因给付。
+      - answer: relative
+        leadsTo: 刑法可以独立判断，容易得出肯定说。
+
+  - question: q-illegal-cause-embezzlement
+    requires: q-task
+    kind: foundational
+    why: 肯定说的一个理由是处罚「外形上」侵害所有权的行为；只有采法益保护的立场，才会追问受领人是否真正侵害了他人的所有权。
+
+  - question: q-fraud-whole-property
+    requires: q-fraud-property
+    kind: conceptual
+    why: 先要确定诈骗罪保护的「财产」是什么，才能判断损失是看个别财产还是整体财产。
+
+  - question: q-suicide-participation
+    requires: q-comp-accessory
+    kind: systematic
+    why: 自杀者本人不受处罚；参与者能否作为故意杀人罪的共犯处罚，取决于共犯需要从属于正犯到什么程度。
+    branches:
+      - answer: minimal
+        leadsTo: 自杀符合故意杀人罪的构成要件即可，参与者可以成立共犯；但在其他场合可能不当扩大处罚。
+      - answer: limited
+        leadsTo: 需要说明自杀不仅符合构成要件而且违法，只是自杀者缺乏责任。
+
+  - question: q-suicide-participation
+    requires: q-comp-variant
+    kind: systematic
+    why: 采纯粹惹起说，可以承认没有正犯的共犯，自杀者无罪而教唆者仍成立教唆犯；但纯粹惹起说本身存在缺陷。
+
+  - question: q-suicide-participation
+    requires: q-legality-basis
+    kind: foundational
+    why: 即使处罚的结论在实质上妥当，也必须在现行刑法中找到根据，否则违反罪刑法定原则。
+
+  - question: q-hit-and-run-death
+    requires: q-prior-conduct
+    kind: foundational
+    why: 把逃逸作为法定刑升格条件，是因为肇事者因先前的肇事行为对被害人负有救助义务却不履行。
+    branches:
+      - answer: unlawful-only
+        leadsTo: 违章肇事产生救助义务，逃逸的实质是不救助。
+      - answer: yes-all
+        leadsTo: 同样产生救助义务。
+
+  - question: q-aiding-cybercrime-nature
+    requires: q-perpetrator-concept
+    kind: foundational
+    why: 「共犯的正犯化」以区分正犯与共犯为前提；采单一正犯体系，这一概念就没有存在的余地。
+    branches:
+      - answer: differentiated
+        leadsTo: 需要判断帮信罪的成立是否以正犯实施了符合构成要件且违法的行为为前提。
+
+  - question: q-aiding-cybercrime-nature
+    requires: q-comp-accessory
+    kind: systematic
+    why: 是否「正犯化」，要看帮助行为成立犯罪是否从属于他人的不法行为。
+    branches:
+      - answer: limited
+        leadsTo: 他人实施了符合构成要件且违法的信息网络犯罪，帮信罪才能成立。
+
+  - question: q-bribery-benefit
+    requires: q-bribery-rechtsgut
+    kind: foundational
+    why: 「为他人谋取利益」要做到什么程度，取决于受贿罪侵害的是什么：如果是职务行为的不可收买性，以权换利的约定本身就已经侵害了它。
+    branches:
+      - answer: unbuyability
+        leadsTo: 许诺为他人谋取利益就足以侵害不可收买性，收受财物即既遂。
+      - answer: fairness
+        leadsTo: 更倾向于要求实际实施谋取利益的行为。
+
+bookViews:
+  - id: zmk7-theft-completion
+    work: zmk-xingfaxue-7
+    question: q-theft-completion
+    pages: "1497-1499"
+    answer: control
+    summary: >-
+      作者认为行为人取得（控制）财物时盗窃既遂。取得不是转移场所或藏匿，而是事实上占有了财物、建立了新的支配关系；
+      可以从正反两面判断：行为人能否无障碍地支配财物，被害人对财物的支配是否已有障碍。
+      一般来说，被害人丧失事实上的支配，就可以认定行为人取得。判断时要结合财物的性质、体积与场所；所得财物极为低廉的，不宜认定为既遂。
+    reasons:
+      - 被害人继续占有存在物理障碍（如财物已放入行为人汽车后备厢）或人格领域的障碍（如小件财物已藏入行为人怀中）时，就应认定行为人建立了新的占有。
+      - 被害人是否设置报警系统不影响既遂的认定，行为是否被他人监视也不直接影响既遂的认定。
+    reported: []
+
+  - id: zmk7-dead-possession
+    work: zmk-xingfaxue-7
+    question: q-dead-possession
+    pages: "1465"
+    answer: deny
+    summary: >-
+      以抢劫故意杀人后当场取财的，成立抢劫罪。至于杀人后才起意取财、第三者从死者身上取财这两种情形，
+      作者否认死者的占有，主张把死者身上或身边的财物作规范意义的解释、归入「遗忘物」，以侵占罪论处，而不认定为盗窃罪。
+    reasons:
+      - 占有者已经死亡，客观上不可能继续支配财物，也不可能有支配意思；盗窃要求违反被害人意志，对死者无从谈起。
+      - 死者身边的财物，对先前的杀害者和对无关的第三者来说性质应当相同。
+      - 对遗忘物作规范解释，现在能够被国民接受；否则采否定说又把遗忘物按字面理解，这两种行为就难以定罪。
+    reported:
+      - label: 死者占有肯定说
+        answer: affirm
+        summary: 杀人后起意取财、第三者取财，都成立盗窃罪。
+        pages: "1465"
+      - label: 死者占有否定说
+        answer: deny
+        summary: 两种情形都成立侵占罪。
+        pages: "1465"
+      - label: 折中的看法
+        answer: compromise
+        summary: 杀害者取财成立盗窃、第三者取财成立侵占；或者根据死亡时间长短决定死者是否继续占有。
+        pages: "1465"
+
+  - id: zmk7-appropriation-intent-required
+    work: zmk-xingfaxue-7
+    question: q-appropriation-intent-required
+    pages: "1482-1483"
+    answer: required
+    summary: >-
+      作者采必要说：成立盗窃罪需要行为人具有非法占有目的，它是故意之外的不成文主观要素，不能纳入故意的内容。
+    reasons:
+      - 刑法没有明文规定不是否认的理由，许多犯罪都有不成文的构成要件要素与责任要素。
+      - 把非法占有目的纳入故意，等于增加了构成要件要素，还会不当推迟盗窃的既遂时间。
+      - 它有区分此罪与彼罪（盗窃与故意毁坏财物）和罪与非罪（盗窃与不可罚的盗用）的机能，二者在外形上往往无法区分。
+      - 与对盗窃罪法益采限定的占有说并不矛盾：法益关乎被害人一方，非法占有目的关乎行为人一方。
+    reported:
+      - label: 不要说
+        answer: not-required
+        summary: 有盗窃故意即可；盗窃与毁坏可从客观上区分，暂时使用不成立盗窃是因为行为本身不是盗窃行为，刑法也没有规定这一要素。
+        pages: "1482"
+
+  - id: zmk7-appropriation-intent-content
+    work: zmk-xingfaxue-7
+    question: q-appropriation-intent-content
+    pages: "1483-1484"
+    answer: both
+    summary: >-
+      作者认为非法占有目的由排除意思与利用意思构成：排除意思重在法律侧面，用来把不值得处罚的盗用排除在外，
+      实质上是达到可罚程度的妨害他人利用财物的意思；利用意思重在经济侧面，用来区分盗窃与故意毁坏财物，
+      指遵从财物可能具有的用法加以利用、处分的意思，不限于经济用途或本来用途。
+    reasons:
+      - 只有一时使用的意思但用后毁弃、放置的，有返还意思但会相当程度地侵害他人利用可能性的，或者要消耗财物价值的，都应认定有排除意思。
+      - 把非法占有目的理解为「永久剥夺意图」，可能与故意内容重叠，也不利于区分取得罪与毁弃罪；只要有归还意图就不成立盗窃，又过于严格。
+    reported:
+      - label: 国外第一说
+        answer: both
+        summary: 排除权利人、以所有人自居（排除意思），并遵从财物的（经济）用途利用或处分（利用意思）。
+        pages: "1483"
+      - label: 国外第二说
+        answer: exclusion-only
+        summary: 以财物所有权人自居进行支配的目的即可。
+        pages: "1483"
+      - label: 国外第三说
+        answer: use-only
+        summary: 遵从财物的（经济）用途进行利用的意图即可。
+        pages: "1483"
+      - label: 英国普通法
+        answer: permanent-deprivation
+        summary: 要求永久性剥夺他人财产的意图，不要求获利意思；以毁坏意思窃取的也成立盗窃。
+        pages: "1483"
+
+  - id: zmk7-illegal-cause-embezzlement
+    work: zmk-xingfaxue-7
+    question: q-illegal-cause-embezzlement
+    pages: "1509-1513"
+    answer: deny
+    summary: >-
+      作者不赞成肯定说与两分说，主张否定说：不法原因给付时给付者已丧失返还请求权，受领人的行为没有侵害侵占罪的保护法益。
+      这里的不法原因给付是指民法上没有返还请求权的给付；受领人不享有所有权不能成为肯定侵占的理由；给付物也不因此当然归国家所有。
+      例如受托转交贿赂款而据为己有的，不成立侵占罪。
+    reasons:
+      - 以「外形上」侵害所有权为处罚根据缺乏依据；侵占罪是实害犯，这样会把它变成抽象危险犯。
+      - 民法否认返还请求权是为了不保护给付者、预防不法行为；刑法以侵占罪保护给付者的财产，会使法律体系自相矛盾；国家需要没收时可直接没收。
+      - 两分说的「终局性」标准本身还需要另外的判断标准，按给付者的主观意图也常常无法区分不法原因给付与不法原因委托。
+      - 不法原因给付及其法律后果应按民法规定理解；即使在民法上有争议，基于刑法的谦抑性也应否认侵占罪。
+    reported:
+      - label: 肯定说（国内外多数学者与日本判例）
+        answer: affirm
+        summary: 刑法独立于民法；即使被害人实质上没有值得保护的利益，处罚外形上侵害所有权的行为也有助于保护所有权。
+        pages: "1509-1510"
+      - label: 两分说（以给付的终局性为标准）
+        answer: two-way
+        summary: 没有终局性给付的（如截留贿赂款）属于不法原因委托，给付者仍有所有权，受领人成立侵占罪。
+        pages: "1511"
+
+  - id: zmk7-fraud-whole-property
+    work: zmk-xingfaxue-7
+    question: q-fraud-whole-property
+    pages: "1439-1440"
+    answer: individual
+    summary: >-
+      作者倾向于认为我国刑法中的财产罪（包括诈骗罪）都是对个别财产的犯罪；但既然是财产犯罪，即使是对个别财产的犯罪，
+      也要求给被害人造成实质的财产损失。
+    reasons:
+      - 诈骗罪是否以整体财产损失为前提取决于各国立法；德国明文规定，日本没有，我国刑法也没有。
+      - 对个别财产的犯罪，只要被害人丧失了特定财产，即使同时得到了相应利益也成立犯罪（如偷走手机的同时留下等价现金）；得到被害人承诺的则因不违反其意志而不成立。
+    reported:
+      - label: 德国刑法
+        answer: whole
+        summary: 明文把诈骗罪规定为对整体财产的犯罪。
+        pages: "1440"
+
+  - id: zmk7-suicide-participation
+    work: zmk-xingfaxue-7
+    question: q-suicide-participation
+    pages: "1311-1313"
+    answer: null
+    summary: >-
+      作者认为，具有间接正犯性质的教唆、帮助自杀（欺骗不能理解死亡意义的人、以心理强制逼人自杀、使被害人对死亡的同意无效等）成立故意杀人罪。
+      对其余情形，司法实践一般作为情节较轻的故意杀人罪处理，作者认为结合我国自杀现象的特点，这一做法有妥当性；
+      但刑法理论必须找到处罚的刑法根据。作者列出六种可能的路径，指出各自的疑问，认为哪一种合适还需要进一步讨论；
+      找不到根据的话，司法实践的做法就违反了罪刑法定原则。
+    reasons:
+      - 自杀本身不构成犯罪；我国刑法没有设立教唆自杀罪、帮助自杀罪。
+      - 实行罪刑法定原则，实质上值得处罚还不够，必须有刑法上的根据。
+    reported:
+      - label: 路径一：「情节较轻」包含教唆、帮助
+        answer: homicide
+        summary: 刑法第 232 条的「情节较轻」是例外，包括了教唆与帮助行为；作者认为没有提供法理根据，导致解释随意。
+        pages: "1312"
+      - label: 路径二：先前行为产生救助义务
+        answer: homicide
+        summary: 教唆者因先前行为负有救助义务，不救助成立不作为的故意杀人；作者认为扩大了先前行为的范围，也解释不了帮助自杀。
+        pages: "1312-1313"
+      - label: 路径三：单一正犯概念
+        answer: homicide
+        summary: 分则规定的行为包括正犯、教唆与帮助行为；作者不采单一正犯概念。
+        pages: "1313"
+      - label: 路径四：纯粹惹起说
+        answer: homicide
+        summary: 承认没有正犯的共犯，自杀者无罪而教唆者仍成立教唆犯；作者认为纯粹惹起说有明显缺陷。
+        pages: "1313"
+      - label: 路径五：「人」包括本人＋最小从属性说
+        answer: homicide
+        summary: 故意杀人罪的对象是「人」而非「他人」，自杀符合构成要件即可成立共犯；作者认为在其他场合可能不当扩大共犯的处罚范围。
+        pages: "1313"
+      - label: 路径六：自杀违法但无责任＋限制从属性说
+        answer: homicide
+        summary: 自杀符合构成要件且违法（所以可以制止），只是自杀者缺乏责任；教唆、帮助者作为故意杀人罪的共犯论处。
+        pages: "1313"
+
+  - id: zmk7-hit-and-run-death
+    work: zmk-xingfaxue-7
+    question: q-hit-and-run-death
+    pages: "1078-1079"
+    answer: failure-to-rescue
+    summary: >-
+      作者认为，逃逸之所以是法定刑升格条件，是因为行为人负有救助义务却不履行；因不救助导致被害人死亡的，就是因逃逸致人死亡，
+      把逃逸的动机限定为逃避法律追究明显不当。「因逃逸致人死亡」以逃逸前的行为已构成交通肇事罪为前提，
+      实际上是逃逸这一不作为引起了死亡，行为人对死亡至少要有过失；同时触犯遗弃罪、过失致人死亡罪或故意杀人罪的，按想象竞合处理。
+    reasons:
+      - 例如驾车追杀他人时肇事致第三人重伤、为继续追杀而不救助致其死亡的，按动机限定的理解就不属于逃逸致人死亡，显然不合理。
+      - 肇事后不救助重伤者而直接去投案、致其死亡的，按动机限定的理解只成立普通交通肇事罪，混淆了不法事实与再犯可能性。
+    reported:
+      - label: 司法解释与刑法理论通说
+        answer: evade-law
+        summary: 指交通肇事后为逃避法律追究而逃跑，致使被害人因得不到救助而死亡。
+        pages: "1078"
+
+  - id: zmk7-aiding-cybercrime-nature
+    work: zmk-xingfaxue-7
+    question: q-aiding-cybercrime-nature
+    pages: "1664-1667"
+    answer: sentencing-rule
+    summary: >-
+      作者认为帮信罪不是共犯的正犯化：刑法第 287 条之二要求「为其犯罪提供帮助」，帮信罪的成立从属于他人利用信息网络实施犯罪，
+      应采共犯从属性原理认定；刑法对它的规定只是量刑规则，即成立帮信罪后不再适用总则关于共犯从宽处罚的规定。
+      这并不是说帮信罪不能成为独立罪名，也不是说实践中没有人成立帮信罪。帮信罪的保护法益依附于其所帮助的信息网络犯罪。
+    reasons:
+      - 被帮助者根本没有利用信息网络实施犯罪的，不可能「为其犯罪提供帮助」，正如没有杀人行为就谈不上帮助杀人。
+      - 设置独立罪名与法定刑、帮助行为社会危害大，都不是共犯正犯化的判断依据；是否正犯化只能看刑法分则的规定，不能以司法解释为据。
+    reported:
+      - label: 共犯正犯化说
+        answer: principalization
+        summary: 立法为帮助行为设置独立罪名和法定刑，就是帮助行为的正犯化；网络放大效应使其帮助与通常的帮助性质不同；司法解释也规定无法查证被帮助者是否构成犯罪时可以成立本罪。
+        pages: "1665"
+
+  - id: zmk7-bribery-benefit
+    work: zmk-xingfaxue-7
+    question: q-bribery-benefit
+    pages: "1946"
+    answer: promise
+    summary: >-
+      作者认为「为他人谋取利益」仍是受贿罪的客观构成要件要素，最低要求是许诺为他人谋取利益：已经谋取、部分谋取、开始谋取或者许诺谋取，都符合要求。
+      许诺可以是明示或暗示的，可以直接或通过第三者作出，也可以是虚假的；只要收受财物就是既遂，不必等到实际谋取利益。
+    reasons:
+      - 收受财物前后许诺为他人谋取利益，就形成了以权换利的约定，使人们认为职务行为可以收买，本身就侵害了职务行为的不可收买性。
+      - 旧客观要件说与受贿罪的本质、既遂标准和罪刑相适应原则不相符；主观要素说与条文表述不合，也会不当缩小处罚范围。
+    reported:
+      - label: 传统观点（旧客观要件说）
+        answer: old-objective
+        summary: 客观上要有为他人谋取利益的行为，收受财物而事实上没有谋取利益的不成立受贿罪；利益是否实现不影响成立。
+        pages: "1946"
+      - label: 主观要素说
+        answer: subjective
+        summary: 「为他人谋取利益」不是客观要件，而是主观要素。
+        pages: "1946"
+      - label: 《办理贪贿案件解释》第 13 条
+        answer: promise
+        summary: 实际或者承诺为他人谋取利益、明知他人有具体请托事项、履职后基于该履职事由收受财物的，都应认定为「为他人谋取利益」。
+        pages: "1946"

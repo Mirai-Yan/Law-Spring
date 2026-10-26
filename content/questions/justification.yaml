@@ -1,0 +1,331 @@
+# 正当化：偶然防卫、假想防卫、不知情的正当化行为人、正当化的一般原理、被害人承诺
+
+questions:
+  - id: q-ad-intent-content
+    concept: accidental-defense
+    text: 「防卫意思」是指对防卫情状的认识，还是防卫的目的或动机？
+    level: intermediate
+    aliases:
+      - 防卫意思的内容
+      - 防卫认识
+      - 防卫目的
+      - 防卫动机
+      - 激愤中的防卫
+    answers:
+      - id: cognition
+        label: 认识说
+        summary: 认识到防卫情状即可，不要求出于防卫的动机。
+      - id: purpose
+        label: 目的说
+        summary: 须出于防卫的目的或动机。
+
+  - id: q-ad-intent-required
+    concept: accidental-defense
+    text: 正当防卫的成立是否需要防卫意思（主观的正当化要素）？
+    level: intermediate
+    aliases:
+      - 防卫意思必要说
+      - 防卫意思不要说
+      - 主观的正当化要素
+      - 正当防卫需要防卫意思吗
+      - 主观正当化要素
+    answers:
+      - id: required
+        label: 必要说
+        summary: 欠缺防卫意思（至少是对防卫情状的认识）时不成立正当防卫。
+      - id: not-required
+        label: 不要说
+        summary: 只要客观上存在防卫情状并满足其他条件，就阻却违法。
+
+  - id: q-ad-attempt-or-complete
+    concept: accidental-defense
+    text: 如果偶然防卫不阻却违法，应论既遂还是未遂？
+    level: intermediate
+    aliases:
+      - 偶然防卫 既遂还是未遂
+      - 未遂类推
+      - Versuchslösung
+      - 偶然防卫 未遂说
+    answers:
+      - id: attempt
+        label: 未遂说
+        summary: 客观上的结果已被防卫情状正当化，只剩行为无价值，结构与未遂相同。
+      - id: completed
+        label: 既遂说
+        summary: 欠缺主观正当化要素时，正当化整体不成立，按既遂处理。
+
+  - id: q-ad-treatment
+    concept: accidental-defense
+    text: 偶然防卫应如何处理？
+    level: applied
+    aliases:
+      - 偶然防卫
+      - 偶然防卫怎么处理
+      - 偶然防卫是否构成犯罪
+      - 偶然防卫 无罪
+      - 甲开枪杀乙 乙正要杀丙
+    summary: 例：甲出于杀意向乙开枪，乙当场死亡；事后查明，乙当时正举枪要杀丙，甲对此毫不知情。
+    answers:
+      - id: acquit
+        label: 无罪（阻却违法）
+      - id: attempt
+        label: 成立未遂
+      - id: completed
+        label: 成立既遂
+
+  - id: q-pd-treatment
+    concept: putative-defense
+    text: 假想防卫应如何处理？
+    level: applied
+    aliases:
+      - 假想防卫
+      - 误想防卫
+      - 容许构成要件错误
+      - 正当化事由前提事实的错误
+      - 以为有人袭击而反击
+    summary: 例：夜间乙伸手入怀掏手机，甲误以为乙要掏刀袭击，先行将乙打伤。
+    answers:
+      - id: negate-intent
+        label: 阻却故意（或故意责任），有过失时按过失犯处理
+        summary: 包括「阻却故意说」「限制责任说」与「法律效果转用的责任说」。
+      - id: strict-culpability
+        label: 严格责任说
+        summary: 作为违法性错误处理，不阻却故意；错误不可避免时才阻却责任。
+
+  - id: q-just-principle
+    concept: justification-principle
+    text: 违法阻却的一般原理是什么？
+    level: intermediate
+    aliases:
+      - 违法阻却事由的原理
+      - 优越利益说
+      - 社会相当性说
+      - 目的说
+      - 正当化的根据
+      - 法益衡量说
+    answers:
+      - id: interest
+        label: 优越利益说（法益衡量）
+        summary: 保全的利益优于或等于所牺牲的利益时阻却违法；包括利益阙如的情形。
+      - id: social-adequacy
+        label: 社会相当性说
+        summary: 行为处于历史形成的社会伦理秩序框架之内时阻却违法。
+      - id: purpose
+        label: 目的说
+        summary: 为了正当目的而采取的相当手段阻却违法。
+
+  - id: q-consent
+    concept: justification-principle
+    text: 被害人承诺为何阻却违法？
+    level: applied
+    aliases:
+      - 被害人承诺
+      - 被害人同意
+      - 同意伤害
+      - 承诺的效力
+      - 得到同意的伤害
+    answers:
+      - id: no-interest
+        label: 法益的要保护性丧失（利益阙如）
+      - id: autonomy
+        label: 自己决定权的行使
+      - id: social-adequacy
+        label: 承诺下的行为具有社会相当性
+
+  # ---------------- 英美 ----------------
+  - id: q-cl-justification-nature
+    concept: unknowingly-justified-actor
+    text: 正当化（justification）取决于行为本身（deeds），还是行为人行动的理由（reasons）？
+    level: intermediate
+    aliases:
+      - deeds theory
+      - reasons theory
+      - 正当化的性质
+      - justification 理由说
+      - right deed for the wrong reason
+    answers:
+      - id: deeds
+        label: 行为说（deeds）
+        summary: 客观上没有造成社会危害，行为即被正当化。
+      - id: reasons
+        label: 理由说（reasons）
+        summary: 行为人必须基于正当化的理由而行动，才能被正当化。
+
+  - id: q-ujs-treatment
+    concept: unknowingly-justified-actor
+    text: 不知情的正当化行为人应如何处理？
+    level: applied
+    aliases:
+      - unknowingly justified actor
+      - Dadson 案
+      - 不知情的正当防卫
+      - 英美法上的偶然防卫
+    summary: 例：警察 Dadson 向逃跑的偷木材者开枪；事后查明此人是重罪犯（依当时法律可以开枪制止），但 Dadson 当时并不知道。
+    answers:
+      - id: acquit
+        label: 不负刑事责任
+      - id: attempt
+        label: 按未遂处罚
+      - id: full
+        label: 按完成犯处罚
+
+prerequisites:
+  # ---- 偶然防卫 ----
+  - question: q-ad-treatment
+    requires: q-ad-intent-required
+    kind: logical
+    why: 先要决定是否阻却违法，才谈得上既遂还是未遂。
+    branches:
+      - answer: not-required
+        leadsTo: 客观上满足防卫条件即阻却违法 → 无罪（但也有结果无价值论者另主张未遂）。
+      - answer: required
+        leadsTo: 不阻却违法 → 进入「既遂还是未遂」的问题。
+
+  - question: q-ad-treatment
+    requires: q-ad-attempt-or-complete
+    kind: logical
+    why: 在不阻却违法的前提下，最终结论取决于按既遂还是按未遂处理。
+    branches:
+      - answer: attempt
+        leadsTo: 成立未遂（未遂类推）。
+      - answer: completed
+        leadsTo: 成立既遂。
+
+  - question: q-ad-intent-required
+    requires: q-unrecht-core
+    kind: foundational
+    why: 防卫意思是不是正当化的要件，取决于不法是否包含行为人的主观面。
+    branches:
+      - answer: result
+        leadsTo: 违法只看法益侵害；客观上存在防卫情状，结果就被正当化，主观意思与违法无关 → 倾向不要说。
+      - answer: dual
+        leadsTo: 不法包含行为无价值；欠缺防卫意思时行为无价值仍然存在 → 必要说。
+      - answer: monist-act
+        leadsTo: 不法即行为无价值；防卫意思是正当化不可缺少的核心 → 必要说。
+
+  - question: q-ad-intent-required
+    requires: q-ad-intent-content
+    kind: conceptual
+    why: 不先界定「防卫意思」指什么，就无法判断它是否必要、偶然防卫是否欠缺它。
+    branches:
+      - answer: cognition
+        leadsTo: 只要求认识防卫情状，必要说的门槛较低；偶然防卫因欠缺这种认识，仍不满足。
+      - answer: purpose
+        leadsTo: 要求防卫目的，激愤中的防卫、兼有加害意思的防卫也可能被排除，必要说的打击面扩大。
+
+  - question: q-ad-intent-required
+    requires: q-su-exists
+    kind: logical
+    why: 正当化的主观要素与不法的主观要素是对称的；是否承认后者，影响是否要求前者。
+    branches:
+      - answer: broad
+        leadsTo: 故意等主观要素属于不法，对称地要求主观的正当化要素 → 必要说。
+      - answer: limited
+        leadsTo: 只在例外场合承认主观违法要素，主观正当化要素也可以只例外要求。
+      - answer: none
+        leadsTo: 主观要素一律不影响违法，正当化也不需要主观要素 → 不要说。
+
+  - question: q-ad-intent-content
+    requires: q-unrecht-core
+    kind: foundational
+    why: 认为不法包含心情或动机无价值的立场倾向于目的说；只承认认识层面主观要素的立场倾向于认识说。
+    branches:
+      - answer: result
+        leadsTo: 在不要说之下，这个问题失去决定意义。
+      - answer: dual
+        leadsTo: 多数二元论者认为认识防卫情状即足以抵消行为无价值 → 认识说。
+      - answer: monist-act
+        leadsTo: 不法完全取决于行为人的意思，对防卫意思的要求可能更高。
+
+  - question: q-ad-attempt-or-complete
+    requires: q-unrecht-core
+    kind: foundational
+    why: 未遂说的论据是「结果无价值已被抵消、只剩行为无价值」，这本身预设了二元的不法构造。
+    branches:
+      - answer: result
+        leadsTo: 多数结果无价值论者在前一问题上已得出无罪，这里不再讨论；主张未遂说的结果无价值论者另有论证。
+      - answer: dual
+        leadsTo: 结果无价值因防卫情状而被抵消，只剩行为无价值，结构与未遂相同 → 未遂说。
+      - answer: monist-act
+        leadsTo: 不法完全由行为无价值构成，结果对不法没有意义；结论取决于如何处理作为客观处罚条件的结果。
+
+  - question: q-ad-attempt-or-complete
+    requires: q-attempt-basis
+    kind: foundational
+    why: 要按未遂处理，前提是这种「只有行为无价值、没有被否定的结果」的事态符合未遂的处罚根据。
+    branches:
+      - answer: objective
+        leadsTo: 若未遂处罚以法益危险为必要，被正当化的结果不能提供危险，未遂说也面临疑问。
+      - answer: subjective
+        leadsTo: 以行为人敌对法的意思为处罚根据，偶然防卫与未遂的结构相同 → 未遂说自然成立。
+      - answer: impression
+        leadsTo: 欠缺防卫意思的行为同样动摇了一般人对法秩序的信赖 → 未遂说。
+
+  # ---- 假想防卫 ----
+  - question: q-pd-treatment
+    requires: q-intent-position
+    kind: systematic
+    why: 假想防卫是否阻却「故意」，首先取决于故意放在不法阶层还是责任阶层。
+    branches:
+      - answer: schuld
+        leadsTo: 故意是责任要素；假想防卫中欠缺对违法性事实的认识，故意责任被阻却 → 按过失处理。
+      - answer: unrecht
+        leadsTo: 构成要件故意已经成立；问题变为如何处理对正当化前提事实的误认：严格责任说视为违法性错误，限制责任说类推适用构成要件错误。
+      - answer: double
+        leadsTo: 构成要件故意成立，但故意责任（Vorsatzschuld）被否定，在法律效果上按过失处理（法律效果转用的责任说）。
+
+  # ---- 正当化原理 ----
+  - question: q-just-principle
+    requires: q-unrecht-core
+    kind: foundational
+    why: 违法阻却就是否定违法，因此违法由什么构成，决定了什么能够阻却它。
+    branches:
+      - answer: result
+        leadsTo: 违法即法益侵害，正当化只能以利益衡量（优越利益或利益阙如）来说明 → 优越利益说。
+      - answer: dual
+        leadsTo: 行为无价值的阻却要看行为是否具有社会相当性 → 社会相当性说，或与利益衡量并用。
+      - answer: monist-act
+        leadsTo: 关注行为本身的规范评价 → 社会相当性说或目的说。
+
+  - question: q-just-principle
+    requires: q-task
+    kind: foundational
+    why: 刑法保护什么，就以什么作为正当化的衡量标准。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 正当化只能以法益的比较衡量来说明。
+      - answer: ethic
+        leadsTo: 以行为是否符合社会伦理秩序为标准。
+
+  - question: q-consent
+    requires: q-just-principle
+    kind: logical
+    why: 被害人承诺是正当化事由之一，它的根据要从正当化的一般原理推出。
+    branches:
+      - answer: interest
+        leadsTo: 承诺意味着被害人放弃了法益保护，没有值得保护的利益 → 利益阙如。
+      - answer: social-adequacy
+        leadsTo: 除了承诺，还要求承诺下的行为本身符合社会伦理（例如伤害承诺不得违反公序良俗）。
+      - answer: purpose
+        leadsTo: 以承诺下的行为是否追求正当目的来判断。
+
+  # ---- 英美 ----
+  - question: q-ujs-treatment
+    requires: q-cl-justification-nature
+    kind: logical
+    why: 不知情的正当化行为人是否被正当化，取决于正当化是关于行为还是关于理由。
+    branches:
+      - answer: deeds
+        leadsTo: 客观上已经正当化，不能按完成犯处罚；至多因其可责的心态论以未遂。
+      - answer: reasons
+        leadsTo: 没有基于正当化理由行动，不成立正当化 → 按完成犯处罚（Dadson 的立场）。
+
+  - question: q-cl-justification-nature
+    requires: q-cl-basis
+    kind: foundational
+    why: 正当化看行为还是看理由，背后是刑事责任究竟取决于行为人内心还是外在世界。
+    branches:
+      - answer: subjectivism
+        leadsTo: 以行为人的信念为中心，自然要求正当化须以对正当化事实的认识为前提 → 理由说（MPC §3.04 采信念标准）。
+      - answer: objectivism
+        leadsTo: 以外在的行为与结果为中心 → 行为说。

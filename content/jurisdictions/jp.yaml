@@ -1,0 +1,360 @@
+# 日本：学者、文献、演化事件
+# 起草：AI（Claude）。师承关系、出版年与出版社均需核实。
+
+scholars:
+  - id: ono-seiichiro
+    name: 小野清一郎
+    nameOriginal: 小野清一郎
+    jurisdiction: jp
+    born: 1891
+    died: 1986
+    affiliations: [东京大学]
+    bio: 继受德国构成要件论；以「违反国家的道义（文化规范）」理解违法的实质，持道义的责任论。
+  - id: dando
+    name: 团藤重光
+    nameOriginal: 団藤重光
+    jurisdiction: jp
+    born: 1913
+    died: 2012
+    affiliations: [东京大学, 最高裁判所]
+    teachers: [ono-seiichiro]
+    bio: 战后日本刑法学的代表人物之一，定型说与人格责任论的提出者；违法论上持行为无价值论。曾任最高裁判所裁判官。
+  - id: otsuka
+    name: 大塚仁
+    nameOriginal: 大塚仁
+    jurisdiction: jp
+    bio: 人格的行为论；违法论上持二元的行为无价值论。
+    needsSource: true
+  - id: fukuda
+    name: 福田平
+    nameOriginal: 福田平
+    jurisdiction: jp
+    influencedBy: [welzel]
+    bio: 目的行为论在日本的主要继受者之一。
+    needsSource: true
+  - id: hirano
+    name: 平野龙一
+    nameOriginal: 平野龍一
+    jurisdiction: jp
+    born: 1920
+    died: 2004
+    affiliations: [东京大学]
+    teachers: [ono-seiichiro]
+    bio: 日本结果无价值论的奠基者。批判以道义充实违法的立场，主张违法的实质是法益侵害或危险；在过失犯上主张修正的旧过失论。曾任东京大学校长。
+    needsSource: true
+    editorNote: 师承关系待核。
+  - id: fujiki
+    name: 藤木英雄
+    nameOriginal: 藤木英雄
+    jurisdiction: jp
+    born: 1932
+    died: 1977
+    affiliations: [东京大学]
+    teachers: [dando]
+    bio: 新过失论的代表，进而提出危惧感说（新新过失论）。
+    needsSource: true
+  - id: maeda
+    name: 前田雅英
+    nameOriginal: 前田雅英
+    jurisdiction: jp
+    born: 1949
+    affiliations: [东京都立大学]
+    bio: 实质的犯罪论；违法论上持结果无价值论。
+    needsSource: true
+  - id: yamaguchi
+    name: 山口厚
+    nameOriginal: 山口厚
+    jurisdiction: jp
+    born: 1953
+    affiliations: [东京大学, 最高裁判所]
+    bio: 结果无价值论的代表学者；在不能犯问题上主张修正的客观危险说。曾任最高裁判所裁判官。
+    needsSource: true
+  - id: nishida
+    name: 西田典之
+    nameOriginal: 西田典之
+    jurisdiction: jp
+    born: 1942
+    died: 2013
+    affiliations: [东京大学]
+    teachers: [hirano]
+    bio: 结果无价值论的代表学者之一。
+    needsSource: true
+  - id: ida
+    name: 井田良
+    nameOriginal: 井田良
+    jurisdiction: jp
+    born: 1956
+    affiliations: [庆应义塾大学]
+    influencedBy: [welzel]
+    bio: 当代二元行为无价值论的代表；以规范论为基础回应结果无价值论的批判。
+    needsSource: true
+  - id: okoshi
+    name: 大越义久
+    nameOriginal: 大越義久
+    jurisdiction: jp
+    bio: 较早在日本系统研究共犯的处罚根据。
+    needsSource: true
+
+works:
+  - id: w-ono-1953
+    title: 犯罪構成要件の理論
+    titleZh: 犯罪构成要件的理论
+    authors: [ono-seiichiro]
+    year: 1953
+    type: monograph
+    jurisdiction: jp
+    venue: 有斐閣
+    needsSource: true
+  - id: w-dando-1957
+    title: 刑法綱要総論
+    titleZh: 刑法纲要总论
+    authors: [dando]
+    year: 1957
+    type: textbook
+    jurisdiction: jp
+    venue: 創文社
+  - id: w-otsuka-1963
+    title: 刑法概説（総論）
+    titleZh: 刑法概说（总论）
+    authors: [otsuka]
+    year: 1963
+    type: textbook
+    jurisdiction: jp
+    venue: 有斐閣
+    needsSource: true
+  - id: w-hirano-1972
+    title: 刑法総論 I
+    titleZh: 刑法总论 I
+    authors: [hirano]
+    year: 1972
+    type: textbook
+    jurisdiction: jp
+    venue: 有斐閣
+  - id: w-hirano-1975
+    title: 刑法総論 II
+    titleZh: 刑法总论 II
+    authors: [hirano]
+    year: 1975
+    type: textbook
+    jurisdiction: jp
+    venue: 有斐閣
+  - id: w-fujiki-1969
+    title: 過失犯の理論
+    titleZh: 过失犯的理论
+    authors: [fujiki]
+    year: 1969
+    type: monograph
+    jurisdiction: jp
+    needsSource: true
+  - id: w-morinaga-1973
+    title: 徳島地判昭和48年11月28日（森永ヒ素ミルク事件差戻審）
+    titleZh: 森永砒霜奶粉案发回重审判决
+    authorText: 德岛地方裁判所
+    year: 1973
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-saibansho-1971
+    title: 最判昭和46年11月16日
+    titleZh: 最高裁判所 1971 年关于防卫意思的判决
+    authorText: 最高裁判所
+    year: 1971
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-okoshi-1981
+    title: 共犯の処罰根拠
+    titleZh: 共犯的处罚根据
+    authors: [okoshi]
+    year: 1981
+    type: monograph
+    jurisdiction: jp
+    needsSource: true
+  - id: w-yamaguchi-1982
+    title: 危険犯の研究
+    titleZh: 危险犯的研究
+    authors: [yamaguchi]
+    year: 1982
+    type: monograph
+    jurisdiction: jp
+    venue: 東京大学出版会
+    needsSource: true
+  - id: w-maeda-1988
+    title: 刑法総論講義
+    titleZh: 刑法总论讲义
+    authors: [maeda]
+    year: 1988
+    type: textbook
+    jurisdiction: jp
+    venue: 東京大学出版会
+    needsSource: true
+  - id: w-yamaguchi-2001
+    title: 刑法総論
+    titleZh: 刑法总论
+    authors: [yamaguchi]
+    year: 2001
+    type: textbook
+    jurisdiction: jp
+    venue: 有斐閣
+  - id: w-ida-2005
+    title: 刑法総論の理論構造
+    titleZh: 刑法总论的理论构造
+    authors: [ida]
+    year: 2005
+    type: monograph
+    jurisdiction: jp
+    venue: 成文堂
+    needsSource: true
+  - id: w-nishida-2006
+    title: 刑法総論
+    titleZh: 刑法总论
+    authors: [nishida]
+    year: 2006
+    type: textbook
+    jurisdiction: jp
+    venue: 弘文堂
+    needsSource: true
+
+events:
+  - id: e-jp-ono-1953
+    year: 1953
+    jurisdiction: jp
+    type: reception
+    title: 小野清一郎系统继受构成要件论
+    description: 小野清一郎继受贝林与 M. E. 迈耶的构成要件论，同时以「违反国家的道义（文化规范）」理解违法的实质。日本的违法论从一开始就带有伦理色彩。在体系上，小野把构成要件理解为违法有责类型。
+    concepts: [wrongfulness-essence, crime-system]
+    scholars: [ono-seiichiro]
+    works: [w-ono-1953]
+    derivedFrom: [e-de-beling-1906, e-de-subj-unrecht-1915]
+    needsSource: true
+    editorNote: 该书收录的论文发表于 1920 至 1950 年代，本事件以成书年份标注。
+
+  - id: e-jp-fukuda-finalism
+    year: 1955
+    circa: true
+    jurisdiction: jp
+    type: reception
+    title: 目的行为论传入日本
+    description: 福田平等学者继受韦尔策尔的目的行为论与人的不法论，使故意属于不法的观点在日本获得有力支持。
+    concepts: [wrongfulness-essence, subjective-unrecht]
+    scholars: [fukuda]
+    derivedFrom: [e-de-welzel-1939]
+    needsSource: true
+    editorNote: 年份为编者估计。
+
+  - id: e-jp-dando-1957
+    year: 1957
+    jurisdiction: jp
+    type: development
+    title: 团藤重光《刑法纲要总论》
+    description: 违法是对法秩序（含社会伦理规范）的违反；行为无价值处于违法判断的中心。这是战后行为无价值论的代表性表述。团藤同时主张人格行为论与人格责任论。
+    concepts: [wrongfulness-essence, action-theory, culpability-essence]
+    scholars: [dando]
+    works: [w-dando-1957]
+    derivedFrom: [e-jp-ono-1953]
+
+  - id: e-jp-fujiki-1969
+    year: 1969
+    jurisdiction: jp
+    type: reception
+    title: 新过失论在日本确立
+    description: 藤木英雄等人把过失的核心理解为违反结果回避义务，过失由此也成为不法的问题。
+    concepts: [negligence-structure]
+    scholars: [fujiki]
+    works: [w-fujiki-1969]
+    derivedFrom: [e-de-engisch-1930, e-de-welzel-1939]
+    needsSource: true
+
+  - id: e-jp-saibansho-1971
+    year: 1971
+    jurisdiction: jp
+    type: case
+    title: 最高裁判所：激愤中的反击不当然欠缺防卫意思
+    description: 最高裁判所以正当防卫须有防卫意思为前提，但认为因激愤或冲动而反击并不当然欠缺防卫意思。判例由此采防卫意思必要说，并对其内容作宽松理解。
+    concepts: [accidental-defense]
+    works: [w-saibansho-1971]
+    derivedFrom: [e-de-subj-justification]
+    needsSource: true
+
+  - id: e-jp-hirano-1972
+    year: 1972
+    jurisdiction: jp
+    type: turn
+    title: 平野龙一：结果无价值论
+    description: 平野龙一批判以道义充实违法的立场，认为刑法不应维护伦理本身；违法的实质是法益侵害或危险，故意原则上属于责任。日本的违法论由此出现方向性的转变，过失论上也出现了修正的旧过失论。在故意论上，平野以动机说区分未必故意与有认识的过失；在事实错误上采具体符合说。
+    concepts: [wrongfulness-essence, negligence-structure, subjective-unrecht, rechtsgut, intent, mistake-of-fact]
+    scholars: [hirano]
+    works: [w-hirano-1972, w-hirano-1975]
+    derivedFrom: [e-jp-dando-1957, e-de-liszt-1881]
+    needsSource: true
+
+  - id: e-jp-morinaga-1973
+    year: 1973
+    jurisdiction: jp
+    type: case
+    title: 森永砒霜奶粉案与危惧感说
+    description: 德岛地方裁判所在森永砒霜奶粉案的发回重审中，采纳了只要对危险有不能忽视的危惧感即可肯定预见可能性的见解（危惧感说）。
+    concepts: [negligence-structure]
+    scholars: [fujiki]
+    works: [w-morinaga-1973]
+    derivedFrom: [e-jp-fujiki-1969]
+    needsSource: true
+
+  - id: e-jp-okoshi-1981
+    year: 1981
+    jurisdiction: jp
+    type: reception
+    title: 共犯处罚根据论在日本的系统化
+    description: 德国的共犯处罚根据论被系统介绍到日本，因果共犯论（惹起说）逐渐成为日本的通说。
+    concepts: [complicity-basis]
+    scholars: [okoshi]
+    works: [w-okoshi-1981]
+    derivedFrom: [e-de-luederssen-1967]
+    needsSource: true
+
+  - id: e-jp-yamaguchi-1982
+    year: 1982
+    jurisdiction: jp
+    type: development
+    title: 修正的客观危险说
+    description: 以事后查明的客观事实为基础，追问「在什么样的假定事实下结果可能发生，以及这种假定事实存在的可能性有多大」。这是结果无价值论在不能犯问题上的精致化。
+    concepts: [impossible-attempt]
+    scholars: [yamaguchi]
+    works: [w-yamaguchi-1982]
+    derivedFrom: [e-jp-hirano-1972, e-de-feuerbach-1801]
+    needsSource: true
+
+  - id: e-jp-maeda-1988
+    year: 1988
+    jurisdiction: jp
+    type: development
+    title: 实质的犯罪论
+    description: 前田雅英以处罚的必要性与合理性为导向，进一步发展结果无价值论。
+    concepts: [wrongfulness-essence]
+    scholars: [maeda]
+    works: [w-maeda-1988]
+    derivedFrom: [e-jp-hirano-1972]
+    needsSource: true
+
+  - id: e-jp-yamaguchi-2001
+    year: 2001
+    jurisdiction: jp
+    type: development
+    title: 山口厚《刑法总论》
+    description: 结果无价值论在体系书中得到系统表述：违法判断以客观事实为基础，故意属于责任。
+    concepts: [wrongfulness-essence]
+    scholars: [yamaguchi]
+    works: [w-yamaguchi-2001]
+    derivedFrom: [e-jp-hirano-1972]
+
+  - id: e-jp-ida-2005
+    year: 2005
+    jurisdiction: jp
+    type: critique
+    title: 井田良：规范论基础上的二元论
+    description: 刑法通过面向行为时一般人的行为规范来保护法益，因此违法判断不能完全事后化。井田良以此回应结果无价值论的批判，重新为二元论奠基。
+    concepts: [wrongfulness-essence]
+    scholars: [ida]
+    works: [w-ida-2005]
+    derivedFrom: [e-jp-yamaguchi-2001, e-jp-fukuda-finalism]
+    needsSource: true

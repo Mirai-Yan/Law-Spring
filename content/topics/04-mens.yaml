@@ -1,0 +1,589 @@
+# 主观要件：故意（未必故意与有认识的过失）、事实认识错误
+# 起草：AI（Claude）。全部为 draft；学者的立场归属尤需核实。
+
+concepts:
+  - id: intent
+    name: 故意（未必故意与有认识的过失）
+    original:
+      de: Vorsatz（dolus eventualis / bewusste Fahrlässigkeit）
+      ja: 故意（未必の故意）
+      en: intention / recklessness
+    kind: problem
+    area: mens
+    tradition: both
+    summary: >-
+      故意的本质是认识还是意欲？未必故意（间接故意）与有认识的过失（过于自信的过失）如何区分？
+      英美法以意图（intention）、明知（knowledge）、鲁莽（recklessness）、疏忽（negligence）分级，围绕间接意图与鲁莽的主客观标准反复摇摆。
+
+  - id: mistake-of-fact
+    name: 事实认识错误
+    original:
+      de: Tatbestandsirrtum（error in persona, aberratio ictus）
+      ja: 事実の錯誤
+      en: mistake of fact / transferred malice
+    kind: problem
+    area: mens
+    tradition: both
+    summary: >-
+      行为人的认识与实际发生的事实不一致时，是否还成立故意：对象错误、打击错误、因果关系错误。
+      大陆法上是具体符合说与法定符合说之争，英美法上则以「转移的恶意」（transferred malice）处理。
+
+questions:
+  - id: q-intent-essence
+    concept: intent
+    text: 故意的本质是对构成要件事实的认识（认识说），还是在认识之上的意欲（意欲说）？
+    level: intermediate
+    aliases:
+      - 故意的本质
+      - 认识说
+      - 意欲说
+      - 表象说
+      - 意思说
+      - 什么是故意
+    answers:
+      - id: cognition
+        label: 认识说（表象说）
+      - id: volition
+        label: 意欲说（意思说）
+
+  - id: q-dolus-eventualis
+    concept: intent
+    text: 未必故意（间接故意）与有认识的过失（过于自信的过失）应如何区分？
+    level: applied
+    aliases:
+      - 未必故意
+      - 间接故意
+      - 有认识的过失
+      - 过于自信的过失
+      - 放任
+      - 间接故意与过于自信的过失的区别
+      - 容认说
+      - 盖然性说
+      - dolus eventualis
+    answers:
+      - id: acceptance
+        label: 容认说（认容说）
+        summary: 认识到结果可能发生并容认其发生的，是未必故意。
+      - id: probability
+        label: 盖然性说
+        summary: 认识到结果发生的高度盖然性的，是未必故意。
+      - id: motive
+        label: 动机说
+        summary: 认识到结果可能发生，却没有以此作为放弃行为的动机的，是未必故意。
+
+  - id: q-cl-intention
+    concept: intent
+    text: 英美法上的「意图」（intention）是否包括对几乎确定会发生的后果的认识（间接意图）？
+    level: applied
+    aliases:
+      - oblique intention
+      - 间接意图
+      - Woollin
+      - virtual certainty
+      - 几乎确定的后果
+    answers:
+      - id: direct-only
+        label: 只包括直接意图（目的）
+      - id: virtual-certainty
+        label: 包括对几乎确定的后果的认识
+
+  - id: q-cl-recklessness
+    concept: intent
+    text: 鲁莽（recklessness）应采主观标准（行为人实际意识到风险），还是客观标准（理性人会意识到的明显风险）？
+    level: applied
+    aliases:
+      - recklessness
+      - 鲁莽
+      - Caldwell
+      - Cunningham
+      - R v G
+      - 主观鲁莽 客观鲁莽
+    answers:
+      - id: subjective
+        label: 主观标准
+      - id: objective
+        label: 客观标准
+
+  - id: q-mistake-standard
+    concept: mistake-of-fact
+    text: 构成要件事实的错误，应采具体符合说，还是法定符合说？
+    level: intermediate
+    aliases:
+      - 具体符合说
+      - 法定符合说
+      - 事实认识错误
+      - 认识错误的处理
+      - 抽象符合说
+    answers:
+      - id: concrete
+        label: 具体符合说
+        summary: 认识的事实与发生的事实须具体一致（至少在法益主体上一致）。
+      - id: legal
+        label: 法定符合说
+        summary: 在同一构成要件的范围内一致即可。
+
+  - id: q-aberratio
+    concept: mistake-of-fact
+    text: 打击错误（如甲向乙开枪，却误中旁边的丙）应如何处理？
+    level: applied
+    aliases:
+      - 打击错误
+      - 方法错误
+      - 误中他人
+      - aberratio ictus
+      - 转移的恶意
+      - transferred malice
+    answers:
+      - id: attempt-plus-negligence
+        label: 对乙成立未遂，对丙成立过失
+      - id: intentional
+        label: 对丙成立故意既遂（一故意说）
+      - id: multiple-intent
+        label: 对乙未遂、对丙既遂，想象竞合（数故意说）
+
+  - id: q-error-in-persona-instigator
+    concept: mistake-of-fact
+    text: 被教唆者发生对象错误时（罗泽—罗萨尔案），教唆者应如何处理？
+    level: applied
+    aliases:
+      - 罗泽罗萨尔案
+      - Rose-Rosahl
+      - 被教唆者的对象错误
+      - 教唆 对象错误
+      - Hoferben 案
+    answers:
+      - id: instigation-completed
+        label: 教唆者成立既遂罪的教唆
+      - id: aberratio-for-instigator
+        label: 对教唆者而言属于打击错误
+
+prerequisites:
+  - question: q-intent-essence
+    requires: q-unrecht-core
+    kind: foundational
+    why: 故意是不法要素还是责任要素、承担什么功能，影响它的核心是认识还是意志。
+    branches:
+      - answer: result
+        leadsTo: 故意是责任要素，非难的根据在于行为人认识到了结果却仍然行为 → 倾向认识说（动机说）。
+      - answer: dual
+        leadsTo: 故意是行为无价值的核心，体现行为人对法益的敌对意志 → 倾向意欲说（容认说）。
+      - answer: monist-act
+        leadsTo: 故意就是实现构成要件的意志（目的性）→ 意欲说。
+
+  - question: q-dolus-eventualis
+    requires: q-intent-essence
+    kind: logical
+    why: 未必故意的界限，取决于故意的本质是认识还是意欲。
+    branches:
+      - answer: cognition
+        leadsTo: 以认识的程度或其对动机的影响为准 → 盖然性说、动机说。
+      - answer: volition
+        leadsTo: 以行为人对结果的意志态度为准 → 容认说。
+
+  - question: q-cl-intention
+    requires: q-cl-basis
+    kind: foundational
+    why: 意图的范围，取决于刑事责任以行为人的内心还是外在标准为准。
+    branches:
+      - answer: subjectivism
+        leadsTo: 以行为人实际的认识为准；认识到后果几乎确定，与追求它同样可责 → 包括间接意图（Woollin）。
+      - answer: objectivism
+        leadsTo: 历史上曾以「自然而可能的后果」客观推定意图（DPP v Smith），后被立法否定。
+
+  - question: q-cl-recklessness
+    requires: q-cl-basis
+    kind: foundational
+    why: 鲁莽的标准之争，就是主观主义与客观主义在可责性层面的直接交锋。
+    branches:
+      - answer: subjectivism
+        leadsTo: 只有行为人实际意识到风险才可责 → 主观标准（Cunningham、R v G）。
+      - answer: objectivism
+        leadsTo: 没有注意到明显风险本身也值得谴责 → 客观标准（Caldwell）。
+
+  - question: q-mistake-standard
+    requires: q-unrecht-core
+    kind: foundational
+    why: 故意要「符合」到什么程度，取决于不法以具体的法益侵害为准，还是以规范的违反为准。
+    branches:
+      - answer: result
+        leadsTo: 不法是对具体法益主体的侵害，故意也应针对具体的法益主体 → 倾向具体符合说（平野、西田、山口）。
+      - answer: dual
+        leadsTo: 规范地看，行为人违反了「不得杀人」的规范，杀「人」的故意已经实现 → 倾向法定符合说（日本判例与团藤、大塚）；但德国的通说采具体化说。
+      - answer: monist-act
+        leadsTo: 以行为人的意志是否实现了其所针对的对象为准。
+
+  - question: q-aberratio
+    requires: q-mistake-standard
+    kind: logical
+    why: 打击错误是具体符合说与法定符合说分歧最明显的场合。
+    branches:
+      - answer: concrete
+        leadsTo: 行为人想杀的是乙，丙的死亡不在其故意之内 → 对乙未遂、对丙过失。
+      - answer: legal
+        leadsTo: 杀「人」的故意已经实现 → 对丙成立故意既遂；对乙是否另成立未遂，有一故意说与数故意说之争。
+
+  - question: q-error-in-persona-instigator
+    requires: q-mistake-standard
+    kind: logical
+    why: 被教唆者的对象错误对教唆者意味着什么，取决于错误论的一般立场。
+    branches:
+      - answer: concrete
+        leadsTo: 教唆者所针对的是特定的人，被教唆者杀错了人，对教唆者而言类似打击错误 → 争议很大。
+      - answer: legal
+        leadsTo: 教唆者教唆的是「杀人」，被教唆者实现了杀人 → 成立既遂罪的教唆。
+
+  - question: q-error-in-persona-instigator
+    requires: q-comp-basis
+    kind: logical
+    why: 教唆者为什么要对正犯的结果负责，影响正犯的错误能否归属于教唆者。
+    branches:
+      - answer: causation
+        leadsTo: 教唆者通过正犯引起了法益侵害；被教唆者的对象错误是否超出了教唆者所引起的危险，成为判断关键。
+      - answer: unrecht
+        leadsTo: 教唆者从属于正犯的违法行为，正犯的对象错误不影响其故意 → 成立既遂罪的教唆。
+      - answer: schuld
+        leadsTo: 同上。
+
+relations:
+  - from: intent
+    to: negligence-structure
+    type: symmetric
+    description: 未必故意与有认识的过失之间的界线，是故意论与过失论共同的边界问题。
+  - from: mistake-of-fact
+    to: intent
+    type: derived_from
+    description: 事实认识错误是故意认识内容的反面：错误到什么程度会阻却故意，取决于故意需要认识什么。
+
+works:
+  - id: w-frank-1890
+    title: Vorstellung und Wille in der modernen Doluslehre
+    titleZh: 现代故意论中的表象与意志
+    authors: [frank]
+    year: 1890
+    type: article
+    jurisdiction: de
+    venue: ZStW 10
+    needsSource: true
+    editorNote: 题目待核。
+  - id: w-bghst-7-363
+    title: BGHSt 7, 363（Lederriemen-Fall）
+    titleZh: 联邦最高法院皮带案
+    authorText: 联邦最高法院
+    year: 1955
+    type: case
+    jurisdiction: de
+  - id: w-cunningham-1957
+    title: R v Cunningham [1957] 2 QB 396
+    authorText: Court of Criminal Appeal
+    year: 1957
+    type: case
+    jurisdiction: uk-ew
+  - id: w-dpp-smith-1960
+    title: DPP v Smith [1961] AC 290
+    authorText: House of Lords
+    year: 1960
+    type: case
+    jurisdiction: uk-ew
+  - id: w-uk-cja-1967
+    title: Criminal Justice Act 1967, s. 8
+    authorText: Parliament
+    year: 1967
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-caldwell-1981
+    title: Metropolitan Police Commissioner v Caldwell [1982] AC 341
+    authorText: House of Lords
+    year: 1981
+    type: case
+    jurisdiction: uk-ew
+  - id: w-woollin-1998
+    title: R v Woollin [1999] 1 AC 82
+    authorText: House of Lords
+    year: 1998
+    type: case
+    jurisdiction: uk-ew
+  - id: w-r-v-g-2003
+    title: R v G [2003] UKHL 50
+    authorText: House of Lords
+    year: 2003
+    type: case
+    jurisdiction: uk-ew
+  - id: w-rose-rosahl-1859
+    title: Rose-Rosahl-Fall（Preußisches Obertribunal, 1859）
+    titleZh: 罗泽—罗萨尔案
+    authorText: 普鲁士最高法院
+    year: 1859
+    type: case
+    jurisdiction: de
+    needsSource: true
+  - id: w-bghst-37-214
+    title: BGHSt 37, 214（Hoferben-Fall）
+    titleZh: 联邦最高法院农场继承人案
+    authorText: 联邦最高法院
+    year: 1990
+    type: case
+    jurisdiction: de
+  - id: w-jp-1978-byouuchi
+    title: 最判昭和53年7月28日（びょう打ち銃事件）
+    titleZh: 铆钉枪案
+    authorText: 最高裁判所
+    year: 1978
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-pembliton-1874
+    title: R v Pembliton (1874) LR 2 CCR 119
+    authorText: Court for Crown Cases Reserved
+    year: 1874
+    type: case
+    jurisdiction: uk-ew
+  - id: w-latimer-1886
+    title: R v Latimer (1886) 17 QBD 359
+    authorText: Court for Crown Cases Reserved
+    year: 1886
+    type: case
+    jurisdiction: uk-ew
+
+events:
+  # ---------------- 故意 ----------------
+  - id: e-de-frank-1890
+    year: 1890
+    jurisdiction: de
+    type: origin
+    originOf: intent
+    originType: problem
+    title: 认识说与意欲说之争
+    description: 弗兰克等人围绕故意的本质展开争论：故意是对构成要件事实的表象（认识说），还是对结果的意欲（意欲说）？与之相连的「弗兰克公式」以「即使知道结果确定发生也仍然会行为」作为未必故意的标准。
+    concepts: [intent]
+    scholars: [frank]
+    works: [w-frank-1890]
+    needsSource: true
+    editorNote: 故意概念本身古已有之，这里以近代认识说与意欲说的对立作为起点。
+
+  - id: e-de-lederriemen-1955
+    year: 1955
+    jurisdiction: de
+    type: case
+    title: 皮带案：以「容认」界定未必故意
+    description: 被告人用皮带勒住被害人颈部以便抢劫，虽然不希望其死亡，但认识到死亡的可能并为了达到目的而接受了这种可能。联邦最高法院认为，只要行为人「在法律意义上容认」结果的发生，即使内心不希望，也成立未必故意。
+    concepts: [intent]
+    works: [w-bghst-7-363]
+    derivedFrom: [e-de-frank-1890]
+
+  - id: e-uk-cunningham-1957
+    year: 1957
+    jurisdiction: uk-ew
+    type: case
+    title: R v Cunningham：主观的鲁莽
+    description: 被告人为偷硬币扯断煤气表，泄漏的煤气使邻居中毒。法院认为，成文法中的「恶意」要求行为人实际预见到了这种伤害的可能性。
+    concepts: [intent]
+    works: [w-cunningham-1957]
+
+  - id: e-uk-dpp-smith-1960
+    year: 1960
+    jurisdiction: uk-ew
+    type: case
+    title: DPP v Smith：以客观标准推定意图
+    description: 上议院认为，一个理性人会预见到的自然而可能的后果，可以推定为行为人所意图。这一客观标准受到主观主义学者的强烈批评。
+    concepts: [intent]
+    works: [w-dpp-smith-1960]
+
+  - id: e-uk-cja-1967
+    year: 1967
+    jurisdiction: uk-ew
+    type: legislation
+    title: 1967 年刑事司法法第 8 条
+    description: 法院不得仅因后果是行为自然而可能的结果，就认定行为人意图或预见到了它，而应综合全部证据判断。DPP v Smith 的客观推定由此被立法否定。
+    concepts: [intent]
+    works: [w-uk-cja-1967]
+    derivedFrom: [e-uk-dpp-smith-1960]
+
+  - id: e-uk-caldwell-1981
+    year: 1981
+    jurisdiction: uk-ew
+    type: case
+    title: Caldwell 案：客观的鲁莽
+    description: 上议院认为，没有考虑到一个明显的风险，也构成鲁莽。这使鲁莽在相当范围内客观化，引发持续二十年的批评。
+    concepts: [intent]
+    works: [w-caldwell-1981]
+    derivedFrom: [e-uk-cunningham-1957]
+
+  - id: e-uk-woollin-1998
+    year: 1998
+    jurisdiction: uk-ew
+    type: case
+    title: R v Woollin：几乎确定的后果
+    description: 上议院认为，如果死亡或重伤是被告人行为几乎确定的后果，且被告人认识到这一点，陪审团就可以认定其具有意图。间接意图的标准由此确立。
+    concepts: [intent]
+    works: [w-woollin-1998]
+    derivedFrom: [e-uk-cja-1967]
+
+  - id: e-uk-r-v-g-2003
+    year: 2003
+    jurisdiction: uk-ew
+    type: turn
+    title: R v G：推翻 Caldwell
+    description: 两名少年点燃报纸引发大火，但没有意识到风险。上议院推翻 Caldwell，恢复了主观的鲁莽标准：只有行为人意识到风险而不合理地冒险，才构成鲁莽。
+    concepts: [intent]
+    works: [w-r-v-g-2003]
+    derivedFrom: [e-uk-caldwell-1981]
+
+  # ---------------- 事实认识错误 ----------------
+  - id: e-de-rose-rosahl-1859
+    year: 1859
+    jurisdiction: de
+    type: origin
+    originOf: mistake-of-fact
+    originType: case
+    title: 罗泽—罗萨尔案
+    description: 罗萨尔教唆罗泽杀害某人，罗泽在黑暗中误杀了另一个人。普鲁士最高法院认为，正犯的对象错误不影响其故意，也不影响教唆者的责任。对象错误、打击错误的区分以及「被教唆者的错误对教唆者意味着什么」由此成为经典问题。
+    concepts: [mistake-of-fact]
+    works: [w-rose-rosahl-1859]
+    needsSource: true
+
+  - id: e-uk-pembliton-1874
+    year: 1874
+    jurisdiction: uk-ew
+    type: case
+    title: R v Pembliton：恶意不能跨罪名转移
+    description: 被告人向人群扔石头，却打碎了窗户。法院认为，伤害他人的恶意不能转移为毁损财物的恶意。
+    concepts: [mistake-of-fact]
+    works: [w-pembliton-1874]
+
+  - id: e-uk-latimer-1886
+    year: 1886
+    jurisdiction: uk-ew
+    type: case
+    title: R v Latimer：转移的恶意
+    description: 被告人用皮带打人，皮带反弹伤及旁人。法院认为，针对甲的恶意可以转移到实际受害的乙，被告人对乙成立伤害罪。英美法以此处理打击错误。
+    concepts: [mistake-of-fact]
+    works: [w-latimer-1886]
+    derivedFrom: [e-uk-pembliton-1874]
+
+  - id: e-jp-1978-byouuchi
+    year: 1978
+    jurisdiction: jp
+    type: case
+    title: 铆钉枪案：数故意犯说
+    description: 被告人用改造的铆钉枪射击警察，子弹贯穿警察后又击中路人。最高裁判所认为，对警察与路人都成立杀人未遂（数故意犯说）。法定符合说由此在判例上确立。
+    concepts: [mistake-of-fact]
+    works: [w-jp-1978-byouuchi]
+    derivedFrom: [e-de-rose-rosahl-1859]
+    needsSource: true
+
+  - id: e-de-hoferben-1990
+    year: 1990
+    jurisdiction: de
+    type: case
+    title: 农场继承人案
+    description: 父亲教唆他人杀害儿子，被教唆者误杀了一名邻居。联邦最高法院认为，被教唆者的对象错误对教唆者来说原则上也不重要，教唆者成立谋杀教唆；但若错误超出了可预见的范围，则另当别论。
+    concepts: [mistake-of-fact]
+    works: [w-bghst-37-214]
+    derivedFrom: [e-de-rose-rosahl-1859]
+
+positions:
+  # ---- 故意 ----
+  - theory: result-disvalue
+    question: q-intent-essence
+    answer: cognition
+    derivation:
+      - 故意是责任要素。
+      - 非难的根据在于行为人认识到结果仍然行为 → 认识说。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-intent-essence
+    answer: volition
+    derivation:
+      - 故意是行为无价值的核心。
+      - 它体现了行为人对法益的敌对意志 → 意欲说。
+  - theory: monist-act-disvalue
+    question: q-intent-essence
+    answer: volition
+    derivation:
+      - 故意就是实现构成要件的意志（目的性）。
+  - theory: result-disvalue
+    question: q-dolus-eventualis
+    answer: motive
+    derivation:
+      - 以认识为核心。
+      - 认识到结果可能发生，却没有以此作为放弃行为的动机 → 动机说。
+    alternatives:
+      - answer: probability
+        note: 也有结果无价值论者采盖然性说。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-dolus-eventualis
+    answer: acceptance
+    derivation:
+      - 以意志为核心。
+      - 认识到结果可能发生并容认其发生 → 容认说（日本与中国大陆的通说，德国判例的「法律意义上的容认」）。
+  - theory: cl-subjectivism
+    question: q-cl-intention
+    answer: virtual-certainty
+    derivation:
+      - 刑事责任取决于行为人实际的认识。
+      - 认识到后果几乎确定却仍然行为，与追求它同样可责。
+  - theory: cl-subjectivism
+    question: q-cl-recklessness
+    answer: subjective
+    derivation:
+      - 只有行为人实际意识到风险，才有可责的选择。
+  - theory: cl-objectivism
+    question: q-cl-recklessness
+    answer: objective
+    derivation:
+      - 没有注意到明显的风险，本身就体现了对他人利益的漠视。
+    needsSource: true
+
+  # ---- 事实认识错误 ----
+  - theory: result-disvalue
+    question: q-mistake-standard
+    answer: concrete
+    derivation:
+      - 不法是对具体法益主体的侵害。
+      - 故意也应针对具体的法益主体 → 具体符合说。
+    alternatives:
+      - answer: legal
+        note: 也有结果无价值论者采法定符合说（如前田雅英）。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-mistake-standard
+    answer: legal
+    derivation:
+      - 行为人违反了「不得杀人」的规范。
+      - 在同一构成要件内，杀「人」的故意已经实现 → 法定符合说。
+    alternatives:
+      - answer: concrete
+        note: 德国的通说采具体化说。
+        jurisdictions: [de]
+  - theory: result-disvalue
+    question: q-aberratio
+    answer: attempt-plus-negligence
+    derivation:
+      - 采具体符合说。
+      - 行为人的故意针对乙，丙的死亡不在故意之内 → 对乙未遂、对丙过失。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-aberratio
+    answer: multiple-intent
+    derivation:
+      - 采法定符合说。
+      - 对乙、丙都存在杀人的故意 → 对乙未遂、对丙既遂，想象竞合（日本判例的数故意犯说）。
+    alternatives:
+      - answer: attempt-plus-negligence
+        note: 德国通说采具体化说，结论同具体符合说。
+        jurisdictions: [de]
+
+scholarPositions:
+  - scholar: zhang-mingkai
+    question: q-mistake-standard
+    answer: legal
+    deviatesFrom: result-disvalue
+    note: 张明楷虽然坚持结果无价值论，但在事实认识错误上采法定符合说（待核）。
+    needsSource: true
+  - scholar: maeda
+    question: q-mistake-standard
+    answer: legal
+    deviatesFrom: result-disvalue
+    note: 前田雅英以结果无价值论为基础，却在错误论上采法定符合说（待核）。
+    needsSource: true

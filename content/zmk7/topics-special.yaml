@@ -1,0 +1,168 @@
+# 分论重点争议问题（据张明楷《刑法学》第七版整理）：概念、问题与先决关系为编者整理，全部待核实。
+# 学说史起点尚未考证的专题标 originPending，绝不为通过校验编造奇点。
+concepts:
+  - id: fraud-disposal
+    name: 诈骗罪中的处分行为
+    original:
+      de: Vermögensverfügung
+      ja: 処分行為
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      诈骗罪的构造是「欺骗 → 认识错误 → 处分财产 → 取得财产 → 财产损失」。处分行为是区分 [[crime:crime-212|诈骗罪]] 与 [[crime:crime-207|盗窃罪]] 的关键，
+      也牵涉受骗者须有何种处分意识、受骗者与被害人不是同一人时（三角诈骗）如何判断处分权限等问题。
+
+  - id: bribery-rechtsgut
+    name: 受贿罪的保护法益
+    kind: problem
+    area: sp-duty
+    originPending: true
+    summary: >-
+      受贿罪保护的究竟是职务行为的不可收买性、公正性（纯洁性）、国民对职务公正的信赖，还是职务的廉洁性？
+      不同立场决定了「事后受财」「为他人谋取正当利益」「索取型受贿的既遂时点」等具体问题的结论。
+
+questions:
+  - id: q-fraud-disposal-awareness
+    concept: fraud-disposal
+    text: 诈骗罪中，受骗者处分财产时是否需要具有处分意识？
+    level: intermediate
+    aliases: [处分意识, 处分意识必要说, 偷换条形码]
+    answers:
+      - id: required
+        label: 必要说
+        summary: 受骗者须认识到自己把某种财产转移给行为人或第三者。
+      - id: not-required
+        label: 不要说
+        summary: 只要客观上有转移财产的处分行为即可。
+      - id: differentiated
+        label: 区分说
+        summary: 骗取狭义财物时要求处分意识，骗取财产性利益时不要求（德国通说）。
+
+  - id: q-triangle-fraud
+    concept: fraud-disposal
+    text: 三角诈骗中，如何判断受骗的第三人有无处分被害人财产的权限？
+    level: applied
+    aliases: [三角诈骗, 三者间诈骗, 阵营说, 权限说]
+    answers:
+      - id: subjective
+        label: 主观说
+        summary: 受骗者是为了被害人而处分财产时，成立诈骗。
+      - id: proximity
+        label: 事实的接近说
+        summary: 受骗者事实上接近被害人的财产，就可以成为处分者。
+      - id: camp
+        label: 阵营说
+        summary: 受骗者属于被害人阵营时成立诈骗，属于行为人阵营时成立盗窃（德国通说）。
+      - id: authority
+        label: 权限说（授权说）
+        summary: 受骗者在被害人概括授权的范围内处分财产时，才是处分行为。
+
+  - id: q-bribery-rechtsgut
+    concept: bribery-rechtsgut
+    text: 普通受贿罪的保护法益是什么？
+    level: intermediate
+    aliases: [受贿罪法益, 不可收买性, 廉洁性]
+    answers:
+      - id: unbuyability
+        label: 职务行为的不可收买性
+      - id: fairness
+        label: 职务行为的公正性（纯洁性）
+      - id: trust
+        label: 国民对职务行为公正性的信赖
+      - id: integrity
+        label: 职务行为的廉洁性（通说）
+
+prerequisites:
+  - question: q-triangle-fraud
+    requires: q-fraud-disposal-awareness
+    kind: conceptual
+    why: 三角诈骗的问题是「受骗者的举动能否算作被害人的财产处分」，先要界定处分行为及处分意识的内容。
+    branches:
+      - answer: required
+        leadsTo: 受骗者须认识到转移财产；进而还要追问他有没有处分被害人财产的权限或地位。
+      - answer: not-required
+        leadsTo: 处分行为只看客观转移，三角诈骗与盗窃间接正犯的界限更难划定。
+
+  - question: q-fraud-disposal-awareness
+    requires: q-theft-rechtsgut
+    kind: systematic
+    why: 要求处分意识是为了划清诈骗与盗窃；是否会因此形成处罚漏洞，取决于盗窃罪的对象和法益如何理解——我国盗窃罪的对象包括财产性利益，所以要求处分意识不会留下漏洞。
+
+  - question: q-bribery-rechtsgut
+    requires: q-task
+    kind: foundational
+    why: 受贿罪的法益如何表述，取决于刑法是以保护法益为任务，还是以维护职务伦理（清廉义务）为任务。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 需要找出受贿行为侵害的具体法益（不可收买性、公正性或对公正的信赖）。
+      - answer: ethic
+        leadsTo: 容易把受贿罪理解为违反公务员清廉义务的犯罪，处罚范围随之扩大。
+
+bookViews:
+  - id: zmk7-fraud-disposal-awareness
+    work: zmk-xingfaxue-7
+    question: q-fraud-disposal-awareness
+    pages: "1564-1565"
+    answer: required
+    summary: >-
+      作者认为受骗者处分财产时必须有处分意识，即认识到自己将某种财产转移给行为人或第三者；但不要求认识到财产的价值或数量，
+      例如被偷换条形码而以低价卖出贵重照相机的收银员，仍然具有处分意识。
+    reasons:
+      - 德国区分财物与财产性利益，是因为其盗窃罪对象不包括财产性利益；我国刑法没有这种区分，财产性利益也能成为盗窃罪的对象，要求处分意识不会形成处罚漏洞。
+      - 处分意识是划清诈骗与盗窃的关键：没有处分意识而被取走财物的，只能认定为盗窃。
+    reported:
+      - label: 德国通说与判例
+        answer: differentiated
+        summary: 骗取狭义财物时要求处分意识，骗取财产性利益时不要求，以免出现处罚漏洞。
+        pages: "1564"
+
+  - id: zmk7-triangle-fraud
+    work: zmk-xingfaxue-7
+    question: q-triangle-fraud
+    pages: "1568-1572"
+    answer: authority
+    summary: >-
+      作者赞成权限说：受骗者在被害人概括性授权范围内处分财产时，行为人成立诈骗罪；超出授权范围时，不属于处分行为，行为人成立盗窃罪（间接正犯）。
+      受骗者属于哪个阵营只是判断资料之一；如何判断是否存在授权及授权范围，还需要具体标准。
+    reasons:
+      - 主观说离开构成要件进行判断；事实的接近说标准不明确。
+      - 阵营说虽是德国通说，但根据不充分、判断基准不明确；有些受骗者处于中立立场，既不接近被害人也不接近行为人。
+    reported:
+      - label: 主观说
+        answer: subjective
+        summary: 受骗者为了被害人而处分财产时成立诈骗。
+        pages: "1570"
+      - label: 事实的接近说
+        answer: proximity
+        summary: 受骗者事实上接近被害人财产即可成为处分者。
+        pages: "1570"
+      - label: 阵营说（德国通说）
+        answer: camp
+        summary: 以受骗者属于被害人阵营还是行为人阵营区分诈骗与盗窃。
+        pages: "1570"
+
+  - id: zmk7-bribery-rechtsgut
+    work: zmk-xingfaxue-7
+    question: q-bribery-rechtsgut
+    pages: "1935-1940"
+    answer: unbuyability
+    summary: >-
+      作者认为普通受贿罪的保护法益是国家工作人员职务行为的不可收买性，也包括对将来职务行为的不可收买性；职务行为的公正性首先取决于其不可收买性。
+      作者主张根据刑法的不同规定，分别阐释普通受贿、斡旋受贿等不同类型受贿罪的法益。
+    reasons:
+      - 廉洁性说没有说明自己是以纯洁性说还是以不可收买性说为基本立场。
+      - 采不可收买性说，索取财物时即可成立既遂，受贿后又违背职责的行为可以数罪并罚而不违反禁止重复评价。
+    reported:
+      - label: 廉洁性说（我国通说）
+        answer: integrity
+        summary: 受贿罪的法益是国家工作人员职务行为的廉洁性，但各学者的具体表述不一。
+        pages: "1935"
+      - label: 职务行为公正性说
+        answer: fairness
+        summary: 处罚授受贿赂，是因为它侵害或威胁职务行为的公正性。
+        pages: "1935"
+      - label: 信赖说
+        answer: trust
+        summary: 法益是国民对职务行为公正性的信赖。
+        pages: "1936"

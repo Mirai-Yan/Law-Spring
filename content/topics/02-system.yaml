@@ -1,0 +1,301 @@
+# 犯罪论体系与行为论
+# 起草：AI（Claude）。全部为 draft。
+
+concepts:
+  - id: crime-system
+    name: 犯罪论体系
+    original:
+      de: Straftatsystem / Verbrechenslehre
+      ja: 犯罪論体系
+      en: structure of criminal liability (offence and defence)
+    kind: foundation
+    area: system
+    tradition: both
+    summary: >-
+      犯罪成立要件如何排列与组合。德国从古典体系（李斯特—贝林）经新古典体系、目的论体系发展到目的理性体系；
+      日本与台湾地区继受阶层论；中国大陆长期采用苏俄的四要件体系，2000 年后展开阶层论与四要件之争；
+      英美法则以「犯罪本体要件（actus reus 与 mens rea）＋辩护事由」的二元结构组织刑事责任。
+
+  - id: action-theory
+    name: 行为论
+    original:
+      de: Handlungslehre
+      ja: 行為論
+      en: act requirement / voluntary act
+    kind: problem
+    area: system
+    tradition: both
+    summary: >-
+      刑法上的「行为」是什么：有意志的身体动静（因果行为论）、目的性的支配操纵（目的行为论）、具有社会意义的人的态度（社会行为论），还是人格的表现（人格行为论）？
+      目的行为论尤其重要，因为它被当作人的不法论的存在论基础。英美法上与之对应的是「自愿行为」要求与自动症（automatism）抗辩。
+
+questions:
+  - id: q-system-structure
+    concept: crime-system
+    text: 犯罪成立要件应采阶层式体系，还是平面的四要件体系？
+    level: foundation
+    aliases:
+      - 三阶层
+      - 四要件
+      - 犯罪构成体系
+      - 阶层论
+      - 犯罪论体系之争
+      - 二阶层
+      - 犯罪构成理论
+    answers:
+      - id: tripartite
+        label: 三阶层体系（构成要件—违法—责任）
+      - id: bipartite
+        label: 二阶层体系（不法—责任）
+      - id: four-elements
+        label: 四要件体系（客体—客观方面—主体—主观方面）
+      - id: offence-defence
+        label: 犯罪本体要件＋辩护事由（英美）
+
+  - id: q-tatbestand-function
+    concept: crime-system
+    text: 构成要件是价值中立的行为类型，还是违法类型，乃至违法有责类型？
+    level: intermediate
+    aliases:
+      - 构成要件的机能
+      - 违法类型说
+      - 构成要件与违法性的关系
+      - 违法推定机能
+      - 违法有责类型说
+    answers:
+      - id: neutral
+        label: 价值中立的行为类型（贝林）
+      - id: unrecht-type
+        label: 违法类型
+      - id: unrecht-schuld-type
+        label: 违法有责类型
+
+  - id: q-negative-elements
+    concept: crime-system
+    text: 正当化事由的前提事实，是否属于「消极的构成要件要素」？
+    level: intermediate
+    aliases:
+      - 消极的构成要件要素
+      - 消极构成要件要素理论
+      - 二阶层 正当化事由
+    answers:
+      - id: "yes"
+        label: 是（二阶层体系的立场）
+      - id: "no"
+        label: 否（三阶层体系的立场）
+
+  - id: q-action-concept
+    concept: action-theory
+    text: 刑法上的行为是什么？
+    level: foundation
+    aliases:
+      - 行为论
+      - 因果行为论
+      - 目的行为论
+      - 社会行为论
+      - 人格行为论
+      - 刑法中的行为概念
+      - 什么是刑法上的行为
+    answers:
+      - id: causal
+        label: 因果行为论（有意志的身体动静）
+      - id: final
+        label: 目的行为论（目的性的支配操纵）
+      - id: social
+        label: 社会行为论（具有社会意义的人的态度）
+      - id: personal
+        label: 人格行为论（人格的表现）
+
+  - id: q-cl-voluntary-act
+    concept: action-theory
+    text: 在无意识状态下实施的举动（自动症）能否构成犯罪？
+    level: applied
+    aliases:
+      - automatism
+      - 自动症
+      - 自愿行为要求
+      - voluntary act requirement
+      - 梦游中杀人
+      - 无意识状态 犯罪
+    answers:
+      - id: no-liability
+        label: 不构成（不存在刑法上的行为）
+      - id: insanity-route
+        label: 若源于内部疾病，按精神失常处理（可能被保安处分）
+      - id: prior-fault
+        label: 若行为人对陷入该状态有过错，可能追究责任
+
+prerequisites:
+  - question: q-tatbestand-function
+    requires: q-system-structure
+    kind: logical
+    why: 构成要件与违法性的关系，只在阶层式体系中才成为问题。
+    branches:
+      - answer: tripartite
+        leadsTo: 进入构成要件与违法的关系之争：价值中立的行为类型（古典体系）、违法类型（新古典体系），还是违法有责类型（小野、团藤）。
+      - answer: bipartite
+        leadsTo: 构成要件即不法类型，正当化事由被理解为消极的构成要件要素。
+      - answer: four-elements
+        leadsTo: 四要件是犯罪成立的全部要件，不存在独立的违法阶层，这个问题不出现。
+      - answer: offence-defence
+        leadsTo: 英美法以本体要件与辩护事由区分，不使用「构成要件」概念。
+
+  - question: q-negative-elements
+    requires: q-system-structure
+    kind: logical
+    why: 是否承认消极的构成要件要素，几乎就是二阶层与三阶层之争的核心。
+    branches:
+      - answer: bipartite
+        leadsTo: 是。
+      - answer: tripartite
+        leadsTo: 否，正当化事由是独立的违法阶层。
+
+  - question: q-pd-treatment
+    requires: q-negative-elements
+    kind: systematic
+    why: 假想防卫是对正当化前提事实的误认；如果这些事实属于构成要件，误认就直接是构成要件错误。
+    branches:
+      - answer: "yes"
+        leadsTo: 对消极构成要件要素的误认就是构成要件错误 → 直接阻却构成要件故意，有过失时按过失犯处理。
+      - answer: "no"
+        leadsTo: 需要另行讨论这种错误的性质（严格责任说、限制责任说、法律效果转用的责任说）。
+
+  - question: q-action-concept
+    requires: q-system-structure
+    kind: logical
+    why: 行为是阶层体系的基底，行为论之争首先是在阶层体系内部展开的。
+    branches:
+      - answer: tripartite
+        leadsTo: 行为是构成要件、违法、责任共同的评价对象。
+      - answer: four-elements
+        leadsTo: 行为被放在「犯罪客观方面」中讨论，行为论之争不那么突出。
+      - answer: offence-defence
+        leadsTo: 以「自愿行为」要求的形式出现。
+
+  - question: q-unrecht-core
+    requires: q-action-concept
+    kind: foundational
+    why: 目的行为论认为故意是行为的核心，因此必然属于不法——这是人的不法论的存在论基础。
+    branches:
+      - answer: final
+        leadsTo: 故意是行为的目的性本身，属于不法 → 人的不法论（二元论，乃至一元论）。
+      - answer: causal
+        leadsTo: 行为只是有意志的身体动静，故意留在责任中 → 古典的客观不法观。
+      - answer: social
+        leadsTo: 行为论本身不决定不法的构造。
+      - answer: personal
+        leadsTo: 行为论本身不决定不法的构造。
+
+  - question: q-cl-voluntary-act
+    requires: q-action-concept
+    kind: conceptual
+    why: 是否存在刑法上的「行为」，取决于行为的定义。
+    branches:
+      - answer: causal
+        leadsTo: 没有意志支配的身体动静不是行为 → 自动症下的举动不构成犯罪（英美的自愿行为要求大体对应这一立场）。
+      - answer: final
+        leadsTo: 没有目的性的操纵就没有行为 → 同样不构成。
+      - answer: social
+        leadsTo: 需要进一步判断这种举动是否具有社会意义上的可避免性。
+
+relations:
+  - from: wrongfulness-essence
+    to: crime-system
+    type: part_of
+    description: 违法性是阶层体系的第二阶层；违法性本质之争是在阶层体系内部展开的。
+  - from: action-theory
+    to: crime-system
+    type: part_of
+    description: 行为是阶层体系共同的评价对象。
+
+works:
+  - id: w-mezger-1931
+    title: Strafrecht. Ein Lehrbuch
+    titleZh: 刑法教科书
+    authors: [mezger]
+    year: 1931
+    type: textbook
+    jurisdiction: de
+  - id: w-gao-2009
+    title: 论四要件犯罪构成理论的合理性暨对中国刑法学体系的坚持
+    authors: [gao-mingxuan]
+    year: 2009
+    type: article
+    jurisdiction: cn
+    venue: 中国法学
+    needsSource: true
+    editorNote: 题目与期号待核。
+  - id: w-woolmington-1935
+    title: Woolmington v DPP [1935] AC 462
+    authorText: House of Lords
+    year: 1935
+    type: case
+    jurisdiction: uk-ew
+  - id: w-bratty-1961
+    title: Bratty v Attorney-General for Northern Ireland [1963] AC 386
+    authorText: House of Lords
+    year: 1961
+    type: case
+    jurisdiction: uk-ew
+
+events:
+  - id: e-de-mezger-1931
+    year: 1931
+    jurisdiction: de
+    type: development
+    title: 新古典体系：构成要件是违法类型
+    description: 梅茨格认为构成要件不是价值中立的，而是类型化的不法；构成要件该当性不只是违法性的认识根据，而是其存在根据。价值关系的、目的论的思考进入犯罪论体系。
+    concepts: [crime-system]
+    scholars: [mezger]
+    works: [w-mezger-1931]
+    derivedFrom: [e-de-beling-1906]
+
+  - id: e-uk-woolmington-1935
+    year: 1935
+    jurisdiction: uk-ew
+    type: case
+    title: Woolmington v DPP：「金线」
+    description: 上议院确认，证明被告人有罪是控方的责任，这是贯穿英国刑法的「金线」。犯罪本体要件由控方证明，辩护事由则由被告人提出证据，英美的二元结构由此得到程序上的支撑。
+    concepts: [crime-system]
+    works: [w-woolmington-1935]
+
+  - id: e-uk-bratty-1961
+    year: 1961
+    jurisdiction: uk-ew
+    type: case
+    title: Bratty 案：理智的与精神失常的自动症
+    description: 上议院区分了由外部因素引起的「理智的自动症」（导致无罪释放）与由内部疾病引起的「精神失常的自动症」（按精神失常处理）。自愿行为要求与精神失常抗辩的界线由此成为难题。
+    concepts: [action-theory, insanity]
+    works: [w-bratty-1961]
+
+  - id: e-cn-gao-2009
+    year: 2009
+    jurisdiction: cn
+    type: critique
+    title: 高铭暄为四要件辩护
+    description: 四要件体系符合中国国情，逻辑严密且便于司法操作；以阶层论取代四要件缺乏必要性。犯罪构成体系之争由此进入高潮。
+    concepts: [crime-system]
+    scholars: [gao-mingxuan]
+    works: [w-gao-2009]
+    derivedFrom: [e-cn-chen-2006]
+    needsSource: true
+
+dialogues:
+  - id: dlg-cn-system
+    title: 四要件还是阶层论（陈兴良 × 高铭暄）
+    concept: crime-system
+    jurisdictions: [cn]
+    summary: 2000 年代中国刑法学最根本的体系之争。
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: chen-xingliang
+        work: w-chen-2006
+        year: 2006
+        claim: 四要件体系源于苏俄刑法学，平面耦合、缺乏位阶，无法为出罪提供有效的逻辑顺序；应当清理苏俄刑法学的知识遗产，转向阶层式体系。
+      - id: t2
+        scholar: gao-mingxuan
+        work: w-gao-2009
+        year: 2009
+        respondsTo: t1
+        claim: 四要件体系逻辑严密、符合中国的司法实践，不存在必须推倒重来的理由；可以在四要件内部吸收阶层论的有益成分。

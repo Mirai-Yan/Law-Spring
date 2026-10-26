@@ -1,0 +1,1224 @@
+# 刑法基础论与刑罚论：罪刑法定原则、刑法学派之争、刑罚的正当化根据
+# 起草：AI（Claude）。全部为 draft，判例引注与期号尤需核实。
+
+concepts:
+  - id: legality
+    name: 罪刑法定原则
+    original:
+      de: Gesetzlichkeitsprinzip（nullum crimen, nulla poena sine lege）
+      ja: 罪刑法定主義
+      en: principle of legality
+    kind: foundation
+    area: foundations
+    tradition: both
+    summary: >-
+      没有法律就没有犯罪，没有法律就没有刑罚。它派生出成文法主义（排除习惯法）、禁止事后法、禁止类推、明确性原则等要求，
+      也决定了刑法解释的界限。在普通法传统中，法官造法的历史使这一原则主要以「公平告知」和「因模糊而无效」等形式出现。
+
+  - id: criminal-law-schools
+    name: 刑法学派之争（古典学派与近代学派）
+    original:
+      de: Schulenstreit
+      ja: 新旧両派の争い
+      en: classical vs. positivist school
+    kind: foundation
+    area: foundations
+    tradition: both
+    summary: >-
+      十九世纪末到二十世纪上半叶的根本立场之争：刑法评价的是行为还是行为人？犯罪是自由意志的产物，还是由素质与环境决定？
+      它在未遂、共犯、责任、刑罚等几乎所有问题上都推出对立的结论，至今仍以「客观主义与主观主义」的形式影响日本与中国大陆的刑法学。
+
+  - id: punishment-justification
+    name: 刑罚的正当化根据
+    original:
+      de: Straftheorien
+      ja: 刑罰論（応報刑論・目的刑論）
+      en: justification of punishment
+    kind: foundation
+    area: sanctions
+    tradition: both
+    summary: >-
+      国家凭什么科处刑罚？报应论回答「因为犯了罪」，预防论回答「为了不再犯罪」，并合主义试图把两者结合起来。
+      这个根据论决定了责任主义的地位、量刑的结构，也影响中止犯、法人处罚、严格责任等问题的回答。
+
+questions:
+  # ---------------- 罪刑法定 ----------------
+  - id: q-legality-basis
+    concept: legality
+    text: 罪刑法定原则的思想基础是什么？
+    level: foundation
+    aliases:
+      - 罪刑法定的根据
+      - 罪刑法定原则的基础
+      - 罪刑法定主义
+      - nullum crimen sine lege
+      - 法无明文规定不为罪
+    answers:
+      - id: liberal
+        label: 自由主义（预测可能性）
+        summary: 国民只有事先知道什么行为会受处罚，才能自由地安排行为；罪刑法定是对国家刑罚权的限制。
+      - id: democratic
+        label: 民主主义
+        summary: 什么是犯罪、科处什么刑罚，必须由国民的代表机关以法律决定。
+      - id: both
+        label: 两者兼具
+
+  - id: q-analogy
+    concept: legality
+    text: 刑法中是否允许类推？有利于被告人的类推呢？
+    level: intermediate
+    aliases:
+      - 类推解释
+      - 禁止类推
+      - 有利于被告人的类推
+      - 类推与扩张解释的界限
+    answers:
+      - id: forbid-all
+        label: 一律禁止
+      - id: allow-favorable
+        label: 禁止不利于被告人的类推，允许有利的类推
+      - id: allow
+        label: 允许类推（以类推填补法律漏洞）
+
+  - id: q-interp-goal
+    concept: legality
+    text: 刑法解释的目标是探求立法者的原意（主观解释），还是法律文本的客观含义（客观解释）？
+    level: intermediate
+    aliases:
+      - 主观解释论
+      - 客观解释论
+      - 刑法解释的目标
+      - 立法者原意
+    answers:
+      - id: subjective
+        label: 主观解释论
+      - id: objective
+        label: 客观解释论
+
+  - id: q-formal-material
+    concept: legality
+    text: 解释构成要件时，应以形式判断为先（形式解释论），还是以处罚必要性为导向进行实质判断（实质解释论）？
+    level: intermediate
+    aliases:
+      - 形式解释论
+      - 实质解释论
+      - 形式解释与实质解释
+      - 陈兴良 张明楷 解释论之争
+    answers:
+      - id: formal
+        label: 形式解释论
+        summary: 先以文义判断是否该当构成要件，形式判断是出罪的第一道防线。
+      - id: material
+        label: 实质解释论
+        summary: 以法益保护和处罚必要性来解释构成要件，实质判断既可入罪也可出罪，但不得超出文义的可能范围。
+
+  # ---------------- 学派之争 ----------------
+  - id: q-free-will
+    concept: criminal-law-schools
+    text: 犯罪是自由意志的产物，还是由素质与环境决定的？
+    level: foundation
+    aliases:
+      - 意志自由
+      - 决定论
+      - 非决定论
+      - 犯罪原因
+      - 相对的意志自由论
+    answers:
+      - id: free-will
+        label: 意志自由论（非决定论）
+      - id: determinism
+        label: 决定论
+      - id: soft
+        label: 相对的意志自由论（软决定论）
+
+  - id: q-school
+    concept: criminal-law-schools
+    text: 刑法评价的重心是行为及其结果（客观主义），还是行为人的危险性格（主观主义）？
+    level: foundation
+    aliases:
+      - 新旧学派之争
+      - 古典学派 近代学派
+      - 刑法的客观主义 主观主义
+      - 行为主义 行为人主义
+      - 新派 旧派
+      - 学派之争
+    answers:
+      - id: act
+        label: 客观主义（行为主义）
+      - id: actor
+        label: 主观主义（行为人主义）
+      - id: mixed
+        label: 折中（以行为为基础，兼顾行为人）
+
+  # ---------------- 刑罚根据 ----------------
+  - id: q-punish-basis
+    concept: punishment-justification
+    text: 刑罚的正当化根据是报应，还是预防？
+    level: foundation
+    aliases:
+      - 刑罚的目的
+      - 报应刑论
+      - 目的刑论
+      - 一般预防 特别预防
+      - 并合主义
+      - 为什么要惩罚犯罪
+      - retributivism
+      - deterrence
+    answers:
+      - id: retribution
+        label: 报应（绝对理论）
+      - id: general-prevention
+        label: 一般预防（相对理论）
+      - id: special-prevention
+        label: 特别预防（相对理论）
+      - id: union
+        label: 并合主义（综合理论）
+
+  - id: q-positive-gp
+    concept: punishment-justification
+    text: 一般预防应理解为威慑（消极一般预防），还是维护国民对规范的信赖（积极一般预防）？
+    level: intermediate
+    aliases:
+      - 积极一般预防
+      - 消极一般预防
+      - 威慑
+      - 规范信赖
+    answers:
+      - id: negative
+        label: 消极一般预防（威慑）
+      - id: positive
+        label: 积极一般预防（维护规范信赖）
+
+  - id: q-desert-limit
+    concept: punishment-justification
+    text: 责任（应受谴责性）是刑罚的根据本身，还是只是刑罚的上限？
+    level: intermediate
+    aliases:
+      - 责任主义
+      - 责任与预防的关系
+      - 刑罚的上限
+      - 责任刑与预防刑
+    answers:
+      - id: ground
+        label: 责任是刑罚的根据
+      - id: upper-limit
+        label: 责任只是刑罚的上限（预防在责任限度内运作）
+      - id: none
+        label: 责任不构成独立的界限
+
+  - id: q-sentencing-structure
+    concept: punishment-justification
+    text: 量刑时，与责任相适应的刑罚（责任刑）是一个幅度，还是一个点？
+    level: applied
+    aliases:
+      - 量刑的基本方法
+      - 幅的理论
+      - 点的理论
+      - 责任刑与预防刑
+      - Spielraumtheorie
+      - 量刑 责任 预防
+    answers:
+      - id: spielraum
+        label: 幅的理论（在责任刑的幅度内考虑预防）
+      - id: point
+        label: 点的理论（责任刑是一个点，预防只能向下调整）
+      - id: integrated
+        label: 综合衡量
+
+prerequisites:
+  - question: q-analogy
+    requires: q-legality-basis
+    kind: foundational
+    why: 类推之所以被禁止，取决于罪刑法定要保护的是什么。
+    branches:
+      - answer: liberal
+        leadsTo: 不利于被告人的类推破坏国民的预测可能性，应当禁止；有利于被告人的类推不损害自由 → 允许有利的类推。
+      - answer: democratic
+        leadsTo: 类推意味着法官代替立法者创设犯罪 → 禁止不利的类推；有利的类推是否也侵犯立法权，存在争论。
+      - answer: both
+        leadsTo: 禁止不利于被告人的类推，有利的类推原则上允许。
+
+  - question: q-interp-goal
+    requires: q-legality-basis
+    kind: foundational
+    why: 解释应当忠于谁，取决于罪刑法定的正当性来自哪里。
+    branches:
+      - answer: democratic
+        leadsTo: 尊重立法者的决定 → 倾向主观解释。
+      - answer: liberal
+        leadsTo: 国民只能根据文本来预测，文本的客观含义才是界限 → 倾向客观解释（受文义可能范围限制）。
+
+  - question: q-formal-material
+    requires: q-legality-basis
+    kind: foundational
+    why: 形式解释论把文义作为保障自由的第一道防线，实质解释论则认为实质判断同样可以保障自由；两者都以罪刑法定为出发点。
+    branches:
+      - answer: liberal
+        leadsTo: 两说都主张保障预测可能性，分歧在于形式判断是否必须先行。
+      - answer: democratic
+        leadsTo: 尊重立法文本 → 倾向形式解释论。
+
+  - question: q-formal-material
+    requires: q-task
+    kind: foundational
+    why: 实质解释论以法益保护目的指导构成要件的解释。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 以法益侵害及其程度判断是否值得处罚 → 实质解释论的基础。
+      - answer: ethic
+        leadsTo: 以社会伦理充实构成要件，容易导致处罚扩大，形式解释论对此保持警惕。
+
+  - question: q-school
+    requires: q-free-will
+    kind: foundational
+    why: 学派之争的出发点是对犯罪原因的不同理解。
+    branches:
+      - answer: free-will
+        leadsTo: 犯罪是自由选择的结果，可以对行为予以非难 → 客观主义（行为主义）。
+      - answer: determinism
+        leadsTo: 犯罪由素质与环境决定，非难行为没有意义，刑法应当针对行为人的危险性 → 主观主义（行为人主义）。
+      - answer: soft
+        leadsTo: 以行为为基础，同时考虑行为人的人格 → 折中（如人格责任论）。
+
+  - question: q-punish-basis
+    requires: q-free-will
+    kind: foundational
+    why: 只有能自由选择的人才「应得」报应；如果犯罪是被决定的，刑罚只能着眼于未来。
+    branches:
+      - answer: free-will
+        leadsTo: 犯罪人自由地选择了不法，应得刑罚 → 报应。
+      - answer: determinism
+        leadsTo: 刑罚只能作为预防未来犯罪的手段 → 预防（尤其是特别预防）。
+      - answer: soft
+        leadsTo: 以应得为界限，在其范围内追求预防 → 并合主义。
+
+  - question: q-punish-basis
+    requires: q-school
+    kind: foundational
+    why: 刑罚针对的是行为还是行为人，决定了刑罚以什么为尺度。
+    branches:
+      - answer: act
+        leadsTo: 刑罚与行为的不法和责任相均衡 → 报应（后期古典学派）或一般预防（前期古典学派）。
+      - answer: actor
+        leadsTo: 刑罚针对行为人的危险性 → 特别预防、社会防卫。
+      - answer: mixed
+        leadsTo: 并合主义。
+
+  - question: q-positive-gp
+    requires: q-punish-basis
+    kind: logical
+    why: 只有承认一般预防，才需要追问它是威慑还是规范信赖的维护。
+    branches:
+      - answer: general-prevention
+        leadsTo: 进入内部之争：费尔巴哈、边沁式的威慑，还是雅科布斯式的规范信赖维护。
+      - answer: union
+        leadsTo: 并合主义多以积极一般预防来说明为什么刑罚不能超过责任。
+      - answer: retribution
+        leadsTo: 不必讨论；但有学者指出，黑格尔的「否定之否定」与积极一般预防在结构上相近。
+      - answer: special-prevention
+        leadsTo: 不必讨论。
+
+  - question: q-desert-limit
+    requires: q-punish-basis
+    kind: logical
+    why: 责任在刑罚中扮演什么角色，取决于刑罚为什么正当。
+    branches:
+      - answer: retribution
+        leadsTo: 责任就是刑罚的根据，刑罚与责任相均衡。
+      - answer: union
+        leadsTo: 责任是刑罚的前提与上限，预防只能在责任的范围内发挥作用。
+      - answer: general-prevention
+        leadsTo: 纯粹的预防论难以从自身推出责任的界限，这正是它受到的主要批判（「为预防而惩罚无辜」）。
+      - answer: special-prevention
+        leadsTo: 以行为人的危险性为准，责任不构成独立的界限（李斯特以罪刑法定而非责任来约束特别预防）。
+
+  - question: q-sentencing-structure
+    requires: q-desert-limit
+    kind: logical
+    why: 量刑结构是「责任与预防的关系」在个案中的落实。
+    branches:
+      - answer: upper-limit
+        leadsTo: 责任刑可以是一个幅度，在幅度内考虑预防（幅的理论），也可以是一个点，预防只能向下调整（点的理论）。
+      - answer: ground
+        leadsTo: 刑罚应当精确对应责任 → 倾向点的理论。
+      - answer: none
+        leadsTo: 综合衡量各种预防需要。
+
+relations:
+  - from: legality
+    to: harm-principle
+    type: derived_from
+    description: 两者都是自由主义刑法思想的产物：罪刑法定限制的是「如何」处罚，伤害原则限制的是「处罚什么」。
+  - from: punishment-justification
+    to: criminal-law-schools
+    type: derived_from
+    description: 报应与预防的对立在学派之争中被推到极致：后期古典学派坚持报应，近代学派主张特别预防。
+
+works:
+  - id: w-magna-carta-1215
+    title: Magna Carta, cl. 39
+    titleZh: 大宪章第 39 条
+    authorText: 英格兰国王约翰与贵族
+    year: 1215
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-us-constitution-1787
+    title: United States Constitution, Art. I §§ 9–10
+    titleZh: 美国宪法第 1 条第 9、10 款（禁止事后法）
+    authorText: 制宪会议
+    year: 1787
+    type: statute
+    jurisdiction: us
+  - id: w-jp-old-code-1880
+    title: 旧刑法（明治13年太政官布告第36号）
+    titleZh: 日本旧刑法
+    authorText: 太政官
+    year: 1880
+    type: statute
+    jurisdiction: jp
+  - id: w-jp-code-1907
+    title: 刑法（明治40年法律第45号）
+    titleZh: 日本现行刑法
+    authorText: 帝国议会
+    year: 1907
+    type: statute
+    jurisdiction: jp
+  - id: w-jp-constitution-1946
+    title: 日本国憲法 第31条・第39条
+    titleZh: 日本国宪法第 31 条、第 39 条
+    authorText: 帝国议会
+    year: 1946
+    type: statute
+    jurisdiction: jp
+  - id: w-de-1935-analogy
+    title: Gesetz zur Änderung des Strafgesetzbuchs vom 28. Juni 1935 (§ 2 StGB n.F.)
+    titleZh: 1935 年刑法修正（允许类推的第 2 条）
+    authorText: 纳粹政府
+    year: 1935
+    type: statute
+    jurisdiction: de
+  - id: w-de-gg-1949
+    title: Grundgesetz, Art. 103 Abs. 2
+    titleZh: 德国基本法第 103 条第 2 款
+    authorText: 议会委员会
+    year: 1949
+    type: statute
+    jurisdiction: de
+  - id: w-radbruch-1946
+    title: Gesetzliches Unrecht und übergesetzliches Recht
+    titleZh: 法律的不法与超法律的法
+    authors: [radbruch]
+    year: 1946
+    type: article
+    jurisdiction: de
+    venue: Süddeutsche Juristen-Zeitung
+  - id: w-bghst-39-1
+    title: BGHSt 39, 1
+    titleZh: 联邦最高法院柏林墙射杀案判决
+    authorText: 联邦最高法院
+    year: 1992
+    type: case
+    jurisdiction: de
+  - id: w-shaw-1961
+    title: Shaw v DPP [1962] AC 220
+    authorText: House of Lords
+    year: 1961
+    type: case
+    jurisdiction: uk-ew
+  - id: w-connally-1926
+    title: Connally v. General Construction Co., 269 U.S. 385 (1926)
+    authorText: U.S. Supreme Court
+    year: 1926
+    type: case
+    jurisdiction: us
+  - id: w-chen-2010
+    title: 形式解释论的再宣示
+    authors: [chen-xingliang]
+    year: 2010
+    type: article
+    jurisdiction: cn
+    venue: 中国法学
+    needsSource: true
+    editorNote: 期号待核。
+  - id: w-zhang-2010
+    title: 实质解释论的再提倡
+    authors: [zhang-mingkai]
+    year: 2010
+    type: article
+    jurisdiction: cn
+    venue: 中国法学
+    needsSource: true
+    editorNote: 期号待核。
+  - id: w-liszt-1882
+    title: Der Zweckgedanke im Strafrecht（Marburger Programm）
+    titleZh: 刑法中的目的思想（马堡计划）
+    authors: [liszt]
+    year: 1882
+    type: lecture
+    jurisdiction: de
+  - id: w-birkmeyer-1907
+    title: Was läßt von Liszt vom Strafrecht übrig?
+    titleZh: 李斯特还给刑法留下了什么？
+    authors: [birkmeyer]
+    year: 1907
+    type: monograph
+    jurisdiction: de
+    needsSource: true
+  - id: w-martinson-1974
+    title: "What Works? Questions and Answers about Prison Reform"
+    authors: [martinson]
+    year: 1974
+    type: article
+    jurisdiction: us
+    venue: The Public Interest
+  - id: w-von-hirsch-1976
+    title: "Doing Justice: The Choice of Punishments"
+    titleZh: 实现正义：刑罚的选择
+    authors: [von-hirsch]
+    year: 1976
+    type: report
+    jurisdiction: us
+  - id: w-bentham-1789
+    title: An Introduction to the Principles of Morals and Legislation
+    titleZh: 道德与立法原理导论
+    authors: [bentham]
+    year: 1789
+    type: monograph
+    jurisdiction: uk-ew
+  - id: w-kant-1797
+    title: Die Metaphysik der Sitten
+    titleZh: 道德形而上学
+    authors: [kant]
+    year: 1797
+    type: monograph
+    jurisdiction: de
+  - id: w-hart-1959
+    title: Prolegomenon to the Principles of Punishment
+    titleZh: 刑罚原则绪论
+    authors: [hart]
+    year: 1959
+    type: article
+    jurisdiction: uk-ew
+    venue: Proceedings of the Aristotelian Society
+    needsSource: true
+    editorNote: 后收入 1968 年的《惩罚与责任》。
+  - id: w-roxin-1966
+    title: Sinn und Grenzen staatlicher Strafe
+    titleZh: 国家刑罚的意义与界限
+    authors: [roxin]
+    year: 1966
+    type: article
+    jurisdiction: de
+    venue: JuS
+  - id: w-bghst-7-28
+    title: BGHSt 7, 28
+    titleZh: 联邦最高法院关于量刑的判决（幅的理论）
+    authorText: 联邦最高法院
+    year: 1954
+    type: case
+    jurisdiction: de
+    needsSource: true
+  - id: w-us-sra-1984
+    title: Sentencing Reform Act of 1984
+    titleZh: 1984 年量刑改革法
+    authorText: U.S. Congress
+    year: 1984
+    type: statute
+    jurisdiction: us
+  - id: w-uk-cja-2003
+    title: Criminal Justice Act 2003, s. 142
+    titleZh: 2003 年刑事司法法第 142 条（量刑目的）
+    authorText: Parliament
+    year: 2003
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-cn-kuanyan-2010
+    title: 最高人民法院关于贯彻宽严相济刑事政策的若干意见
+    authorText: 最高人民法院
+    year: 2010
+    type: report
+    jurisdiction: cn
+    needsSource: true
+
+events:
+  # ---------------- 罪刑法定 ----------------
+  - id: e-uk-magna-carta-1215
+    year: 1215
+    jurisdiction: uk-ew
+    type: prehistory
+    title: 大宪章第 39 条
+    description: 非经同侪的合法裁判或依国法，不得逮捕、监禁或剥夺任何自由人的权利。常被视为罪刑法定与正当程序的远源。
+    concepts: [legality]
+    works: [w-magna-carta-1215]
+
+  - id: e-de-feuerbach-legality-1801
+    year: 1801
+    jurisdiction: de
+    type: origin
+    originOf: legality
+    originType: term
+    title: 费尔巴哈：「无法律则无犯罪，无法律则无刑罚」
+    description: 费尔巴哈以拉丁法谚的形式表述罪刑法定，并以心理强制说为其理论基础：只有事先以法律明示刑罚，才能产生威慑。罪刑法定从此成为近代刑法的基石。
+    concepts: [legality]
+    scholars: [feuerbach]
+    works: [w-feuerbach-1801]
+
+  - id: e-us-constitution-1787
+    year: 1787
+    jurisdiction: us
+    type: legislation
+    title: 美国宪法禁止事后法
+    description: 宪法第 1 条第 9、10 款禁止联邦与各州制定事后法（ex post facto law），使禁止溯及成为宪法原则。
+    concepts: [legality]
+    works: [w-us-constitution-1787]
+    derivedFrom: [e-uk-magna-carta-1215]
+
+  - id: e-jp-old-code-1880
+    year: 1880
+    jurisdiction: jp
+    type: legislation
+    title: 旧刑法第 2 条明文规定罪刑法定
+    description: 受法国法影响的旧刑法规定，法律没有正式条文的，不论何种行为都不得处罚。
+    concepts: [legality]
+    works: [w-jp-old-code-1880]
+    derivedFrom: [e-de-feuerbach-legality-1801]
+    editorNote: 旧刑法主要继受法国刑法（博瓦索纳德起草），这里的「派生」指罪刑法定思想的传播，而非直接继受德国。
+
+  - id: e-jp-code-1907
+    year: 1907
+    jurisdiction: jp
+    type: legislation
+    title: 现行刑法公布
+    description: >-
+      转而参照德国法制定，法定刑幅度宽、广泛承认酌量减轻，带有近代学派的色彩；没有再明文规定罪刑法定。
+      总则中规定了正当防卫（第 36 条）、紧急避险（第 37 条）、不知法不免责但可减轻（第 38 条第 3 款）、心神丧失与心神耗弱（第 39 条）、
+      未遂与中止（第 43 条，中止「必须」减免）等。
+    concepts: [criminal-law-schools, legality, self-defense, necessity, mistake-of-law, insanity, commencement, withdrawal]
+    works: [w-jp-code-1907]
+    derivedFrom: [e-de-liszt-1882, e-jp-old-code-1880]
+    needsSource: true
+
+  - id: e-de-1935-analogy
+    year: 1935
+    jurisdiction: de
+    type: legislation
+    title: 纳粹时期允许依「健全的国民感情」类推处罚
+    description: 修正后的刑法第 2 条规定，依照刑法的基本思想与健全的国民感情应受处罚的行为，即使没有法律规定也应处罚。罪刑法定被正式废弃。
+    concepts: [legality]
+    works: [w-de-1935-analogy]
+    derivedFrom: [e-de-feuerbach-legality-1801]
+
+  - id: e-de-radbruch-1946
+    year: 1946
+    jurisdiction: de
+    type: development
+    title: 拉德布鲁赫公式
+    description: 实在法原则上优先，即使其内容不正义；但当其与正义的冲突达到不能容忍的程度时，「不正当的法」应让位于正义。这个公式后来成为处理纳粹与东德不法的重要依据，也与禁止溯及原则形成张力。
+    concepts: [legality]
+    scholars: [radbruch]
+    works: [w-radbruch-1946]
+    derivedFrom: [e-de-1935-analogy]
+
+  - id: e-de-gg-1949
+    year: 1949
+    jurisdiction: de
+    type: legislation
+    title: 基本法第 103 条第 2 款
+    description: 行为只有在实施之前已由法律规定为可罚时，才能受处罚。罪刑法定由此获得宪法位阶。
+    concepts: [legality]
+    works: [w-de-gg-1949]
+    derivedFrom: [e-de-1935-analogy]
+
+  - id: e-uk-shaw-1961
+    year: 1961
+    jurisdiction: uk-ew
+    type: case
+    title: Shaw v DPP：法院承认「共谋败坏公共道德罪」
+    description: 上议院认可了一个此前没有先例的普通法犯罪，被批评为法院在事后创设犯罪，也与德夫林的法律道德主义相呼应。
+    concepts: [legality, harm-principle]
+    works: [w-shaw-1961]
+    derivedFrom: [e-uk-devlin-1959]
+
+  - id: e-us-connally-1926
+    year: 1926
+    jurisdiction: us
+    type: case
+    title: 「因模糊而无效」原则
+    description: 联邦最高法院认为，如果法律的用语模糊到一般智力的人只能猜测其含义，就违反正当程序。明确性原则由此在美国以宪法形式出现。
+    concepts: [legality]
+    works: [w-connally-1926]
+    derivedFrom: [e-us-constitution-1787]
+
+  - id: e-jp-constitution-1946
+    year: 1946
+    jurisdiction: jp
+    type: legislation
+    title: 日本国宪法为罪刑法定提供宪法依据
+    description: 第 31 条（非依法律规定的程序，不得剥夺生命、自由或科处其他刑罚）与第 39 条（禁止溯及处罚）被理解为罪刑法定的宪法根据。
+    concepts: [legality]
+    works: [w-jp-constitution-1946]
+    derivedFrom: [e-jp-old-code-1880]
+
+  - id: e-de-mauerschuetzen-1992
+    year: 1992
+    jurisdiction: de
+    type: case
+    title: 柏林墙射杀案
+    description: 联邦最高法院认为，东德边境法中允许向越境者开枪的规定因明显违反正义而不能作为正当化事由。禁止溯及原则与实质正义之间的冲突由此成为罪刑法定论的重要课题。
+    concepts: [legality]
+    works: [w-bghst-39-1]
+    derivedFrom: [e-de-radbruch-1946, e-de-gg-1949]
+
+  - id: e-cn-2010-interp
+    year: 2010
+    jurisdiction: cn
+    type: critique
+    title: 形式解释论与实质解释论之争
+    description: 陈兴良与张明楷在同一年分别撰文，重申形式解释论与实质解释论。争论的焦点是：在罪刑法定之下，形式判断是否必须先于实质判断。
+    concepts: [legality]
+    scholars: [chen-xingliang, zhang-mingkai]
+    works: [w-chen-2010, w-zhang-2010]
+    derivedFrom: [e-cn-1997]
+    needsSource: true
+
+  # ---------------- 学派之争 ----------------
+  - id: e-de-liszt-1882
+    year: 1882
+    jurisdiction: de
+    type: origin
+    originOf: criminal-law-schools
+    originType: problem
+    title: 李斯特的马堡计划
+    description: 刑罚是实现目的的手段：对可改善者改善，对不需改善者威吓，对不可改善者隔离。应受处罚的「不是行为，而是行为人」。德国的近代学派由此登场，学派之争随之展开（意大利的龙勃罗梭、菲利已更早提出实证学派的主张）。
+    concepts: [criminal-law-schools, punishment-justification]
+    scholars: [liszt]
+    works: [w-liszt-1882]
+
+  - id: e-de-ikv-1889
+    year: 1889
+    jurisdiction: de
+    type: development
+    title: 国际刑事学协会成立
+    description: 李斯特与荷兰的范·哈默尔、比利时的普林斯共同创立国际刑事学协会，推动以刑事政策为导向的刑法改革。
+    concepts: [criminal-law-schools]
+    scholars: [liszt]
+    derivedFrom: [e-de-liszt-1882]
+
+  - id: e-de-birkmeyer-1907
+    year: 1907
+    jurisdiction: de
+    type: critique
+    title: 比克迈尔：李斯特还给刑法留下了什么？
+    description: 后期古典学派批判近代学派：以行为人的危险性取代行为的不法与责任，会瓦解刑法的法治国界限。
+    concepts: [criminal-law-schools]
+    scholars: [birkmeyer]
+    works: [w-birkmeyer-1907]
+    derivedFrom: [e-de-liszt-1882]
+    needsSource: true
+
+  - id: e-jp-makino-1909
+    year: 1909
+    circa: true
+    jurisdiction: jp
+    type: reception
+    title: 牧野英一倡导主观主义刑法学
+    description: 牧野英一继受李斯特与意大利学派，主张目的刑论、社会责任论，在未遂上采主观说，在共犯上采共犯独立性说与行为共同说，成为日本新派的代表。
+    concepts: [criminal-law-schools, commencement, perpetration, complicity-basis]
+    scholars: [makino]
+    derivedFrom: [e-de-liszt-1882]
+    needsSource: true
+    editorNote: 年份为编者估计。
+
+  - id: e-jp-takigawa-1933
+    year: 1933
+    jurisdiction: jp
+    type: development
+    title: 泷川事件
+    description: 京都大学教授泷川幸辰因其自由主义的刑法学说被文部省停职，法学部教授集体辞职抗议。旧派客观主义刑法学的法治国立场在政治压力下受到打压。
+    concepts: [criminal-law-schools, legality]
+    scholars: [takigawa]
+
+  - id: e-us-martinson-1974
+    year: 1974
+    jurisdiction: us
+    type: critique
+    title: 「什么有效？」与矫正理想的衰落
+    description: 马丁森对大量矫正项目的评估结论被概括为「没有什么有效」，以特别预防为核心的矫正理想与不定期刑制度由此受到普遍质疑。
+    concepts: [criminal-law-schools, punishment-justification]
+    scholars: [martinson]
+    works: [w-martinson-1974]
+
+  - id: e-us-von-hirsch-1976
+    year: 1976
+    jurisdiction: us
+    type: turn
+    title: 冯·赫希《实现正义》：应得模式
+    description: 刑罚应当与犯罪的严重性相称（commensurate deserts），而不以改善或威慑效果为依据。美国量刑由此从矫正理想转向以应得为基础。
+    concepts: [punishment-justification, criminal-law-schools]
+    scholars: [von-hirsch]
+    works: [w-von-hirsch-1976]
+    derivedFrom: [e-us-martinson-1974]
+
+  # ---------------- 刑罚根据 ----------------
+  - id: e-uk-bentham-1789
+    year: 1789
+    jurisdiction: uk-ew
+    type: origin
+    originOf: punishment-justification
+    originType: problem
+    title: 边沁：功利主义的刑罚论
+    description: 一切刑罚本身都是恶；只有当它能排除更大的恶时才能被允许。刑罚的正当性完全在于其预防效果。
+    concepts: [punishment-justification]
+    scholars: [bentham]
+    works: [w-bentham-1789]
+    editorNote: 报应与预防的对立可上溯至古代（柏拉图、塞涅卡），意大利的贝卡里亚（1764）也早于边沁；这里以本应用所收法域中的近代经典表述作为起点。
+
+  - id: e-de-kant-1797
+    year: 1797
+    jurisdiction: de
+    type: development
+    title: 康德：刑罚只能因为犯罪而科处
+    description: >-
+      刑罚绝不能仅仅作为促进犯罪人自身或市民社会其他利益的手段，而只能因为他犯了罪而科处；即使市民社会即将解散，也应先处决监狱中最后一名杀人犯（「岛屿之例」）。
+      康德也讨论了紧急状态（如船难中抢夺木板）：这种行为不可罚，但并不因此正当。
+    concepts: [punishment-justification, necessity]
+    scholars: [kant]
+    works: [w-kant-1797]
+
+  - id: e-de-feuerbach-psych-1801
+    year: 1801
+    jurisdiction: de
+    type: development
+    title: 费尔巴哈：心理强制说
+    description: 以法律预告刑罚，使人们在权衡犯罪的快乐与刑罚的痛苦后放弃犯罪。这是一般预防论的经典形态，也是罪刑法定的理论基础。
+    concepts: [punishment-justification]
+    scholars: [feuerbach]
+    works: [w-feuerbach-1801]
+    derivedFrom: [e-de-kant-1797]
+
+  - id: e-uk-hart-1959
+    year: 1959
+    jurisdiction: uk-ew
+    type: development
+    title: 哈特：区分刑罚的「一般正当化目的」与「分配」
+    description: 刑罚制度的一般正当化目的可以是功利主义的（减少犯罪），但刑罚应该分配给谁、分配多少，必须受到报应性原则的约束（只惩罚有责任的人）。哈特同时以「选择的能力与公平机会」说明刑事责任。
+    concepts: [punishment-justification, culpability-essence]
+    scholars: [hart]
+    works: [w-hart-1959]
+    derivedFrom: [e-uk-bentham-1789, e-de-kant-1797]
+
+  - id: e-de-bghst-1954
+    year: 1954
+    jurisdiction: de
+    type: case
+    title: 量刑上的幅的理论
+    description: 联邦最高法院认为，与责任相适应的刑罚不是一个精确的点，而是一个幅度；法官可以在这个幅度内考虑预防的需要。
+    concepts: [punishment-justification]
+    works: [w-bghst-7-28]
+    needsSource: true
+
+  - id: e-de-roxin-1966
+    year: 1966
+    jurisdiction: de
+    type: development
+    title: 罗克辛：辩证的综合理论
+    description: 刑罚的正当性分三个阶段说明：立法阶段着眼于一般预防，裁判阶段以责任为上限，执行阶段着眼于特别预防。责任限制预防，而不是刑罚的独立目的。
+    concepts: [punishment-justification]
+    scholars: [roxin]
+    works: [w-roxin-1966]
+    derivedFrom: [e-de-liszt-1882, e-de-kant-1797]
+
+  - id: e-us-sra-1984
+    year: 1984
+    jurisdiction: us
+    type: legislation
+    title: 1984 年量刑改革法
+    description: 设立联邦量刑委员会，制定量刑指南（1987 年生效），废除联邦假释，限制法官的自由裁量。应得模式在立法上得到体现。
+    concepts: [punishment-justification]
+    works: [w-us-sra-1984]
+    derivedFrom: [e-us-von-hirsch-1976]
+
+  - id: e-uk-cja-2003
+    year: 2003
+    jurisdiction: uk-ew
+    type: legislation
+    title: 2003 年刑事司法法列举量刑目的
+    description: 第 142 条要求法院在量刑时考虑惩罚犯罪人、减少犯罪（包括威慑）、改造犯罪人、保护公众、向被害人赔偿等目的，是并合主义的立法表达。
+    concepts: [punishment-justification]
+    works: [w-uk-cja-2003]
+    derivedFrom: [e-uk-hart-1959]
+
+  - id: e-cn-kuanyan-2010
+    year: 2010
+    jurisdiction: cn
+    type: legislation
+    title: 宽严相济刑事政策的司法意见
+    description: 最高人民法院发布贯彻宽严相济刑事政策的若干意见，要求根据犯罪的具体情况，该宽则宽、当严则严、宽严相济、罚当其罪。
+    concepts: [punishment-justification]
+    works: [w-cn-kuanyan-2010]
+    derivedFrom: [e-cn-1997]
+    needsSource: true
+
+positions:
+  # ---- 罪刑法定 ----
+  - theory: result-disvalue
+    question: q-formal-material
+    answer: material
+    derivation:
+      - 刑法的目的是保护法益。
+      - 构成要件应以法益侵害为指导进行解释，不值得处罚的行为在构成要件阶段即可排除 → 实质解释论。
+    alternatives:
+      - answer: formal
+        note: 也有学者在坚持结果无价值论的同时主张形式判断优先。
+    needsSource: true
+  - theory: result-disvalue
+    question: q-interp-goal
+    answer: objective
+    derivation:
+      - 解释应当适应社会变化与法益保护的需要，并以文义的可能范围为界限 → 客观解释论。
+    needsSource: true
+  - theory: classical-school
+    question: q-analogy
+    answer: forbid-all
+    derivation:
+      - 刑法是对国家刑罚权的限制，罪刑法定是古典学派的核心主张。
+      - 类推损害法的安定性 → 禁止。
+    needsSource: true
+  - theory: modern-school
+    question: q-analogy
+    answer: allow
+    derivation:
+      - 刑法的任务是社会防卫，罪刑法定的形式约束应当缓和。
+      - 为了有效对付危险的行为人，可以容许类推（牧野英一的自由法论倾向）。
+    note: 李斯特本人仍然坚持罪刑法定（「刑法典是犯罪人的大宪章」），以罪刑法定约束特别预防；主张缓和罪刑法定的是部分新派学者。
+    needsSource: true
+
+  # ---- 学派之争 ----
+  - theory: classical-school
+    question: q-free-will
+    answer: free-will
+    derivation:
+      - 人具有自由意志，能够选择是否犯罪。
+  - theory: modern-school
+    question: q-free-will
+    answer: determinism
+    derivation:
+      - 犯罪由行为人的素质与社会环境决定（实证主义）。
+  - theory: classical-school
+    question: q-punish-basis
+    answer: retribution
+    derivation:
+      - 刑罚是对自由意志所选择的不法行为的报应。
+    alternatives:
+      - answer: general-prevention
+        note: 前期古典学派（费尔巴哈）以心理强制说的一般预防为刑罚根据。
+  - theory: modern-school
+    question: q-punish-basis
+    answer: special-prevention
+    derivation:
+      - 刑罚针对行为人的危险性格。
+      - 目的在于改善、威吓或隔离 → 特别预防、社会防卫。
+  - theory: classical-school
+    question: q-attempt-basis
+    answer: objective
+    derivation:
+      - 刑法评价的是行为及其结果。
+      - 未遂的处罚以行为在客观上具有危险为前提 → 客观说。
+  - theory: modern-school
+    question: q-attempt-basis
+    answer: subjective
+    derivation:
+      - 刑法评价的是行为人的危险性格。
+      - 犯意一旦确定地表现于外部，危险性格就已经显现 → 主观说。
+  - theory: classical-school
+    question: q-danger-standard
+    answer: objective
+    derivation:
+      - 以客观上结果发生是否可能为准（绝对不能与相对不能的区分）。
+    needsSource: true
+  - theory: modern-school
+    question: q-danger-standard
+    answer: abstract
+    derivation:
+      - 以行为人所认识的事实为准，只要行为人的意思具有危险性即可；只排除迷信犯。
+  - theory: classical-school
+    question: q-empty-bed
+    answer: impossible
+    derivation:
+      - 对象在客观上不存在，属于绝对不能 → 不能犯。
+    needsSource: true
+  - theory: modern-school
+    question: q-empty-bed
+    answer: attempt
+    derivation:
+      - 行为人以杀人的意思开枪，危险性格已经显现 → 未遂。
+
+  # ---- 刑罚根据 ----
+  - theory: retributivism
+    question: q-desert-limit
+    answer: ground
+    derivation:
+      - 刑罚之所以正当，是因为犯罪人应得。
+      - 因此责任就是刑罚的根据，刑罚应与责任相均衡。
+  - theory: deterrence
+    question: q-desert-limit
+    answer: none
+    derivation:
+      - 刑罚的正当性完全在于预防效果。
+      - 纯粹的预防论本身推不出责任的界限，这是它受到的核心批判。
+  - theory: special-prevention
+    question: q-desert-limit
+    answer: none
+    derivation:
+      - 刑罚以行为人的危险性为尺度。
+    note: 李斯特以罪刑法定而非责任来约束特别预防。
+  - theory: union-theory
+    question: q-desert-limit
+    answer: upper-limit
+    derivation:
+      - 预防是刑罚的目的，责任是刑罚的前提与上限。
+      - 预防只能在责任的范围内发挥作用。
+  - theory: deterrence
+    question: q-positive-gp
+    answer: negative
+    derivation:
+      - 刑罚通过威吓使一般人放弃犯罪（心理强制）。
+  - theory: union-theory
+    question: q-positive-gp
+    answer: positive
+    derivation:
+      - 刑罚维护国民对法秩序的信赖，而这种信赖只有在刑罚与责任相称时才能实现。
+    alternatives:
+      - answer: negative
+        note: 也有并合主义者仍以威慑理解一般预防。
+  - theory: union-theory
+    question: q-sentencing-structure
+    answer: spielraum
+    derivation:
+      - 责任刑是一个幅度。
+      - 法官在幅度内考虑一般预防与特别预防的需要（德国判例）。
+    alternatives:
+      - answer: point
+        note: 点的理论认为责任刑是一个点，预防只能在其下方调整；中国大陆也有学者主张此说（待核）。
+    needsSource: true
+  - theory: retributivism
+    question: q-sentencing-structure
+    answer: point
+    derivation:
+      - 刑罚应当精确对应罪责。
+    needsSource: true
+
+dialogues:
+  - id: dlg-cn-formal-material
+    title: 形式解释论与实质解释论（陈兴良 × 张明楷）
+    concept: legality
+    jurisdictions: [cn]
+    summary: 罪刑法定之下，构成要件的解释应当形式判断优先，还是以实质的处罚必要性为导向？
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: chen-xingliang
+        work: w-chen-2010
+        year: 2010
+        claim: 形式判断应当先于实质判断：先以文义判断行为是否该当构成要件，才能守住罪刑法定的边界；以处罚必要性为导向的实质解释有入罪化的危险。
+      - id: t2
+        scholar: zhang-mingkai
+        work: w-zhang-2010
+        year: 2010
+        respondsTo: t1
+        claim: 构成要件本身就是违法类型，必须以法益为指导进行实质解释；实质解释同样可以出罪，且受文义可能范围的限制，并不违反罪刑法定。
+
+  - id: dlg-de-schulenstreit
+    title: 学派之争（李斯特 × 比克迈尔）
+    concept: criminal-law-schools
+    jurisdictions: [de]
+    summary: 刑罚针对行为还是行为人？以目的取代报应，会不会瓦解刑法的法治国界限？
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: liszt
+        work: w-liszt-1882
+        year: 1882
+        claim: 刑罚只有作为实现目的（法益保护）的手段才是正当的；应受处罚的不是行为而是行为人，刑罚应按行为人的类型分别改善、威吓或隔离。
+      - id: t2
+        scholar: birkmeyer
+        work: w-birkmeyer-1907
+        year: 1907
+        respondsTo: t1
+        claim: 以行为人的危险性为中心，会使刑罚失去与行为不法和责任的对应，刑法将沦为没有界限的社会防卫手段。
+
+  - id: dlg-punishment
+    title: 刑罚为什么正当（边沁 × 康德 × 哈特 × 冯·赫希）
+    concept: punishment-justification
+    jurisdictions: [uk-ew, de, us]
+    summary: 跨越两大法系的经典论争：预防、报应，以及两者的结合。
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: bentham
+        work: w-bentham-1789
+        year: 1789
+        claim: 一切刑罚本身都是恶；只有当它能排除更大的恶时，才能被允许。
+      - id: t2
+        scholar: kant
+        work: w-kant-1797
+        year: 1797
+        respondsTo: t1
+        claim: 人绝不能仅仅被当作手段；刑罚只能因为犯罪而科处，其尺度是同等报应。
+      - id: t3
+        scholar: hart
+        work: w-hart-1959
+        year: 1959
+        respondsTo: t2
+        claim: 两者回答的是不同的问题：刑罚制度的一般目的可以是预防，但刑罚的分配必须受「只惩罚有责任者」的原则约束。
+      - id: t4
+        scholar: von-hirsch
+        work: w-von-hirsch-1976
+        year: 1976
+        respondsTo: t3
+        claim: 矫正理想已经失败；刑罚的轻重应当与犯罪的严重性相称，这才是公正的量刑原则。
+
+spectra:
+  - id: sp-punishment
+    title: 刑罚的正当化根据：报应 ↔ 预防
+    concept: punishment-justification
+    description: 横轴表示刑罚的正当化更依赖回顾性的报应，还是前瞻性的预防。「法域」点表示该法域立法或司法政策的大致取向。
+    axes:
+      - id: x
+        label: 刑罚的正当化根据
+        left: 报应（回顾）
+        right: 预防（前瞻）
+    placements:
+      - entity: scholar:bentham
+        x: 0.95
+        year: 1789
+        rationale: 刑罚的正当性完全在于预防效果。
+      - entity: scholar:kant
+        x: 0.02
+        year: 1797
+        rationale: 刑罚只能因为犯罪而科处，不得作为手段。
+      - entity: scholar:feuerbach
+        x: 0.8
+        year: 1801
+        rationale: 心理强制说：以法律预告刑罚来实现一般预防。
+      - entity: scholar:hegel
+        x: 0.1
+        year: 1820
+        rationale: 刑罚是对犯罪（对法的否定）的否定，是犯罪人自身的权利。
+      - entity: scholar:liszt
+        x: 0.95
+        year: 1882
+        rationale: 目的刑论与特别预防。
+      - entity: scholar:birkmeyer
+        x: 0.12
+        year: 1907
+        rationale: 后期古典学派的报应刑论。
+        needsSource: true
+      - entity: scholar:hart
+        x: 0.6
+        year: 1959
+        rationale: 一般正当化目的是预防，分配受报应原则约束。
+      - entity: scholar:roxin
+        x: 0.65
+        year: 1966
+        rationale: 辩证的综合理论：以预防为目的，责任为上限。
+      - entity: scholar:von-hirsch
+        x: 0.15
+        year: 1976
+        rationale: 应得模式：刑罚与犯罪的严重性相称。
+      - entity: scholar:jakobs
+        x: 0.55
+        year: 1983
+        rationale: 积极一般预防：刑罚维护规范的效力；在结构上与黑格尔的报应论相近。
+        needsSource: true
+      - entity: scholar:moore
+        x: 0.05
+        year: 1997
+        rationale: 当代报应主义：应得本身就是刑罚的充分理由。
+      - entity: jurisdiction:us
+        x: 0.85
+        year: 1960
+        rationale: 矫正理想与不定期刑占主导。
+        needsSource: true
+      - entity: jurisdiction:us
+        x: 0.35
+        year: 1987
+        rationale: 量刑改革法与联邦量刑指南：转向以应得为基础。
+        needsSource: true
+      - entity: jurisdiction:uk-ew
+        x: 0.5
+        year: 2003
+        rationale: 2003 年刑事司法法并列多种量刑目的。
+      - entity: jurisdiction:cn
+        x: 0.5
+        year: 2010
+        rationale: 宽严相济：罚当其罪与区别对待并重。
+        needsSource: true
+
+  - id: sp-school
+    title: 刑法评价的重心：客观主义 ↔ 主观主义
+    concept: criminal-law-schools
+    description: 横轴表示刑法评价更重视行为及其结果（客观主义），还是行为人的危险性格（主观主义）。这条轴对理解日本与中国大陆的「客观主义」话语尤其重要。
+    axes:
+      - id: x
+        label: 刑法评价的重心
+        left: 客观主义（行为）
+        right: 主观主义（行为人）
+    placements:
+      - entity: scholar:feuerbach
+        x: 0.1
+        year: 1801
+        rationale: 前期古典学派：罪刑法定与客观的未遂论。
+      - entity: scholar:binding
+        x: 0.15
+        year: 1872
+        rationale: 后期古典学派：规范论与报应。
+      - entity: scholar:liszt
+        x: 0.85
+        year: 1882
+        rationale: 「应受处罚的是行为人」。
+      - entity: scholar:beling
+        x: 0.12
+        year: 1906
+        rationale: 客观、价值中立的构成要件论。
+      - entity: scholar:birkmeyer
+        x: 0.1
+        year: 1907
+        rationale: 后期古典学派对近代学派的批判。
+        needsSource: true
+      - entity: scholar:makino
+        x: 0.95
+        year: 1909
+        rationale: 日本主观主义刑法学的代表。
+        needsSource: true
+      - entity: scholar:takigawa
+        x: 0.15
+        year: 1933
+        rationale: 自由主义的客观主义刑法学。
+      - entity: scholar:ono-seiichiro
+        x: 0.3
+        year: 1953
+        rationale: 道义的客观主义：以行为为中心，但违法与责任都带有伦理色彩。
+      - entity: scholar:dando
+        x: 0.45
+        year: 1957
+        rationale: 人格责任论：以行为为基础，兼顾行为人的人格形成。
+        needsSource: true
+      - entity: scholar:hirano
+        x: 0.15
+        year: 1972
+        rationale: 以法益侵害为中心的客观主义。
+      - entity: scholar:zhang-mingkai
+        x: 0.1
+        year: 2002
+        rationale: 明确以客观主义为刑法的基本立场。
+      - entity: jurisdiction:jp
+        x: 0.65
+        year: 1910
+        rationale: 新派在明治末至大正时期影响很大，现行刑法也带有新派色彩。
+        needsSource: true
+      - entity: jurisdiction:jp
+        x: 0.25
+        year: 1955
+        rationale: 战后客观主义成为通说。
+        needsSource: true

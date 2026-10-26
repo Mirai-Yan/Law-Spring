@@ -1,0 +1,54 @@
+# 刑法基础论：张明楷《刑法学》（第七版）中的论述
+bookViews:
+  - id: zmk7-legality-basis
+    work: zmk-xingfaxue-7
+    question: q-legality-basis
+    pages: "61-64"
+    answer: both
+    summary: >-
+      作者认为罪刑法定原则的思想基础是民主主义与尊重人权主义，我国宪法的相关规定明确肯定了这两个基础；此外，一般预防与责任主义也能为罪刑法定提供思想基础。
+    reasons:
+      - 民主主义要求由国民选出的代表通过法律决定什么是犯罪、如何处罚。
+      - 尊重人权主义要求国民能够预测自己行为的后果，避免行为萎缩。
+
+  - id: zmk7-analogy
+    work: zmk-xingfaxue-7
+    question: q-analogy
+    pages: "69-70"
+    answer: allow-favorable
+    summary: >-
+      作者认为禁止类推解释是罪刑法定原则形式侧面的要求，但应当允许有利于被告人的类推解释，以克服形式侧面的缺陷、实现刑法的公平正义。
+    reasons:
+      - 刑法中存在一些有利于被告人的规定，若严格禁止一切类推，会出现处罚不公平的现象。
+      - 禁止类推可以由民主主义、预测可能性或责任主义说明，而有利于被告人的类推并不违反这些根据。
+
+  - id: zmk7-interp-goal
+    work: zmk-xingfaxue-7
+    question: q-interp-goal
+    pages: "45-47"
+    answer: objective
+    summary: >-
+      作者不赞成主观解释论：立法者的原意不是主要的解释理由；刑法解释应探求法律文本在当下的客观含义，以保护法益为指导，
+      体系解释、历史解释、比较解释等解释理由都不具有决定性。
+
+  - id: zmk7-rechtsgut-critical
+    work: zmk-xingfaxue-7
+    question: q-rechtsgut-critical
+    pages: "87-96"
+    answer: critical
+    summary: >-
+      作者同时承认实质的法益概念与形式的法益概念：实质的法益概念侧重立法批判，限制国家把单纯违反伦理、感情的行为规定为犯罪；
+      形式的（方法论的）法益概念则用于刑法教义学的解释。法益必须与利益相关联，并以宪法的基本原则为根据。
+    reasons:
+      - 国家法益与社会法益都必须能够还原为个人法益；集体法益应限定在累积犯所侵犯的超个人法益。
+    editorNote: 作者也承认形式的法益概念，并非只讲批判机能；这里归入「能批判立法」一端，是因为他明确保留了实质法益概念的立法批判机能。
+
+  - id: zmk7-unity
+    work: zmk-xingfaxue-7
+    question: q-unity
+    pages: "167-169"
+    answer: null
+    summary: >-
+      作者难以赞成严格的违法一元论（把违法理解为对整个法秩序的违反，内容过于抽象）；民法、行政法上禁止的行为不符合构成要件时，
+      不进入刑法的视野，但这不表示它在刑法上合法；在民法上要承担责任的行为，在刑法上也可能阻却违法，因为刑法上阻却的只是刑法上的违法。
+    editorNote: 作者没有给自己的立场贴上「缓和的一元论」或「违法相对论」的标签，所以这里不作归类。

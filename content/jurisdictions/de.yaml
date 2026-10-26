@@ -1,0 +1,648 @@
+# 德国：学者、文献、演化事件
+# 起草：AI（Claude）。年份、卷期、师承关系均需逐条核实；没有把握的条目已标 needsSource。
+
+scholars:
+  - id: feuerbach
+    name: 费尔巴哈
+    nameOriginal: Paul Johann Anselm von Feuerbach
+    jurisdiction: de
+    born: 1775
+    died: 1833
+    bio: 近代刑法学之父，心理强制说与罪刑法定原则的提出者；主张未遂的处罚以行为在客观上的危险为前提。
+  - id: hegel
+    name: 黑格尔
+    nameOriginal: Georg Wilhelm Friedrich Hegel
+    jurisdiction: de
+    born: 1770
+    died: 1831
+    bio: 哲学家。《法哲学原理》区分无犯意的不法、诈欺与犯罪，常被视为不法论的思想前史。
+  - id: birnbaum
+    name: 比恩鲍姆
+    nameOriginal: Johann Michael Franz Birnbaum
+    jurisdiction: de
+    born: 1792
+    died: 1877
+    bio: 1834 年提出犯罪的本质是对「财」（Gut）的侵害而非对权利的侵害，被视为法益概念的源头。
+    needsSource: true
+  - id: jhering
+    name: 耶林
+    nameOriginal: Rudolf von Jhering
+    jurisdiction: de
+    born: 1818
+    died: 1892
+    bio: 民法学者。1867 年区分「客观的不法」与「主观的责任」，被视为客观违法论的源头。
+  - id: merkel-adolf
+    name: 阿道夫·默克尔
+    nameOriginal: Adolf Merkel
+    jurisdiction: de
+    born: 1836
+    died: 1896
+    bio: 主观违法论（命令说）的代表：法是命令，只有能够理解命令的人才能违反它。
+    needsSource: true
+  - id: binding
+    name: 宾丁
+    nameOriginal: Karl Binding
+    jurisdiction: de
+    born: 1841
+    died: 1920
+    bio: 规范论（Normentheorie）的奠基者：犯罪人违反的不是刑法条文，而是条文背后的行为规范。也是「法益」这一术语的推广者。
+  - id: liszt
+    name: 李斯特
+    nameOriginal: Franz von Liszt
+    jurisdiction: de
+    born: 1851
+    died: 1919
+    bio: 现代学派代表。区分形式违法与实质违法，把实质违法理解为对法益（法所保护的利益）的侵害。
+  - id: beling
+    name: 贝林
+    nameOriginal: Ernst von Beling
+    jurisdiction: de
+    born: 1866
+    died: 1932
+    bio: 1906 年《犯罪论》确立构成要件理论：构成要件是客观的、记述的、价值中立的。
+  - id: mayer-me
+    name: 迈耶
+    nameOriginal: Max Ernst Mayer
+    jurisdiction: de
+    born: 1875
+    died: 1923
+    bio: 文化规范论的提出者；主观违法要素的发现者之一。
+  - id: hegler
+    name: 黑格勒
+    nameOriginal: August Hegler
+    jurisdiction: de
+    bio: 1915 年《犯罪的要素》较早系统地提出主观的违法要素。
+    needsSource: true
+  - id: mezger
+    name: 梅茨格
+    nameOriginal: Edmund Mezger
+    jurisdiction: de
+    born: 1883
+    died: 1962
+    bio: 新古典犯罪论体系的代表；以评价规范与决定规范的区分说明客观违法论，并系统化了主观违法要素。
+  - id: engisch
+    name: 恩吉施
+    nameOriginal: Karl Engisch
+    jurisdiction: de
+    born: 1899
+    died: 1990
+    bio: 1930 年的故意与过失研究提出「外在的注意」，为过失犯的客观注意义务理论奠定了基础。
+  - id: welzel
+    name: 韦尔策尔
+    nameOriginal: Hans Welzel
+    jurisdiction: de
+    born: 1904
+    died: 1977
+    affiliations: [哥廷根大学, 波恩大学]
+    bio: 目的行为论与人的不法论的创立者。主张故意是行为的核心、属于不法；提出社会相当性理论。
+  - id: henkel
+    name: 亨克尔
+    nameOriginal: Heinrich Henkel
+    jurisdiction: de
+    born: 1903
+    died: 1981
+    bio: 刑法与法哲学学者，Roxin 的老师。
+    needsSource: true
+  - id: gallas
+    name: 加拉斯
+    nameOriginal: Wilhelm Gallas
+    jurisdiction: de
+    born: 1903
+    died: 1989
+    bio: 二元的人的不法论的代表之一，批判一元论。
+  - id: armin-kaufmann
+    name: 阿明·考夫曼
+    nameOriginal: Armin Kaufmann
+    jurisdiction: de
+    born: 1922
+    died: 1985
+    teachers: [welzel]
+    bio: 目的行为论学派的核心人物，以规范论为基础发展出一元的人的不法论。
+    needsSource: true
+  - id: hirsch
+    name: 希尔施
+    nameOriginal: Hans Joachim Hirsch
+    jurisdiction: de
+    born: 1929
+    died: 2011
+    teachers: [welzel]
+    bio: 目的行为论学派的代表学者之一。
+    needsSource: true
+  - id: zielinski
+    name: 齐林斯基
+    nameOriginal: Diethart Zielinski
+    jurisdiction: de
+    teachers: [armin-kaufmann]
+    bio: 1973 年《不法概念中的行为无价值与结果无价值》系统提出一元的人的不法论：结果只是客观处罚条件。
+    needsSource: true
+  - id: jescheck
+    name: 耶塞克
+    nameOriginal: Hans-Heinrich Jescheck
+    jurisdiction: de
+    born: 1915
+    died: 2009
+    bio: 马普外国与国际刑法研究所所长；其总论教科书是二元论通说的代表性表述。
+  - id: roxin
+    name: 罗克辛
+    nameOriginal: Claus Roxin
+    jurisdiction: de
+    born: 1931
+    teachers: [henkel]
+    bio: 目的理性（功能性）刑法体系的创立者；强调刑法的任务是辅助性的法益保护，主张批判立法的法益概念。
+    needsSource: true
+    editorNote: 师承关系待核。
+  - id: jakobs
+    name: 雅科布斯
+    nameOriginal: Günther Jakobs
+    jurisdiction: de
+    born: 1937
+    teachers: [welzel]
+    bio: 功能主义规范论：刑法保护的是规范的效力，犯罪是对规范效力的否认。
+    needsSource: true
+  - id: luederssen
+    name: 吕德森
+    nameOriginal: Klaus Lüderssen
+    jurisdiction: de
+    born: 1932
+    died: 2016
+    bio: 1967 年《共犯的处罚根据》提出纯粹惹起说。
+    needsSource: true
+
+works:
+  - id: w-feuerbach-1801
+    title: Lehrbuch des gemeinen in Deutschland gültigen peinlichen Rechts
+    titleZh: 德国普通刑法教科书
+    authors: [feuerbach]
+    year: 1801
+    type: textbook
+    jurisdiction: de
+  - id: w-hegel-1820
+    title: Grundlinien der Philosophie des Rechts
+    titleZh: 法哲学原理
+    authors: [hegel]
+    year: 1820
+    type: monograph
+    jurisdiction: de
+    editorNote: 初版扉页印 1821 年，实际于 1820 年出版。
+  - id: w-birnbaum-1834
+    title: Über das Erforderniß einer Rechtsverletzung zum Begriffe des Verbrechens
+    titleZh: 论犯罪概念中权利侵害的必要性
+    authors: [birnbaum]
+    year: 1834
+    type: article
+    jurisdiction: de
+    venue: Archiv des Criminalrechts
+    needsSource: true
+  - id: w-jhering-1867
+    title: Das Schuldmoment im römischen Privatrecht
+    titleZh: 罗马私法中的责任要素
+    authors: [jhering]
+    year: 1867
+    type: monograph
+    jurisdiction: de
+  - id: w-merkel-1867
+    title: Kriminalistische Abhandlungen I
+    titleZh: 刑法论文集（第一卷）
+    authors: [merkel-adolf]
+    year: 1867
+    type: monograph
+    jurisdiction: de
+    needsSource: true
+  - id: w-binding-1872
+    title: Die Normen und ihre Übertretung, Bd. 1
+    titleZh: 规范及其违反（第一卷）
+    authors: [binding]
+    year: 1872
+    type: monograph
+    jurisdiction: de
+  - id: w-liszt-1881
+    title: Das deutsche Reichsstrafrecht
+    titleZh: 德意志帝国刑法（后改名为《德国刑法教科书》）
+    authors: [liszt]
+    year: 1881
+    type: textbook
+    jurisdiction: de
+  - id: w-beling-1906
+    title: Die Lehre vom Verbrechen
+    titleZh: 犯罪论
+    authors: [beling]
+    year: 1906
+    type: monograph
+    jurisdiction: de
+  - id: w-hegler-1915
+    title: Die Merkmale des Verbrechens
+    titleZh: 犯罪的要素
+    authors: [hegler]
+    year: 1915
+    type: article
+    jurisdiction: de
+    venue: ZStW 36
+    needsSource: true
+  - id: w-mayer-1915
+    title: Der allgemeine Teil des deutschen Strafrechts
+    titleZh: 德国刑法总论
+    authors: [mayer-me]
+    year: 1915
+    type: textbook
+    jurisdiction: de
+  - id: w-mezger-1924
+    title: Die subjektiven Unrechtselemente
+    titleZh: 主观的违法要素
+    authors: [mezger]
+    year: 1924
+    type: article
+    jurisdiction: de
+    venue: Der Gerichtssaal 89
+    needsSource: true
+  - id: w-rgst-61-242
+    title: RGSt 61, 242
+    titleZh: 帝国法院 1927 年超法规紧急避险判决
+    authorText: 帝国法院（Reichsgericht）
+    year: 1927
+    type: case
+    jurisdiction: de
+  - id: w-engisch-1930
+    title: Untersuchungen über Vorsatz und Fahrlässigkeit im Strafrecht
+    titleZh: 刑法中故意与过失的研究
+    authors: [engisch]
+    year: 1930
+    type: monograph
+    jurisdiction: de
+  - id: w-welzel-1939
+    title: Studien zum System des Strafrechts
+    titleZh: 刑法体系研究
+    authors: [welzel]
+    year: 1939
+    type: article
+    jurisdiction: de
+    venue: ZStW 58
+  - id: w-mezger-1950
+    title: Moderne Wege der Strafrechtsdogmatik
+    titleZh: 刑法教义学的现代道路
+    authors: [mezger]
+    year: 1950
+    type: monograph
+    jurisdiction: de
+    needsSource: true
+  - id: w-bghst-2-194
+    title: BGHSt 2, 194
+    titleZh: 联邦最高法院大刑事审判庭 1952 年关于违法性认识的裁定
+    authorText: 联邦最高法院（Bundesgerichtshof）
+    year: 1952
+    type: case
+    jurisdiction: de
+  - id: w-kaufmann-1954
+    title: Lebendiges und Totes in Bindings Normentheorie
+    titleZh: 宾丁规范论中的生与死
+    authors: [armin-kaufmann]
+    year: 1954
+    type: monograph
+    jurisdiction: de
+  - id: w-luederssen-1967
+    title: Zum Strafgrund der Teilnahme
+    titleZh: 论共犯的处罚根据
+    authors: [luederssen]
+    year: 1967
+    type: monograph
+    jurisdiction: de
+  - id: w-jescheck-1969
+    title: Lehrbuch des Strafrechts, Allgemeiner Teil
+    titleZh: 德国刑法教科书（总论）
+    authors: [jescheck]
+    year: 1969
+    type: textbook
+    jurisdiction: de
+  - id: w-roxin-1970
+    title: Kriminalpolitik und Strafrechtssystem
+    titleZh: 刑事政策与刑法体系
+    authors: [roxin]
+    year: 1970
+    type: monograph
+    jurisdiction: de
+  - id: w-zielinski-1973
+    title: Handlungs- und Erfolgsunwert im Unrechtsbegriff
+    titleZh: 不法概念中的行为无价值与结果无价值
+    authors: [zielinski]
+    year: 1973
+    type: monograph
+    jurisdiction: de
+  - id: w-stgb-1975
+    title: Strafgesetzbuch, Allgemeiner Teil (Neufassung, in Kraft 1975)
+    titleZh: 德国刑法典总则（1975 年施行的新总则）
+    authorText: 联邦立法者
+    year: 1975
+    type: statute
+    jurisdiction: de
+  - id: w-gallas-1979
+    title: Zur Struktur des strafrechtlichen Unrechtsbegriffs
+    titleZh: 论刑法不法概念的结构
+    authors: [gallas]
+    year: 1979
+    type: article
+    jurisdiction: de
+    venue: Festschrift für Paul Bockelmann
+    needsSource: true
+  - id: w-jakobs-1983
+    title: Strafrecht, Allgemeiner Teil
+    titleZh: 刑法总论
+    authors: [jakobs]
+    year: 1983
+    type: textbook
+    jurisdiction: de
+
+events:
+  - id: e-de-feuerbach-1801
+    year: 1801
+    jurisdiction: de
+    type: origin
+    originOf: impossible-attempt
+    originType: problem
+    title: 费尔巴哈：未遂须以客观危险为前提
+    description: 费尔巴哈主张，只有在客观上指向犯罪结果、具有危险的行为才能作为未遂处罚。这是客观未遂论的起点，「不能犯」由此成为问题。
+    concepts: [impossible-attempt]
+    scholars: [feuerbach]
+    works: [w-feuerbach-1801]
+    needsSource: true
+
+  - id: e-de-hegel-1820
+    year: 1820
+    jurisdiction: de
+    type: prehistory
+    title: 黑格尔区分三种不法
+    description: 《法哲学原理》区分无犯意的不法、诈欺与犯罪。后来的客观违法论与主观违法论之争，都可以在这里找到思想资源。黑格尔也把刑罚理解为对犯罪（对法的否定）的否定，这是报应论的经典形态之一。
+    concepts: [wrongfulness-essence, punishment-justification]
+    scholars: [hegel]
+    works: [w-hegel-1820]
+
+  - id: e-de-birnbaum-1834
+    year: 1834
+    jurisdiction: de
+    type: origin
+    originOf: rechtsgut
+    originType: problem
+    title: 比恩鲍姆：犯罪是对「财」的侵害
+    description: 比恩鲍姆反对把犯罪理解为对权利的侵害，主张犯罪侵害的是国家应当保障的「财」（Gut）。「法益」（Rechtsgut）这一术语后来由宾丁推广。
+    concepts: [rechtsgut]
+    scholars: [birnbaum]
+    works: [w-birnbaum-1834]
+    needsSource: true
+
+  - id: e-de-jhering-1867
+    year: 1867
+    jurisdiction: de
+    type: origin
+    originOf: wrongfulness-essence
+    originType: term
+    title: 耶林区分客观不法与主观责任
+    description: 耶林在罗马私法研究中指出，即使没有过错（Schuld），也可能存在「客观的不法」（例如善意占有他人之物）。违法与责任由此被区分开来，这是客观违法论与此后一切不法论的起点。
+    concepts: [wrongfulness-essence]
+    scholars: [jhering]
+    works: [w-jhering-1867]
+    derivedFrom: [e-de-hegel-1820]
+
+  - id: e-de-merkel-1867
+    year: 1867
+    jurisdiction: de
+    type: critique
+    title: 默克尔：主观违法论（命令说）
+    description: 默克尔认为法是命令，只有能够理解命令的人才能违反它，因此无责任能力者的行为不可能违法。这是对客观不法概念的直接反对。
+    concepts: [wrongfulness-essence]
+    scholars: [merkel-adolf]
+    works: [w-merkel-1867]
+    derivedFrom: [e-de-jhering-1867]
+    needsSource: true
+
+  - id: e-de-binding-1872
+    year: 1872
+    jurisdiction: de
+    type: development
+    title: 宾丁的规范论
+    description: 犯罪人违反的不是刑法条文，而是条文背后的行为规范（例如「不得杀人」）。规范与刑罚法规的区分，是后来行为无价值论的重要资源。
+    concepts: [wrongfulness-essence, rechtsgut]
+    scholars: [binding]
+    works: [w-binding-1872]
+    derivedFrom: [e-de-jhering-1867, e-de-birnbaum-1834]
+
+  - id: e-de-liszt-1881
+    year: 1881
+    jurisdiction: de
+    type: origin
+    originType: term
+    originOf: action-theory
+    title: 李斯特：形式违法与实质违法
+    description: 形式违法是对国家法规范的违反，实质违法是对法益（法所保护的利益）的侵害或危险。以法益侵害理解违法的实质，是结果无价值论最重要的源头之一。李斯特同时把行为理解为「有意志的身体动静」，即因果行为论。
+    concepts: [wrongfulness-essence, rechtsgut, action-theory]
+    scholars: [liszt]
+    works: [w-liszt-1881]
+    derivedFrom: [e-de-jhering-1867, e-de-birnbaum-1834]
+
+  - id: e-de-beling-1906
+    year: 1906
+    jurisdiction: de
+    type: origin
+    originType: term
+    originOf: crime-system
+    title: 贝林：客观的、价值中立的构成要件
+    description: 构成要件只包含客观、记述的要素；主观要素一律属于责任。古典犯罪论体系由此成形，即「违法是客观的，责任是主观的」。
+    concepts: [wrongfulness-essence, crime-system]
+    scholars: [beling]
+    works: [w-beling-1906]
+    derivedFrom: [e-de-liszt-1881]
+
+  - id: e-de-subj-unrecht-1915
+    year: 1915
+    jurisdiction: de
+    type: origin
+    originOf: subjective-unrecht
+    originType: problem
+    title: 主观的违法要素被发现
+    description: 黑格勒与 M. E. 迈耶指出，某些犯罪（如目的犯）中，不考虑行为人的内心就无法判断行为是否违法。「违法是客观的」这一古典公式第一次被动摇。
+    concepts: [subjective-unrecht, wrongfulness-essence]
+    scholars: [hegler, mayer-me]
+    works: [w-hegler-1915, w-mayer-1915]
+    derivedFrom: [e-de-beling-1906]
+    needsSource: true
+    editorNote: 民法学者 H. A. Fischer 1911 年的研究可能更早，首提者待核。
+
+  - id: e-de-mezger-1924
+    year: 1924
+    jurisdiction: de
+    type: development
+    title: 梅茨格系统化主观违法要素
+    description: 梅茨格把主观违法要素整理为目的犯、倾向犯、表现犯等类型，同时以「评价规范先于决定规范」维持客观违法论的基本立场。新古典体系由此成形。
+    concepts: [subjective-unrecht, wrongfulness-essence]
+    scholars: [mezger]
+    works: [w-mezger-1924]
+    derivedFrom: [e-de-subj-unrecht-1915]
+    needsSource: true
+
+  - id: e-de-rg-1927
+    year: 1927
+    jurisdiction: de
+    type: origin
+    originOf: justification-principle
+    originType: case
+    title: 帝国法院承认超法规的紧急避险
+    description: 帝国法院以利益衡量（财益衡量）原理，承认为了挽救孕妇生命而实施的堕胎可以阻却违法。正当化事由由此不再限于法定事由，「正当化的一般原理」成为独立问题。
+    concepts: [justification-principle, necessity]
+    works: [w-rgst-61-242]
+    derivedFrom: [e-de-liszt-1881]
+
+  - id: e-de-subj-justification
+    year: 1930
+    circa: true
+    jurisdiction: de
+    type: origin
+    originOf: accidental-defense
+    originType: problem
+    title: 主观正当化要素之争使「偶然防卫」成为问题
+    description: 主观违法要素被承认之后，学者开始追问：正当化是否同样需要主观要素？客观上存在防卫情状、行为人却毫不知情的「偶然防卫」由此成为独立问题。
+    concepts: [accidental-defense]
+    derivedFrom: [e-de-mezger-1924]
+    needsSource: true
+    editorNote: 首位提出者与确切年份待考，年份为编者估计。
+
+  - id: e-de-engisch-1930
+    year: 1930
+    jurisdiction: de
+    type: origin
+    originOf: negligence-structure
+    originType: problem
+    title: 恩吉施提出「外在的注意」
+    description: 恩吉施区分「内在的注意」与「外在的注意」，指出过失不仅是心理上的不注意，也包括没有采取客观上必要的谨慎行为。过失犯的不法构造之争由此开始。
+    concepts: [negligence-structure]
+    scholars: [engisch]
+    works: [w-engisch-1930]
+    needsSource: true
+
+  - id: e-de-welzel-1939
+    year: 1939
+    jurisdiction: de
+    type: turn
+    title: 韦尔策尔：目的行为论与人的不法论
+    description: 行为是目的性的活动，故意是行为的核心，因而属于不法而非责任。不法是「人的」不法，即行为人的行为无价值，而不只是与行为人分离的结果惹起。韦尔策尔同时提出社会相当性理论，并影响了过失犯不法的理解。目的行为论同时重塑了犯罪论体系：故意移入构成要件，责任只剩下非难可能性（纯粹的规范责任论）；韦尔策尔还以「目的的行为支配」区分正犯与共犯。
+    concepts: [wrongfulness-essence, subjective-unrecht, justification-principle, negligence-structure, crime-system, action-theory, culpability-essence, perpetration]
+    scholars: [welzel]
+    works: [w-welzel-1939]
+    derivedFrom: [e-de-mezger-1924, e-de-binding-1872]
+
+  - id: e-de-mezger-1950
+    year: 1950
+    jurisdiction: de
+    type: critique
+    title: 梅茨格批判目的行为论
+    description: 梅茨格认为目的行为论难以说明过失犯与不作为犯，坚持新古典体系的基本构造。
+    concepts: [wrongfulness-essence]
+    scholars: [mezger]
+    works: [w-mezger-1950]
+    derivedFrom: [e-de-welzel-1939]
+    needsSource: true
+
+  - id: e-de-bghst-1952
+    year: 1952
+    jurisdiction: de
+    type: origin
+    originOf: putative-defense
+    originType: case
+    title: 联邦最高法院采责任说
+    description: 联邦最高法院大刑事审判庭认为，违法性认识不是故意的要素，而是独立的责任要素（责任说）。故意与违法性认识分离之后，对正当化前提事实的误认（假想防卫）应作为哪一种错误处理，成为严格责任说与限制责任说之争的焦点。
+    concepts: [putative-defense, mistake-of-law]
+    works: [w-bghst-2-194]
+    derivedFrom: [e-de-welzel-1939]
+    editorNote: 把本判决作为假想防卫问题的「奇点」是编者的判断：假想防卫的现象早已被讨论，但其现代问题结构由责任说确立。
+
+  - id: e-de-kaufmann-1954
+    year: 1954
+    jurisdiction: de
+    type: development
+    title: 阿明·考夫曼重构规范论
+    description: 规范只能命令或禁止人的意思活动，不能命令结果的发生。这为一元的人的不法论提供了规范论基础。
+    concepts: [wrongfulness-essence]
+    scholars: [armin-kaufmann]
+    works: [w-kaufmann-1954]
+    derivedFrom: [e-de-welzel-1939, e-de-binding-1872]
+
+  - id: e-de-luederssen-1967
+    year: 1967
+    jurisdiction: de
+    type: origin
+    originOf: complicity-basis
+    originType: term
+    title: 「共犯的处罚根据」成为专题
+    description: 吕德森的专著以「共犯的处罚根据」为题，提出共犯的不法独立于正犯的纯粹惹起说。此后，责任共犯论、违法共犯论与因果共犯论的对立被系统整理。
+    concepts: [complicity-basis]
+    scholars: [luederssen]
+    works: [w-luederssen-1967]
+    needsSource: true
+    editorNote: 此前已有责任共犯论（使正犯堕落说）等见解，更早的源头待考。
+
+  - id: e-de-jescheck-1969
+    year: 1969
+    jurisdiction: de
+    type: development
+    title: 二元论成为教科书通说
+    description: 耶塞克的总论教科书以「行为无价值 + 结果无价值」说明不法，并在偶然防卫中采未遂类推，代表了二元论在德国的通说地位。行为论上采社会行为论。
+    concepts: [wrongfulness-essence, accidental-defense, action-theory]
+    scholars: [jescheck]
+    works: [w-jescheck-1969]
+    derivedFrom: [e-de-welzel-1939, e-de-subj-justification]
+    needsSource: true
+
+  - id: e-de-roxin-1970
+    year: 1970
+    jurisdiction: de
+    type: turn
+    title: 罗克辛：目的理性的刑法体系
+    description: 以刑事政策目的引导教义学体系；不法论上采二元构造，同时强调刑法的任务是辅助性的法益保护。
+    concepts: [wrongfulness-essence, rechtsgut, crime-system]
+    scholars: [roxin]
+    works: [w-roxin-1970]
+    derivedFrom: [e-de-welzel-1939, e-de-liszt-1881]
+
+  - id: e-de-zielinski-1973
+    year: 1973
+    jurisdiction: de
+    type: development
+    title: 一元的人的不法论
+    description: 齐林斯基主张结果的发生取决于偶然，对不法毫无贡献，只是客观处罚条件。行为无价值一元论由此得到最彻底的表述。
+    concepts: [wrongfulness-essence]
+    scholars: [zielinski]
+    works: [w-zielinski-1973]
+    derivedFrom: [e-de-kaufmann-1954]
+
+  - id: e-de-stgb-1975
+    year: 1975
+    jurisdiction: de
+    type: legislation
+    title: 新刑法总则施行（1975 年）
+    description: >-
+      第二次刑法改革法确定的新总则于 1975 年施行，把战后学说的成果写进法典：
+      不真正不作为犯与保证人地位（第 13 条）、禁止错误（第 17 条，采责任说）、责任能力的混合方法（第 20、21 条）、
+      以「直接着手」界定未遂（第 22 条）、重大无知的未遂可以免除或减轻刑罚（第 23 条第 3 款）、中止（第 24 条）、
+      正犯的类型（第 25 条）、阻却违法的紧急避险与阻却责任的紧急避险的二分（第 34、35 条）。
+    concepts: [impossible-attempt, omission, mistake-of-law, insanity, commencement, withdrawal, perpetration, necessity]
+    works: [w-stgb-1975]
+    derivedFrom: [e-de-feuerbach-1801]
+
+  - id: e-de-gallas-1979
+    year: 1979
+    jurisdiction: de
+    type: critique
+    title: 二元论对一元论的批判
+    description: 加拉斯等人指出，刑法以保护法益为目的，结果无价值是不法的独立组成部分；一元论无法说明既遂与未遂在法定刑上的差别。
+    concepts: [wrongfulness-essence]
+    scholars: [gallas]
+    works: [w-gallas-1979]
+    derivedFrom: [e-de-zielinski-1973]
+    needsSource: true
+
+  - id: e-de-jakobs-1983
+    year: 1983
+    jurisdiction: de
+    type: development
+    title: 雅科布斯：规范效力的保护
+    description: 刑法保护的是规范的效力；犯罪是对规范效力的否认，刑罚是对这种否认的再否认。这是对「刑法的任务」之争的功能主义回答。这也是积极一般预防论的代表性表述。
+    concepts: [rechtsgut, wrongfulness-essence, punishment-justification]
+    scholars: [jakobs]
+    works: [w-jakobs-1983]
+    derivedFrom: [e-de-welzel-1939]

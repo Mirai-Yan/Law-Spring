@@ -1,0 +1,1198 @@
+# 责任：责任的本质、违法性认识、原因自由行为、责任能力、严格责任与责任主义
+# 起草：AI（Claude）。全部为 draft；日本判例与台湾地区 2005 年修法的条文表述尤需核实。
+
+concepts:
+  - id: culpability-essence
+    name: 责任的本质
+    original:
+      de: Schuldbegriff（psychologisch / normativ / funktional）
+      ja: 責任の本質
+      en: culpability / blameworthiness
+    kind: foundation
+    area: schuld
+    tradition: both
+    summary: >-
+      责任的根据是道义上的非难，还是社会防卫的需要？责任的结构是心理事实（故意、过失），是规范的非难可能性，还是由预防需要决定？
+      从癖马案与弗兰克的规范责任论，到目的行为论的纯粹规范责任论，再到罗克辛的答责性与雅科布斯的功能责任论。期待可能性是这一专题的核心概念。
+
+  - id: mistake-of-law
+    name: 违法性认识（法律认识错误）
+    original:
+      de: Verbotsirrtum / Unrechtsbewusstsein
+      ja: 違法性の意識
+      en: ignorance / mistake of law
+    kind: problem
+    area: schuld
+    tradition: both
+    summary: >-
+      行为人不知道自己的行为违法，是否影响责任？违法性认识是故意的要素（故意说），还是独立的责任要素（责任说）？
+      「不知法不免责」的古老法谚在大陆法上被责任说修正，在英美法上则通过正当程序与信赖官方意见的抗辩被有限地松动。
+
+  - id: alic
+    name: 原因自由行为
+    original:
+      de: actio libera in causa
+      ja: 原因において自由な行為
+      en: prior fault / voluntary intoxication
+    kind: problem
+    area: schuld
+    tradition: both
+    summary: >-
+      行为人故意或过失地使自己陷入无责任能力状态，并在该状态下实施犯罪（典型是醉酒）。按照「行为与责任同时存在」的原则本应无罪，
+      原因自由行为理论试图说明为什么仍然可以处罚：把原因行为视为实行行为（构成要件模式），还是承认同时存在原则的例外（例外模式）。
+
+  - id: insanity
+    name: 责任能力（精神障碍）
+    original:
+      de: Schuldfähigkeit（§ 20 StGB）
+      ja: 責任能力（心神喪失・心神耗弱）
+      en: insanity defence
+    kind: problem
+    area: schuld
+    tradition: both
+    summary: >-
+      精神障碍在什么条件下排除或减轻刑事责任：生物学方法、心理学方法，还是混合方法？
+      英美法从 M'Naghten 规则出发，在认知标准、意志标准（不可抗拒的冲动）与「产物」标准之间反复摇摆。
+
+  - id: strict-liability
+    name: 严格责任与责任主义
+    original:
+      de: Schuldprinzip
+      ja: 責任主義
+      en: strict liability / mens rea presumption
+    kind: problem
+    area: schuld
+    tradition: both
+    summary: >-
+      「无责任则无刑罚」：能否在不要求任何故意或过失的情况下追究刑事责任？
+      大陆法把责任主义视为宪法层次的原则；英美法则在公共福利犯罪等领域广泛承认严格责任，同时以「犯意推定」加以限制。
+
+questions:
+  - id: q-culp-ground
+    concept: culpability-essence
+    text: 责任的根据是道义上的非难（道义责任论），还是社会防卫的需要（社会责任论）？
+    level: foundation
+    aliases:
+      - 道义责任论
+      - 社会责任论
+      - 人格责任论
+      - 责任的根据
+      - 性格责任论
+    answers:
+      - id: moral
+        label: 道义责任论
+      - id: social
+        label: 社会责任论
+      - id: character
+        label: 人格责任论
+
+  - id: q-culp-essence
+    concept: culpability-essence
+    text: 责任是心理事实（心理责任论）、规范的非难可能性（规范责任论），还是由预防需要决定的（功能责任论）？
+    level: foundation
+    aliases:
+      - 心理责任论
+      - 规范责任论
+      - 功能责任论
+      - 责任的本质
+      - 非难可能性
+      - 答责性
+    answers:
+      - id: psychological
+        label: 心理责任论
+      - id: normative
+        label: 规范责任论
+      - id: functional
+        label: 功能责任论（含答责性理论）
+
+  - id: q-expectability
+    concept: culpability-essence
+    text: 期待可能性能否作为超法规的责任阻却事由？
+    level: applied
+    aliases:
+      - 期待可能性
+      - 癖马案
+      - 超法规的责任阻却事由
+      - 期待不可能
+      - 缺乏期待可能性
+    answers:
+      - id: "yes"
+        label: 可以
+      - id: statutory-only
+        label: 只能在法定事由的范围内考虑
+      - id: "no"
+        label: 不承认期待可能性的独立地位
+
+  - id: q-mistake-of-law
+    concept: mistake-of-law
+    text: 违法性认识（或其可能性）在犯罪论中处于什么地位？
+    level: intermediate
+    aliases:
+      - 违法性认识
+      - 法律认识错误
+      - 不知法不免责
+      - 故意说 责任说
+      - 违法性认识的可能性
+      - 禁止错误
+    answers:
+      - id: strict-intent
+        label: 严格故意说（现实的违法性认识是故意的要素）
+      - id: limited-intent
+        label: 限制故意说（违法性认识的可能性是故意的要素）
+      - id: culpability
+        label: 责任说（违法性认识的可能性是独立的责任要素）
+      - id: irrelevant
+        label: 不要说（不知法不免责）
+
+  - id: q-reliance-on-advice
+    concept: mistake-of-law
+    text: 行为人信赖官方意见、判例或律师意见而误认为行为合法时，能否阻却责任？
+    level: applied
+    aliases:
+      - 信赖官方意见
+      - 信赖律师意见
+      - 违法性认识错误不可避免
+      - 官方许可
+      - 合规意见
+      - 赵春华案
+    answers:
+      - id: excused
+        label: 错误不可避免，阻却责任
+      - id: not-excused
+        label: 原则上不阻却（自担风险）
+
+  - id: q-alic-model
+    concept: alic
+    text: 原因自由行为的可罚根据是什么：构成要件模式，还是例外模式？
+    level: intermediate
+    aliases:
+      - 原因自由行为
+      - 构成要件模式
+      - 例外模式
+      - 行为与责任同时存在原则
+      - actio libera in causa
+    answers:
+      - id: tatbestand
+        label: 构成要件模式（原因行为就是实行行为）
+      - id: exception
+        label: 例外模式（同时存在原则的例外）
+      - id: rejected
+        label: 不承认（违反同时存在原则）
+
+  - id: q-intoxication
+    concept: alic
+    text: 自愿醉酒者在无责任能力状态下实施的犯罪应如何处理？
+    level: applied
+    aliases:
+      - 醉酒的人犯罪
+      - 醉酒 刑事责任
+      - 自愿醉酒
+      - Majewski
+      - 完全醉酒罪
+      - 刑法第18条第4款
+    answers:
+      - id: full-liability
+        label: 一律负完全的刑事责任
+      - id: alic
+        label: 依原因自由行为理论处理
+      - id: separate-offense
+        label: 另设醉酒状态下的犯罪（完全醉酒罪）
+      - id: basic-intent
+        label: 区分特定意图犯与基本意图犯（Majewski）
+
+  - id: q-insanity-method
+    concept: insanity
+    text: 责任能力（精神障碍）应采生物学方法、心理学方法，还是混合方法判断？
+    level: intermediate
+    aliases:
+      - 责任能力
+      - 精神病人犯罪
+      - 刑事责任能力的判断
+      - 辨认能力 控制能力
+      - 混合方法
+      - 心神丧失 心神耗弱
+    answers:
+      - id: biological
+        label: 生物学方法（只看是否患有精神疾病）
+      - id: psychological
+        label: 心理学方法（只看辨认、控制能力）
+      - id: mixed
+        label: 混合方法（精神障碍导致辨认或控制能力丧失）
+
+  - id: q-insanity-test
+    concept: insanity
+    text: 英美法上的精神失常抗辩应采何种标准？
+    level: applied
+    aliases:
+      - M'Naghten 规则
+      - 麦克诺顿规则
+      - insanity defense
+      - 精神失常抗辩
+      - Durham rule
+      - 不可抗拒的冲动
+      - Hinckley 案
+    answers:
+      - id: mnaghten
+        label: M'Naghten 规则（认知标准）
+      - id: irresistible
+        label: 不可抗拒的冲动（加入意志标准）
+      - id: product
+        label: Durham 规则（行为是精神疾病的产物）
+      - id: mpc
+        label: MPC 标准（缺乏辨认违法性或使行为合乎法律的实质能力）
+
+  - id: q-strict-liability
+    concept: strict-liability
+    text: 能否在不要求任何故意或过失的情况下追究刑事责任？
+    level: intermediate
+    aliases:
+      - 严格责任
+      - 绝对责任
+      - 责任主义
+      - 无罪过责任
+      - strict liability
+      - 公共福利犯罪
+    answers:
+      - id: never
+        label: 不能（无责任则无刑罚）
+      - id: regulatory
+        label: 在公共福利犯罪等轻微犯罪中可以
+      - id: presumed-fault
+        label: 只能推定过失，允许反证
+
+  - id: q-statutory-mens-rea
+    concept: strict-liability
+    text: 法律条文没有写明罪过要求时，法院是否应推定需要犯意？
+    level: applied
+    aliases:
+      - 犯意推定
+      - Sweet v Parsley
+      - Morissette
+      - 条文未规定罪过
+    answers:
+      - id: presume
+        label: 推定需要犯意
+      - id: literal
+        label: 按条文字面，不要求犯意
+
+prerequisites:
+  - question: q-culp-ground
+    requires: q-free-will
+    kind: foundational
+    why: 能否对行为人进行道义上的非难，取决于他是否能够自由地选择。
+    branches:
+      - answer: free-will
+        leadsTo: 行为人本可以选择不犯罪 → 道义责任论。
+      - answer: determinism
+        leadsTo: 非难没有意义，责任只是社会对危险性格采取防卫措施的根据 → 社会责任论。
+      - answer: soft
+        leadsTo: 以相对的意志自由为前提，非难行为人人格形成中可归责的部分 → 人格责任论（团藤）。
+
+  - question: q-culp-ground
+    requires: q-school
+    kind: foundational
+    why: 责任论是学派之争最集中的战场之一。
+    branches:
+      - answer: act
+        leadsTo: 非难的对象是个别行为 → 道义责任论（行为责任）。
+      - answer: actor
+        leadsTo: 责任针对行为人的危险性格 → 社会责任论（性格责任）。
+      - answer: mixed
+        leadsTo: 人格责任论。
+
+  - question: q-culp-essence
+    requires: q-culp-ground
+    kind: logical
+    why: 责任的结构如何，要先看责任的根据是什么。
+    branches:
+      - answer: moral
+        leadsTo: 非难需要「本可以合法行为」的前提 → 规范责任论。
+      - answer: social
+        leadsTo: 责任由社会防卫的需要决定 → 接近功能的理解。
+      - answer: character
+        leadsTo: 在规范责任论的框架内考虑人格形成。
+
+  - question: q-culp-essence
+    requires: q-punish-basis
+    kind: foundational
+    why: 责任与刑罚目的的关系，决定了责任是先于刑罚的事实，还是由刑罚目的界定的概念。
+    branches:
+      - answer: retribution
+        leadsTo: 报应以非难可能性为前提 → 规范责任论。
+      - answer: general-prevention
+        leadsTo: 责任由维护规范信赖的需要来界定 → 功能责任论（雅科布斯）。
+      - answer: special-prevention
+        leadsTo: 责任让位于行为人的危险性。
+      - answer: union
+        leadsTo: 责任是刑罚的上限，预防必要性是第二个条件 → 答责性（罗克辛）。
+
+  - question: q-expectability
+    requires: q-culp-essence
+    kind: logical
+    why: 期待可能性是规范责任论的核心要素；问题在于能否超出法定事由适用。
+    branches:
+      - answer: normative
+        leadsTo: 期待可能性是责任的一般要素，部分学者主张可以超法规地阻却责任；但为了法的安定性，多数德国学者只在法定事由内考虑。
+      - answer: psychological
+        leadsTo: 责任只是故意与过失，期待可能性没有独立地位。
+      - answer: functional
+        leadsTo: 是否免责取决于预防的需要，而不是行为人「能否」做出其他选择。
+
+  - question: q-mistake-of-law
+    requires: q-intent-position
+    kind: systematic
+    why: 违法性认识放在哪里，取决于故意本身放在哪里。
+    branches:
+      - answer: unrecht
+        leadsTo: 故意在构成要件阶层，只是对事实的认识；违法性认识的可能性留在责任阶层 → 责任说。
+      - answer: double
+        leadsTo: 构成要件故意不包括违法性认识 → 责任说。
+      - answer: schuld
+        leadsTo: 故意是责任形式，可以把违法性认识（或其可能性）作为故意的要素 → 故意说。
+
+  - question: q-mistake-of-law
+    requires: q-culp-essence
+    kind: logical
+    why: 违法性认识的地位，是心理责任论与规范责任论分歧的直接体现。
+    branches:
+      - answer: psychological
+        leadsTo: 责任即心理事实，违法性的认识是故意这一心理事实的一部分 → 故意说。
+      - answer: normative
+        leadsTo: 非难的根据是「本可以认识到违法」→ 违法性认识的可能性就够了，且独立于故意 → 责任说（或限制故意说）。
+      - answer: functional
+        leadsTo: 以预防的需要判断错误是否可避免。
+
+  - question: q-reliance-on-advice
+    requires: q-mistake-of-law
+    kind: logical
+    why: 信赖官方或专业意见的情形，是判断违法性认识错误是否「不可避免」的典型场合。
+    branches:
+      - answer: culpability
+        leadsTo: 只要错误不可避免（尽到了查询义务，信赖了有权机关的意见），就阻却责任。
+      - answer: limited-intent
+        leadsTo: 欠缺违法性认识的可能性时阻却故意。
+      - answer: strict-intent
+        leadsTo: 欠缺现实的违法性认识即阻却故意。
+      - answer: irrelevant
+        leadsTo: 原则上不阻却；英美法通过信赖官方意见等抗辩例外地免责。
+
+  - question: q-alic-model
+    requires: q-culp-essence
+    kind: logical
+    why: 同时存在原则本身来自责任主义；原因自由行为是否构成例外，要看责任的结构。
+    branches:
+      - answer: normative
+        leadsTo: 非难针对的是行为时的意志形成，因此必须说明原因行为时的责任如何延续到结果 → 构成要件模式或例外模式。
+      - answer: psychological
+        leadsTo: 故意、过失存在于原因行为时，可以直接以原因行为为基础。
+      - answer: functional
+        leadsTo: 自陷无能力的人仍有预防的必要 → 容易承认可罚性。
+
+  - question: q-alic-model
+    requires: q-commencement
+    kind: logical
+    why: 构成要件模式把原因行为（如饮酒）视为实行行为，这必须与实行着手的理论相协调。
+    branches:
+      - answer: formal
+        leadsTo: 饮酒不是构成要件行为本身 → 构成要件模式难以成立。
+      - answer: material-act
+        leadsTo: 原因行为如果已经具有导致结果的现实危险，可以视为实行行为。
+      - answer: material-result
+        leadsTo: 着手要求结果发生的危险迫切，饮酒时通常还谈不上着手 → 构成要件模式难以成立，倾向例外模式。
+      - answer: individual
+        leadsTo: 按行为人的计划，开始饮酒即直接接近构成要件的实现 → 可能承认构成要件模式。
+      - answer: subjective
+        leadsTo: 犯意在原因行为时已经表现出来 → 容易承认。
+
+  - question: q-intoxication
+    requires: q-alic-model
+    kind: logical
+    why: 醉酒犯罪是原因自由行为最典型的适用场合，但很多立法另行处理。
+    branches:
+      - answer: tatbestand
+        leadsTo: 只能处理在饮酒时已经有犯罪故意或过失的情形；其他情形需要立法（如完全醉酒罪）。
+      - answer: exception
+        leadsTo: 可以较广泛地处罚，但面临违反责任主义的批评。
+      - answer: rejected
+        leadsTo: 只能通过另设醉酒犯罪来处罚。
+
+  - question: q-intoxication
+    requires: q-culp-ground
+    kind: foundational
+    why: 自愿醉酒者是否「应得」完全的刑罚，取决于责任的根据。
+    branches:
+      - answer: moral
+        leadsTo: 行为时无法辨认、控制，原则上不能非难；需要原因自由行为或特别立法。
+      - answer: social
+        leadsTo: 醉酒者的危险性不因醉酒而降低 → 可以负完全的刑事责任。
+      - answer: character
+        leadsTo: 自陷醉酒是人格中可归责的部分。
+
+  - question: q-insanity-method
+    requires: q-culp-essence
+    kind: logical
+    why: 责任能力是责任的前提，判断方法取决于责任要求的是什么。
+    branches:
+      - answer: normative
+        leadsTo: 非难的前提是能够认识违法并据此控制行为 → 关注辨认与控制能力，以精神障碍为基础 → 混合方法。
+      - answer: psychological
+        leadsTo: 责任能力是故意、过失的前提条件，强调认识能力。
+      - answer: functional
+        leadsTo: 以是否能通过刑罚进行规范的沟通为准。
+
+  - question: q-insanity-method
+    requires: q-culp-ground
+    kind: foundational
+    why: 社会责任论下，责任能力的意义完全不同。
+    branches:
+      - answer: moral
+        leadsTo: 责任能力是非难可能性的前提。
+      - answer: social
+        leadsTo: 责任能力只是「刑罚适应能力」；无能力者同样是社会防卫的对象，只是适用保安处分而非刑罚。
+      - answer: character
+        leadsTo: 以人格的主体性为准。
+
+  - question: q-insanity-test
+    requires: q-insanity-method
+    kind: conceptual
+    why: 英美法的各种标准都是混合方法的变体，分歧在于心理学要件的内容。
+    branches:
+      - answer: mixed
+        leadsTo: M'Naghten 只承认认知要素；不可抗拒的冲动与 MPC 加入意志（控制）要素。
+      - answer: biological
+        leadsTo: 接近 Durham 规则：只要行为是精神疾病的产物即可。
+      - answer: psychological
+        leadsTo: 只看辨认与控制能力。
+
+  - question: q-strict-liability
+    requires: q-desert-limit
+    kind: foundational
+    why: 能否处罚没有责任的人，取决于责任在刑罚中扮演什么角色。
+    branches:
+      - answer: ground
+        leadsTo: 责任是刑罚的根据 → 不能处罚无责任者。
+      - answer: upper-limit
+        leadsTo: 责任是刑罚的前提与上限 → 不能处罚无责任者（大陆法的宪法原则）。
+      - answer: none
+        leadsTo: 纯粹预防论下，严格责任可以以威慑效果与执法效率正当化（英美公共福利犯罪的逻辑）。
+
+  - question: q-strict-liability
+    requires: q-culp-essence
+    kind: logical
+    why: 责任是不是刑事责任不可缺少的要素，取决于责任的本质。
+    branches:
+      - answer: normative
+        leadsTo: 没有非难可能性就没有责任 → 不能。
+      - answer: psychological
+        leadsTo: 没有故意或过失就没有责任 → 不能。
+      - answer: functional
+        leadsTo: 责任由预防需要决定，理论上为严格责任留出了空间。
+
+  - question: q-statutory-mens-rea
+    requires: q-strict-liability
+    kind: logical
+    why: 条文沉默时如何解释，是严格责任在实务中的主要战场。
+    branches:
+      - answer: never
+        leadsTo: 当然推定需要故意或过失。
+      - answer: regulatory
+        leadsTo: 对传统的「真正犯罪」推定需要犯意，对公共福利犯罪可以按字面解释。
+      - answer: presumed-fault
+        leadsTo: 推定过失，允许被告人证明自己尽到了注意。
+
+relations:
+  - from: strict-liability
+    to: culpability-essence
+    type: opposes
+    description: 严格责任与责任主义正面对立：前者允许没有责任的刑罚，后者认为无责任则无刑罚。
+  - from: alic
+    to: insanity
+    type: derived_from
+    description: 原因自由行为以行为时欠缺或减弱的责任能力为前提，是对「行为与责任同时存在」原则的修正。
+  - from: mistake-of-law
+    to: mistake-of-fact
+    type: symmetric
+    description: 事实错误与法律错误是错误论的两极；假想防卫这类「对正当化前提事实的错误」恰好处在两者之间。
+
+works:
+  - id: w-rgst-30-25
+    title: RGSt 30, 25（Leinenfänger-Fall）
+    titleZh: 帝国法院癖马案
+    authorText: 帝国法院
+    year: 1897
+    type: case
+    jurisdiction: de
+  - id: w-frank-1907
+    title: Über den Aufbau des Schuldbegriffs
+    titleZh: 论责任概念的构造
+    authors: [frank]
+    year: 1907
+    type: article
+    jurisdiction: de
+  - id: w-freudenthal-1922
+    title: Schuld und Vorwurf im geltenden Strafrecht
+    titleZh: 现行刑法中的责任与非难
+    authors: [freudenthal]
+    year: 1922
+    type: monograph
+    jurisdiction: de
+    needsSource: true
+  - id: w-roxin-1973
+    title: Kriminalpolitische Überlegungen zum Schuldprinzip
+    titleZh: 关于责任原则的刑事政策思考
+    authors: [roxin]
+    year: 1973
+    type: article
+    jurisdiction: de
+    venue: MschrKrim
+    needsSource: true
+  - id: w-jakobs-1976
+    title: Schuld und Prävention
+    titleZh: 责任与预防
+    authors: [jakobs]
+    year: 1976
+    type: monograph
+    jurisdiction: de
+  - id: w-jp-kashiwajima-1933
+    title: 大判昭和8年11月21日（第五柏島丸事件）
+    titleZh: 第五柏岛丸案
+    authorText: 大审院
+    year: 1933
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-saeki-1947
+    title: 刑法に於ける期待可能性の思想
+    titleZh: 刑法中的期待可能性思想
+    authors: [saeki-chihiro]
+    year: 1947
+    type: monograph
+    jurisdiction: jp
+    needsSource: true
+  - id: w-esop-1836
+    title: R v Esop (1836) 7 C & P 456
+    authorText: Central Criminal Court
+    year: 1836
+    type: case
+    jurisdiction: uk-ew
+  - id: w-lambert-1957
+    title: Lambert v. California, 355 U.S. 225 (1957)
+    authorText: U.S. Supreme Court
+    year: 1957
+    type: case
+    jurisdiction: us
+  - id: w-tw-2005-code
+    title: 中华民国刑法总则（2005 年修正，2006 年施行）
+    titleZh: 台湾地区刑法总则 2005 年修正
+    authorText: 立法院
+    year: 2005
+    type: statute
+    jurisdiction: tw
+    needsSource: true
+  - id: w-cn-zhaochunhua-2017
+    title: 赵春华非法持有枪支案二审判决（天津市第一中级人民法院）
+    authorText: 天津市第一中级人民法院
+    year: 2017
+    type: case
+    jurisdiction: cn
+    needsSource: true
+  - id: w-de-1933-vollrausch
+    title: Gesetz gegen gefährliche Gewohnheitsverbrecher（1933），§ 330a StGB
+    titleZh: 1933 年危险惯犯法（增设完全醉酒罪）
+    authorText: 德国立法者
+    year: 1933
+    type: statute
+    jurisdiction: de
+    needsSource: true
+  - id: w-bghst-42-235
+    title: BGHSt 42, 235
+    titleZh: 联邦最高法院 1996 年原因自由行为判决
+    authorText: 联邦最高法院
+    year: 1996
+    type: case
+    jurisdiction: de
+  - id: w-gallagher-1961
+    title: Attorney-General for Northern Ireland v Gallagher [1963] AC 349
+    authorText: House of Lords
+    year: 1961
+    type: case
+    jurisdiction: uk-ew
+  - id: w-majewski-1976
+    title: DPP v Majewski [1977] AC 443
+    authorText: House of Lords
+    year: 1976
+    type: case
+    jurisdiction: uk-ew
+  - id: w-jp-1968-alic
+    title: 最決昭和43年2月27日
+    titleZh: 最高裁判所酒后驾驶原因自由行为裁定
+    authorText: 最高裁判所
+    year: 1968
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-mnaghten-1843
+    title: M'Naghten's Case (1843) 10 Cl & F 200
+    authorText: House of Lords
+    year: 1843
+    type: case
+    jurisdiction: uk-ew
+  - id: w-stgb-1871
+    title: Strafgesetzbuch für das Deutsche Reich（1871）
+    titleZh: 德意志帝国刑法典
+    authorText: 帝国议会
+    year: 1871
+    type: statute
+    jurisdiction: de
+  - id: w-jp-1931-shinshin
+    title: 大判昭和6年12月3日
+    titleZh: 大审院关于心神丧失与心神耗弱的判决
+    authorText: 大审院
+    year: 1931
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-durham-1954
+    title: Durham v. United States, 214 F.2d 862 (D.C. Cir. 1954)
+    authorText: U.S. Court of Appeals for the D.C. Circuit
+    year: 1954
+    type: case
+    jurisdiction: us
+  - id: w-idra-1984
+    title: Insanity Defense Reform Act of 1984
+    authorText: U.S. Congress
+    year: 1984
+    type: statute
+    jurisdiction: us
+  - id: w-prince-1875
+    title: R v Prince (1875) LR 2 CCR 154
+    authorText: Court for Crown Cases Reserved
+    year: 1875
+    type: case
+    jurisdiction: uk-ew
+  - id: w-balint-1922
+    title: United States v. Balint, 258 U.S. 250 (1922)
+    authorText: U.S. Supreme Court
+    year: 1922
+    type: case
+    jurisdiction: us
+  - id: w-morissette-1952
+    title: Morissette v. United States, 342 U.S. 246 (1952)
+    authorText: U.S. Supreme Court
+    year: 1952
+    type: case
+    jurisdiction: us
+  - id: w-sweet-1969
+    title: Sweet v Parsley [1970] AC 132
+    authorText: House of Lords
+    year: 1969
+    type: case
+    jurisdiction: uk-ew
+  - id: w-b-v-dpp-2000
+    title: B (A Minor) v DPP [2000] 2 AC 428
+    authorText: House of Lords
+    year: 2000
+    type: case
+    jurisdiction: uk-ew
+  - id: w-bverfge-20-323
+    title: BVerfGE 20, 323
+    titleZh: 联邦宪法法院 1966 年责任原则裁定
+    authorText: 联邦宪法法院
+    year: 1966
+    type: case
+    jurisdiction: de
+    needsSource: true
+  - id: w-jp-1957-ryobatsu
+    title: 最大判昭和32年11月27日
+    titleZh: 最高裁判所大法庭两罚规定判决
+    authorText: 最高裁判所
+    year: 1957
+    type: case
+    jurisdiction: jp
+    needsSource: true
+
+events:
+  # ---------------- 责任的本质 ----------------
+  - id: e-de-leinenfaenger-1897
+    year: 1897
+    jurisdiction: de
+    type: case
+    title: 癖马案
+    description: 马车夫明知马有用尾巴缠绕缰绳的恶癖，向雇主提出更换未果，因担心失业只得继续驾驶，结果马失控伤人。帝国法院认为不能期待他冒着失业的风险拒绝驾驶，否定了过失责任。这一判决成为期待可能性思想的源头。
+    concepts: [culpability-essence]
+    works: [w-rgst-30-25]
+
+  - id: e-de-frank-1907
+    year: 1907
+    jurisdiction: de
+    type: origin
+    originOf: culpability-essence
+    originType: term
+    title: 弗兰克：责任即非难可能性
+    description: 责任不只是故意或过失这种心理关系，而是对行为人的「非难可能性」；附随情况的正常性（能否期待行为人实施合法行为）也是责任的要素。规范责任论由此诞生。
+    concepts: [culpability-essence]
+    scholars: [frank]
+    works: [w-frank-1907]
+    derivedFrom: [e-de-leinenfaenger-1897]
+
+  - id: e-de-freudenthal-1922
+    year: 1922
+    jurisdiction: de
+    type: development
+    title: 弗洛伊登塔尔：期待不可能作为超法规的责任阻却事由
+    description: 在不能期待行为人实施合法行为的场合，即使没有法律规定，也应阻却责任。这一主张后来在德国受到「法的安定性」的批评，却在日本获得广泛支持。
+    concepts: [culpability-essence]
+    scholars: [freudenthal]
+    works: [w-freudenthal-1922]
+    derivedFrom: [e-de-frank-1907, e-de-goldschmidt-1913]
+    needsSource: true
+
+  - id: e-jp-kashiwajima-1933
+    year: 1933
+    jurisdiction: jp
+    type: case
+    title: 第五柏岛丸案
+    description: 渡船严重超载导致翻覆，大审院在量刑上考虑了船长受到的经营压力与警察管理的放任，只判处罚金。这被视为日本判例考虑期待可能性的先例。
+    concepts: [culpability-essence]
+    works: [w-jp-kashiwajima-1933]
+    derivedFrom: [e-de-frank-1907]
+    needsSource: true
+
+  - id: e-jp-saeki-1947
+    year: 1947
+    jurisdiction: jp
+    type: reception
+    title: 期待可能性理论在日本的系统化
+    description: 佐伯千仞系统介绍并发展期待可能性理论，主张期待不可能可以作为超法规的责任阻却事由。
+    concepts: [culpability-essence]
+    scholars: [saeki-chihiro]
+    works: [w-saeki-1947]
+    derivedFrom: [e-de-freudenthal-1922]
+    needsSource: true
+
+  - id: e-de-roxin-1973
+    year: 1973
+    jurisdiction: de
+    type: development
+    title: 罗克辛：答责性
+    description: 刑法上的答责性由两部分组成：责任（能够受规范召唤而仍然实施不法），以及预防上的处罚必要性。责任是刑罚的必要条件，但不是充分条件。
+    concepts: [culpability-essence]
+    scholars: [roxin]
+    works: [w-roxin-1973]
+    derivedFrom: [e-de-frank-1907]
+    needsSource: true
+
+  - id: e-de-jakobs-1976
+    year: 1976
+    jurisdiction: de
+    type: development
+    title: 雅科布斯：责任与预防
+    description: 责任不是先于刑罚目的的事实，而是由一般预防的需要决定的：当为了维护规范的效力需要把冲突归咎于行为人时，行为人就有责任。功能责任论由此提出。
+    concepts: [culpability-essence]
+    scholars: [jakobs]
+    works: [w-jakobs-1976]
+    derivedFrom: [e-de-frank-1907]
+
+  # ---------------- 违法性认识 ----------------
+  - id: e-uk-esop-1836
+    year: 1836
+    jurisdiction: uk-ew
+    type: origin
+    originOf: mistake-of-law
+    originType: case
+    title: R v Esop：不知法不免责
+    description: 一名巴伐利亚船员在英国船上实施了在其本国不违法、在英国却构成犯罪的行为。法院认为，不知道英国法律不能作为抗辩。「不知法不免责」由此在普通法判例中得到确认。
+    concepts: [mistake-of-law]
+    works: [w-esop-1836]
+    editorNote: 「法律的错误有害」（error iuris nocet）的法谚可以追溯到罗马法。
+
+  - id: e-us-lambert-1957
+    year: 1957
+    jurisdiction: us
+    type: case
+    title: Lambert v. California：正当程序对「不知法」的有限保护
+    description: 洛杉矶要求有前科者到警察局登记的条例被适用于一名完全不知道该义务的被告人。联邦最高法院认为，对这种纯粹的不作为义务，在行为人不知道且无从知道时科处刑罚，违反正当程序。
+    concepts: [mistake-of-law]
+    works: [w-lambert-1957]
+    derivedFrom: [e-uk-esop-1836]
+
+  - id: e-tw-2005-code
+    year: 2005
+    jurisdiction: tw
+    type: legislation
+    title: 刑法总则大幅修正（2005 年）：不能未遂不罚等
+    description: >-
+      2005 年修正、2006 年施行的总则改动很多：不能未遂改为不罚（第 26 条，「行为不能发生犯罪之结果，又无危险者，不罚」，立法理由采客观未遂论）；删除先行行为的明文规定（第 15 条）；
+      违法性认识错误「有正当理由而无法避免者」免除刑事责任（第 16 条，采责任说的思路）；
+      责任能力改采混合方法，并明文规定故意或过失自行招致者不适用（第 19 条，原因自由行为）；
+      共同正犯改为「共同实行」（第 28 条），教唆犯改采从属性说（第 29 条）。
+    concepts: [impossible-attempt, omission, mistake-of-law, insanity, alic, perpetration, complicity-basis]
+    scholars: [huang-rongjian, lin-shantian]
+    works: [w-tw-2005-code, w-tw-2005-art26]
+    derivedFrom: [e-tw-1935, e-de-stgb-1975, e-jp-yamaguchi-1982]
+    needsSource: true
+
+  - id: e-cn-zhaochunhua-2017
+    year: 2017
+    jurisdiction: cn
+    type: case
+    title: 赵春华案
+    description: 摆射击摊的赵春华因持有被鉴定为枪支的玩具枪，一审以非法持有枪支罪判处有期徒刑三年六个月；二审改判缓刑，并在说理中考虑了其对涉案物品性质的认识。行为人对行政法规标准的认识错误应当如何处理，由此引发广泛讨论。
+    concepts: [mistake-of-law]
+    works: [w-cn-zhaochunhua-2017]
+    needsSource: true
+
+  # ---------------- 原因自由行为 ----------------
+  - id: e-de-alic-origin
+    year: 1770
+    circa: true
+    jurisdiction: de
+    type: origin
+    originOf: alic
+    originType: term
+    title: 「原因上自由的行为」的归责思想
+    description: 自然法学说提出，行为人如果在自由状态下设定了原因，即使结果发生时已不自由，结果仍可以归属于他。这一思想后来被刑法学用来处理醉酒等自陷无能力的情形。
+    concepts: [alic]
+    needsSource: true
+    editorNote: 首提者与年份待考，年份为编者估计。
+
+  - id: e-de-vollrausch-1933
+    year: 1933
+    jurisdiction: de
+    type: legislation
+    title: 增设完全醉酒罪
+    description: 故意或过失地使自己陷入醉酒状态，并在无责任能力状态下实施违法行为的，处以独立的刑罚（后为第 323a 条）。立法者以另设犯罪的方式绕开原因自由行为的理论难题。
+    concepts: [alic]
+    works: [w-de-1933-vollrausch]
+    derivedFrom: [e-de-alic-origin]
+    needsSource: true
+
+  - id: e-uk-gallagher-1961
+    year: 1961
+    jurisdiction: uk-ew
+    type: case
+    title: Gallagher 案：「借酒壮胆」
+    description: 被告人决意杀妻，为此买了刀和一瓶威士忌，喝醉后实施了杀人。上议院认为，事先形成杀人意图并为此醉酒的人，不能以醉酒为抗辩。这与原因自由行为的构成要件模式在结论上相近。
+    concepts: [alic]
+    works: [w-gallagher-1961]
+
+  - id: e-uk-majewski-1976
+    year: 1976
+    jurisdiction: uk-ew
+    type: case
+    title: DPP v Majewski：特定意图与基本意图
+    description: 自愿醉酒可以否定「特定意图」犯罪（如谋杀）所需的意图，但不能成为「基本意图」犯罪（如伤害）的抗辩，因为自愿醉酒本身就是一种鲁莽。这一区分的理论基础一直受到批评。
+    concepts: [alic]
+    works: [w-majewski-1976]
+    derivedFrom: [e-uk-gallagher-1961]
+
+  - id: e-jp-1968-alic
+    year: 1968
+    jurisdiction: jp
+    type: case
+    title: 最高裁判所以原因自由行为处罚酒后驾驶
+    description: 被告人在饮酒时就预定驾车，最高裁判所认为，即使驾驶时处于心神耗弱状态，也不适用减轻规定。原因自由行为理论由此在判例上获得承认。
+    concepts: [alic]
+    works: [w-jp-1968-alic]
+    derivedFrom: [e-de-alic-origin]
+    needsSource: true
+
+  - id: e-de-bghst-1996
+    year: 1996
+    jurisdiction: de
+    type: case
+    title: 联邦最高法院限缩原因自由行为
+    description: 联邦最高法院认为，对于危险驾驶等以「驾驶」为构成要件行为的犯罪，饮酒不能被视为实行行为，不能适用原因自由行为（构成要件模式）。原因自由行为的适用范围由此大幅收缩。
+    concepts: [alic]
+    works: [w-bghst-42-235]
+    derivedFrom: [e-de-vollrausch-1933]
+
+  # ---------------- 责任能力 ----------------
+  - id: e-uk-mnaghten-1843
+    year: 1843
+    jurisdiction: uk-ew
+    type: origin
+    originOf: insanity
+    originType: case
+    title: M'Naghten 规则
+    description: M'Naghten 因妄想而误杀了首相的秘书，被判因精神失常无罪，引发公众不满。上议院随后就精神失常抗辩的标准作出答复：行为人由于精神疾病而不知道其行为的性质，或者虽然知道但不知道其行为是错误的，才能免责。这一认知标准影响英美法至今。
+    concepts: [insanity]
+    works: [w-mnaghten-1843]
+
+  - id: e-de-stgb-1871
+    year: 1871
+    jurisdiction: de
+    type: origin
+    originOf: commencement
+    originType: statute
+    title: 1871 年帝国刑法典
+    description: >-
+      帝国刑法典以「开始实施」（Anfang der Ausführung）界定未遂（第 43 条），规定了中止（第 46 条）、正犯、教唆犯与帮助犯的区分（第 47—49 条），
+      以及因意识丧失或精神活动的病理障碍而排除自由意志决定时不罚（第 51 条）。这些条文是此后德国总论各项争论的出发点。
+    concepts: [commencement, withdrawal, perpetration, insanity]
+    works: [w-stgb-1871]
+
+  - id: e-jp-1931-shinshin
+    year: 1931
+    jurisdiction: jp
+    type: case
+    title: 心神丧失与心神耗弱的界定
+    description: 大审院把心神丧失界定为因精神障碍而不能辨别是非或不能按照这种辨别而行动的状态，心神耗弱则是这种能力显著减弱的状态。混合方法由此在日本判例中确立。
+    concepts: [insanity]
+    works: [w-jp-1931-shinshin]
+    derivedFrom: [e-jp-code-1907]
+    needsSource: true
+
+  - id: e-us-durham-1954
+    year: 1954
+    jurisdiction: us
+    type: case
+    title: Durham 规则
+    description: 哥伦比亚特区巡回法院认为，如果违法行为是精神疾病或精神缺陷的产物，被告人就不负刑事责任。这一标准赋予精神科专家过大的影响，后被放弃。
+    concepts: [insanity]
+    works: [w-durham-1954]
+    derivedFrom: [e-uk-mnaghten-1843]
+
+  - id: e-us-idra-1984
+    year: 1984
+    jurisdiction: us
+    type: legislation
+    title: 精神失常抗辩改革法
+    description: 刺杀里根总统未遂的欣克利以精神失常被判无罪后，国会收紧了联邦的精神失常抗辩：删除意志要素，只保留「不能辨认其行为的性质或错误性」，并把证明责任转移给被告人。
+    concepts: [insanity]
+    works: [w-idra-1984]
+    derivedFrom: [e-us-mpc-1962, e-us-durham-1954]
+
+  # ---------------- 严格责任与责任主义 ----------------
+  - id: e-uk-prince-1875
+    year: 1875
+    jurisdiction: uk-ew
+    type: origin
+    originOf: strict-liability
+    originType: case
+    title: R v Prince：对年龄的错误不是抗辩
+    description: 被告人带走一名不满 16 岁的少女，他有合理理由相信她已满 18 岁。法院认为，对年龄的认识不是这一犯罪的要件，被告人仍然有罪。严格责任由此成为英美刑法中反复出现的问题。
+    concepts: [strict-liability]
+    works: [w-prince-1875]
+
+  - id: e-us-balint-1922
+    year: 1922
+    jurisdiction: us
+    type: case
+    title: United States v. Balint：管制性犯罪的严格责任
+    description: 联邦最高法院认为，出售麻醉品的管制性犯罪不要求行为人知道所售物品的性质，立法者可以为了公共福利而要求经营者自担风险。
+    concepts: [strict-liability]
+    works: [w-balint-1922]
+    derivedFrom: [e-uk-prince-1875]
+
+  - id: e-us-morissette-1952
+    year: 1952
+    jurisdiction: us
+    type: case
+    title: Morissette v. United States：普通法犯罪推定需要犯意
+    description: 被告人捡走了他以为被遗弃的空弹壳。联邦最高法院认为，源于普通法的犯罪（如盗窃）即使条文没有写明，也推定需要犯意；严格责任只适用于公共福利犯罪。
+    concepts: [strict-liability]
+    works: [w-morissette-1952]
+    derivedFrom: [e-us-balint-1922]
+
+  - id: e-jp-1957-ryobatsu
+    year: 1957
+    jurisdiction: jp
+    type: case
+    title: 两罚规定中业主的过失推定
+    description: 最高裁判所大法庭认为，两罚规定处罚业主，是因为推定业主在选任、监督从业人员上存在过失；业主证明自己尽到了注意，就可以免责。这是以「推定过失」调和行政刑法与责任主义的方案，也是日本法人处罚的理论基础。
+    concepts: [strict-liability, corporate-liability]
+    works: [w-jp-1957-ryobatsu]
+    needsSource: true
+
+  - id: e-de-bverfg-1966
+    year: 1966
+    jurisdiction: de
+    type: case
+    title: 责任原则具有宪法位阶
+    description: 联邦宪法法院认为，「无责任则无刑罚」是以法治国原则与人的尊严为根据的宪法原则，任何刑罚都以责任为前提。
+    concepts: [strict-liability, culpability-essence]
+    works: [w-bverfge-20-323]
+    derivedFrom: [e-de-gg-1949]
+    needsSource: true
+
+  - id: e-uk-sweet-1969
+    year: 1969
+    jurisdiction: uk-ew
+    type: case
+    title: Sweet v Parsley：犯意推定
+    description: 一名教师出租的房屋被房客用来吸食大麻，她对此毫不知情。上议院认为，除非议会明确排除，否则应推定犯罪需要犯意，撤销了她的有罪判决。
+    concepts: [strict-liability]
+    works: [w-sweet-1969]
+    derivedFrom: [e-uk-prince-1875]
+
+  - id: e-uk-b-v-dpp-2000
+    year: 2000
+    jurisdiction: uk-ew
+    type: case
+    title: B v DPP：诚实相信年龄可以免责
+    description: 上议院认为，对于向不满 14 岁的儿童实施猥亵行为的犯罪，被告人诚实地相信对方已满 14 岁时，可以否定犯意。Prince 案的严格立场受到明显限制。
+    concepts: [strict-liability]
+    works: [w-b-v-dpp-2000]
+    derivedFrom: [e-uk-sweet-1969]
+
+positions:
+  # ---- 责任的本质 ----
+  - theory: classical-school
+    question: q-culp-ground
+    answer: moral
+    derivation:
+      - 以意志自由为前提。
+      - 非难的对象是行为人自由选择的个别行为 → 道义责任论。
+  - theory: modern-school
+    question: q-culp-ground
+    answer: social
+    derivation:
+      - 犯罪由素质与环境决定，道义上的非难没有意义。
+      - 责任是社会对危险性格采取防卫措施的根据 → 社会责任论。
+  - theory: retributivism
+    question: q-culp-essence
+    answer: normative
+    derivation:
+      - 刑罚是对应得的回应。
+      - 只有能够做出其他选择而仍然实施不法的人才应得非难 → 规范责任论。
+  - theory: union-theory
+    question: q-culp-essence
+    answer: functional
+    derivation:
+      - 责任是刑罚的上限，预防必要性是第二个条件。
+      - 两者合起来构成答责性（罗克辛）。
+    alternatives:
+      - answer: normative
+        note: 多数并合主义者在责任概念上仍采规范责任论。
+  - theory: normative-culp
+    question: q-expectability
+    answer: "yes"
+    derivation:
+      - 期待可能性是责任的一般要素。
+      - 法律无法穷尽一切不能期待的情形 → 可以超法规地阻却责任。
+    alternatives:
+      - answer: statutory-only
+        note: 德国多数说出于法的安定性，只在法定事由（如第 35 条）的范围内考虑。
+        jurisdictions: [de]
+    needsSource: true
+  - theory: psychological-culp
+    question: q-expectability
+    answer: "no"
+    derivation:
+      - 责任只是故意与过失这种心理事实，期待可能性没有容身之处。
+  - theory: functional-culp
+    question: q-expectability
+    answer: statutory-only
+    derivation:
+      - 是否免责取决于预防的需要，而不取决于行为人「能否」另作选择。
+      - 超法规的免责会削弱规范的效力。
+    needsSource: true
+
+  # ---- 违法性认识 ----
+  - theory: dual-act-disvalue
+    question: q-mistake-of-law
+    answer: culpability
+    derivation:
+      - 故意在构成要件阶层，只是对事实的认识。
+      - 违法性认识的可能性是独立的责任要素 → 责任说（德国判例与第 17 条）。
+  - theory: monist-act-disvalue
+    question: q-mistake-of-law
+    answer: culpability
+    derivation:
+      - 目的行为论把故意移入不法，违法性认识自然留在责任 → 责任说。
+  - theory: result-disvalue
+    question: q-mistake-of-law
+    answer: null
+    note: 结果无价值论者在这个问题上分为限制故意说与责任说。
+    alternatives:
+      - answer: limited-intent
+        note: 故意是责任要素，违法性认识的可能性是故意的要素。
+      - answer: culpability
+        note: 违法性认识的可能性是独立的责任要素。
+    needsSource: true
+  - theory: psychological-culp
+    question: q-mistake-of-law
+    answer: strict-intent
+    derivation:
+      - 责任即心理事实。
+      - 违法性的现实认识是故意这一心理事实的一部分 → 严格故意说。
+  - theory: normative-culp
+    question: q-mistake-of-law
+    answer: culpability
+    derivation:
+      - 非难的根据是「本可以认识到违法」。
+      - 违法性认识的可能性就够了，且独立于故意 → 责任说。
+    alternatives:
+      - answer: limited-intent
+        note: 也有规范责任论者采限制故意说（如团藤重光）。
+  - theory: normative-culp
+    question: q-reliance-on-advice
+    answer: excused
+    derivation:
+      - 行为人尽到了查询义务，信赖了有权机关或专业人士的意见。
+      - 错误不可避免，欠缺非难可能性 → 阻却责任。
+
+  # ---- 原因自由行为 ----
+  - theory: modern-school
+    question: q-intoxication
+    answer: full-liability
+    derivation:
+      - 醉酒者的危险性不因醉酒而降低。
+      - 从社会防卫的观点，应当负完全的刑事责任。
+    needsSource: true
+  - theory: normative-culp
+    question: q-alic-model
+    answer: tatbestand
+    derivation:
+      - 非难以行为时的意志形成为对象，同时存在原则不能随意突破。
+      - 只能把原因行为本身视为实行行为 → 构成要件模式。
+    alternatives:
+      - answer: exception
+        note: 也有学者承认例外模式。
+    needsSource: true
+
+  # ---- 责任能力 ----
+  - theory: normative-culp
+    question: q-insanity-method
+    answer: mixed
+    derivation:
+      - 非难的前提是能够认识违法并据此控制行为。
+      - 以精神障碍为基础，判断辨认与控制能力 → 混合方法。
+  - theory: modern-school
+    question: q-insanity-method
+    answer: biological
+    derivation:
+      - 精神障碍者是社会防卫的对象，适用保安处分而非刑罚。
+      - 重点在于确认精神疾病的存在。
+    needsSource: true
+
+  # ---- 严格责任 ----
+  - theory: retributivism
+    question: q-strict-liability
+    answer: never
+    derivation:
+      - 刑罚以应得为根据。
+      - 没有责任的人不应得刑罚。
+  - theory: deterrence
+    question: q-strict-liability
+    answer: regulatory
+    derivation:
+      - 刑罚的正当性在于预防效果。
+      - 在公共福利领域，严格责任可以促使经营者采取最大限度的注意，并提高执法效率。
+  - theory: union-theory
+    question: q-strict-liability
+    answer: never
+    derivation:
+      - 责任是刑罚的上限，没有责任就没有刑罚的空间。
+  - theory: normative-culp
+    question: q-strict-liability
+    answer: never
+    derivation:
+      - 没有非难可能性就没有责任，也就不能科处刑罚。
+  - theory: cl-subjectivism
+    question: q-statutory-mens-rea
+    answer: presume
+    derivation:
+      - 刑事责任取决于行为人可责的心态。
+      - 条文沉默时，应推定需要犯意（Sweet v Parsley、B v DPP）。

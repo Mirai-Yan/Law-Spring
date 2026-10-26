@@ -1,0 +1,106 @@
+# 共犯论：张明楷《刑法学》（第七版）中的论述
+bookViews:
+  - id: zmk7-perpetrator-concept
+    work: zmk-xingfaxue-7
+    question: q-perpetrator-concept
+    pages: "580-582"
+    answer: differentiated
+    summary: >-
+      作者采区分制与限制的正犯概念：先区分正犯与共犯，再认定共同犯罪；不赞成先判断二人以上是否成立共同犯罪、再按单一制或区分制定罪量刑的做法。
+    reasons:
+      - 单一的正犯概念有固有缺陷，会不当扩大处罚范围。
+      - 我国刑法第 26 条的主犯可以理解为正犯或共同正犯，这表明我国刑法并没有采取单一制。
+    reported:
+      - label: 单一制（单一正犯体系）
+        answer: unitary
+        summary: 不区分正犯与共犯，凡对结果有因果贡献者都是正犯；有观点认为我国的立法与司法接近单一制。
+        pages: "580-582"
+
+  - id: zmk7-joint-nature
+    work: zmk-xingfaxue-7
+    question: q-joint-nature
+    pages: "612-617"
+    answer: act-joint
+    summary: >-
+      作者采行为共同说：共同犯罪是不法形态，「共同」首先是指共同实施违法行为，而不要求共同实施同一个特定的犯罪；
+      各参与人按各自的故意与责任认定罪名。
+    reasons:
+      - 完全犯罪共同说与责任共犯论、极端从属性说相联系，而后两者明显不当。
+    reported:
+      - label: 完全犯罪共同说
+        answer: crime-joint
+        summary: 共犯是数人共同实施特定的一个犯罪，各共犯须触犯同一罪名。
+        pages: "613"
+      - label: 部分犯罪共同说
+        answer: crime-joint
+        summary: 不同犯罪的构成要件在重合限度内也可以成立共同犯罪。
+        pages: "614"
+      - label: 行为共同说
+        answer: act-joint
+        summary: 各自实施的构成要件行为之间即使完全没有重合，也可以成立共同正犯。
+        pages: "616"
+
+  - id: zmk7-conspiracy-coprincipal
+    work: zmk-xingfaxue-7
+    question: q-conspiracy-coprincipal
+    pages: "618-620"
+    answer: "yes"
+    summary: >-
+      作者认为，我国刑法虽未使用共谋共同正犯的概念，但不能否认刑法与司法实践中事实上存在共谋共同正犯；
+      可分为支配型（主谋者）与对等型（分担型），后者也包括实施了构成要件以外、但对结果发生起重要作用的行为的人。
+    reasons:
+      - 区分两种类型有利于正确适用刑法第 26 条关于主犯的规定。
+      - 共同正犯独立于正犯，不承认共谋共同正犯的从属性。
+
+  - id: zmk7-comp-basis
+    work: zmk-xingfaxue-7
+    question: q-comp-basis
+    pages: "625-628"
+    answer: causation
+    summary: >-
+      作者认为共同犯罪的本质与单独犯罪一样是侵害法益：共犯通过正犯间接地引起了法益侵害结果，这是共犯受处罚的根据（惹起说）。
+    reasons:
+      - 责任共犯论以「使正犯陷入罪责」为根据，与把违法与责任分开的阶层体系不合；我国传统观点基本上采取了这种立场。
+    reported:
+      - label: 责任共犯论
+        answer: schuld
+        summary: 共犯把正犯引诱至责任与刑罚中，因而受处罚。
+        pages: "625"
+      - label: 不法共犯论（违法共犯论）
+        answer: unrecht
+        summary: 共犯诱使正犯实施了符合构成要件的违法行为，因而受处罚。
+        pages: "626"
+
+  - id: zmk7-comp-variant
+    work: zmk-xingfaxue-7
+    question: q-comp-variant
+    pages: "626-628"
+    answer: mixed
+    summary: >-
+      作者的立场可以归为混合惹起说：要认定共犯，共犯本身须引起了法益侵害，同时正犯的行为也须违法；但作者不认为混合惹起说是行为无价值论的产物。
+    reasons:
+      - 女子 A 教唆他人对自己实施强奸时，按修正惹起说或责任共犯论会得出 A 成立强奸既遂的不当结论；按混合惹起说，侵害自己法益的行为对 A 不违法。
+    reported:
+      - label: 纯粹惹起说
+        answer: pure
+        summary: 共犯的违法性完全由共犯自身是否引起法益侵害决定，与正犯行为是否违法无关。
+        pages: "627"
+      - label: 修正惹起说
+        answer: modified
+        summary: 共犯的违法性来自正犯行为的违法性。
+        pages: "627"
+      - label: 混合惹起说
+        answer: mixed
+        summary: 共犯通过正犯间接引起结果，既要求共犯本身引起法益侵害，也要求正犯行为违法。
+        pages: "627"
+
+  - id: zmk7-comp-accessory
+    work: zmk-xingfaxue-7
+    question: q-comp-accessory
+    pages: "638-640"
+    answer: limited
+    summary: >-
+      作者采限制从属性说（现在的通说）：只要正犯实施了符合构成要件的违法行为，共犯即可成立，不要求正犯有责。
+    reasons:
+      - 最小从属性说把仅仅符合构成要件的行为作为从属对象，既扩大共犯的成立范围，又导致共犯与正犯处罚不均衡。
+      - 极端从属性说与责任共犯论相联系，倾向主观主义。

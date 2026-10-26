@@ -1,0 +1,173 @@
+# 分论重点争议问题·第五批（据张明楷《刑法学》第七版整理）：概念、问题与先决关系为编者整理，全部待核实。
+concepts:
+  - id: occupational-embezzlement
+    name: 职务侵占罪的行为类型
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      刑法第 271 条第 1 款规定公司、企业或其他单位的人员「利用职务上的便利，将本单位财物非法占为己有」。
+      它是像贪污罪那样包括窃取、骗取、侵吞，还是只限于侵吞自己基于职务占有的财物？这影响到与盗窃罪、诈骗罪之间的界限与量刑协调。
+
+  - id: provocation-offense
+    name: 寻衅滋事罪
+    kind: problem
+    area: sp-order
+    originPending: true
+    summary: >-
+      寻衅滋事罪（刑法第 293 条）包括随意殴打他人、追逐拦截辱骂恐吓他人、强拿硬要或任意损毁占用公私财物、在公共场所起哄闹事等类型。
+      争点集中在主观上是否需要「流氓动机」，以及它与故意伤害、抢劫、敲诈勒索等罪的关系。
+
+questions:
+  - id: q-occupational-embezzlement-acts
+    concept: occupational-embezzlement
+    text: 职务侵占罪是否包括利用职务上的便利窃取、骗取本单位财物的行为？
+    level: applied
+    aliases: [职务侵占罪, 利用职务上的便利, 狭义的侵占, 窃取骗取本单位财物]
+    answers:
+      - id: broad
+        label: 包括（与贪污罪的行为类型相同）
+        summary: 包括利用职务便利窃取、骗取、侵吞本单位财物以及其他非法占有的行为。
+      - id: narrow
+        label: 只限于狭义的侵占
+        summary: 只处罚把基于职务或业务占有的本单位财物据为己有；利用职务便利窃取、骗取的，按盗窃罪、诈骗罪论处。
+
+  - id: q-hooliganism-motive
+    concept: provocation-offense
+    text: 寻衅滋事罪的成立，是否要求行为人出于「流氓动机」？
+    level: applied
+    aliases: [寻衅滋事, 流氓动机, 随意殴打, 强拿硬要]
+    answers:
+      - id: required
+        label: 必要说
+        summary: 须出于寻求精神刺激、填补空虚、发泄不良情绪等流氓动机。
+      - id: supplementary
+        label: 客观判断为主、参考流氓动机
+        summary: 先从客观上区分无故殴打与事出有因的殴打，再参考有无流氓动机。
+      - id: not-required
+        label: 不要说
+        summary: 从客观上判断是否属于寻衅滋事行为、情节是否恶劣即可，不以流氓动机为要素。
+
+  - id: q-kidnapping-rechtsgut
+    concept: kidnapping
+    text: 绑架罪的保护法益是什么？
+    level: intermediate
+    aliases: [绑架罪法益, 行动自由, 身体安全, 自决权]
+    answers:
+      - id: multi
+        label: 人身自由、健康、生命与公私财产
+      - id: liberty
+        label: 人身自由
+        summary: 财产与其他合法利益只是可能被侵犯的法益，不是保护法益。
+      - id: custody
+        label: 身体安全与亲权者的保护监督权
+        summary: 有的情况下还包括他人的财产权。
+      - id: self-determination
+        label: 生命身体利益与第三者的自决权
+        summary: 还包括担忧人质安危的第三者决定是否交付财物的精神自由。
+      - id: liberty-safety
+        label: 本来生活状态下的行动自由与身体安全
+
+prerequisites:
+  - question: q-occupational-embezzlement-acts
+    requires: q-formal-material
+    kind: systematic
+    why: 把职务侵占罪的行为类型理解得与贪污罪相同，是价值判断而非逻辑结论；如何在文义、立法体例与罪刑均衡之间取舍，取决于解释方法。
+
+  - question: q-occupational-embezzlement-acts
+    requires: q-mixed-status-embezzlement
+    kind: systematic
+    why: 职务侵占罪与贪污罪、盗窃罪、诈骗罪的关系如何安排，与不同身份者共同侵占单位财物时如何定罪相互牵连。
+
+  - question: q-hooliganism-motive
+    requires: q-su-exists
+    kind: systematic
+    why: 「流氓动机」是条文没有写明的主观要素；是否把它作为成立要件，与如何看待不成文的主观要素有关。
+
+  - question: q-hooliganism-motive
+    requires: q-legality-basis
+    kind: foundational
+    why: 流氓动机是旧刑法「流氓罪」时代的观念；现行刑法已无流氓罪，以一个说不清的心理状态来划定犯罪范围，既不能起限定作用，也不符合明确性的要求。
+
+  - question: q-kidnapping-rechtsgut
+    requires: q-task
+    kind: foundational
+    why: 确定绑架罪的保护法益，就是确定它的处罚范围；只有从法益保护出发，才能把行为人的目的（勒索财物）与法益区分开。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 侵犯法益的是行为而不是目的，勒索财物的目的不能使财产成为绑架罪的保护法益。
+
+bookViews:
+  - id: zmk7-occupational-embezzlement-acts
+    work: zmk-xingfaxue-7
+    question: q-occupational-embezzlement-acts
+    pages: "1604-1605"
+    answer: narrow
+    summary: >-
+      作者不赞成通说，认为只有狭义的侵占行为才构成职务侵占罪，即把基于职务或业务占有的本单位财物非法据为己有；
+      单位人员利用职务便利窃取、骗取本单位财物的，直接以盗窃罪、诈骗罪论处。作者同时说明，
+      如果司法解释对职务侵占罪规定的定罪量刑数额标准与盗窃罪、诈骗罪大体相同，维持通说也可以接受。
+    reasons:
+      - 各国（地区）刑法中的职务（业务）侵占都是狭义的侵占，不包括盗窃与诈骗；从立法体例看，第 271 条与第 270 条一样应限于狭义侵占。
+      - 第 382 条明文列出窃取、骗取，第 271 条没有；把两罪的行为类型作同样理解只是价值判断，不是逻辑结论。
+      - 第 253 条规定邮政工作人员利用职务窃取财物的按盗窃罪从重处罚，也表明利用职务便利盗窃的应定盗窃罪。
+      - 贪污罪包括窃取、骗取，是因为其法定刑更重；职务侵占罪的法定刑并不高于盗窃、诈骗而定罪数额起点又过高，把盗窃、诈骗纳入其中会造成罪与罪之间的不协调。
+    reported:
+      - label: 刑法理论通说与司法实践
+        answer: broad
+        summary: 职务侵占罪包括利用职务便利窃取、骗取、侵占本单位财物以及其他非法占有行为，实际上就是单位人员的「贪污」。
+        pages: "1604"
+
+  - id: zmk7-hooliganism-motive
+    work: zmk-xingfaxue-7
+    question: q-hooliganism-motive
+    pages: "1695-1696"
+    answer: not-required
+    summary: >-
+      作者认为不应把流氓动机作为寻衅滋事罪的责任要素：认定行为人无故（随意）殴打他人之后，需要进一步判断的是客观上情节是否恶劣，
+      而不是主观上是否出于流氓动机；随意殴打他人且情节恶劣的，即使不是出于流氓动机，也应以寻衅滋事罪论处。
+    reasons:
+      - 流氓动机说不清、道不明，不能起到限定犯罪范围的作用；它是旧刑法把寻衅滋事作为流氓罪一种表现形式时的观念。
+      - 行为是否侵犯公共秩序不取决于有无流氓动机：出于流氓动机与出于报复动机在公共场所殴打他人，对法益的侵害没有区别。
+      - 不要求流氓动机，也完全可以从客观上区分寻衅滋事与伤害、抢劫等行为；寻衅滋事罪的构成要件（随意、情节恶劣）本身已经限制了处罚范围。
+      - 有的司法解释规定的寻衅滋事情形（如疫情期间强拿硬要），不可能要求流氓动机。
+    reported:
+      - label: 刑法理论通说
+        answer: required
+        summary: 寻衅滋事罪要求行为人出于寻求精神刺激、填补精神空虚、发泄不良情绪等流氓动机。
+        pages: "1695"
+      - label: 参考流氓动机的观点
+        answer: supplementary
+        summary: 仅从客观上难以准确认定寻衅滋事行为，在客观基准之上再参考主观上有无流氓动机；作者认为这实际上把流氓动机当作情节是否恶劣的判断依据。
+        pages: "1696"
+
+  - id: zmk7-kidnapping-rechtsgut
+    work: zmk-xingfaxue-7
+    question: q-kidnapping-rechtsgut
+    pages: "1375-1376"
+    answer: liberty-safety
+    summary: >-
+      作者认为绑架罪的法益是被绑架人在本来的生活状态下的行动自由以及身体安全。据此，绑架婴儿、父母绑架未成年子女作为人质的，
+      都侵害了这一法益；没有使被害人离开原本生活场所、但以实力控制使其丧失行动自由或危及身体安全的，同样成立绑架罪；
+      经监护人同意的绑架只要侵害了被绑架者的行动自由或身体安全，仍成立本罪。
+    reasons:
+      - 勒索财物只是目的而不是构成要件行为；侵犯法益的是行为而不是目的，不能因为条文规定了某种目的就把财产作为保护法益，何况许多绑架并不以勒索财物为目的。
+      - 「人身自由、健康、生命」或「生命、身体利益」的表述过于宽泛抽象，不利于指导构成要件的解释，人身自由必须具体化。
+      - 以亲权者的保护监督权为法益，会使父母不能成为绑架亲生子女的主体；以第三者的自决权为法益，又解释不了向政府提出其他不法要求的绑架。
+    reported:
+      - label: 第一种观点
+        answer: multi
+        summary: 法益包括他人的人身自由权、健康、生命权以及公私财产所有权。
+        pages: "1375"
+      - label: 第二种观点
+        answer: liberty
+        summary: 保护法益是人身自由，财产与其他合法利益只是本罪可能侵犯的法益。
+        pages: "1375"
+      - label: 第三种观点
+        answer: custody
+        summary: 法益是被绑架者的身体安全与亲权者的保护监督权，有时还包括他人的财产权。
+        pages: "1376"
+      - label: 第四种观点
+        answer: self-determination
+        summary: 法益不仅包括被绑架人的生命、身体利益，还包括担忧其安危的第三者决定是否交付财物的自决权。
+        pages: "1376"

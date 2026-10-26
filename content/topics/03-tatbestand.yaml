@@ -1,0 +1,915 @@
+# 构成要件（客观面）：因果关系与客观归责、不作为犯
+# 起草：AI（Claude）。全部为 draft，日本判例的日期与案名尤需核实。
+
+concepts:
+  - id: causation
+    name: 因果关系与客观归责
+    original:
+      de: Kausalität und objektive Zurechnung
+      ja: 因果関係・客観的帰属
+      en: causation (factual and legal)
+    kind: problem
+    area: tatbestand
+    tradition: both
+    summary: >-
+      结果在什么条件下可以归属于行为：条件说（等价说）、相当因果关系说、客观归责理论，以及日本判例发展出的「危险的现实化」。
+      英美法区分事实因果（but-for）与法律因果（proximate / legal cause），以「介入行为中断因果链」等规则处理介入因素。
+      在环境污染等公害犯罪中，能否以疫学（流行病学）证明认定因果关系，是这一专题在当代最具实践意义的延伸。
+
+  - id: omission
+    name: 不作为犯
+    original:
+      de: unechte Unterlassungsdelikte / Garantenstellung
+      ja: 不真正不作為犯
+      en: omissions / duty to act
+    kind: problem
+    area: tatbestand
+    tradition: both
+    summary: >-
+      不作为在什么情况下与作为同样可罚：作为义务从哪里来（形式的法义务说、功能二分说、事实上的排他支配说），
+      先行行为能否产生作为义务，以及不真正不作为犯的处罚是否违反罪刑法定。英美法原则上不承认一般的救助义务，只在特定关系中课以作为义务。
+
+questions:
+  # ---------------- 因果关系 ----------------
+  - id: q-causation-test
+    concept: causation
+    text: 刑法上的因果关系应如何判断：条件说、相当因果关系说、客观归责理论，还是危险的现实化？
+    level: intermediate
+    aliases:
+      - 因果关系
+      - 因果关系的判断标准
+      - 条件说
+      - 相当因果关系说
+      - 客观归责
+      - 客观归责理论
+      - 危险的现实化
+      - 结果归属
+    answers:
+      - id: conditio
+        label: 条件说（等价说）
+        summary: 「若无前者即无后者」的一切条件都是原因。
+      - id: adequacy
+        label: 相当因果关系说
+        summary: 以社会生活经验判断，该行为通常会导致该结果时才肯定因果关系。
+      - id: imputation
+        label: 客观归责理论
+        summary: 行为制造了法所不允许的危险，且该危险在构成要件的范围内实现为结果。
+      - id: realization
+        label: 危险的现实化
+        summary: 行为所具有的危险在结果中现实化了（日本判例的框架）。
+
+  - id: q-adequacy-basis
+    concept: causation
+    text: 相当因果关系说中，「相当性」的判断以哪些事实为基础：行为人认识的事实、行为时存在的全部事实，还是一般人可认识的事实？
+    level: intermediate
+    aliases:
+      - 相当性的判断基础
+      - 主观的相当因果关系说
+      - 客观的相当因果关系说
+      - 折中的相当因果关系说
+      - 被害人特殊体质
+    answers:
+      - id: subjective
+        label: 主观说（行为人认识或能认识的事实）
+      - id: objective
+        label: 客观说（行为时存在的全部客观事实）
+      - id: eclectic
+        label: 折中说（一般人能认识的事实，加上行为人特别认识的事实）
+
+  - id: q-intervening-act
+    concept: causation
+    text: 介入因素（被害人或第三人的行为、偶然事件）在什么情况下排除结果归属？
+    level: applied
+    aliases:
+      - 介入因素
+      - 因果关系的中断
+      - 第三人介入
+      - 被害人的特殊体质
+      - 大阪南港事件
+      - novus actus interveniens
+      - 溯及禁止
+      - 医疗过失介入
+    answers:
+      - id: never
+        label: 原则上不排除（条件说）
+      - id: abnormal
+        label: 介入因素异常、不可预见时排除
+      - id: free-act
+        label: 第三人或被害人自由、故意、知情的行为排除归属（溯及禁止、自我答责）
+      - id: risk-realization
+        label: 看最初行为的危险是否在结果中实现
+
+  - id: q-epidemiological
+    concept: causation
+    text: 在环境污染、公害等案件中，能否以疫学（流行病学）证明认定刑法上的因果关系？
+    level: applied
+    aliases:
+      - 疫学因果关系
+      - 流行病学因果关系
+      - 污染环境罪 因果关系
+      - 污染环境罪的因果关系
+      - 环境犯罪的因果关系
+      - 公害犯罪 因果关系
+      - 环境犯罪 因果关系
+      - 疫学证明
+      - 统计学因果关系
+    answers:
+      - id: "yes"
+        label: 可以
+        summary: 疫学证明达到排除合理怀疑的程度时，可以认定因果关系。
+      - id: limited
+        label: 有限度地可以
+        summary: 疫学证明只能证明集团层面的关联，须辅以个别证据，才能认定对具体被害人的因果关系。
+      - id: "no"
+        label: 不可以
+        summary: 刑法要求的是对个别结果的因果关系，统计上的关联不足以证明。
+
+  # ---------------- 不作为犯 ----------------
+  - id: q-omission-equivalence
+    concept: omission
+    text: 处罚不真正不作为犯是否违反罪刑法定？
+    level: intermediate
+    aliases:
+      - 不真正不作为犯与罪刑法定
+      - 不作为与作为的等价性
+      - 不作为犯的处罚根据
+      - 德国刑法第13条
+    answers:
+      - id: no-violation
+        label: 不违反（作为犯的构成要件本身可以由不作为实现）
+      - id: needs-statute
+        label: 需要总则的明文规定才不违反
+      - id: equivalence
+        label: 只要与作为具有等价性，即可处罚
+
+  - id: q-duty-source
+    concept: omission
+    text: 作为义务（保证人地位）的来源应如何确定？
+    level: intermediate
+    aliases:
+      - 作为义务的来源
+      - 保证人地位
+      - 形式的法义务说
+      - 功能二分说
+      - 排他支配说
+      - 保护义务 监督义务
+    answers:
+      - id: formal
+        label: 形式的法义务说（法律、契约、先行行为、条理）
+      - id: functional
+        label: 功能二分说（保护义务与危险源监督义务）
+      - id: exclusive-control
+        label: 事实上的排他支配说（结果原因的支配）
+      - id: mixed
+        label: 形式与实质相结合
+
+  - id: q-prior-conduct
+    concept: omission
+    text: 先行行为能否产生作为义务？合法的先行行为（如正当防卫）呢？
+    level: applied
+    aliases:
+      - 先行行为
+      - 先行行为引起的作为义务
+      - 正当防卫后的救助义务
+      - Ingerenz
+      - 交通肇事后逃逸
+    answers:
+      - id: yes-all
+        label: 包括合法的先行行为
+      - id: unlawful-only
+        label: 仅限违反义务的先行行为
+      - id: "no"
+        label: 先行行为不是独立的义务来源
+
+  - id: q-cl-omission
+    concept: omission
+    text: 刑法应否承认一般的救助义务，处罚「见危不救」？
+    level: applied
+    aliases:
+      - 见危不救
+      - Good Samaritan
+      - Bad Samaritan
+      - 一般救助义务
+      - 不救助罪
+      - 德国刑法第323c条
+    answers:
+      - id: no-general
+        label: 不承认（只有特定关系才产生作为义务）
+      - id: general
+        label: 承认（设立见危不救罪）
+
+prerequisites:
+  # ---- 因果关系 ----
+  - question: q-causation-test
+    requires: q-unrecht-core
+    kind: foundational
+    why: 结果在多大程度上属于不法，决定了结果归属需要怎样的规范筛选。
+    branches:
+      - answer: result
+        leadsTo: 结果归属以事后的客观判断为主；日本的结果无价值论者多批评客观归责论把行为无价值的判断（「法所不允许的危险」）混入构成要件，倾向相当因果关系说或危险的现实化。
+      - answer: dual
+        leadsTo: 不法包含行为无价值，「制造法所不允许的危险」正是其客观面 → 客观归责理论（德国通说）。
+      - answer: monist-act
+        leadsTo: 结果只是客观处罚条件；阿明·考夫曼质疑在故意犯中另设客观归责的必要性。
+
+  - question: q-adequacy-basis
+    requires: q-causation-test
+    kind: logical
+    why: 只有采相当因果关系说，才需要决定相当性的判断基础。
+    branches:
+      - answer: adequacy
+        leadsTo: 进入判断基础之争。
+      - answer: conditio
+        leadsTo: 不需要。
+      - answer: imputation
+        leadsTo: 客观归责论中「危险的制造」通常从事前、一般人的视角判断，与折中说结构相近。
+      - answer: realization
+        leadsTo: 以事后查明的全部事实判断危险是否现实化，不再需要这个问题。
+
+  - question: q-adequacy-basis
+    requires: q-norm-type
+    kind: foundational
+    why: 事前判断还是事后判断，与违法评价面向行为规范还是评价规范相对应；这与不能犯中危险判断的基准是同一个问题。
+    branches:
+      - answer: determination
+        leadsTo: 行为规范面向行为时的一般人 → 折中说。
+      - answer: evaluation
+        leadsTo: 违法是对客观事态的事后评价 → 客观说。
+      - answer: both
+        leadsTo: 折中说为主。
+
+  - question: q-intervening-act
+    requires: q-causation-test
+    kind: logical
+    why: 介入因素如何处理，是各种因果理论在具体案件中真正分出高下的地方。
+    branches:
+      - answer: conditio
+        leadsTo: 条件关系不因介入而中断 → 原则上不排除（再由故意、过失或量刑调整）。
+      - answer: adequacy
+        leadsTo: 介入因素异常、超出经验法则时，否定相当性。
+      - answer: imputation
+        leadsTo: 第三人的自由、故意行为可能排除归属（溯及禁止、自我答责），否则看最初的危险是否实现。
+      - answer: realization
+        leadsTo: 即使介入因素异常，只要最初行为形成了死因或决定性地提高了危险，危险仍然现实化（大阪南港事件）。
+
+  - question: q-epidemiological
+    requires: q-causation-test
+    kind: logical
+    why: 先要确定因果关系的判断框架，才能讨论疫学证明能否满足它。
+    branches:
+      - answer: conditio
+        leadsTo: 条件关系是事实问题，疫学证明是证明方法的问题；只要达到排除合理怀疑，即可肯定条件关系。
+      - answer: adequacy
+        leadsTo: 除条件关系外还须判断相当性；污染物质与疾病的关联在经验上已被确认时，相当性通常不成问题。
+      - answer: imputation
+        leadsTo: 排放行为制造了法所不允许的危险（超标排放），而这一危险在结果中实现；疫学证明主要用于证明危险的实现。
+      - answer: realization
+        leadsTo: 看排放行为的危险是否在被害人的疾病中现实化；集团层面的疫学证明能否推及个别被害人是关键。
+
+  # ---- 不作为犯 ----
+  - question: q-omission-equivalence
+    requires: q-legality-basis
+    kind: foundational
+    why: 不真正不作为犯以作为犯的条文处罚不作为，是否构成类推，取决于罪刑法定要求什么。
+    branches:
+      - answer: liberal
+        leadsTo: 只要作为义务的范围足够明确、国民可以预测，就不违反；否则有类推之嫌 → 倾向要求明文规定或严格限定作为义务。
+      - answer: democratic
+        leadsTo: 应当由立法者决定哪些不作为可罚 → 倾向需要总则的明文规定（如德国刑法第 13 条）。
+      - answer: both
+        leadsTo: 以等价性严格限定处罚范围。
+
+  - question: q-duty-source
+    requires: q-omission-equivalence
+    kind: logical
+    why: 确定了不作为可罚的条件之后，才需要追问作为义务从哪里来。
+    branches:
+      - answer: no-violation
+        leadsTo: 作为义务的来源决定了不作为何时符合作为犯的构成要件。
+      - answer: needs-statute
+        leadsTo: 在法定的保证人地位框架内具体化作为义务。
+      - answer: equivalence
+        leadsTo: 作为义务必须使不作为与作为在不法上等价 → 倾向实质的义务来源。
+
+  - question: q-duty-source
+    requires: q-unrecht-core
+    kind: foundational
+    why: 不作为的不法是什么，影响作为义务应当以什么为实质根据。
+    branches:
+      - answer: result
+        leadsTo: 不作为的不法在于没有阻止结果；作为义务的根据是对结果原因的支配 → 事实上的排他支配说、结果原因支配说。
+      - answer: dual
+        leadsTo: 保证人地位是一种特别的义务关系 → 功能二分说（保护义务与监督义务）。
+      - answer: monist-act
+        leadsTo: 义务违反本身就是不法的核心 → 功能二分说。
+
+  - question: q-prior-conduct
+    requires: q-duty-source
+    kind: logical
+    why: 先行行为是否属于义务来源，以及其范围，取决于义务来源的一般理论。
+    branches:
+      - answer: formal
+        leadsTo: 先行行为是四种形式来源之一；合法的先行行为是否包括在内，存在争论。
+      - answer: functional
+        leadsTo: 先行行为是危险源监督义务的一种；多数说限于违反义务的先行行为。
+      - answer: exclusive-control
+        leadsTo: 先行行为本身不足以产生义务，关键是行为人是否事实上排他地支配了结果的发生。
+      - answer: mixed
+        leadsTo: 先行行为须创设了法所不允许的危险，且行为人支配着危险的进程。
+
+  - question: q-cl-omission
+    requires: q-harm
+    kind: foundational
+    why: 救助义务是否正当，取决于国家可以出于什么理由限制个人自由。
+    branches:
+      - answer: harm-only
+        leadsTo: 不作为也可能「造成伤害」；伤害原则并不当然排除救助义务（范伯格支持处罚见危不救的立法）。
+      - answer: harm-offense
+        leadsTo: 同上。
+      - answer: moralism
+        leadsTo: 救助是道德义务，法律道德主义并不能直接推出法律上的救助义务。
+
+relations:
+  - from: omission
+    to: legality
+    type: derived_from
+    description: 不真正不作为犯以作为犯的条文处罚不作为，始终面临与罪刑法定的紧张关系。
+  - from: causation
+    to: impossible-attempt
+    type: symmetric
+    description: 相当因果关系说的判断基础之争（主观说、客观说、折中说）与不能犯的危险判断基准之争（抽象、具体、客观危险说）在结构上平行：都是在问以事前还是事后、以谁的认识为基础判断危险。
+
+works:
+  - id: w-buri-1873
+    title: Über Causalität und deren Verantwortung
+    titleZh: 论因果关系及其责任
+    authors: [buri]
+    year: 1873
+    type: monograph
+    jurisdiction: de
+    needsSource: true
+  - id: w-kries-1888
+    title: Über den Begriff der objectiven Möglichkeit und einige Anwendungen desselben
+    titleZh: 论客观可能性的概念及其应用
+    authors: [kries]
+    year: 1888
+    type: article
+    jurisdiction: de
+    venue: Vierteljahrsschrift für wissenschaftliche Philosophie
+    needsSource: true
+  - id: w-larenz-1927
+    title: Hegels Zurechnungslehre und der Begriff der objektiven Zurechnung
+    titleZh: 黑格尔的归责理论与客观归责的概念
+    authors: [larenz]
+    year: 1927
+    type: monograph
+    jurisdiction: de
+  - id: w-honig-1930
+    title: Kausalität und objektive Zurechnung
+    titleZh: 因果关系与客观归责
+    authors: [honig]
+    year: 1930
+    type: article
+    jurisdiction: de
+    venue: Festgabe für Reinhard von Frank
+    needsSource: true
+  - id: w-roxin-1970b
+    title: Gedanken zur Problematik der Zurechnung im Strafrecht
+    titleZh: 关于刑法中归责问题的思考
+    authors: [roxin]
+    year: 1970
+    type: article
+    jurisdiction: de
+    venue: Festschrift für Richard M. Honig
+  - id: w-kaufmann-1985
+    title: Objektive Zurechnung beim Vorsatzdelikt?
+    titleZh: 故意犯中的客观归责？
+    authors: [armin-kaufmann]
+    year: 1985
+    type: article
+    jurisdiction: de
+    venue: Festschrift für Hans-Heinrich Jescheck
+    needsSource: true
+  - id: w-jp-yonehei-1967
+    title: 最決昭和42年10月24日（米兵ひき逃げ事件）
+    titleZh: 美军士兵肇事逃逸案
+    authorText: 最高裁判所
+    year: 1967
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-jp-chiba-1982
+    title: 最決昭和57年5月25日（千葉大チフス菌事件）
+    titleZh: 千叶大学伤寒菌案
+    authorText: 最高裁判所
+    year: 1982
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-jp-nanko-1990
+    title: 最決平成2年11月20日（大阪南港事件）
+    titleZh: 大阪南港案
+    authorText: 最高裁判所
+    year: 1990
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-hart-honore-1959
+    title: Causation in the Law
+    titleZh: 法律中的因果关系
+    authors: [hart, honore]
+    year: 1959
+    type: monograph
+    jurisdiction: uk-ew
+  - id: w-smith-1959
+    title: R v Smith [1959] 2 QB 35
+    authorText: Courts-Martial Appeal Court
+    year: 1959
+    type: case
+    jurisdiction: uk-ew
+  - id: w-blaue-1975
+    title: R v Blaue [1975] 1 WLR 1411
+    authorText: Court of Appeal
+    year: 1975
+    type: case
+    jurisdiction: uk-ew
+  - id: w-pagett-1983
+    title: R v Pagett (1983) 76 Cr App R 279
+    authorText: Court of Appeal
+    year: 1983
+    type: case
+    jurisdiction: uk-ew
+  - id: w-kennedy-2007
+    title: R v Kennedy (No 2) [2007] UKHL 38
+    authorText: House of Lords
+    year: 2007
+    type: case
+    jurisdiction: uk-ew
+  - id: w-palsgraf-1928
+    title: Palsgraf v. Long Island Railroad Co., 248 N.Y. 339 (1928)
+    authorText: New York Court of Appeals
+    year: 1928
+    type: case
+    jurisdiction: us
+  - id: w-chen-2006b
+    title: 从归因到归责：客观归责理论研究
+    authors: [chen-xingliang]
+    year: 2006
+    type: article
+    jurisdiction: cn
+    venue: 法学研究
+    needsSource: true
+  - id: w-cn-amend8-2011
+    title: 中华人民共和国刑法修正案（八）
+    authorText: 全国人民代表大会常务委员会
+    year: 2011
+    type: statute
+    jurisdiction: cn
+  - id: w-cn-env-interp-2016
+    title: 最高人民法院、最高人民检察院关于办理环境污染刑事案件适用法律若干问题的解释
+    authorText: 最高人民法院、最高人民检察院
+    year: 2016
+    type: report
+    jurisdiction: cn
+    needsSource: true
+    editorNote: 2023 年另有新的司法解释，待核。
+  - id: w-kaufmann-1959
+    title: Die Dogmatik der Unterlassungsdelikte
+    titleZh: 不作为犯的教义学
+    authors: [armin-kaufmann]
+    year: 1959
+    type: monograph
+    jurisdiction: de
+  - id: w-instan-1893
+    title: R v Instan [1893] 1 QB 450
+    authorText: Court for Crown Cases Reserved
+    year: 1893
+    type: case
+    jurisdiction: uk-ew
+  - id: w-stone-dobinson-1977
+    title: R v Stone and Dobinson [1977] QB 354
+    authorText: Court of Appeal
+    year: 1977
+    type: case
+    jurisdiction: uk-ew
+  - id: w-miller-1983
+    title: R v Miller [1983] 2 AC 161
+    authorText: House of Lords
+    year: 1983
+    type: case
+    jurisdiction: uk-ew
+  - id: w-bland-1993
+    title: Airedale NHS Trust v Bland [1993] AC 789
+    authorText: House of Lords
+    year: 1993
+    type: case
+    jurisdiction: uk-ew
+  - id: w-jones-1962
+    title: Jones v. United States, 308 F.2d 307 (D.C. Cir. 1962)
+    authorText: U.S. Court of Appeals for the D.C. Circuit
+    year: 1962
+    type: case
+    jurisdiction: us
+
+events:
+  # ---------------- 因果关系 ----------------
+  - id: e-de-buri-1873
+    year: 1873
+    jurisdiction: de
+    type: origin
+    originOf: causation
+    originType: term
+    title: 冯·布里：条件说（等价说）
+    description: 一切「若无此条件，结果就不会发生」的条件，在法律上都是等价的原因，不能区分原因与条件。条件说长期是德国判例的出发点。
+    concepts: [causation]
+    scholars: [buri]
+    works: [w-buri-1873]
+    needsSource: true
+    editorNote: 等价思想最早见于冯·布里 1860 年的共犯论专著，1873 年的著作对其作了系统展开。
+
+  - id: e-de-kries-1888
+    year: 1888
+    jurisdiction: de
+    type: development
+    title: 冯·克里斯：相当因果关系说
+    description: 以概率论中的「客观可能性」为工具：只有在一般情况下会显著提高结果发生可能性的条件，才是法律上的原因。条件说的过度扩张由此得到限制。
+    concepts: [causation]
+    scholars: [kries]
+    works: [w-kries-1888]
+    derivedFrom: [e-de-buri-1873]
+    needsSource: true
+
+  - id: e-de-larenz-1927
+    year: 1927
+    jurisdiction: de
+    type: development
+    title: 拉伦茨提出「客观归责」概念
+    description: 从黑格尔的归责理论出发，区分可以归属于行为人意志的「行为」与单纯的偶然事件。「归责」由此被从「因果」中区分出来。
+    concepts: [causation]
+    scholars: [larenz]
+    works: [w-larenz-1927]
+    derivedFrom: [e-de-hegel-1820]
+
+  - id: e-de-honig-1930
+    year: 1930
+    jurisdiction: de
+    type: development
+    title: 霍尼希将客观归责引入刑法
+    description: 因果关系只是归责的前提；结果只有在可以被视为行为人「有目的地设定」时，才能在法律上归属于他。
+    concepts: [causation]
+    scholars: [honig]
+    works: [w-honig-1930]
+    derivedFrom: [e-de-larenz-1927, e-de-kries-1888]
+    needsSource: true
+
+  - id: e-de-roxin-1970b
+    year: 1970
+    jurisdiction: de
+    type: turn
+    title: 罗克辛：现代客观归责理论
+    description: 以风险为核心重构结果归属：降低风险的行为不可归责；没有制造法律上重要的风险不可归责；风险升高与规范保护目的等规则限定归责范围。客观归责理论由此成为德国通说。
+    concepts: [causation]
+    scholars: [roxin]
+    works: [w-roxin-1970b]
+    derivedFrom: [e-de-honig-1930]
+
+  - id: e-de-kaufmann-1985
+    year: 1985
+    jurisdiction: de
+    type: critique
+    title: 阿明·考夫曼：故意犯中的客观归责？
+    description: 在故意犯中，结果是否可以归属，完全可以通过因果关系与故意（行为人的目的性）来解决；另设客观归责的层次是多余的。
+    concepts: [causation]
+    scholars: [armin-kaufmann]
+    works: [w-kaufmann-1985]
+    derivedFrom: [e-de-roxin-1970b]
+    needsSource: true
+
+  - id: e-jp-yonehei-1967
+    year: 1967
+    jurisdiction: jp
+    type: case
+    title: 美军士兵肇事逃逸案：以相当性否定因果关系
+    description: 被告人撞倒被害人后，被害人被抛到车顶，同乘者将其拽落致死。最高裁判所认为，同乘者的介入不能说是通常可以预想的，否定了被告人的撞击行为与死亡之间的因果关系。相当因果关系说在判例中的影响由此显现。
+    concepts: [causation]
+    works: [w-jp-yonehei-1967]
+    derivedFrom: [e-de-kries-1888]
+    needsSource: true
+
+  - id: e-jp-chiba-1982
+    year: 1982
+    jurisdiction: jp
+    type: case
+    title: 千叶大学伤寒菌案：疫学证明
+    description: 最高裁判所在认定被告人投放病菌与多名被害人发病之间的关系时，承认以疫学的方法进行证明。疫学证明能否满足刑事诉讼的证明标准，由此成为公害犯罪与环境犯罪的重要课题。
+    concepts: [causation]
+    works: [w-jp-chiba-1982]
+    needsSource: true
+
+  - id: e-jp-nanko-1990
+    year: 1990
+    jurisdiction: jp
+    type: case
+    title: 大阪南港案：「相当因果关系说的危机」
+    description: 被告人的暴行造成被害人脑出血，其后第三人在资材放置场又对被害人施暴，可能提前了死亡。最高裁判所认为，最初的暴行已经形成了死因，即使有第三人的介入，因果关系仍然成立。这一结论难以用传统的相当性判断说明，此后学说与判例转向「危险的现实化」。
+    concepts: [causation]
+    works: [w-jp-nanko-1990]
+    derivedFrom: [e-jp-yonehei-1967]
+    needsSource: true
+
+  - id: e-jp-realization
+    year: 2005
+    circa: true
+    jurisdiction: jp
+    type: turn
+    title: 「危险的现实化」成为判例与学说的框架
+    description: 判断行为所具有的危险是否在结果中现实化，取代相当性判断成为日本因果关系论的主流框架；山口厚等结果无价值论者也以此替代客观归责理论。
+    concepts: [causation]
+    scholars: [yamaguchi]
+    derivedFrom: [e-jp-nanko-1990]
+    needsSource: true
+    editorNote: 年份为编者估计；相关的一系列最高裁判所判例待补。
+
+  - id: e-uk-smith-1959
+    year: 1959
+    jurisdiction: uk-ew
+    type: case
+    title: R v Smith：「仍在起作用且实质性的原因」
+    description: 被害人被刺伤后在救治中受到不当处置而死亡。法院认为，只要最初的伤害在死亡时仍然是起作用的、实质性的原因，医疗上的过失就不中断因果关系。
+    concepts: [causation]
+    works: [w-smith-1959]
+
+  - id: e-uk-hart-honore-1959
+    year: 1959
+    jurisdiction: uk-ew
+    type: development
+    title: 哈特与奥诺尔《法律中的因果关系》
+    description: 从日常语言中的因果观念出发，提出「自愿的人类行为」与「异常的偶然事件」会中断因果链等原则。英美法上的法律因果理论由此获得系统的哲学表述。
+    concepts: [causation]
+    scholars: [hart, honore]
+    works: [w-hart-honore-1959]
+
+  - id: e-uk-blaue-1975
+    year: 1975
+    jurisdiction: uk-ew
+    type: case
+    title: R v Blaue：「接受被害人的本来样子」
+    description: 被害人被刺伤后因宗教信仰拒绝输血而死亡。法院认为，加害人必须接受被害人的本来样子（薄头盖骨规则），包括其信仰；拒绝输血不中断因果关系。
+    concepts: [causation]
+    works: [w-blaue-1975]
+    derivedFrom: [e-uk-smith-1959]
+
+  - id: e-uk-pagett-1983
+    year: 1983
+    jurisdiction: uk-ew
+    type: case
+    title: R v Pagett：以人质为盾牌
+    description: 被告人以怀孕的女友为盾牌向警察开枪，警察还击致女友死亡。法院认为，警察出于自卫与职责的合理反应不是「自由、故意、知情」的介入行为，不中断因果关系。
+    concepts: [causation]
+    works: [w-pagett-1983]
+    derivedFrom: [e-uk-hart-honore-1959]
+
+  - id: e-uk-kennedy-2007
+    year: 2007
+    jurisdiction: uk-ew
+    type: case
+    title: R v Kennedy (No 2)：自由、知情的自我注射中断因果链
+    description: 被告人为被害人准备海洛因注射器，被害人自行注射后死亡。上议院认为，具有完全能力的成年人自由、知情地自行注射，中断了因果关系，被告人不构成非预谋杀人。这与大陆法的「被害人自我答责」相对应。
+    concepts: [causation]
+    works: [w-kennedy-2007]
+    derivedFrom: [e-uk-hart-honore-1959, e-uk-pagett-1983]
+
+  - id: e-us-palsgraf-1928
+    year: 1928
+    jurisdiction: us
+    type: case
+    title: Palsgraf 案：近因与可预见性
+    description: 卡多佐法官以「可预见的原告」限定注意义务的范围。这是一个侵权案件，但它所确立的近因与可预见性的思路深刻影响了美国刑法上的法律因果理论。
+    concepts: [causation]
+    works: [w-palsgraf-1928]
+
+  - id: e-cn-chen-2006-imputation
+    year: 2006
+    jurisdiction: cn
+    type: reception
+    title: 客观归责理论在中国大陆的引入
+    description: 陈兴良等学者系统介绍德国的客观归责理论，主张从「归因」走向「归责」，以替代传统的必然因果关系与偶然因果关系之争。
+    concepts: [causation]
+    scholars: [chen-xingliang]
+    works: [w-chen-2006b]
+    derivedFrom: [e-de-roxin-1970b]
+    needsSource: true
+
+  - id: e-cn-amend8-2011
+    year: 2011
+    jurisdiction: cn
+    type: legislation
+    title: 刑法修正案（八）：重大环境污染事故罪改为污染环境罪
+    description: 第 338 条不再要求「造成重大环境污染事故」，而以「严重污染环境」为构成要件，降低了入罪门槛。污染行为与人身、财产损害之间的因果关系认定由此成为实务难点。
+    concepts: [causation]
+    works: [w-cn-amend8-2011]
+
+  - id: e-cn-env-interp-2016
+    year: 2016
+    jurisdiction: cn
+    type: legislation
+    title: 环境污染刑事案件司法解释
+    description: 最高人民法院、最高人民检察院以列举方式界定「严重污染环境」的情形，并对监测数据、鉴定意见等证据的使用作出规定，与因果关系的证明直接相关。
+    concepts: [causation]
+    works: [w-cn-env-interp-2016]
+    derivedFrom: [e-cn-amend8-2011]
+    needsSource: true
+
+  # ---------------- 不作为犯 ----------------
+  - id: e-de-feuerbach-omission-1801
+    year: 1801
+    jurisdiction: de
+    type: origin
+    originOf: omission
+    originType: term
+    title: 费尔巴哈：不作为犯以特别的法义务为前提
+    description: 公民原则上只负有不作为的义务；不作为要成为犯罪，必须存在由法律或契约产生的特别作为义务。这是形式的法义务说的起点，此后先行行为等来源被逐步加入。
+    concepts: [omission]
+    scholars: [feuerbach]
+    works: [w-feuerbach-1801]
+    needsSource: true
+
+  - id: e-uk-instan-1893
+    year: 1893
+    jurisdiction: uk-ew
+    type: case
+    title: R v Instan：自愿承担照顾而产生的义务
+    description: 被告人与年迈的姑母同住，在姑母病重时未提供食物与救助。法院认为，被告人自愿承担了照顾责任，其不作为构成非预谋杀人。
+    concepts: [omission]
+    works: [w-instan-1893]
+
+  - id: e-de-kaufmann-1959
+    year: 1959
+    jurisdiction: de
+    type: turn
+    title: 阿明·考夫曼：功能二分说
+    description: 以保证人地位的实质功能取代形式的义务来源：对特定法益的保护义务（如家庭、紧密共同体、自愿承担），以及对特定危险源的监督义务（如先行行为、危险物、他人的行为）。
+    concepts: [omission]
+    scholars: [armin-kaufmann]
+    works: [w-kaufmann-1959]
+    derivedFrom: [e-de-feuerbach-omission-1801]
+
+  - id: e-us-jones-1962
+    year: 1962
+    jurisdiction: us
+    type: case
+    title: Jones v. United States：作为义务的四种情形
+    description: 法院列举了不作为可以成立犯罪的四种情形：法律规定的义务、特定身份关系、契约上的义务，以及自愿承担照顾并使他人与外界隔绝。
+    concepts: [omission]
+    works: [w-jones-1962]
+    derivedFrom: [e-uk-instan-1893]
+
+  - id: e-uk-stone-dobinson-1977
+    year: 1977
+    jurisdiction: uk-ew
+    type: case
+    title: R v Stone and Dobinson
+    description: 被告人收留了患厌食症的亲属，却在其病重时未寻求救助。法院认为，被告人已经承担了照顾义务，其重大过失的不作为构成非预谋杀人。
+    concepts: [omission]
+    works: [w-stone-dobinson-1977]
+    derivedFrom: [e-uk-instan-1893]
+
+  - id: e-jp-exclusive-control
+    year: 1985
+    circa: true
+    jurisdiction: jp
+    type: development
+    title: 事实上的排他支配说
+    description: 结果无价值论者认为，不作为与作为等价的实质根据，在于行为人事实上排他地支配了结果发生的因果进程；形式的义务来源只是这种支配的线索。
+    concepts: [omission]
+    scholars: [nishida]
+    derivedFrom: [e-de-kaufmann-1959]
+    needsSource: true
+    editorNote: 年份为编者估计，首倡者与文献待核。
+
+  - id: e-uk-miller-1983
+    year: 1983
+    jurisdiction: uk-ew
+    type: case
+    title: R v Miller：制造危险者的救助义务
+    description: 被告人睡着时香烟引燃床垫，醒后发现火情却只是换了个房间继续睡觉。上议院认为，行为人无意中制造了危险，一旦意识到，就负有采取合理措施的义务。
+    concepts: [omission]
+    works: [w-miller-1983]
+    derivedFrom: [e-uk-instan-1893]
+
+  - id: e-uk-bland-1993
+    year: 1993
+    jurisdiction: uk-ew
+    type: case
+    title: Airedale NHS Trust v Bland：撤除维生治疗是不作为
+    description: 上议院认为，对持续植物状态患者撤除人工喂养属于不作为；在继续治疗不符合患者最佳利益时，医生不负有继续治疗的义务。作为与不作为的区分由此直接决定了结论。
+    concepts: [omission]
+    works: [w-bland-1993]
+    derivedFrom: [e-uk-miller-1983]
+
+positions:
+  # ---- 因果关系 ----
+  - theory: result-disvalue
+    question: q-causation-test
+    answer: realization
+    derivation:
+      - 结果归属以事后查明的客观事实为基础。
+      - 「法所不允许的危险」带有行为无价值的色彩，不宜作为构成要件的判断标准。
+      - 看行为的危险是否在结果中现实化。
+    alternatives:
+      - answer: adequacy
+        note: 较早的结果无价值论者多采客观的相当因果关系说。
+      - answer: imputation
+        note: 中国大陆也有结果无价值论者在一定程度上接受客观归责理论（待核）。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-causation-test
+    answer: imputation
+    derivation:
+      - 行为无价值的客观面是「制造法所不允许的危险」。
+      - 结果无价值是这一危险在构成要件范围内的实现 → 客观归责理论。
+    alternatives:
+      - answer: adequacy
+        note: 日本的行为无价值论者多采折中的相当因果关系说。
+        jurisdictions: [jp]
+  - theory: monist-act-disvalue
+    question: q-causation-test
+    answer: conditio
+    derivation:
+      - 结果只是客观处罚条件，不属于不法。
+      - 在故意犯中，因果关系加上行为人的目的性已足够，客观归责是多余的。
+    needsSource: true
+  - theory: result-disvalue
+    question: q-adequacy-basis
+    answer: objective
+    derivation:
+      - 违法是对客观事态的事后评价。
+      - 以行为时存在的全部客观事实为基础判断相当性。
+  - theory: dual-act-disvalue
+    question: q-adequacy-basis
+    answer: eclectic
+    derivation:
+      - 行为规范面向行为时的一般人。
+      - 以一般人能认识的事实与行为人特别认识的事实为基础 → 折中说。
+  - theory: result-disvalue
+    question: q-intervening-act
+    answer: risk-realization
+    derivation:
+      - 不问介入因素本身是否异常，而看最初行为的危险是否在结果中实现。
+    alternatives:
+      - answer: abnormal
+        note: 采相当因果关系说时，以介入因素的异常性为准。
+  - theory: dual-act-disvalue
+    question: q-intervening-act
+    answer: free-act
+    derivation:
+      - 第三人或被害人自由、故意、知情的行为，使结果属于其自身的答责领域。
+      - 否则看最初制造的危险是否实现。
+    alternatives:
+      - answer: risk-realization
+        note: 也有学者统一以危险实现来处理。
+
+  # ---- 不作为犯 ----
+  - theory: result-disvalue
+    question: q-duty-source
+    answer: exclusive-control
+    derivation:
+      - 不作为的不法在于没有阻止结果的发生。
+      - 作为义务的实质根据是对结果原因的事实上的支配。
+    alternatives:
+      - answer: mixed
+        note: 也有学者在实质支配之外仍以形式来源加以限定。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-duty-source
+    answer: functional
+    derivation:
+      - 保证人地位是特别的义务关系。
+      - 按其功能分为保护义务与危险源监督义务。
+  - theory: dual-act-disvalue
+    question: q-prior-conduct
+    answer: unlawful-only
+    derivation:
+      - 先行行为属于危险源监督义务。
+      - 只有违反义务地制造了危险，才产生防止结果的义务（德国多数说）。
+    needsSource: true
+
+dialogues:
+  - id: dlg-de-imputation
+    title: 客观归责是否必要（罗克辛 × 阿明·考夫曼）
+    concept: causation
+    jurisdictions: [de]
+    summary: 目的理性体系与目的论体系在结果归属问题上的正面交锋。
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: roxin
+        work: w-roxin-1970b
+        year: 1970
+        claim: 因果关系只是归责的前提；结果能否归属，要看行为是否制造了法所不允许的危险，以及这一危险是否在构成要件的范围内实现。
+      - id: t2
+        scholar: armin-kaufmann
+        work: w-kaufmann-1985
+        year: 1985
+        respondsTo: t1
+        claim: 在故意犯中，客观归责所要解决的问题都可以通过因果关系与故意来处理；把规范评价提前到客观构成要件，是不必要的。

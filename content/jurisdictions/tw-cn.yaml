@@ -1,0 +1,310 @@
+# 台湾地区与中国大陆：学者、文献、演化事件
+# 起草：AI（Claude）。期刊期号、学者立场归属尤需核实。
+
+scholars:
+  # ---------------- 台湾地区 ----------------
+  - id: lin-shantian
+    name: 林山田
+    nameOriginal: 林山田
+    jurisdiction: tw
+    born: 1945
+    died: 2007
+    bio: 台湾地区刑法学的代表人物之一，长期主导刑法总则的体系化与修法讨论。
+    needsSource: true
+  - id: hsu-yuhsiu
+    name: 许玉秀
+    nameOriginal: 許玉秀
+    jurisdiction: tw
+    affiliations: [政治大学]
+    bio: 研究主观不法与客观归责理论；曾任司法院大法官。
+    needsSource: true
+  - id: huang-rongjian
+    name: 黄荣坚
+    nameOriginal: 黃榮堅
+    jurisdiction: tw
+    affiliations: [台湾大学]
+    bio: 以法益保护为中心建构刑法体系，主张不能未遂不应处罚。
+    needsSource: true
+    editorNote: 立场归属为编者印象，待核。
+
+  # ---------------- 中国大陆 ----------------
+  - id: zhang-mingkai
+    name: 张明楷
+    nameOriginal: 张明楷
+    jurisdiction: cn
+    born: 1959
+    affiliations: [清华大学]
+    bio: 中国大陆结果无价值论的代表。以法益概念取代社会危害性理论，主张违法的实质是法益侵害，故意、过失属于责任要素。
+    influencedBy: [hirano, yamaguchi, nishida]
+    needsSource: true
+  - id: zhou-guangquan
+    name: 周光权
+    nameOriginal: 周光权
+    jurisdiction: cn
+    affiliations: [清华大学]
+    bio: 中国大陆行为无价值论的代表，提出以法益保护为前提的「新行为无价值论」。
+    influencedBy: [welzel, ida]
+    needsSource: true
+  - id: chen-xingliang
+    name: 陈兴良
+    nameOriginal: 陈兴良
+    jurisdiction: cn
+    born: 1957
+    affiliations: [北京大学]
+    bio: 倡导刑法知识的「去苏俄化」与阶层式犯罪论体系。
+  - id: li-hong
+    name: 黎宏
+    nameOriginal: 黎宏
+    jurisdiction: cn
+    affiliations: [清华大学]
+    bio: 结果无价值论的代表学者之一。
+    needsSource: true
+
+works:
+  - id: w-tw-1935
+    title: 中华民国刑法（1935 年公布）
+    titleZh: 中华民国刑法（1935 年公布）
+    authorText: 立法院
+    year: 1935
+    type: statute
+    jurisdiction: tw
+  - id: w-hsu-1997
+    title: 主觀與客觀之間：主觀理論與客觀歸責
+    titleZh: 主观与客观之间：主观理论与客观归责
+    authors: [hsu-yuhsiu]
+    year: 1997
+    type: monograph
+    jurisdiction: tw
+    needsSource: true
+  - id: w-tw-2005-art26
+    title: 刑法第 26 条（2005 年修正）
+    titleZh: 刑法第 26 条（2005 年修正）
+    authorText: 立法院
+    year: 2005
+    type: statute
+    jurisdiction: tw
+
+  - id: w-trainin-1958
+    title: 犯罪构成的一般学说（中译本）
+    titleZh: 犯罪构成的一般学说（中译本）
+    authorText: А. Н. 特拉伊宁 著
+    year: 1958
+    type: monograph
+    jurisdiction: cn
+    venue: 中国人民大学出版社
+    needsSource: true
+  - id: w-cn-1979
+    title: 中华人民共和国刑法（1979 年）
+    titleZh: 中华人民共和国刑法（1979 年）
+    authorText: 全国人民代表大会
+    year: 1979
+    type: statute
+    jurisdiction: cn
+  - id: w-cn-1997
+    title: 中华人民共和国刑法（1997 年修订）
+    titleZh: 中华人民共和国刑法（1997 年修订）
+    authorText: 全国人民代表大会
+    year: 1997
+    type: statute
+    jurisdiction: cn
+  - id: w-zhang-2000
+    title: 法益初论
+    authors: [zhang-mingkai]
+    year: 2000
+    type: monograph
+    jurisdiction: cn
+    venue: 中国政法大学出版社
+  - id: w-zhang-2002
+    title: 刑法的基本立场
+    authors: [zhang-mingkai]
+    year: 2002
+    type: monograph
+    jurisdiction: cn
+    venue: 中国法制出版社
+  - id: w-chen-2006
+    title: 刑法知识的去苏俄化
+    authors: [chen-xingliang]
+    year: 2006
+    type: article
+    jurisdiction: cn
+    venue: 政法论坛
+    needsSource: true
+    editorNote: 期号待核。
+  - id: w-zhou-2008
+    title: 违法性判断的基准与行为无价值论
+    authors: [zhou-guangquan]
+    year: 2008
+    type: article
+    jurisdiction: cn
+    venue: 中国社会科学
+    needsSource: true
+    editorNote: 题目与期号待核。
+  - id: w-zhang-2009
+    title: 行为无价值论的疑问——兼与周光权教授商榷
+    authors: [zhang-mingkai]
+    year: 2009
+    type: article
+    jurisdiction: cn
+    venue: 中国社会科学
+    needsSource: true
+    editorNote: 期号待核。
+  - id: w-zhou-2012
+    title: 新行为无价值论的中国展开
+    authors: [zhou-guangquan]
+    year: 2012
+    type: article
+    jurisdiction: cn
+    venue: 中国法学
+    needsSource: true
+    editorNote: 期号待核。
+  - id: w-zhang-2012
+    title: 行为无价值论与结果无价值论
+    authors: [zhang-mingkai]
+    year: 2012
+    type: monograph
+    jurisdiction: cn
+    venue: 北京大学出版社
+
+events:
+  # ---------------- 台湾地区 ----------------
+  - id: e-tw-1935
+    year: 1935
+    jurisdiction: tw
+    type: legislation
+    title: 1935 年刑法公布
+    description: 现行刑法的前身公布施行，体系上参照德、日的立法与学说。这部法典后来在台湾地区施行，德日刑法学也由此成为台湾刑法学的主要来源。其第 1 条规定罪刑法定。
+    concepts: [wrongfulness-essence, legality]
+    works: [w-tw-1935]
+    derivedFrom: [e-de-beling-1906]
+    needsSource: true
+
+  - id: e-tw-hsu-1997
+    year: 1997
+    jurisdiction: tw
+    type: reception
+    title: 许玉秀：主观与客观之间
+    description: 系统介绍并检讨德国的主观不法理论与客观归责理论，追问不法判断中主观与客观要素的关系。
+    concepts: [subjective-unrecht, wrongfulness-essence]
+    scholars: [hsu-yuhsiu]
+    works: [w-hsu-1997]
+    derivedFrom: [e-de-roxin-1970, e-de-welzel-1939]
+    needsSource: true
+
+  # ---------------- 中国大陆 ----------------
+  - id: e-cn-soviet-1958
+    year: 1958
+    jurisdiction: cn
+    type: reception
+    title: 继受苏俄犯罪构成理论与社会危害性理论
+    description: 1950 年代，苏联刑法学（如特拉伊宁的犯罪构成学说）被系统翻译引入。犯罪构成四要件与「社会危害性」成为此后数十年的通说框架；在这一框架中，违法性并不是独立的评价阶层。
+    concepts: [wrongfulness-essence, crime-system]
+    works: [w-trainin-1958]
+    needsSource: true
+
+  - id: e-cn-1979
+    year: 1979
+    jurisdiction: cn
+    type: legislation
+    title: 1979 年刑法
+    description: >-
+      第一部刑法典以社会危害性界定犯罪概念，并允许类推定罪（须报最高人民法院核准）。
+      总则还规定了：故意是「明知」并「希望或者放任」结果发生；紧急避险；醉酒的人犯罪应当负刑事责任；
+      未遂以「已经着手实行」为前提；中止犯应当免除或者减轻处罚；以作用为标准把共同犯罪人分为主犯、从犯、胁从犯与教唆犯；
+      「被教唆的人没有犯被教唆的罪」时，对教唆犯可以从轻或者减轻处罚。
+    concepts: [wrongfulness-essence, legality, intent, necessity, alic, commencement, withdrawal, perpetration, complicity-basis]
+    works: [w-cn-1979]
+    derivedFrom: [e-cn-soviet-1958]
+
+  - id: e-cn-1997
+    year: 1997
+    jurisdiction: cn
+    type: legislation
+    title: 1997 年刑法修订
+    description: >-
+      明文规定罪刑法定原则（第 3 条）并废除类推；增设特殊防卫（第 20 条第 3 款）；
+      以「不能辨认或者不能控制自己行为」规定精神病人的刑事责任（第 18 条）；规定不可抗力与意外事件不是犯罪（第 16 条）；
+      在总则中系统规定单位犯罪及双罚制（第 30、31 条）。以形式的犯罪定义约束实质的社会危害性判断，成为此后学说转型的背景。
+    concepts: [wrongfulness-essence, legality, self-defense, necessity, insanity, strict-liability, corporate-liability]
+    works: [w-cn-1997]
+    derivedFrom: [e-cn-1979]
+
+  - id: e-cn-zhang-2000
+    year: 2000
+    jurisdiction: cn
+    type: reception
+    title: 张明楷《法益初论》
+    description: 以法益概念取代社会危害性，作为犯罪本质与违法实质的说明，结果无价值论由此进入中国大陆。
+    concepts: [rechtsgut, wrongfulness-essence]
+    scholars: [zhang-mingkai]
+    works: [w-zhang-2000]
+    derivedFrom: [e-jp-hirano-1972, e-cn-1997]
+
+  - id: e-cn-zhang-2002
+    year: 2002
+    jurisdiction: cn
+    type: development
+    title: 张明楷《刑法的基本立场》
+    description: 明确提出刑法的基本立场应是客观主义与结果无价值论，并据此检讨一系列具体问题。
+    concepts: [wrongfulness-essence, criminal-law-schools]
+    scholars: [zhang-mingkai]
+    works: [w-zhang-2002]
+    derivedFrom: [e-cn-zhang-2000]
+
+  - id: e-cn-chen-2006
+    year: 2006
+    jurisdiction: cn
+    type: turn
+    title: 刑法知识的「去苏俄化」
+    description: 陈兴良主张清理苏俄刑法学的知识遗产，转向德日阶层式犯罪论体系。违法性作为独立阶层的地位由此在学界获得广泛讨论。
+    concepts: [wrongfulness-essence, crime-system]
+    scholars: [chen-xingliang]
+    works: [w-chen-2006]
+    derivedFrom: [e-cn-soviet-1958]
+    needsSource: true
+
+  - id: e-cn-zhou-2008
+    year: 2008
+    jurisdiction: cn
+    type: critique
+    title: 周光权提倡行为无价值论
+    description: 违法判断不能只看结果；行为人对行为规范的违反同样是不法的核心，在中国语境中更应重视行为规范的指引功能。
+    concepts: [wrongfulness-essence]
+    scholars: [zhou-guangquan]
+    works: [w-zhou-2008]
+    derivedFrom: [e-cn-zhang-2002, e-jp-ida-2005]
+    needsSource: true
+
+  - id: e-cn-zhang-2009
+    year: 2009
+    jurisdiction: cn
+    type: critique
+    title: 张明楷质疑行为无价值论
+    description: 行为无价值论会导致处罚范围扩大与刑法的伦理化，并在具体问题上得出不协调的结论。
+    concepts: [wrongfulness-essence]
+    scholars: [zhang-mingkai]
+    works: [w-zhang-2009]
+    derivedFrom: [e-cn-zhou-2008]
+    needsSource: true
+
+  - id: e-cn-zhou-2012
+    year: 2012
+    jurisdiction: cn
+    type: development
+    title: 新行为无价值论
+    description: 以法益保护为前提，行为规范服务于法益保护，以此回应「刑法伦理化」的批评。
+    concepts: [wrongfulness-essence]
+    scholars: [zhou-guangquan]
+    works: [w-zhou-2012]
+    derivedFrom: [e-cn-zhang-2009]
+    needsSource: true
+
+  - id: e-cn-zhang-2012
+    year: 2012
+    jurisdiction: cn
+    type: development
+    title: 张明楷《行为无价值论与结果无价值论》
+    description: 系统比较两种立场在各个具体问题上的结论，坚持结果无价值论。
+    concepts: [wrongfulness-essence]
+    scholars: [zhang-mingkai]
+    works: [w-zhang-2012]
+    derivedFrom: [e-cn-zhang-2009]

@@ -1,0 +1,571 @@
+# 共犯论：正犯与共犯的区分（犯罪支配说、共谋共同正犯、犯罪共同说与行为共同说）；教唆未遂
+# 起草：AI（Claude）。全部为 draft；中国大陆单一正犯体系之争的文献尤需核实。
+
+concepts:
+  - id: perpetration
+    name: 正犯与共犯的区分
+    original:
+      de: Täterschaft und Teilnahme（Tatherrschaftslehre）
+      ja: 正犯と共犯の区別
+      en: principals and accessories
+    kind: problem
+    area: participation
+    tradition: both
+    summary: >-
+      谁是正犯，谁只是教唆犯或帮助犯：形式客观说、主观说（浴缸案、斯塔辛斯基案）、犯罪支配说，还是重要作用说？
+      应当区分正犯与共犯（区分制），还是一律作为正犯处理（单一正犯体系）？「共同」犯罪的本质是共同实施特定犯罪，还是共同实施行为？
+      日本以共谋共同正犯扩张正犯的范围，中国大陆以作用为标准区分主犯与从犯；英美法则把帮助、教唆者作为正犯审判，并围绕「共同犯罪计划」反复调整。
+
+questions:
+  - id: q-perpetrator-concept
+    concept: perpetration
+    text: 应当区分正犯与共犯（区分制），还是采单一正犯体系？
+    level: intermediate
+    aliases:
+      - 单一正犯体系
+      - 区分制
+      - 限制的正犯概念
+      - 扩张的正犯概念
+      - 主犯从犯与正犯共犯
+      - 共同犯罪的体系
+    answers:
+      - id: differentiated
+        label: 区分制（限制的正犯概念）
+      - id: unitary
+        label: 单一正犯体系（扩张的正犯概念）
+
+  - id: q-perpetrator-criterion
+    concept: perpetration
+    text: 区分正犯与共犯的标准是什么？
+    level: intermediate
+    aliases:
+      - 正犯与共犯的区分
+      - 如何区分正犯与共犯
+      - 犯罪支配说
+      - 行为支配说
+      - 正犯的标准
+      - 间接正犯
+      - 共同正犯的认定
+      - 浴缸案
+      - 斯塔辛斯基案
+      - Tatherrschaft
+    answers:
+      - id: formal
+        label: 形式客观说（是否亲自实施构成要件行为）
+      - id: subjective
+        label: 主观说（以正犯意思行为的是正犯）
+      - id: tatherrschaft
+        label: 犯罪支配说（行为支配说）
+      - id: important-role
+        label: 重要作用说（实质客观说）
+
+  - id: q-conspiracy-coprincipal
+    concept: perpetration
+    text: 只参与共谋而没有参与实行的人，能否成立共同正犯（共谋共同正犯）？
+    level: applied
+    aliases:
+      - 共谋共同正犯
+      - 练马事件
+      - 只共谋不实行
+      - 幕后主使 共同正犯
+      - 黑社会头目 共同正犯
+      - 共同意思主体说
+    answers:
+      - id: "yes"
+        label: 可以
+      - id: "no"
+        label: 不可以（只能成立教唆犯或帮助犯）
+      - id: yes-if-dominant
+        label: 在共谋者具有支配性或重要作用时可以
+
+  - id: q-joint-nature
+    concept: perpetration
+    text: 共同犯罪的「共同」，是指共同实施特定的犯罪（犯罪共同说），还是共同实施行为（行为共同说）？
+    level: intermediate
+    aliases:
+      - 犯罪共同说
+      - 行为共同说
+      - 部分犯罪共同说
+      - 共同犯罪的本质
+      - 甲以伤害故意乙以杀人故意
+    answers:
+      - id: crime-joint
+        label: 犯罪共同说（含部分犯罪共同说）
+      - id: act-joint
+        label: 行为共同说
+
+  - id: q-cl-joint-enterprise
+    concept: perpetration
+    text: 共犯对正犯超出共同计划的犯罪承担责任，只需预见即可，还是需要意图帮助或鼓励？
+    level: applied
+    aliases:
+      - joint enterprise
+      - 共同犯罪计划
+      - Jogee
+      - Chan Wing-Siu
+      - parasitic accessorial liability
+      - 附随犯罪
+    answers:
+      - id: foresight
+        label: 预见即可（Chan Wing-Siu）
+      - id: intention
+        label: 需要意图帮助或鼓励（Jogee）
+
+  - id: q-instigation-attempt
+    concept: complicity-basis
+    text: 被教唆者没有实施被教唆的犯罪（教唆未遂）时，教唆者是否可罚？
+    level: applied
+    aliases:
+      - 教唆未遂
+      - 未遂的教唆
+      - 刑法第29条第2款
+      - 被教唆的人没有犯被教唆的罪
+      - 共犯独立性说
+      - 实行从属性
+    answers:
+      - id: not-punishable
+        label: 不可罚（实行从属性）
+      - id: punishable
+        label: 可罚（共犯独立性说）
+
+prerequisites:
+  - question: q-perpetrator-concept
+    requires: q-school
+    kind: foundational
+    why: 是否区分正犯与共犯，取决于刑法评价的是构成要件行为，还是每个参与者自身的危险性。
+    branches:
+      - answer: act
+        leadsTo: 构成要件描述的是正犯行为，共犯只是从属地扩张处罚 → 区分制（限制的正犯概念）。
+      - answer: actor
+        leadsTo: 每个对结果有贡献的人都表现了危险性 → 扩张的正犯概念乃至单一正犯体系。
+      - answer: mixed
+        leadsTo: 区分制，但以实质的标准认定正犯。
+
+  - question: q-comp-basis
+    requires: q-perpetrator-concept
+    kind: logical
+    why: 只有在区分正犯与共犯的体系中，才需要追问共犯为什么、在什么条件下受处罚。
+    branches:
+      - answer: differentiated
+        leadsTo: 共犯是对正犯的从属性参与，需要说明其处罚根据。
+      - answer: unitary
+        leadsTo: 所有参与者都是正犯，各自依其贡献负责，共犯处罚根据的问题在很大程度上被消解。
+
+  - question: q-perpetrator-criterion
+    requires: q-perpetrator-concept
+    kind: logical
+    why: 只有采区分制，才需要区分的标准。
+    branches:
+      - answer: differentiated
+        leadsTo: 进入标准之争。
+      - answer: unitary
+        leadsTo: 不需要区分（量刑上仍需考虑参与的程度）。
+
+  - question: q-perpetrator-criterion
+    requires: q-causation-test
+    kind: logical
+    why: 如果一切条件在因果上都是等价的，就无法从客观上区分正犯与共犯。
+    branches:
+      - answer: conditio
+        leadsTo: 正犯与共犯在因果上没有区别 → 只能以主观意思区分（冯·布里、帝国法院）→ 主观说。
+      - answer: imputation
+        leadsTo: 以规范的观点区分对事件进程的支配 → 犯罪支配说。
+      - answer: adequacy
+        leadsTo: 相当性本身不提供区分标准，需要另外的实质标准。
+      - answer: realization
+        leadsTo: 以谁的行为危险在结果中现实化、谁对结果起了重要作用为线索 → 重要作用说。
+
+  - question: q-conspiracy-coprincipal
+    requires: q-perpetrator-criterion
+    kind: logical
+    why: 只共谋者能否是正犯，完全取决于正犯的标准。
+    branches:
+      - answer: formal
+        leadsTo: 没有亲自实施构成要件行为 → 不能成立正犯。
+      - answer: subjective
+        leadsTo: 只要以正犯的意思参与 → 可以。
+      - answer: tatherrschaft
+        leadsTo: 共谋者若通过分工对事件具有功能的支配 → 可以；单纯的共谋不够。
+      - answer: important-role
+        leadsTo: 共谋者在犯罪中起了重要作用 → 可以（日本学说的主流）。
+
+  - question: q-joint-nature
+    requires: q-school
+    kind: foundational
+    why: 犯罪共同说与行为共同说的对立，起源于新旧学派之争。
+    branches:
+      - answer: act
+        leadsTo: 共同的对象是特定的犯罪（构成要件）→ 犯罪共同说。
+      - answer: actor
+        leadsTo: 各人通过共同的行为实现各自的犯罪 → 行为共同说（牧野英一）。
+      - answer: mixed
+        leadsTo: 部分犯罪共同说。
+
+  - question: q-joint-nature
+    requires: q-comp-basis
+    kind: logical
+    why: 当代的行为共同说以因果共犯论为基础重新获得支持。
+    branches:
+      - answer: causation
+        leadsTo: 各共犯通过共同的行为各自引起法益侵害，罪名可以不同 → 行为共同说（平野、西田、山口、张明楷）。
+      - answer: unrecht
+        leadsTo: 共犯从属于正犯的违法行为 → 倾向犯罪共同说。
+      - answer: schuld
+        leadsTo: 犯罪共同说。
+
+  - question: q-cl-joint-enterprise
+    requires: q-cl-basis
+    kind: foundational
+    why: 共犯对附随犯罪的责任，取决于以共犯本人的心态还是以外在的共同计划为准。
+    branches:
+      - answer: subjectivism
+        leadsTo: 共犯的责任应以其本人的可责心态为准 → 至少需要意图帮助或鼓励（Jogee）。
+      - answer: objectivism
+        leadsTo: 参与共同的犯罪计划本身就是外在的不法，可以较宽地归责 → 预见即可（Chan Wing-Siu）。
+
+  - question: q-instigation-attempt
+    requires: q-comp-basis
+    kind: logical
+    why: 被教唆者没有实行时，教唆者是否已经值得处罚，取决于共犯为什么受处罚。
+    branches:
+      - answer: causation
+        leadsTo: 没有正犯的实行，就没有法益侵害或其危险的惹起 → 不可罚。
+      - answer: unrecht
+        leadsTo: 没有正犯的违法行为 → 不可罚。
+      - answer: schuld
+        leadsTo: 没有使正犯堕落到实施犯罪 → 不可罚。
+
+  - question: q-instigation-attempt
+    requires: q-school
+    kind: foundational
+    why: 共犯独立性说是近代学派的标志性主张之一。
+    branches:
+      - answer: act
+        leadsTo: 共犯的处罚以正犯着手实行为前提 → 实行从属性，不可罚。
+      - answer: actor
+        leadsTo: 教唆行为本身就表现了行为人的危险性格 → 共犯独立性说，可罚。
+      - answer: mixed
+        leadsTo: 原则上不可罚，对重罪可以例外地处罚（德国刑法第 30 条）。
+
+works:
+  - id: w-buri-1860
+    title: Zur Lehre von der Teilnahme an dem Verbrechen und der Begünstigung
+    titleZh: 论犯罪参与与包庇
+    authors: [buri]
+    year: 1860
+    type: monograph
+    jurisdiction: de
+    needsSource: true
+  - id: w-rgst-74-84
+    title: RGSt 74, 84（Badewannenfall）
+    titleZh: 帝国法院浴缸案
+    authorText: 帝国法院
+    year: 1940
+    type: case
+    jurisdiction: de
+  - id: w-roxin-1963
+    title: Täterschaft und Tatherrschaft
+    titleZh: 正犯与行为支配
+    authors: [roxin]
+    year: 1963
+    type: monograph
+    jurisdiction: de
+  - id: w-bghst-18-87
+    title: BGHSt 18, 87（Staschynskij-Fall）
+    titleZh: 联邦最高法院斯塔辛斯基案
+    authorText: 联邦最高法院
+    year: 1962
+    type: case
+    jurisdiction: de
+  - id: w-duchesne-1876
+    title: § 49a StGB（Duchesne-Paragraph）
+    titleZh: 刑法第 49a 条（迪谢纳条款）
+    authorText: 帝国议会
+    year: 1876
+    type: statute
+    jurisdiction: de
+  - id: w-jp-nerima-1958
+    title: 最大判昭和33年5月28日（練馬事件）
+    titleZh: 练马案
+    authorText: 最高裁判所
+    year: 1958
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-uk-aaa-1861
+    title: Accessories and Abettors Act 1861, s. 8
+    authorText: Parliament
+    year: 1861
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-chan-wing-siu-1984
+    title: Chan Wing-Siu v The Queen [1985] AC 168
+    authorText: Privy Council
+    year: 1984
+    type: case
+    jurisdiction: uk-ew
+  - id: w-jogee-2016
+    title: R v Jogee [2016] UKSC 8
+    authorText: UK Supreme Court
+    year: 2016
+    type: case
+    jurisdiction: uk-ew
+  - id: w-pinkerton-1946
+    title: Pinkerton v. United States, 328 U.S. 640 (1946)
+    authorText: U.S. Supreme Court
+    year: 1946
+    type: case
+    jurisdiction: us
+
+events:
+  - id: e-de-buri-1860
+    year: 1860
+    jurisdiction: de
+    type: origin
+    originOf: perpetration
+    originType: problem
+    title: 冯·布里：以主观意思区分正犯与共犯
+    description: 从等价说出发，一切条件在因果上都是等价的，因此无法从客观上区分正犯与共犯，只能看行为人是以正犯的意思（animus auctoris）还是以共犯的意思（animus socii）行为。主观说由此奠基，并长期主导德国判例。
+    concepts: [perpetration]
+    scholars: [buri]
+    works: [w-buri-1860]
+    needsSource: true
+
+  - id: e-uk-aaa-1861
+    year: 1861
+    jurisdiction: uk-ew
+    type: legislation
+    title: 1861 年帮助犯与教唆犯法
+    description: 帮助、教唆、建议或促成可诉罪的人，可以作为正犯审判与处罚。英美法由此在程序与刑罚上基本不区分正犯与共犯，接近单一正犯的处理。
+    concepts: [perpetration]
+    works: [w-uk-aaa-1861]
+
+  - id: e-de-duchesne-1876
+    year: 1876
+    jurisdiction: de
+    type: legislation
+    title: 迪谢纳条款：处罚未遂的教唆
+    description: 比利时人迪谢纳曾提出愿意为报酬刺杀俾斯麦，但比利时法律无法处罚这种未成功的教唆提议。德国随即增设条文，处罚对重罪的未遂教唆（今第 30 条）。这是实行从属性原则的重要例外。
+    concepts: [complicity-basis]
+    works: [w-duchesne-1876]
+    derivedFrom: [e-de-stgb-1871]
+
+  - id: e-de-badewanne-1940
+    year: 1940
+    jurisdiction: de
+    type: case
+    title: 浴缸案：极端的主观说
+    description: 未婚母亲刚生下孩子，其姐姐应母亲的请求亲手把婴儿溺死在浴缸里。帝国法院认为，姐姐只是出于为妹妹的利益而行为，没有正犯意思，只成立帮助犯。主观说的极端结论由此受到普遍批评。
+    concepts: [perpetration]
+    works: [w-rgst-74-84]
+    derivedFrom: [e-de-buri-1860]
+
+  - id: e-us-pinkerton-1946
+    year: 1946
+    jurisdiction: us
+    type: case
+    title: Pinkerton 规则
+    description: 联邦最高法院认为，共谋者对其他共谋者为推进共谋而实施的、可合理预见的犯罪承担责任，即使本人没有参与。《模范刑法典》后来拒绝了这一规则。
+    concepts: [perpetration]
+    works: [w-pinkerton-1946]
+    derivedFrom: [e-uk-aaa-1861]
+
+  - id: e-jp-nerima-1958
+    year: 1958
+    jurisdiction: jp
+    type: case
+    title: 练马案：共谋共同正犯
+    description: 最高裁判所大法庭认为，二人以上为实现特定犯罪而共谋，其中一部分人实行的，没有直接参与实行的共谋者也作为共同正犯负责。共谋共同正犯由此在判例上正式确立，学说也逐步接受，争论转向其成立条件。
+    concepts: [perpetration]
+    works: [w-jp-nerima-1958]
+    derivedFrom: [e-jp-code-1907]
+    needsSource: true
+
+  - id: e-de-staschynskij-1962
+    year: 1962
+    jurisdiction: de
+    type: case
+    title: 斯塔辛斯基案
+    description: 克格勃特工受命在慕尼黑亲手暗杀了两名流亡人士。联邦最高法院认为，他是在上级的意志之下行为，只成立帮助犯。这一判决再次暴露了主观说的问题，并推动了 1975 年第 25 条的规定。
+    concepts: [perpetration]
+    works: [w-bghst-18-87]
+    derivedFrom: [e-de-badewanne-1940]
+
+  - id: e-de-roxin-1963
+    year: 1963
+    jurisdiction: de
+    type: turn
+    title: 罗克辛《正犯与行为支配》
+    description: 正犯是支配犯罪事实的核心人物：直接正犯的行为支配，间接正犯的意思支配（包括有组织权力机构中的支配），共同正犯的功能的行为支配。另有义务犯与亲手犯等例外类型。犯罪支配说由此成为德国通说，并深刻影响日本、台湾地区与中国大陆。
+    concepts: [perpetration]
+    scholars: [roxin]
+    works: [w-roxin-1963]
+    derivedFrom: [e-de-welzel-1939, e-de-badewanne-1940]
+
+  - id: e-uk-chan-wing-siu-1984
+    year: 1984
+    jurisdiction: uk-ew
+    type: case
+    title: Chan Wing-Siu：预见即可
+    description: 枢密院认为，共同犯罪计划的参与者只要预见到同伙可能实施附随犯罪（如在抢劫中杀人），就要对该犯罪负责。这一「寄生性共犯责任」在其后三十年里被大量适用于青少年帮派案件。
+    concepts: [perpetration]
+    works: [w-chan-wing-siu-1984]
+    derivedFrom: [e-uk-aaa-1861]
+
+  - id: e-cn-unitary-debate
+    year: 2013
+    circa: true
+    jurisdiction: cn
+    type: critique
+    title: 单一正犯体系与区分制之争
+    description: 有学者主张，中国刑法以作用为标准区分主犯与从犯，实际上采用的是单一正犯体系；另有学者坚持以正犯与共犯的区分来解释共同犯罪的规定，主张犯罪支配说或重要作用说。
+    concepts: [perpetration]
+    scholars: [liu-mingxiang, zhang-mingkai, zhou-guangquan]
+    derivedFrom: [e-cn-1979, e-de-roxin-1963]
+    needsSource: true
+    editorNote: 年份为编者估计，代表性文献待补。
+
+  - id: e-uk-jogee-2016
+    year: 2016
+    jurisdiction: uk-ew
+    type: turn
+    title: R v Jogee：推翻 Chan Wing-Siu
+    description: 英国最高法院认为，三十年来的法律走错了路：对附随犯罪，预见只是推断意图的证据，共犯必须意图帮助或鼓励正犯实施该犯罪（包括有条件的意图）。
+    concepts: [perpetration]
+    works: [w-jogee-2016]
+    derivedFrom: [e-uk-chan-wing-siu-1984]
+
+positions:
+  - theory: classical-school
+    question: q-perpetrator-concept
+    answer: differentiated
+    derivation:
+      - 构成要件描述的是正犯行为。
+      - 共犯只是从属地扩张了处罚范围 → 区分制。
+  - theory: modern-school
+    question: q-perpetrator-concept
+    answer: unitary
+    derivation:
+      - 每个参与者都表现了自己的危险性。
+      - 没有必要区分正犯与共犯 → 扩张的正犯概念。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-perpetrator-criterion
+    answer: tatherrschaft
+    derivation:
+      - 正犯的行为无价值在于对构成要件实现的支配（目的的行为支配）。
+      - 支配犯罪事实的核心人物是正犯 → 犯罪支配说（德国通说）。
+  - theory: result-disvalue
+    question: q-perpetrator-criterion
+    answer: important-role
+    derivation:
+      - 以对法益侵害结果的贡献程度为准。
+      - 对结果的发生起了重要作用的是正犯 → 重要作用说（实质客观说）。
+    alternatives:
+      - answer: tatherrschaft
+        note: 也有结果无价值论者采犯罪支配说。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-conspiracy-coprincipal
+    answer: yes-if-dominant
+    derivation:
+      - 采犯罪支配说。
+      - 共谋者若通过分工对事件具有功能的支配，可以成立共同正犯；单纯参与共谋不够。
+  - theory: result-disvalue
+    question: q-conspiracy-coprincipal
+    answer: yes-if-dominant
+    derivation:
+      - 采重要作用说。
+      - 共谋者对犯罪的实现起了重要作用时，可以成立共同正犯。
+    needsSource: true
+  - theory: classical-school
+    question: q-conspiracy-coprincipal
+    answer: "no"
+    derivation:
+      - 正犯须亲自实施构成要件行为。
+    needsSource: true
+  - theory: result-disvalue
+    question: q-joint-nature
+    answer: act-joint
+    derivation:
+      - 以因果共犯论为基础。
+      - 各共犯通过共同的行为各自引起法益侵害，罪名可以不同 → 行为共同说。
+  - theory: dual-act-disvalue
+    question: q-joint-nature
+    answer: crime-joint
+    derivation:
+      - 共犯从属于正犯的违法行为，共同的对象是特定的犯罪。
+      - 罪名不同时，在重合的限度内成立共同犯罪 → 部分犯罪共同说。
+    needsSource: true
+  - theory: classical-school
+    question: q-joint-nature
+    answer: crime-joint
+    derivation:
+      - 共同的对象是构成要件所规定的特定犯罪。
+  - theory: modern-school
+    question: q-joint-nature
+    answer: act-joint
+    derivation:
+      - 各人通过共同的行为表现各自的危险性，实现各自的犯罪。
+  - theory: cl-subjectivism
+    question: q-cl-joint-enterprise
+    answer: intention
+    derivation:
+      - 共犯的责任取决于其本人的可责心态。
+      - 预见只是证据，必须意图帮助或鼓励（Jogee）。
+    needsSource: true
+  - theory: cl-objectivism
+    question: q-cl-joint-enterprise
+    answer: foresight
+    derivation:
+      - 参与共同的犯罪计划本身就是外在的不法。
+      - 预见到同伙可能实施附随犯罪而仍然参与，即可归责。
+    needsSource: true
+  - theory: result-disvalue
+    question: q-instigation-attempt
+    answer: not-punishable
+    derivation:
+      - 采因果共犯论。
+      - 被教唆者没有着手实行，就没有法益侵害的危险 → 不可罚。
+    note: 中国大陆刑法第 29 条第 2 款的解释是争论焦点：有学者把它限定于被教唆者已经着手但未既遂的情形（待核）。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-instigation-attempt
+    answer: not-punishable
+    derivation:
+      - 共犯从属于正犯的实行 → 原则上不可罚。
+    alternatives:
+      - answer: punishable
+        note: 德国刑法第 30 条例外地处罚对重罪的未遂教唆。
+        jurisdictions: [de]
+  - theory: classical-school
+    question: q-instigation-attempt
+    answer: not-punishable
+    derivation:
+      - 共犯的处罚以正犯着手实行为前提（实行从属性）。
+  - theory: modern-school
+    question: q-instigation-attempt
+    answer: punishable
+    derivation:
+      - 教唆行为本身就表现了危险性格。
+      - 不问被教唆者是否实行 → 共犯独立性说。
+
+dialogues:
+  - id: dlg-de-tatherrschaft
+    title: 主观说与犯罪支配说（冯·布里 × 罗克辛）
+    concept: perpetration
+    jurisdictions: [de]
+    summary: 谁是正犯：看行为人的意思，还是看谁支配了犯罪？
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: buri
+        work: w-buri-1860
+        year: 1860
+        claim: 一切条件在因果上都是等价的，客观上无法区分正犯与共犯；只能看行为人是以正犯的意思还是以共犯的意思行为。
+      - id: t2
+        scholar: roxin
+        work: w-roxin-1963
+        year: 1963
+        respondsTo: t1
+        claim: 主观说导致亲手杀人者也只是帮助犯这种荒谬结论；正犯是支配犯罪事实的核心人物，应以行为支配、意思支配与功能的支配来认定。

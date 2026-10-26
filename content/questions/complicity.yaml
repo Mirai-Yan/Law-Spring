@@ -1,0 +1,141 @@
+# 共犯的处罚根据
+
+questions:
+  - id: q-comp-basis
+    concept: complicity-basis
+    text: 共犯（教唆犯、帮助犯）的处罚根据是什么？
+    level: foundation
+    aliases:
+      - 共犯的处罚根据
+      - 责任共犯论
+      - 违法共犯论
+      - 因果共犯论
+      - 惹起说
+      - 教唆犯为什么要处罚
+    answers:
+      - id: schuld
+        label: 责任共犯论
+        summary: 共犯使正犯陷入罪责与刑罚（使正犯「堕落」）。
+      - id: unrecht
+        label: 违法共犯论
+        summary: 共犯使正犯实施了违法行为。
+      - id: causation
+        label: 因果共犯论（惹起说）
+        summary: 共犯通过正犯的行为，间接引起了法益侵害。
+
+  - id: q-comp-accessory
+    concept: complicity-basis
+    text: 共犯应从属于正犯到什么程度？
+    level: intermediate
+    aliases:
+      - 共犯从属性
+      - 限制从属性说
+      - 最小从属性说
+      - 极端从属性说
+      - 要素从属性
+    answers:
+      - id: minimal
+        label: 最小从属性
+        summary: 正犯具备构成要件该当性即可。
+      - id: limited
+        label: 限制从属性
+        summary: 正犯须构成要件该当且违法。
+      - id: extreme
+        label: 极端从属性
+        summary: 正犯须构成要件该当、违法且有责。
+
+  - id: q-comp-variant
+    concept: complicity-basis
+    text: 在惹起说内部，应采纯粹惹起说、修正惹起说，还是混合惹起说？
+    level: intermediate
+    aliases:
+      - 纯粹惹起说
+      - 修正惹起说
+      - 混合惹起说
+      - 违法的连带性
+      - 违法的相对性
+    answers:
+      - id: pure
+        label: 纯粹惹起说
+        summary: 共犯的违法完全独立于正犯的违法。
+      - id: modified
+        label: 修正惹起说
+        summary: 共犯的违法完全从属于（来自）正犯的违法。
+      - id: mixed
+        label: 混合惹起说
+        summary: 共犯的违法既来自自身对法益的侵害，也从属于正犯的违法。
+
+  - id: q-comp-provocateur
+    concept: complicity-basis
+    text: 陷害教唆（教唆者只希望正犯止于未遂，例如诱捕）是否成立教唆犯？
+    level: applied
+    aliases:
+      - 陷害教唆
+      - agent provocateur
+      - 未遂的教唆
+      - 警察圈套
+      - 诱捕 教唆
+    answers:
+      - id: liable
+        label: 成立教唆犯
+      - id: not-liable
+        label: 不成立教唆犯
+
+prerequisites:
+  - question: q-comp-basis
+    requires: q-unrecht-core
+    kind: foundational
+    why: 共犯的不法是什么，取决于一般意义上的不法是什么。
+    branches:
+      - answer: result
+        leadsTo: 共犯的不法也只能是对法益侵害的（间接）惹起 → 因果共犯论。
+      - answer: dual
+        leadsTo: 因果共犯论（修正或混合惹起说）或违法共犯论。
+      - answer: monist-act
+        leadsTo: 共犯的不法在于自身的行为无价值，倾向违法共犯论。
+
+  - question: q-comp-accessory
+    requires: q-comp-basis
+    kind: logical
+    why: 共犯要从属于正犯的哪些要素，取决于处罚共犯的理由是什么。
+    branches:
+      - answer: schuld
+        leadsTo: 共犯处罚以正犯有责为前提 → 极端从属性。
+      - answer: unrecht
+        leadsTo: 正犯的违法是共犯处罚的前提 → 限制从属性。
+      - answer: causation
+        leadsTo: 限制从属性或最小从属性，取决于采哪一种惹起说。
+
+  - question: q-comp-variant
+    requires: q-comp-basis
+    kind: logical
+    why: 这是采取因果共犯论之后才出现的内部问题。
+    branches:
+      - answer: causation
+        leadsTo: 进入惹起说的内部之争。
+      - answer: schuld
+        leadsTo: 不需要讨论。
+      - answer: unrecht
+        leadsTo: 不需要讨论。
+
+  - question: q-comp-variant
+    requires: q-unrecht-core
+    kind: foundational
+    why: 共犯与正犯的违法能否不同（违法的相对性），取决于违法是客观的法益侵害，还是含有行为人个人的行为无价值。
+    branches:
+      - answer: result
+        leadsTo: 违法以法益侵害为准，可以因人而异 → 纯粹惹起说或混合惹起说。
+      - answer: dual
+        leadsTo: 正犯的违法向共犯连带 → 修正惹起说或混合惹起说。
+
+  - question: q-comp-provocateur
+    requires: q-comp-basis
+    kind: logical
+    why: 教唆者只想让正犯止于未遂时，是否值得处罚，取决于共犯为什么受处罚。
+    branches:
+      - answer: schuld
+        leadsTo: 只要使正犯陷入罪责即可罚 → 成立。
+      - answer: unrecht
+        leadsTo: 使正犯实施了违法的未遂行为即足 → 可能成立。
+      - answer: causation
+        leadsTo: 共犯须有引起法益侵害的故意；只想让正犯止于未遂，欠缺对法益侵害的故意 → 多数结论为不成立。

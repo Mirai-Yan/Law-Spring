@@ -1,0 +1,138 @@
+# 分论重点争议问题·第六批（据张明楷《刑法学》第七版整理）：概念、问题与先决关系为编者整理，全部待核实。
+concepts:
+  - id: abandonment
+    name: 遗弃罪
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      刑法第 261 条处罚对年老、年幼、患病或者其他没有独立生活能力的人负有扶养义务而拒绝扶养、情节恶劣的行为。
+      旧刑法把它放在妨害婚姻家庭罪中，现行刑法则规定在侵犯公民人身权利、民主权利罪一章；
+      它保护的是家庭成员间的扶养关系，还是被害人的生命、身体安全，决定了能否处罚非家庭成员（如福利机构）的遗弃。
+
+  - id: consented-injury
+    name: 同意的伤害
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      被害人承诺他人伤害自己身体的，行为人是否成立故意伤害罪？刑法只在第 234 条之一第 2 款就器官摘取作了规定，
+      没有一般规定。相互斗殴致轻伤、同意的器官捐献、同意的重伤都是这一问题的具体形态。
+
+questions:
+  - id: q-abandonment-rechtsgut
+    concept: abandonment
+    text: 遗弃罪保护的是家庭成员之间的扶养关系，还是被害人的生命、身体安全？（遗弃罪是否限于家庭成员之间）
+    level: intermediate
+    aliases: [遗弃罪, 扶养义务, 非家庭成员间的遗弃, 福利院遗弃]
+    answers:
+      - id: family
+        label: 家庭成员间的扶养权利义务关系
+        summary: 行为主体与被害人须属于同一家庭，扶养义务按亲属法理解。
+      - id: life-body
+        label: 被害人的生命、身体安全
+        summary: 遗弃罪是使生命、身体处于危险状态的犯罪，不限于家庭成员之间。
+
+  - id: q-consented-injury
+    concept: consented-injury
+    text: 基于被害人的承诺伤害其身体的，是否成立故意伤害罪？
+    level: applied
+    aliases: [同意的伤害, 承诺伤害, 相互斗殴, 器官捐献]
+    answers:
+      - id: never
+        label: 一概无罪
+        summary: 刑法只特别规定了得承诺的杀人，表明得承诺的伤害一概无罪。
+      - id: always
+        label: 一概按普通伤害处理
+        summary: 刑法只对得承诺的杀人规定了减轻的法定刑，得承诺的伤害一概按普通伤害罪处理。
+      - id: public-morals
+        label: 以是否违反公序良俗为准
+        summary: 违反公序良俗的不问轻重以故意伤害罪论处；不违反的，即使重伤也不成立。
+      - id: serious
+        label: 造成重大伤害的才成立
+      - id: tripartite
+        label: 区分情形处理
+        summary: 为保护另一重大法益的承诺有效；单纯伤害造成有生命危险的重伤的成立故意伤害罪；轻伤害不成立。
+
+prerequisites:
+  - question: q-abandonment-rechtsgut
+    requires: q-unrecht-core
+    kind: foundational
+    why: 在结果无价值论看来，把遗弃罪的法益理解为家庭伦常关系并不妥当，应当是被害人的生命、身体安全。
+    branches:
+      - answer: result
+        leadsTo: 法益是生命、身体安全，遗弃罪是对生命、身体的危险犯，不必限于家庭成员。
+      - answer: dual
+        leadsTo: 可能更重视扶养义务违反这一行为面向。
+
+  - question: q-abandonment-rechtsgut
+    requires: q-interp-goal
+    kind: systematic
+    why: 按沿革解释，遗弃罪是对家庭成员的犯罪；现行刑法已把它移入侵犯人身权利的犯罪，能否作同时代的客观解释是关键。
+    branches:
+      - answer: objective
+        leadsTo: 「扶养」包括社会扶养机构的扶养，遗弃罪可以发生在非家庭成员之间。
+      - answer: subjective
+        leadsTo: 依立法沿革，遗弃罪仍限于家庭成员之间。
+
+  - question: q-consented-injury
+    requires: q-consent
+    kind: foundational
+    why: 承诺能否、在多大范围内阻却伤害的违法性，取决于被害人承诺为何阻却违法。
+    branches:
+      - answer: autonomy
+        leadsTo: 原则上尊重法益主体的自己决定权，但当承诺导致本人遭受有生命危险的重大伤害时，国家可以适当限制。
+      - answer: social-adequacy
+        leadsTo: 容易以公序良俗、社会相当性为标准判断，作者认为这会使故意伤害罪的法益变成公序良俗。
+
+bookViews:
+  - id: zmk7-abandonment-rechtsgut
+    work: zmk-xingfaxue-7
+    question: q-abandonment-rechtsgut
+    pages: "1337-1338"
+    answer: life-body
+    summary: >-
+      作者把遗弃罪理解为使他人生命、身体（重大的身体危险）处于危险状态的犯罪，不再限定于家庭成员之间；
+      「拒不扶养」应解释为使被害人的生命、身体处于危险状态的行为，负有扶养义务的非家庭成员（如福利院等社会扶养机构）也可以成立遗弃罪。
+    reasons:
+      - 在其他国家和我国过去的立法中，遗弃罪都是把需要扶助的人置于不受保护状态、使其生命身体陷入危险的犯罪。
+      - 只承认家庭成员间的遗弃，会使某些行为要么无罪、要么只能定故意杀人罪；扶养社会化之后，非家庭成员间的遗弃越来越多。
+      - 「扶养」的概念早于婚姻法，单纯按婚姻法理解是一种思维惯性。
+      - 现行刑法已把遗弃罪规定为侵犯人身权利的犯罪；语义解释符合刑法目的时不应一概以沿革解释优先，否则刑法的修改将失去意义。
+    reported:
+      - label: 传统观点
+        answer: family
+        summary: 法益是被害人在家庭中受扶养的权利、在家庭中的平等权利，或家庭成员之间相互扶养的权利义务关系；行为主体与被害人须属于同一家庭。
+        pages: "1337"
+
+  - id: zmk7-consented-injury
+    work: zmk-xingfaxue-7
+    question: q-consented-injury
+    pages: "1319-1320"
+    answer: tripartite
+    summary: >-
+      作者主张分三种情形处理：为保护另一重大法益而承诺伤害的（如依合法途径捐献器官），承诺有效，但承诺者须年满 18 周岁，且不得以强迫、欺骗方法取得承诺；
+      单纯伤害而没有保护其他重大法益，虽有承诺但造成有生命危险的重伤的，宜认定为故意伤害罪；基于承诺造成轻伤害的，不成立故意伤害罪。
+      两人相互斗殴的，双方都承诺了轻伤害结果，造成轻伤害的阻却违法，不以故意伤害罪论处。
+    reasons:
+      - 法益主体的承诺导致本人遭受重大伤害时，作为个人法益保护者的国家宜适当限制其自己决定权。
+      - 得承诺的杀人（含未遂）一概成立故意杀人罪，与之相协调，有生命危险的同意重伤应认定为故意伤害罪。
+      - 刑法第 292 条规定聚众斗殴致人重伤的以故意伤害罪论处，表明对有生命危险的重伤的承诺无效。
+      - 以公序良俗为标准，会把故意伤害罪的法益变成公序良俗而不是被害人的健康。
+    reported:
+      - label: 一概无罪的观点
+        answer: never
+        summary: 刑法只特别规定得承诺的杀人，表明得承诺的伤害一概无罪。
+        pages: "1319"
+      - label: 一概成立的观点
+        answer: always
+        summary: 刑法只对得承诺的杀人规定了减轻的法定刑，得承诺的伤害一概按普通伤害罪处理。
+        pages: "1319"
+      - label: 公序良俗说
+        answer: public-morals
+        summary: 行为违反公序良俗的，不问伤害轻重以故意伤害罪论处；不违反的，即使造成重大伤害也不成立。
+        pages: "1319"
+      - label: 重大伤害说
+        answer: serious
+        summary: 基于承诺的伤害造成重大伤害的，认定为故意伤害罪。
+        pages: "1319"

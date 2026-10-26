@@ -1,0 +1,573 @@
+# 透镜数据：学说 × 问题 → 结论与推演链
+# answer: null 表示该学说在此问题上没有统一立场。
+# 所有结论均为 AI 起草的「典型推演」，具体学者的立场可能不同，见 scholarPositions 与 alternatives。
+
+positions:
+  # =================================================================
+  # 结果无价值论
+  # =================================================================
+  - theory: result-disvalue
+    question: q-task
+    answer: rechtsgut
+    derivation:
+      - 违法的实质是法益侵害或危险。
+      - 伦理本身不是法益，维护伦理不是刑法的任务。
+  - theory: result-disvalue
+    question: q-norm-type
+    answer: evaluation
+    derivation:
+      - 违法判断针对的是客观发生了什么。
+      - 评价规范在逻辑上先于决定规范；违法以评价规范为基准。
+  - theory: result-disvalue
+    question: q-objective-wrong
+    answer: objective
+    derivation:
+      - 违法与责任严格区分，违法的判断对象原则上是客观事实。
+  - theory: result-disvalue
+    question: q-rechtsgut-critical
+    answer: critical
+    derivation:
+      - 法益保护是刑法唯一的任务。
+      - 不保护任何法益的立法不具有正当性 → 法益概念应能批判立法。
+    alternatives:
+      - answer: immanent
+        note: 也有结果无价值论者认为法益概念的立法批判机能有限，主要发挥解释机能。
+  - theory: result-disvalue
+    question: q-ad-intent-content
+    answer: null
+    note: 在防卫意思不要说之下，这个问题不具有决定意义。
+  - theory: result-disvalue
+    question: q-ad-intent-required
+    answer: not-required
+    derivation:
+      - 违法只看法益侵害。
+      - 客观上存在正在进行的不法侵害，被侵害者（乙）的法益在此限度内不值得保护。
+      - 行为人的主观意思不影响法益侵害的有无 → 防卫意思不要说。
+  - theory: result-disvalue
+    question: q-ad-attempt-or-complete
+    answer: null
+    note: 多数结果无价值论者在前一问题上已得出无罪，因而不必回答本问题。
+    alternatives:
+      - answer: attempt
+        note: 另有一部分结果无价值论者主张未遂说，理由是行为时存在发生「未被正当化的结果」的危险（待核）。
+  - theory: result-disvalue
+    question: q-ad-treatment
+    answer: acquit
+    derivation:
+      - 防卫意思不要说。
+      - 客观上满足正当防卫的全部条件 → 阻却违法。
+      - 违法被阻却 → 无罪。
+    alternatives:
+      - answer: attempt
+        note: 结果无价值论内部的未遂说：结果被正当化，但行为时存在法益侵害的危险，按未遂处理（待核）。
+  - theory: result-disvalue
+    question: q-intent-position
+    answer: schuld
+    derivation:
+      - 故意不改变法益侵害的有无与程度。
+      - 故意是对犯罪事实的认识与意志，属于对行为人的非难 → 责任要素。
+  - theory: result-disvalue
+    question: q-pd-treatment
+    answer: negate-intent
+    derivation:
+      - 故意是责任要素，其内容包括对违法性基础事实的认识。
+      - 假想防卫者误以为存在防卫情状，欠缺对违法性基础事实的认识。
+      - 阻却故意；误认有过失时成立过失犯。
+  - theory: result-disvalue
+    question: q-su-exists
+    answer: limited
+    derivation:
+      - 原则上违法是客观的。
+      - 对于目的犯的目的等「超过的主观要素」，只有借助它才能确定法益侵害的危险，因此例外承认。
+    alternatives:
+      - answer: none
+        note: 也有结果无价值论者全面否认主观的违法要素，把目的等一律放到责任中。
+  - theory: result-disvalue
+    question: q-attempt-intent
+    answer: null
+    note: 结果无价值论内部分歧明显。
+    alternatives:
+      - answer: "yes"
+        note: 有力说认为，判断未遂的危险离不开行为人的行为计划，因此例外地承认未遂故意是主观违法要素。
+      - answer: "no"
+        note: 另一些学者主张危险应完全客观地判断，故意只是责任要素。
+  - theory: result-disvalue
+    question: q-attempt-basis
+    answer: objective
+    derivation:
+      - 未遂没有发生结果，其不法只能是法益侵害的危险。
+      - 行为人的危险意思本身不是处罚的根据 → 客观说。
+  - theory: result-disvalue
+    question: q-danger-standard
+    answer: objective
+    derivation:
+      - 违法是对客观事态的事后评价。
+      - 以事后查明的客观事实为基础，追问结果发生的（假定）可能性 → （修正的）客观危险说。
+    alternatives:
+      - answer: concrete
+        note: 也有结果无价值论者采具体危险说（例如 [[scholar:hirano]]，待核）。
+  - theory: result-disvalue
+    question: q-empty-bed
+    answer: impossible
+    derivation:
+      - 采客观危险说：被害人事后查明不在床上，结果不可能发生。
+      - 没有法益侵害的危险 → 不能犯。
+    alternatives:
+      - answer: attempt
+        note: 依修正的客观危险说，如果被害人「刚好离开」、当时在床上的可能性很高，仍可能肯定危险而论以未遂；采具体危险说的结果无价值论者也会论以未遂。
+  - theory: result-disvalue
+    question: q-neg-structure
+    answer: old
+    derivation:
+      - 过失犯与故意犯的不法相同，都是法益侵害。
+      - 过失是责任形式，核心是结果的预见可能性 → 旧过失论。
+    alternatives:
+      - answer: new
+        note: 修正的旧过失论要求「实质的、不被允许的危险」，在结论上向新过失论靠拢。
+  - theory: result-disvalue
+    question: q-neg-standard
+    answer: individual
+    derivation:
+      - 过失是责任问题。
+      - 责任是对行为人个人的非难 → 以行为人本人的预见能力为准。
+    needsSource: true
+  - theory: result-disvalue
+    question: q-just-principle
+    answer: interest
+    derivation:
+      - 违法即法益侵害。
+      - 阻却违法就是在法益衡量上「不再有值得保护的被侵害利益」 → 优越利益说（含利益阙如）。
+  - theory: result-disvalue
+    question: q-consent
+    answer: no-interest
+    derivation:
+      - 法益主体放弃了法益保护。
+      - 没有值得保护的利益 → 利益阙如。
+    alternatives:
+      - answer: autonomy
+        note: 也有学者以自己决定权的实现说明承诺的效力。
+  - theory: result-disvalue
+    question: q-comp-basis
+    answer: causation
+    derivation:
+      - 共犯的不法也只能是法益侵害。
+      - 共犯通过正犯间接引起了法益侵害 → 因果共犯论（惹起说）。
+  - theory: result-disvalue
+    question: q-comp-accessory
+    answer: limited
+    derivation:
+      - 共犯通过正犯的违法行为引起法益侵害。
+      - 正犯须构成要件该当且违法 → 限制从属性。
+    alternatives:
+      - answer: minimal
+        note: 贯彻违法的相对性，有学者采最小从属性。
+  - theory: result-disvalue
+    question: q-comp-variant
+    answer: mixed
+    derivation:
+      - 承认违法的相对性，但共犯的法益侵害要经由正犯来实现。
+      - 混合惹起说。
+    alternatives:
+      - answer: pure
+        note: 彻底贯彻违法相对性的学者采纯粹惹起说。
+  - theory: result-disvalue
+    question: q-comp-provocateur
+    answer: not-liable
+    derivation:
+      - 共犯的不法是引起法益侵害。
+      - 陷害教唆者只想让正犯止于未遂，欠缺引起法益侵害（既遂结果）的故意 → 不成立教唆犯。
+
+  # =================================================================
+  # 二元行为无价值论
+  # =================================================================
+  - theory: dual-act-disvalue
+    question: q-task
+    answer: rechtsgut
+    derivation:
+      - 刑法的最终目的是保护法益。
+      - 但刑法通过行为规范来保护法益，所以违反行为规范本身也是不法。
+    alternatives:
+      - answer: ethic
+        note: Welzel 认为刑法的首要任务是保护基本的社会伦理行为价值；日本早期的行为无价值论也带有伦理色彩。
+  - theory: dual-act-disvalue
+    question: q-norm-type
+    answer: both
+    derivation:
+      - 评价规范说明结果无价值。
+      - 面向一般人的行为规范（决定规范）说明行为无价值。
+  - theory: dual-act-disvalue
+    question: q-objective-wrong
+    answer: objective
+    derivation:
+      - 违法判断的标准是客观的（面向一般人），即使其对象包含主观要素。
+  - theory: dual-act-disvalue
+    question: q-rechtsgut-critical
+    answer: null
+    note: 二元论内部两种立场都有。
+  - theory: dual-act-disvalue
+    question: q-ad-intent-content
+    answer: cognition
+    derivation:
+      - 行为无价值的抵消只需要行为人认识到防卫情状。
+      - 不要求纯粹的防卫动机 → 认识说。
+    alternatives:
+      - answer: purpose
+        note: 部分学者与判例要求一定的防卫目的，但通常作宽松理解（激愤、兼有攻击意思并不当然排除）。
+  - theory: dual-act-disvalue
+    question: q-ad-intent-required
+    answer: required
+    derivation:
+      - 不法由行为无价值与结果无价值组成。
+      - 正当化必须同时抵消两者；抵消行为无价值需要主观的正当化要素 → 必要说。
+  - theory: dual-act-disvalue
+    question: q-ad-attempt-or-complete
+    answer: attempt
+    derivation:
+      - 客观上存在防卫情状，结果无价值被抵消。
+      - 只剩下行为无价值，这与未遂的不法构造相同 → 类推适用未遂（德国通说）。
+    alternatives:
+      - answer: completed
+        note: 也有观点认为欠缺主观正当化要素时，正当化整体不成立，应论既遂；这一见解在日本的行为无价值论者中较为有力（待核）。
+        jurisdictions: [jp]
+  - theory: dual-act-disvalue
+    question: q-ad-treatment
+    answer: attempt
+    derivation:
+      - 防卫意思必要说 → 不阻却违法。
+      - 结果无价值已被抵消 → 按未遂处理。
+    alternatives:
+      - answer: completed
+        note: 既遂说（见上一问题）。
+        jurisdictions: [jp]
+  - theory: dual-act-disvalue
+    question: q-intent-position
+    answer: double
+    derivation:
+      - 构成要件故意决定行为无价值 → 不法要素。
+      - 故意同时体现了行为人的心情 → 故意责任。
+  - theory: dual-act-disvalue
+    question: q-pd-treatment
+    answer: negate-intent
+    derivation:
+      - 构成要件故意成立。
+      - 但行为人对正当化前提事实的误认，在价值上与构成要件错误相同。
+      - 限制责任说或法律效果转用的责任说 → 按过失处理。
+    alternatives:
+      - answer: strict-culpability
+        note: 严格责任说（[[scholar:welzel]] 等目的行为论者）。
+  - theory: dual-act-disvalue
+    question: q-su-exists
+    answer: broad
+    derivation:
+      - 行为无价值包含故意、过失等主观要素。
+      - 主观要素是不法的一般组成部分。
+  - theory: dual-act-disvalue
+    question: q-attempt-intent
+    answer: "yes"
+    derivation:
+      - 故意是一般的主观不法要素，未遂犯当然也不例外。
+  - theory: dual-act-disvalue
+    question: q-attempt-basis
+    answer: impression
+    derivation:
+      - 未遂具备完整的行为无价值，以及以危险形式存在的结果无价值。
+      - 处罚根据是行为对一般人法秩序信赖的动摇 → 印象说（德国通说）。
+    alternatives:
+      - answer: objective
+        note: 日本、中国大陆、台湾地区的行为无价值论者多采客观未遂论（具体危险说）。
+        jurisdictions: [jp, cn, tw]
+  - theory: dual-act-disvalue
+    question: q-danger-standard
+    answer: concrete
+    derivation:
+      - 行为规范面向行为时的一般人。
+      - 以行为时一般人能认识的事实为基础，事前判断危险 → 具体危险说。
+  - theory: dual-act-disvalue
+    question: q-empty-bed
+    answer: attempt
+    derivation:
+      - 采具体危险说。
+      - 行为时一般人看来，被害人可能就在床上 → 有危险 → 杀人未遂。
+  - theory: dual-act-disvalue
+    question: q-neg-structure
+    answer: new
+    derivation:
+      - 过失犯的行为无价值在于违反客观注意义务。
+      - 不法的核心是结果回避义务的违反 → 新过失论。
+  - theory: dual-act-disvalue
+    question: q-neg-standard
+    answer: two-step
+    derivation:
+      - 不法阶层：以一般人的客观注意义务为准。
+      - 责任阶层：考虑行为人本人的能力。
+  - theory: dual-act-disvalue
+    question: q-just-principle
+    answer: social-adequacy
+    derivation:
+      - 阻却违法须同时阻却行为无价值。
+      - 行为是否处于社会伦理秩序的框架之内 → 社会相当性说（日本的行为无价值论多采此说）。
+    alternatives:
+      - answer: interest
+        note: 德国多采利益衡量与多元原理并用的立场。
+        jurisdictions: [de]
+  - theory: dual-act-disvalue
+    question: q-consent
+    answer: social-adequacy
+    derivation:
+      - 承诺消除了结果无价值，但行为本身仍须具有社会相当性。
+      - 例如以骗取保险金为目的而得到同意的伤害，可能因缺乏社会相当性而不阻却违法。
+    alternatives:
+      - answer: no-interest
+        note: 德国多把承诺理解为法益主体对保护的放弃（排除构成要件或阻却违法）。
+        jurisdictions: [de]
+  - theory: dual-act-disvalue
+    question: q-comp-basis
+    answer: causation
+    derivation:
+      - 共犯同样需要引起法益侵害（结果无价值）。
+      - 共犯自身的行为无价值也是不法的一部分 → 修正或混合的因果共犯论。
+    alternatives:
+      - answer: unrecht
+        note: 也有行为无价值论者采违法共犯论。
+  - theory: dual-act-disvalue
+    question: q-comp-accessory
+    answer: limited
+    derivation:
+      - 正犯的违法向共犯连带。
+      - 正犯须构成要件该当且违法 → 限制从属性。
+  - theory: dual-act-disvalue
+    question: q-comp-variant
+    answer: modified
+    derivation:
+      - 违法具有连带性。
+      - 共犯的违法来自正犯的违法 → 修正惹起说。
+    alternatives:
+      - answer: mixed
+        note: 也有二元论者采混合惹起说。
+  - theory: dual-act-disvalue
+    question: q-comp-provocateur
+    answer: not-liable
+    derivation:
+      - 教唆犯的故意须指向正犯行为的既遂。
+      - 陷害教唆者欠缺这样的故意 → 不成立教唆犯。
+
+  # =================================================================
+  # 一元行为无价值论
+  # =================================================================
+  - theory: monist-act-disvalue
+    question: q-task
+    answer: null
+    note: 一元论以规范论为基础：规范通过命令与禁止行为来保护法益，但违法只能是对规范的违反。
+  - theory: monist-act-disvalue
+    question: q-norm-type
+    answer: determination
+    derivation:
+      - 规范只能命令或禁止人的意思活动。
+      - 违法即对行为规范（决定规范）的违反。
+  - theory: monist-act-disvalue
+    question: q-objective-wrong
+    answer: objective
+    derivation:
+      - 违法（规范违反）与责任（能否遵守规范）仍然分离。
+    note: 一元论并未回到 Merkel 式的主观违法论。
+  - theory: monist-act-disvalue
+    question: q-ad-intent-required
+    answer: required
+    derivation:
+      - 不法即行为无价值。
+      - 没有防卫意思，就没有可以抵消行为无价值的东西 → 必要说。
+  - theory: monist-act-disvalue
+    question: q-ad-attempt-or-complete
+    answer: null
+    derivation:
+      - 欠缺防卫意思的行为具备完整的行为无价值。
+      - 结果对不法没有意义，既遂与未遂在不法上无差别。
+      - 结论取决于如何处理作为客观处罚条件的、已被正当化的结果。
+    needsSource: true
+  - theory: monist-act-disvalue
+    question: q-intent-position
+    answer: unrecht
+    derivation:
+      - 故意是行为无价值的核心 → 不法要素。
+  - theory: monist-act-disvalue
+    question: q-pd-treatment
+    answer: strict-culpability
+    derivation:
+      - 故意是不法要素，假想防卫中构成要件故意已经成立。
+      - 对正当化前提事实的误认只是违法性错误 → 严格责任说（目的行为论的典型立场）。
+    needsSource: true
+  - theory: monist-act-disvalue
+    question: q-su-exists
+    answer: broad
+    derivation:
+      - 不法的核心是主观的行为意思。
+  - theory: monist-act-disvalue
+    question: q-attempt-intent
+    answer: "yes"
+    derivation:
+      - 未遂不法与既遂不法相同，核心都是故意。
+  - theory: monist-act-disvalue
+    question: q-attempt-basis
+    answer: subjective
+    derivation:
+      - 结果只是客观处罚条件。
+      - 未遂已经具备不法的全部内容 → 主观说。
+  - theory: monist-act-disvalue
+    question: q-danger-standard
+    answer: abstract
+    derivation:
+      - 以行为人所认识的事实为基础判断。
+    needsSource: true
+  - theory: monist-act-disvalue
+    question: q-empty-bed
+    answer: attempt
+    derivation:
+      - 行为人以杀人的意思向他认为有人的床开枪。
+      - 行为无价值完整存在 → 未遂。
+  - theory: monist-act-disvalue
+    question: q-neg-structure
+    answer: new
+    derivation:
+      - 过失犯的不法在于违反注意义务的行为本身。
+  - theory: monist-act-disvalue
+    question: q-neg-standard
+    answer: individual
+    derivation:
+      - 规范只能对能够遵守它的个人发出。
+      - 注意义务在不法阶层就应按行为人本人的能力个别化。
+    needsSource: true
+    note: 主张不法阶层个别化标准的学者不限于一元论者。
+
+  # =================================================================
+  # 规范违反说
+  # =================================================================
+  - theory: norm-violation
+    question: q-unrecht-core
+    answer: dual
+    derivation:
+      - 违法是对社会伦理规范的违反。
+      - 行为无价值是违法判断的中心，结果无价值也不可忽视。
+    needsSource: true
+  - theory: norm-violation
+    question: q-ad-intent-required
+    answer: required
+    derivation:
+      - 出于加害意思的行为违反社会伦理规范，即使客观上恰好制止了侵害。
+  - theory: norm-violation
+    question: q-just-principle
+    answer: social-adequacy
+    derivation:
+      - 正当化即行为符合社会伦理秩序 → 社会相当性说。
+  - theory: norm-violation
+    question: q-consent
+    answer: social-adequacy
+    derivation:
+      - 承诺下的行为仍须符合社会伦理。
+  - theory: norm-violation
+    question: q-neg-structure
+    answer: new
+    derivation:
+      - 违反社会生活上必要的注意 → 新过失论。
+    needsSource: true
+
+  # =================================================================
+  # 法益保护主义
+  # =================================================================
+  - theory: rechtsgut-protection
+    question: q-unrecht-core
+    answer: null
+    note: 法益保护主义被结果无价值论与多数二元论者共同接受，它本身并不决定不法的重心。
+  - theory: rechtsgut-protection
+    question: q-rechtsgut-critical
+    answer: critical
+    derivation:
+      - 刑法只保护法益。
+      - 不保护法益的禁止规范不具有正当性 → 法益概念具有立法批判机能。
+  - theory: rechtsgut-protection
+    question: q-just-principle
+    answer: interest
+    derivation:
+      - 正当化只能用法益的比较衡量来说明。
+
+  # =================================================================
+  # 英美：主观主义
+  # =================================================================
+  - theory: cl-subjectivism
+    question: q-cl-result-relevance
+    answer: irrelevant
+    derivation:
+      - 结果是否发生，往往取决于行为人无法控制的运气。
+      - 可责性只取决于行为人所能控制的选择 → 结果不应影响责任。
+  - theory: cl-subjectivism
+    question: q-cl-justification-nature
+    answer: reasons
+    derivation:
+      - 以行为人的信念为中心判断责任。
+      - 正当化须以行为人对正当化事实的认识或信念为前提（MPC §3.04 采信念标准）。
+  - theory: cl-subjectivism
+    question: q-ujs-treatment
+    answer: null
+    note: 主观主义内部并无统一结论。
+    alternatives:
+      - answer: attempt
+        note: 以行为人所认识的事实论罪、客观上又没有不法结果，只剩可责的意图 → 未遂（[[scholar:jc-smith]] 的主张，待核）。
+      - answer: full
+        note: 行为人自认为在实施没有正当理由的伤害，可责性与普通的完成犯相同（Dadson 的结论）。
+  - theory: cl-subjectivism
+    question: q-cl-impossible
+    answer: punish
+    derivation:
+      - 行为人的可责性与可能未遂者完全相同。
+      - 以行为人所相信的事实为准 → 应当处罚（Criminal Attempts Act 1981 s.1(3)；R v Shivpuri）。
+
+  # =================================================================
+  # 英美：客观主义
+  # =================================================================
+  - theory: cl-objectivism
+    question: q-cl-result-relevance
+    answer: relevant
+    derivation:
+      - 行为人实际造成了什么，是他所做之事的一部分。
+      - 结果因此影响不法与刑罚。
+  - theory: cl-objectivism
+    question: q-cl-justification-nature
+    answer: deeds
+    derivation:
+      - 正当化关乎外在的行为是否造成了社会危害。
+      - 客观上没有危害，行为即被正当化 → 行为说（[[scholar:robinson]] 的 deeds theory）。
+  - theory: cl-objectivism
+    question: q-ujs-treatment
+    answer: attempt
+    derivation:
+      - 客观上没有造成不法的危害 → 不能按完成犯处罚。
+      - 但行为人具有可责的意图并实施了相应行为 → 按未遂处罚（Robinson 的结论）。
+  - theory: cl-objectivism
+    question: q-cl-impossible
+    answer: distinguish
+    derivation:
+      - 未遂的不法要求行为与世界之间有某种「接触」或显现的危险。
+      - 至少部分不能未遂不可罚；界线如何划定争议很大。
+    needsSource: true
+    note: 客观主义者在这里的具体结论分歧很大，例如 [[scholar:duff]] 主张一种「适度的客观主义」（待核）。
+
+scholarPositions:
+  - scholar: fletcher
+    question: q-cl-justification-nature
+    answer: reasons
+    deviatesFrom: cl-objectivism
+    note: Fletcher 在一般理论上强调「显现的犯罪性」（manifest criminality），具有客观主义色彩；但在正当化问题上，他主张须基于正当化理由而行动，支持 Dadson 的结论。
+    needsSource: true
+
+  - scholar: welzel
+    question: q-pd-treatment
+    answer: strict-culpability
+    deviatesFrom: dual-act-disvalue
+    note: 目的行为论者主张严格责任说，把对正当化前提事实的误认作为违法性错误处理；这与后来二元论通说采取的限制责任说不同。
+    needsSource: true
+
+  - scholar: hirano
+    question: q-danger-standard
+    answer: concrete
+    deviatesFrom: result-disvalue
+    note: 平野龙一虽然是结果无价值论的奠基者，但在不能犯问题上采具体危险说（待核）。
+    needsSource: true

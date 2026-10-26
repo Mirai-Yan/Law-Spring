@@ -1,0 +1,249 @@
+# 责任：张明楷《刑法学》（第七版）中的论述
+bookViews:
+  - id: zmk7-culp-essence
+    work: zmk-xingfaxue-7
+    question: q-culp-essence
+    pages: "364-370"
+    answer: normative
+    summary: >-
+      作者采以心理责任为前提的规范责任论（规范的、心理的责任论）：责任是非难可能性；故意、过失仍是责任要素，
+      但有故意、过失不等于有责任，还需要责任能力、违法性认识的可能性与期待可能性。我国刑法采取了规范责任论。
+    reasons:
+      - 违法性认识的可能性与期待可能性也与行为人的心理密切相关，不能脱离心理事实谈规范的非难。
+      - 机能的责任论只是把预防需要换了一种说法，与社会责任论相似，并没有提供更多内容。
+    reported:
+      - label: 心理责任论
+        answer: psychological
+        summary: 责任就是行为人对结果的心理关系（故意、过失）。
+        pages: "364"
+      - label: 机能的责任论
+        answer: functional
+        summary: 责任由一般预防等刑罚目的的需要决定；作者不赞成。
+        pages: "370"
+      - label: 规范的应答可能性说
+        answer: normative
+        summary: 责任是在能够应答规范的情况下不顾规范。
+        pages: "370"
+
+  - id: zmk7-culp-ground
+    work: zmk-xingfaxue-7
+    question: q-culp-ground
+    pages: "366-370"
+    answer: moral
+    summary: >-
+      作者站在相对意志自由论的基础上，以行为人能够选择合法行为而实施了违法行为作为非难的根据；但非难的性质是法律的非难，
+      不再强调道义性（规范的、法律的责任论），与之相应采相对的报应刑论。被追究责任的是行为，而不是背后的性格、人格。
+    reasons:
+      - 意志不可能绝对自由，主流学说采相对的意志自由论。
+      - 社会责任论与机能的责任论以预防需要代替非难，作者不赞成。
+    reported:
+      - label: 道义责任论
+        answer: moral
+        summary: 以意志自由为前提，犯罪是自由意志的产物，对行为人予以道义上的非难，处以报应的刑罚。
+        pages: "369"
+      - label: 社会责任论
+        answer: social
+        summary: 犯罪由素质与环境决定，责任是为防卫社会而承受保安处分的地位。
+        pages: "369-370"
+      - label: 人格责任论
+        answer: character
+        summary: 行为背后由行为人主体性地形成的人格是责任的基础，以弥补行为责任论难以说明常习犯的缺陷。
+        pages: "366"
+    editorNote: 本书把立场概括为「规范的、法律的责任论」，并不使用「道义责任论」的称呼；这里归入「道义责任论」一端，是因为它以相对意志自由为前提、以非难为责任的实质。
+
+  - id: zmk7-free-will
+    work: zmk-xingfaxue-7
+    question: q-free-will
+    pages: "371"
+    answer: soft
+    summary: >-
+      作者采相对的意志自由论（相对的非决定论）：人的意志受环境、生理等因素制约，但在一定范围内仍能自由选择，这是责任非难的前提。
+
+  - id: zmk7-intent-essence
+    work: zmk-xingfaxue-7
+    question: q-intent-essence
+    pages: "383-385"
+    answer: volition
+    summary: >-
+      作者认为我国刑法采取了容认说：行为人明知自己的行为会发生危害结果，并且希望或者放任该结果发生时成立故意。
+      容认说以意志说为基础，又比单纯的希望说宽，具有妥当性。
+    reasons:
+      - 认识到结果可能发生却仍然实施、对结果持放任态度，与希望结果发生没有本质区别。
+      - 只看认识因素无法划清故意与过失的界限。
+    reported:
+      - label: 意志说（希望说）
+        answer: volition
+        summary: 意欲实现构成要件内容才成立故意；完全依此说会缩小故意的范围。
+        pages: "383"
+      - label: 认识说
+        answer: cognition
+        summary: 只要对构成要件事实有认识就成立故意。
+        pages: "383"
+
+  - id: zmk7-dolus-eventualis
+    work: zmk-xingfaxue-7
+    question: q-dolus-eventualis
+    pages: "383-385"
+    answer: acceptance
+    summary: >-
+      作者以容认说区分间接故意与有认识的过失：认识到结果可能发生并放任（容认）其发生的，是间接故意；
+      虽有认识但轻信能够避免、对结果持否定态度的，是过于自信的过失。
+    reported:
+      - label: 盖然性说
+        answer: probability
+        summary: 以认识说为基础，只从认识因素区分故意与过失：认识到结果发生的高度盖然性即为故意。
+        pages: "383"
+      - label: 动机说
+        answer: motive
+        summary: 介于意志说与容认说之间，以结果发生的认识是否成为行为的动机（反对动机）来区分。
+        pages: "383"
+
+  - id: zmk7-mistake-standard
+    work: zmk-xingfaxue-7
+    question: q-mistake-standard
+    pages: "407-415"
+    answer: legal
+    summary: >-
+      作者赞成法定符合说：行为人认识的事实与实际发生的事实在构成要件范围内一致，就成立故意既遂；在故意致人死亡的方法错误中，
+      行为人客观上杀了人、主观上也有杀人的故意，应成立故意杀人既遂。
+    reasons:
+      - 法定符合说与「故意是责任要素」的立场吻合；具体符合说主要考虑客观事实是否符合行为人事前的计划。
+      - 刑法规定的是「杀人」而不是「杀特定的某人」，故意的认识内容只需在构成要件层面把握。
+    reported:
+      - label: 具体符合说
+        answer: concrete
+        summary: 打击错误时客观事实与主观认识没有形成具体的符合，对误中的对象只成立过失，对意图的对象成立未遂。
+        pages: "408"
+      - label: 法定符合说
+        answer: legal
+        summary: 认识事实与发生事实在构成要件范围内一致，就对发生的事实成立故意既遂。
+        pages: "412"
+
+  - id: zmk7-aberratio
+    work: zmk-xingfaxue-7
+    question: q-aberratio
+    pages: "408-415"
+    answer: intentional
+    summary: >-
+      依法定符合说，打击错误时对实际被击中的人成立故意犯罪既遂。至于一个行为造成多人死伤时应认定几个故意，作者在一故意说与数故意说之间提出「非难重点说」，
+      先把非难的重点放在受到侵害的重要法益上，再处理其余结果。
+    reasons:
+      - 甲向乙开枪却打中丙致死，甲客观上杀了人，主观上有杀人故意，认定为故意杀人既遂符合构成要件。
+    reported:
+      - label: 具体符合说
+        answer: attempt-plus-negligence
+        summary: 对意图的对象成立未遂，对误中的对象成立过失。
+        pages: "408-410"
+      - label: 法定符合说中的一故意说
+        answer: intentional
+        summary: 只对一个结果成立故意犯罪，其余结果按过失处理。
+        pages: "414"
+      - label: 法定符合说中的数故意说
+        answer: multiple-intent
+        summary: 对所有被害人都成立故意犯罪，再按想象竞合处理。
+        pages: "414"
+
+  - id: zmk7-neg-structure
+    work: zmk-xingfaxue-7
+    question: q-neg-structure
+    pages: "427-440"
+    answer: old
+    summary: >-
+      作者为旧过失论辩护：旧过失论与结果无价值论有亲和性，它并不否认过失犯的实行行为，也要求在客观上限定构成要件行为；
+      结果回避义务的违反属于构成要件与违法层面，具体行为人的预见可能性属于责任。作者反对新过失论的「一阶段论」，也不采危惧感说。
+    reasons:
+      - 把具体行为人的预见可能性作为结果回避义务的前提，会使构成要件要素和违法性因人而异。
+      - 危惧感、不安感概念含糊，以此处罚过失犯会导致结果责任，违反责任主义。
+    reported:
+      - label: 新过失论
+        answer: new
+        summary: 即使对结果有预见可能性，履行了结果回避义务就不成立过失；过失的核心在于违反客观的注意义务（基准行为）。
+        pages: "427"
+      - label: 危惧感说（超新过失论）
+        answer: uneasiness
+        summary: 不要求具体的预见可能性，对危险有不安感、危惧感就足以要求采取回避措施。
+        pages: "428, 440"
+
+  - id: zmk7-neg-standard
+    work: zmk-xingfaxue-7
+    question: q-neg-standard
+    pages: "440-442"
+    answer: individual
+    summary: >-
+      作者认为过失责任应从知能水平到规范能力判断：就知能水平而言只能采主观标准，因为每个人的知能水平不同；
+      实践中可以先看「像行为人这样的一般人」（如一般的普通农民、像行为人这样的医生）能否预见，再结合行为人本人的情况作最终判断。
+    reported:
+      - label: 主观说
+        answer: individual
+        summary: 以具体行为人的注意能力为标准，非难不应超过其能力范围。
+        pages: "441"
+      - label: 客观说
+        answer: objective
+        summary: 以抽象的一般人的注意能力为标准。
+        pages: "441"
+      - label: 折中说、能力区别说等
+        answer: two-step
+        summary: 以一般的当为为基础但在行为人能力范围内归责，或区分生理方面与规范心理方面分别采主观、客观标准。
+        pages: "441"
+
+  - id: zmk7-insanity-method
+    work: zmk-xingfaxue-7
+    question: q-insanity-method
+    pages: "458-459"
+    answer: mixed
+    summary: >-
+      作者指出我国刑法第 18 条采取混合的方法：既要求精神障碍（生物学要素），又要求因此不能辨认或者不能控制自己行为（心理学要素）。
+    reasons:
+      - 单纯的生物学方法会把并未丧失辨认控制能力的精神病人一概免责；单纯的心理学方法缺乏明确标准。
+      - 判断应结合医学判断与法学判断，不能完全交给精神病鉴定专家。
+
+  - id: zmk7-alic-model
+    work: zmk-xingfaxue-7
+    question: q-alic-model
+    pages: "460-466"
+    answer: tatbestand
+    summary: >-
+      作者认为必须维护责任能力、故意、过失与行为同时存在的原则，不能为说明原因自由行为而承认例外；但同时存在原则中的「行为」不宜限于着手后的行为，
+      而应理解为与结果的发生具有因果关系的行为（原因行为），由此说明原因自由行为的可罚性。
+    reasons:
+      - 承认例外，其理由与范围不确定，容易在其他场合也承认例外，违反责任主义；何况我国并无特别规定。
+    editorNote: 作者在第 466 页说明了自己的观点与「间接正犯构造说」的区别：只有原因行为产生了紧迫危险时才成立未遂。
+
+  - id: zmk7-mistake-of-law
+    work: zmk-xingfaxue-7
+    question: q-mistake-of-law
+    pages: "476-480"
+    answer: culpability
+    summary: >-
+      作者借鉴限制责任说，认为违法性认识的可能性是独立的责任要素，但不是故意的内容；缺乏违法性认识的可能性（违法性错误不可避免）时阻却责任。
+    reported:
+      - label: 严格故意说
+        answer: strict-intent
+        summary: 违法性的认识是故意的要素，要认定故意就必须现实地认识到违法性。
+        pages: "476"
+      - label: 限制故意说
+        answer: limited-intent
+        summary: 违法性认识的可能性是故意的内容，故意的成立不要求现实的违法性认识。
+        pages: "477"
+
+  - id: zmk7-reliance-on-advice
+    work: zmk-xingfaxue-7
+    question: q-reliance-on-advice
+    pages: "480-482"
+    answer: excused
+    summary: >-
+      作者认为，行为人遵从最高人民法院的判例、在判例有分歧时遵从上级法院的判例，或者信赖主管机关的意见而产生违法性错误的，
+      属于不可避免的错误，阻却责任；对于信赖律师、法律学者意见的情形则区分具体情况。
+    editorNote: 作者对律师、学者意见的处理较为限定，详见第 481 页。
+
+  - id: zmk7-expectability
+    work: zmk-xingfaxue-7
+    question: q-expectability
+    pages: "484-490"
+    answer: "yes"
+    summary: >-
+      作者把缺乏期待可能性作为消极的责任要素：它不是故意的构成要素，但没有期待可能性时没有责任，期待可能性减少时责任减轻；
+      不过刑法条文大多已把缺乏期待可能性的行为排除在犯罪之外，在明文规定之外以此阻却责任的情形不多，只宜在比较特殊的案件中适用。
+    reasons:
+      - 一般人在行为时具有期待可能性，只在例外情况下才需要判断是否缺乏。
+      - 期待可能性的概念较模糊，若作为一般性的责任阻却事由，会导致法的不安定。

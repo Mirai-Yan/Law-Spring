@@ -1,0 +1,659 @@
+# 违法性：正当防卫（根据与限度）、紧急避险、违法的统一性
+# 起草：AI（Claude）。全部为 draft；中国大陆案件的细节尤需核实。
+
+concepts:
+  - id: self-defense
+    name: 正当防卫（根据与限度）
+    original:
+      de: Notwehr
+      ja: 正当防衛
+      en: self-defence
+    kind: problem
+    area: unrecht
+    tradition: both
+    summary: >-
+      正当防卫为什么正当（个人保全、法确证，还是优越利益）？是否要求法益均衡？防卫过当如何认定？
+      德国以「法无须向不法让步」为原则只要求必要性；日本与中国大陆要求一定的相当性，中国大陆近年因于欢案、昆山案而重新界定防卫限度。
+      英美法的核心问题则是：误以为需要自卫时，信念是否须合理。
+
+  - id: necessity
+    name: 紧急避险
+    original:
+      de: Notstand（rechtfertigender / entschuldigender）
+      ja: 緊急避難
+      en: necessity / duress of circumstances
+    kind: problem
+    area: unrecht
+    tradition: both
+    summary: >-
+      为了避免危险而损害无辜第三人的利益，是阻却违法还是阻却责任？德国以二分说区分两种避险，日本与中国大陆多采阻却违法一元说。
+      最尖锐的问题是生命对生命：从卡涅阿德斯之板、Dudley and Stephens 案，到联体婴儿分离手术与击落被劫持客机。
+
+questions:
+  - id: q-unity
+    concept: wrongfulness-essence
+    text: 刑法上的违法性与民法、行政法上的违法性是否统一？
+    level: intermediate
+    aliases:
+      - 违法一元论
+      - 违法相对论
+      - 违法多元论
+      - 可罚的违法性
+      - 法秩序的统一性
+      - 民法上合法 刑法上违法
+      - 刑民交叉
+    answers:
+      - id: strict
+        label: 严格的违法一元论
+        summary: 违法性在整个法秩序中统一；民法上合法的行为在刑法上不可能违法，反之亦然。
+      - id: moderate
+        label: 缓和的违法一元论
+        summary: 违法性在根本上统一，但刑法要求达到「可罚的」程度。
+      - id: relative
+        label: 违法相对论（多元论）
+        summary: 各法域的目的不同，违法性可以各自判断。
+
+  - id: q-defense-basis
+    concept: self-defense
+    text: 正当防卫为什么正当？
+    level: intermediate
+    aliases:
+      - 正当防卫的根据
+      - 正当防卫的正当化根据
+      - 正不必让于不正
+      - 法确证原理
+      - 个人保全原理
+    answers:
+      - id: dual-basis
+        label: 个人保全与法确证（二元论）
+      - id: individual
+        label: 个人保全（一元论）
+      - id: rechtsbewaehrung
+        label: 法确证（维护法秩序）
+      - id: interest
+        label: 优越利益（不法侵害者的法益要保护性降低）
+
+  - id: q-defense-proportionality
+    concept: self-defense
+    text: 正当防卫是否要求防卫行为与不法侵害之间的法益均衡（相当性）？
+    level: intermediate
+    aliases:
+      - 防卫限度
+      - 防卫的必要性
+      - 防卫的相当性
+      - 正当防卫的限度
+      - 明显超过必要限度
+    answers:
+      - id: no-balance
+        label: 只要求必要性，不要求法益均衡
+      - id: necessity-plus
+        label: 必要性，外加社会伦理的限制（不得极端失衡）
+      - id: proportionality
+        label: 要求一定的相当性（基本相当）
+
+  - id: q-excessive-defense
+    concept: self-defense
+    text: 防卫是否过当，应站在防卫人行为时的立场判断，还是以事后查明的结果判断？
+    level: applied
+    aliases:
+      - 防卫过当
+      - 于欢案
+      - 昆山反杀案
+      - 唯结果论
+      - 正当防卫的司法认定
+      - 特殊防卫
+      - 正当防卫 指导意见
+    answers:
+      - id: ex-ante
+        label: 站在防卫人行为时的立场，作事前的综合判断
+      - id: ex-post
+        label: 以事后查明的侵害与损害对比判断
+
+  - id: q-cl-belief
+    concept: self-defense
+    text: 行为人误以为需要自卫时，其信念是否须合理？
+    level: applied
+    aliases:
+      - honest belief
+      - 合理相信
+      - Beckford
+      - Goetz 案
+      - 英美法上的误想防卫
+      - 自卫 合理性
+    answers:
+      - id: honest
+        label: 诚实相信即可
+      - id: reasonable
+        label: 须为合理相信
+
+  - id: q-necessity-nature
+    concept: necessity
+    text: 紧急避险的法律性质是阻却违法、阻却责任，还是区分两种情形（二分说）？
+    level: intermediate
+    aliases:
+      - 紧急避险的法律性质
+      - 二分说
+      - 阻却违法的紧急避险
+      - 阻却责任的紧急避险
+      - 违法阻却一元说
+    answers:
+      - id: justification
+        label: 阻却违法一元说
+      - id: excuse
+        label: 阻却责任说
+      - id: differentiated
+        label: 二分说（保全利益明显优越时阻却违法，否则可能阻却责任）
+
+  - id: q-life-vs-life
+    concept: necessity
+    text: 为了保全自己或他人的生命而牺牲无辜者的生命，能否正当化或免责？
+    level: applied
+    aliases:
+      - 生命冲突
+      - 以命换命
+      - 电车难题
+      - 卡涅阿德斯之板
+      - Dudley and Stephens
+      - 击落被劫持客机
+      - 航空安全法
+      - 联体婴儿分离
+    answers:
+      - id: justified
+        label: 可以阻却违法
+      - id: excused
+        label: 不阻却违法，但可以阻却责任
+      - id: liable
+        label: 既不阻却违法，也不阻却责任
+
+prerequisites:
+  - question: q-unity
+    requires: q-unrecht-core
+    kind: foundational
+    why: 违法的实质是什么，影响刑法的违法判断能否独立于其他法域。
+    branches:
+      - answer: result
+        leadsTo: 刑法只保护值得以刑罚保护的法益，可以要求更高程度的违法（可罚的违法性）→ 缓和的一元论或相对论。
+      - answer: dual
+        leadsTo: 行为规范在整个法秩序中统一，刑法上的违法以法秩序的违反为前提 → 倾向违法一元论。
+      - answer: monist-act
+        leadsTo: 违法即规范违反，倾向统一。
+
+  - question: q-unity
+    requires: q-task
+    kind: foundational
+    why: 刑法是否具有独立于其他法域的保护目的，决定了它能否独立判断违法。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 刑法的法益保护具有补充性，可以只处罚其中值得处罚的部分。
+      - answer: ethic
+        leadsTo: 刑法维护的是统一的法秩序与伦理秩序 → 倾向违法一元论。
+
+  - question: q-defense-basis
+    requires: q-just-principle
+    kind: logical
+    why: 正当防卫是正当化事由之一，它的根据要从正当化的一般原理推出。
+    branches:
+      - answer: interest
+        leadsTo: 不法侵害者的法益要保护性降低，被防卫者的利益在衡量上占优 → 优越利益说。
+      - answer: social-adequacy
+        leadsTo: 防卫是社会伦理秩序所容许的行为。
+      - answer: purpose
+        leadsTo: 为了保护正当利益而采取的相当手段。
+
+  - question: q-defense-proportionality
+    requires: q-defense-basis
+    kind: logical
+    why: 防卫为什么正当，决定了防卫可以走多远。
+    branches:
+      - answer: dual-basis
+        leadsTo: 「法无须向不法让步」，只要求必要性，不要求法益均衡；但社会伦理会限制极端失衡的防卫。
+      - answer: rechtsbewaehrung
+        leadsTo: 防卫同时在维护法秩序，不要求法益均衡。
+      - answer: individual
+        leadsTo: 以保全个人法益所必要的限度为准。
+      - answer: interest
+        leadsTo: 利益衡量的观点要求一定的均衡，至少不能明显失衡。
+
+  - question: q-excessive-defense
+    requires: q-defense-proportionality
+    kind: logical
+    why: 只有先确定限度的标准，才能判断是否过当。
+    branches:
+      - answer: no-balance
+        leadsTo: 只看是否必要，结果的轻重不是决定因素。
+      - answer: necessity-plus
+        leadsTo: 原则上看必要性，只有极端失衡时才认定过当。
+      - answer: proportionality
+        leadsTo: 需要对比侵害与损害，但应综合考虑侵害的强度、紧迫性与防卫人的处境。
+
+  - question: q-excessive-defense
+    requires: q-norm-type
+    kind: foundational
+    why: 防卫限度是事前判断还是事后判断，与违法评价面向行为规范还是评价规范相对应。
+    branches:
+      - answer: determination
+        leadsTo: 行为规范面向行为时的防卫人 → 站在防卫人的立场事前判断，避免「唯结果论」。
+      - answer: evaluation
+        leadsTo: 违法是对结果的事后评价 → 但对防卫人的错误判断可以在责任阶层考虑。
+      - answer: both
+        leadsTo: 以事前判断为主。
+
+  - question: q-cl-belief
+    requires: q-cl-basis
+    kind: foundational
+    why: 误信的自卫能否免责，是主观主义与客观主义在正当防卫上的直接分歧。
+    branches:
+      - answer: subjectivism
+        leadsTo: 以行为人实际相信的情况为准 → 诚实相信即可（R v Williams、Beckford）；MPC 对诚实但不合理的信念按鲁莽或疏忽的犯罪处理。
+      - answer: objectivism
+        leadsTo: 自卫须以一个合理的人在当时情况下的判断为准 → 合理相信（People v. Goetz）。
+
+  - question: q-necessity-nature
+    requires: q-just-principle
+    kind: logical
+    why: 紧急避险是「正对正」，能否正当化取决于正当化的一般原理。
+    branches:
+      - answer: interest
+        leadsTo: 保全利益优于损害利益时阻却违法；利益同等时是否阻却违法，有争议。
+      - answer: social-adequacy
+        leadsTo: 以避险行为是否符合社会伦理秩序为准。
+      - answer: purpose
+        leadsTo: 以是否为正当目的的相当手段为准。
+
+  - question: q-necessity-nature
+    requires: q-culp-essence
+    kind: logical
+    why: 不能阻却违法的避险能否阻却责任，取决于责任是否包含期待可能性。
+    branches:
+      - answer: normative
+        leadsTo: 在生命、身体面临危险的极端状态下，不能期待行为人实施合法行为 → 可以阻却责任 → 二分说。
+      - answer: psychological
+        leadsTo: 责任只是故意、过失的心理事实，无法说明阻却责任的避险。
+      - answer: functional
+        leadsTo: 极端状态下没有预防的必要 → 阻却责任（答责性）。
+
+  - question: q-life-vs-life
+    requires: q-necessity-nature
+    kind: logical
+    why: 生命对生命的冲突，是检验紧急避险性质的极限案例。
+    branches:
+      - answer: justification
+        leadsTo: 生命不能比较，等价利益之间多数否认阻却违法；部分学者在此例外承认阻却责任或超法规的责任阻却。
+      - answer: differentiated
+        leadsTo: 不能阻却违法（生命不得衡量），但可能依阻却责任的紧急避险免责（德国刑法第 35 条）。
+      - answer: excuse
+        leadsTo: 阻却责任。
+
+  - question: q-life-vs-life
+    requires: q-punish-basis
+    kind: foundational
+    why: 对极端状态下的行为人科处刑罚是否有意义，取决于刑罚为什么正当。
+    branches:
+      - answer: retribution
+        leadsTo: 牺牲无辜者的行为仍是不法，但在极端状态下行为人的可责性大幅降低。
+      - answer: general-prevention
+        leadsTo: 刑罚对极端状态下的人没有威慑效果 → 支持免责。
+      - answer: special-prevention
+        leadsTo: 行为人没有再犯危险 → 支持免责。
+      - answer: union
+        leadsTo: 不阻却违法，以免动摇生命保护的规范；但可以阻却责任或减免刑罚。
+
+relations:
+  - from: accidental-defense
+    to: self-defense
+    type: part_of
+    description: 偶然防卫是正当防卫的主观要件（防卫意思）问题。
+  - from: putative-defense
+    to: self-defense
+    type: part_of
+    description: 假想防卫是关于正当防卫前提事实的错误。
+  - from: self-defense
+    to: necessity
+    type: symmetric
+    description: 正当防卫是「正对不正」，紧急避险是「正对正」；两者的根据与限度因此不同。
+
+works:
+  - id: w-berner-1848
+    title: Die Notwehrtheorie
+    titleZh: 正当防卫论
+    authors: [berner]
+    year: 1848
+    type: article
+    jurisdiction: de
+    venue: Archiv des Criminalrechts
+    needsSource: true
+  - id: w-williams-gladstone-1983
+    title: R v Williams (Gladstone) (1984) 78 Cr App R 276
+    authorText: Court of Appeal
+    year: 1983
+    type: case
+    jurisdiction: uk-ew
+  - id: w-beckford-1987
+    title: Beckford v The Queen [1988] AC 130
+    authorText: Privy Council
+    year: 1987
+    type: case
+    jurisdiction: uk-ew
+  - id: w-uk-cjia-2008
+    title: Criminal Justice and Immigration Act 2008, s. 76
+    authorText: Parliament
+    year: 2008
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-goetz-1986
+    title: People v. Goetz, 68 N.Y.2d 96 (1986)
+    authorText: New York Court of Appeals
+    year: 1986
+    type: case
+    jurisdiction: us
+  - id: w-florida-2005
+    title: Florida Statutes § 776.012–013 (Stand Your Ground, 2005)
+    titleZh: 佛罗里达州「不退让」法
+    authorText: Florida Legislature
+    year: 2005
+    type: statute
+    jurisdiction: us
+  - id: w-cn-yuhuan-2017
+    title: 于欢故意伤害案二审判决（山东省高级人民法院）
+    authorText: 山东省高级人民法院
+    year: 2017
+    type: case
+    jurisdiction: cn
+    needsSource: true
+  - id: w-cn-guideline-2020
+    title: 最高人民法院、最高人民检察院、公安部关于依法适用正当防卫制度的指导意见
+    authorText: 最高人民法院、最高人民检察院、公安部
+    year: 2020
+    type: report
+    jurisdiction: cn
+  - id: w-dudley-1884
+    title: R v Dudley and Stephens (1884) 14 QBD 273
+    authorText: Queen's Bench Division
+    year: 1884
+    type: case
+    jurisdiction: uk-ew
+  - id: w-goldschmidt-1913
+    title: Der Notstand, ein Schuldproblem
+    titleZh: 紧急避险：一个责任问题
+    authors: [goldschmidt]
+    year: 1913
+    type: article
+    jurisdiction: de
+    needsSource: true
+  - id: w-bverfge-115-118
+    title: BVerfGE 115, 118（Luftsicherheitsgesetz）
+    titleZh: 联邦宪法法院航空安全法判决
+    authorText: 联邦宪法法院
+    year: 2006
+    type: case
+    jurisdiction: de
+  - id: w-re-a-2000
+    title: Re A (Children) (Conjoined Twins) [2001] Fam 147
+    authorText: Court of Appeal
+    year: 2000
+    type: case
+    jurisdiction: uk-ew
+
+events:
+  # ---------------- 违法的统一性 ----------------
+  - id: e-jp-kabatsu
+    year: 1935
+    circa: true
+    jurisdiction: jp
+    type: development
+    title: 「可罚的违法性」思想
+    description: 宫本英脩等人提出，刑法上的违法不只是一般的违法，还必须达到值得以刑罚处罚的程度（可罚的违法性）。这一思想后来由佐伯千仞等人发展，成为违法一元论与相对论之争的焦点。
+    concepts: [wrongfulness-essence]
+    scholars: [miyamoto, saeki-chihiro]
+    needsSource: true
+    editorNote: 年份为编者估计，首倡者与文献待核。
+
+  # ---------------- 正当防卫 ----------------
+  - id: e-de-berner-1848
+    year: 1848
+    jurisdiction: de
+    type: origin
+    originOf: self-defense
+    originType: term
+    title: 「法无须向不法让步」
+    description: 黑格尔学派的贝尔纳以这一命题表述正当防卫的严格立场：防卫者不负退避义务，也不受法益均衡的限制，因为防卫本身就是对法的确证。这一思想奠定了德国正当防卫论的基调。
+    concepts: [self-defense]
+    scholars: [berner]
+    works: [w-berner-1848]
+    derivedFrom: [e-de-hegel-1820]
+    needsSource: true
+
+  - id: e-uk-williams-gladstone-1983
+    year: 1983
+    jurisdiction: uk-ew
+    type: case
+    title: R v Williams (Gladstone)：诚实相信即可
+    description: 被告人误以为有人在殴打一名少年而上前制止。上诉法院认为，应以被告人诚实相信的事实来判断其使用武力是否合理，即使这种相信并不合理。
+    concepts: [self-defense]
+    works: [w-williams-gladstone-1983]
+
+  - id: e-us-goetz-1986
+    year: 1986
+    jurisdiction: us
+    type: case
+    title: People v. Goetz：合理性须有客观标准
+    description: 被告人在地铁上向四名向他要钱的青年开枪。纽约上诉法院认为，自卫的信念必须是一个处于被告人境况中的合理的人也会持有的，不能只看被告人主观上是否相信。
+    concepts: [self-defense]
+    works: [w-goetz-1986]
+
+  - id: e-uk-beckford-1987
+    year: 1987
+    jurisdiction: uk-ew
+    type: case
+    title: Beckford v The Queen
+    description: 枢密院确认，被告人诚实地相信需要自卫就可以主张自卫，信念的合理性只是判断其是否真诚相信的证据。
+    concepts: [self-defense]
+    works: [w-beckford-1987]
+    derivedFrom: [e-uk-williams-gladstone-1983]
+
+  - id: e-us-florida-2005
+    year: 2005
+    jurisdiction: us
+    type: legislation
+    title: 「不退让」法
+    description: 佛罗里达州规定，在任何有权停留的场所遭受攻击时，没有退避的义务，可以使用包括致命武力在内的武力。此后多州效仿，引发关于自卫限度的激烈争论。
+    concepts: [self-defense]
+    works: [w-florida-2005]
+
+  - id: e-uk-cjia-2008
+    year: 2008
+    jurisdiction: uk-ew
+    type: legislation
+    title: 2008 年法将自卫规则成文化
+    description: 第 76 条确认：以被告人相信的情况判断，武力是否合理；但在一般情况下，「明显不成比例」的武力不合理。2013 年又对住宅防卫放宽为「严重不成比例」的武力才不合理。
+    concepts: [self-defense]
+    works: [w-uk-cjia-2008]
+    derivedFrom: [e-uk-beckford-1987]
+
+  - id: e-cn-yuhuan-2017
+    year: 2017
+    jurisdiction: cn
+    type: case
+    title: 于欢案
+    description: 于欢在母亲遭受催债人员长时间凌辱、警察离开现场后，持刀刺伤多人致一人死亡。一审以故意伤害罪判处无期徒刑；二审认定其行为具有防卫性质但明显超过必要限度，改判有期徒刑五年。防卫限度的判断标准由此引发全国讨论。
+    concepts: [self-defense]
+    works: [w-cn-yuhuan-2017]
+    derivedFrom: [e-cn-1997]
+    needsSource: true
+
+  - id: e-cn-kunshan-2018
+    year: 2018
+    jurisdiction: cn
+    type: case
+    title: 昆山反杀案
+    description: 于海明遭持刀袭击后夺刀反击致对方死亡，公安机关与检察机关认定其行为属于特殊防卫，不负刑事责任。司法实践开始纠正正当防卫认定中的「唯结果论」。
+    concepts: [self-defense]
+    derivedFrom: [e-cn-yuhuan-2017]
+    needsSource: true
+
+  - id: e-cn-guideline-2020
+    year: 2020
+    jurisdiction: cn
+    type: legislation
+    title: 正当防卫指导意见
+    description: 两高一部的指导意见要求立足防卫人防卫时所处的情境，结合社会公众的一般认知作出判断，不能苛求防卫人；防卫过当须同时满足「明显超过必要限度」与「造成重大损害」。
+    concepts: [self-defense]
+    works: [w-cn-guideline-2020]
+    derivedFrom: [e-cn-kunshan-2018]
+
+  # ---------------- 紧急避险 ----------------
+  - id: e-uk-dudley-1884
+    year: 1884
+    jurisdiction: uk-ew
+    type: origin
+    originOf: necessity
+    originType: case
+    title: R v Dudley and Stephens：紧急避险不是谋杀的抗辩
+    description: 船难后在救生艇上漂流多日的船员杀死并食用了濒死的少年帕克。法院认为，紧急避险不能成为杀人的抗辩，判处死刑（后减为六个月监禁）。生命对生命的冲突由此成为紧急避险论的核心难题。
+    concepts: [necessity]
+    works: [w-dudley-1884]
+    editorNote: 卡涅阿德斯之板等思想实验与康德的讨论更早；这里以近代判例作为起点。
+
+  - id: e-de-goldschmidt-1913
+    year: 1913
+    jurisdiction: de
+    type: development
+    title: 戈尔德施密特：紧急避险是责任问题
+    description: 区分「法规范」与「义务规范」：在紧急状态下，行为虽然违反法规范，但不违反义务规范，因此阻却的是责任。二分说与规范责任论由此相互支撑。
+    concepts: [necessity, culpability-essence]
+    scholars: [goldschmidt]
+    works: [w-goldschmidt-1913]
+    derivedFrom: [e-de-kant-1797]
+    needsSource: true
+
+  - id: e-uk-re-a-2000
+    year: 2000
+    jurisdiction: uk-ew
+    type: case
+    title: 联体婴儿分离案
+    description: 不分离，两个婴儿都会死亡；分离，较弱的一个必然死亡。上诉法院认为，在这种特殊情况下，以紧急避险为根据实施分离手术是合法的。这在一定程度上偏离了 Dudley and Stephens 的结论。
+    concepts: [necessity]
+    works: [w-re-a-2000]
+    derivedFrom: [e-uk-dudley-1884]
+
+  - id: e-de-bverfg-2006
+    year: 2006
+    jurisdiction: de
+    type: case
+    title: 航空安全法判决
+    description: 联邦宪法法院宣告授权击落被劫持客机的条款违宪：国家不能为了拯救更多人的生命而有意杀死机上无辜的乘客，这会把他们当作纯粹的客体，违反人的尊严。
+    concepts: [necessity]
+    works: [w-bverfge-115-118]
+    derivedFrom: [e-de-stgb-1975]
+
+positions:
+  # ---- 违法的统一性 ----
+  - theory: result-disvalue
+    question: q-unity
+    answer: null
+    note: 结果无价值论者在这个问题上没有统一立场，可罚的违法性论与违法相对论都有支持者。
+    alternatives:
+      - answer: relative
+        note: 刑法只保护值得以刑罚保护的法益，违法可以相对地判断。
+      - answer: moderate
+        note: 违法在根本上统一，但刑法要求可罚的违法性。
+    needsSource: true
+
+  # ---- 正当防卫 ----
+  - theory: result-disvalue
+    question: q-defense-basis
+    answer: interest
+    derivation:
+      - 违法即法益侵害，正当化以利益衡量来说明。
+      - 不法侵害者在侵害的限度内法益的要保护性降低 → 优越利益说。
+    alternatives:
+      - answer: individual
+        note: 也有学者以个人保全说明正当防卫。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-defense-basis
+    answer: dual-basis
+    derivation:
+      - 正当防卫既保护被侵害者的个人法益，也确证法秩序的效力（德国通说）。
+  - theory: dual-act-disvalue
+    question: q-defense-proportionality
+    answer: necessity-plus
+    derivation:
+      - 法无须向不法让步 → 原则上只要求必要性。
+      - 但社会伦理限制极端失衡的防卫（例如为保护轻微财物而杀人）。
+    alternatives:
+      - answer: proportionality
+        note: 日本与中国大陆的通说要求一定的相当性。
+        jurisdictions: [jp, cn]
+  - theory: result-disvalue
+    question: q-defense-proportionality
+    answer: proportionality
+    derivation:
+      - 优越利益说要求衡量双方的利益。
+      - 至少不能造成与侵害明显失衡的损害 → 一定的相当性。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-excessive-defense
+    answer: ex-ante
+    derivation:
+      - 行为规范面向行为时的防卫人。
+      - 站在防卫人当时的处境作事前判断，不能以事后的结果苛求防卫人。
+  - theory: result-disvalue
+    question: q-excessive-defense
+    answer: null
+    note: 以法益侵害为中心的立场容易被理解为事后的结果比较，但多数论者同样承认应考虑防卫人行为时的处境与侵害的危险性。
+    needsSource: true
+  - theory: cl-subjectivism
+    question: q-cl-belief
+    answer: honest
+    derivation:
+      - 以行为人实际相信的情况判断可责性。
+      - 诚实相信需要自卫的人没有可责的心态。
+  - theory: cl-objectivism
+    question: q-cl-belief
+    answer: reasonable
+    derivation:
+      - 自卫的正当性要以合理的人在当时情况下的判断为准。
+    needsSource: true
+
+  # ---- 紧急避险 ----
+  - theory: result-disvalue
+    question: q-necessity-nature
+    answer: justification
+    derivation:
+      - 违法即法益侵害，正当化以利益衡量为原理。
+      - 保全的利益不小于损害的利益时，阻却违法 → 违法阻却一元说（日本与中国大陆的通说）。
+  - theory: dual-act-disvalue
+    question: q-necessity-nature
+    answer: differentiated
+    derivation:
+      - 保全利益明显优越时阻却违法（德国刑法第 34 条）。
+      - 生命、身体等面临危险而不能期待行为人忍受时，阻却责任（第 35 条）。
+    alternatives:
+      - answer: justification
+        note: 日本与中国大陆的行为无价值论者也多采违法阻却一元说，因为法条只有一种避险。
+        jurisdictions: [jp, cn]
+  - theory: dual-act-disvalue
+    question: q-life-vs-life
+    answer: excused
+    derivation:
+      - 生命不能被衡量，牺牲无辜者的生命不阻却违法。
+      - 但在极端状态下不能期待行为人实施合法行为 → 阻却责任。
+  - theory: result-disvalue
+    question: q-life-vs-life
+    answer: null
+    note: 违法阻却一元说下，等价法益之间的避险如何处理有争议；有学者主张阻却违法，有学者在此例外承认阻却责任。
+    needsSource: true
+  - theory: normative-culp
+    question: q-life-vs-life
+    answer: excused
+    derivation:
+      - 责任是非难可能性。
+      - 生命面临危险时不能期待行为人选择牺牲自己 → 阻却责任。
+  - theory: retributivism
+    question: q-life-vs-life
+    answer: liable
+    derivation:
+      - 杀死无辜者是不法，应得刑罚（Dudley and Stephens 的结论）。
+      - 但极端状态可以成为减轻或赦免的理由。
+    needsSource: true

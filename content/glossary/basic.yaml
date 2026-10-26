@@ -1,0 +1,1126 @@
+# 基础词条：问题页上加虚下划线的术语，点开看释义。
+# 释义是编者据张明楷《刑法学》（第七版）用自己的话写的概括，不是原文；页码为印刷页码，原文锚点在 content/_private/anchors.yaml。
+terms:
+  - id: t-rechtsgut
+    term: "法益"
+    original: { de: "Rechtsgut" }
+    short: "刑法所保护的、可能遭受侵害或威胁的人的生活利益。"
+    definition: "犯罪的实质是侵害或威胁法益，刑法的任务是保护法益。法益包括生命、身体、自由、财产等个人利益，也包括能够还原为个人利益的国家利益与社会利益。一个条文保护什么法益，决定了对它的构成要件如何解释、处罚哪些行为。"
+    concept: rechtsgut
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "87"
+  - id: t-legality
+    term: "罪刑法定原则"
+    aliases: ["罪刑法定"]
+    original: { de: "Gesetzlichkeitsprinzip" }
+    short: "法无明文规定不为罪，法无明文规定不处罚。"
+    definition: "什么行为是犯罪、处以什么刑罚，都必须由行为前已公布的成文法事先规定。由此派生出禁止不利于被告人的类推解释、禁止溯及既往、禁止不定期刑、要求规定明确等要求。其思想基础是民主主义与尊重人权。"
+    concept: legality
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "60"
+  - id: t-analogy
+    term: "类推解释"
+    short: "把条文的法律效果套用到条文没有规定、只是相似的事实上。"
+    definition: "待判断的事实与条文的构成要件只是相似，并不在条文用语可能具有的含义之内，却比照该条文处理。不利于被告人的类推解释违反罪刑法定原则；有利于被告人的类推则被允许。它与扩大解释的界限，在于是否超出了用语可能的含义。"
+    concept: legality
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "69"
+  - id: t-culpability-principle
+    term: "责任主义"
+    original: { de: "Schuldprinzip" }
+    short: "没有责任就没有刑罚。"
+    definition: "只有当行为人具有责任能力、故意或过失、违法性认识的可能性与期待可能性时，才能就其违法行为进行非难并科处刑罚；而且只能就行为人自己的行为追究责任。通说采取消极的责任主义：责任是刑罚的前提与上限。"
+    concept: strict-liability
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "99"
+  - id: t-retribution
+    term: "报应刑"
+    aliases: ["报应刑论"]
+    short: "刑罚是对已然犯罪的应得回应，轻重取决于不法与责任。"
+    definition: "报应刑论认为，刑罚的正当性在于它是犯罪应得的回应，刑罚应与犯罪的不法和责任相称（罪刑均衡）。报应同时是刑罚的界限：不能为了预防犯罪而使刑罚超过责任的程度。在量刑理论中，报应刑也被称为责任刑。"
+    concept: punishment-justification
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "773"
+  - id: t-general-prevention
+    term: "一般预防"
+    aliases: ["一般预防论"]
+    original: { de: "Generalprävention" }
+    short: "通过刑罚防止社会上的一般人实施犯罪。"
+    definition: "消极的一般预防借助刑罚的威慑，使潜在的犯罪人不敢犯罪；积极的一般预防则强调通过适用刑罚确认规范的效力，强化国民对法的信赖。无论哪一种，都不能为了一般预防而使刑罚超出责任的限度。"
+    concept: punishment-justification
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "779"
+  - id: t-special-prevention
+    term: "特殊预防"
+    original: { de: "Spezialprävention" }
+    short: "通过刑罚防止犯罪人本人再次犯罪。"
+    definition: "特殊预防借助刑罚的保安（限制、剥夺再犯条件）、威慑与再社会化功能，使已经犯罪的人不再犯罪。在量刑中，它体现为对行为人再犯可能性的考量，例如累犯从重、缓刑与假释的适用。"
+    concept: punishment-justification
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "776"
+  - id: t-combination
+    term: "并合主义"
+    aliases: ["相对报应刑论"]
+    short: "刑罚既为报应也为预防，在报应的范围内追求预防。"
+    definition: "也称相对报应刑论，是今天的通说。刑罚的正当化根据一方面在于满足正义的报应要求，另一方面在于防止犯罪的必要与有效；预防目的只能在与责任相称的刑罚范围之内追求。"
+    concept: punishment-justification
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "773"
+  - id: t-subjectivism
+    term: "主观主义"
+    short: "以行为人的危险性格或犯罪意思为处罚重心的立场。"
+    definition: "与客观主义相对：认为犯罪是行为人危险性格或反社会意思的表现，处罚的根据主要在行为人的主观方面，因而倾向于扩大未遂、不能犯与共犯的处罚范围。近代学派多持主观主义。英美刑法也有主观主义与客观主义之争，侧重点不尽相同。"
+    concept: criminal-law-schools
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "158"
+  - id: t-objectivism
+    term: "客观主义"
+    short: "以外部行为及其对法益的侵害或危险为处罚重心的立场。"
+    definition: "与主观主义相对：犯罪的成立首先取决于客观上发生了什么，即行为及其对法益造成的侵害或危险，单纯的危险意思不能作为处罚根据。古典学派持客观主义，当今大陆法系刑法理论以客观主义为主流。"
+    concept: criminal-law-schools
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "616"
+  - id: t-old-school
+    term: "旧派"
+    aliases: ["古典学派"]
+    short: "以行为为中心、主张报应刑与客观主义的刑法学派。"
+    definition: "也称古典学派。以意志自由为前提，认为犯罪是自由意志的产物，刑罚是对犯罪行为的报应，处罚以外部行为及其实害为标准，重视罪刑法定。早期代表人物如贝卡里亚、费尔巴哈。"
+    concept: criminal-law-schools
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "7"
+  - id: t-new-school
+    term: "新派"
+    aliases: ["近代学派"]
+    short: "以行为人为中心、主张目的刑与特殊预防的刑法学派。"
+    definition: "也称近代学派，19 世纪后期在实证主义影响下兴起。否认意志自由，认为犯罪由行为人的素质与环境决定，刑罚的目的在于防卫社会、矫正犯罪人，处罚应着眼于行为人的危险性格。代表人物如龙勃罗梭、菲利、李斯特。"
+    concept: criminal-law-schools
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "7"
+  - id: t-four-elements
+    term: "四要件体系"
+    aliases: ["四要件", "四要件说"]
+    short: "以犯罪客体、客观方面、主体、主观方面构成犯罪的体系。"
+    definition: "源于苏联、长期是我国传统通说的犯罪构成理论。四个要件平面耦合，同时具备即成立犯罪；正当防卫等则作为排除社会危害性的行为另行讨论。批评者认为它难以区分违法与责任，不便处理共犯、未遂等问题。"
+    concept: crime-system
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "146"
+  - id: t-stufen
+    term: "阶层体系"
+    aliases: ["三阶层", "三阶层体系", "两阶层体系", "阶层论"]
+    short: "按构成要件、违法性、有责性逐层判断犯罪是否成立的体系。"
+    definition: "源于德国、日本的犯罪论体系：先判断行为是否符合构成要件，再判断是否存在违法阻却事由，最后判断能否对行为人进行责任非难，前一阶层是后一阶层的前提。也有学者把前两者合为不法，形成不法与责任的两阶层体系。"
+    concept: crime-system
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "141"
+  - id: t-tatbestand
+    term: "构成要件"
+    aliases: ["构成要件符合性", "构成要件该当性"]
+    original: { de: "Tatbestand" }
+    short: "刑法分则规定的、类型化的违法行为轮廓。"
+    definition: "构成要件是刑罚法规规定的违法类型，例如故意杀人罪中的杀人。行为符合构成要件，通常就具有违法性，只需再判断有无违法阻却事由。构成要件要素包括行为主体、行为、对象、结果、因果关系等，其解释应以所保护的法益为指导。"
+    concept: crime-system
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "141"
+  - id: t-wrongfulness
+    term: "违法性"
+    original: { de: "Rechtswidrigkeit" }
+    short: "行为为法秩序所不允许；实质上指侵害或威胁法益。"
+    definition: "形式上指行为违反法规范；实质上违法是什么则有争议，法益侵害说认为是对法益的侵害或危险，规范违反说认为是违反社会伦理规范。符合构成要件的行为原则上违法，存在正当防卫、紧急避险等事由时例外地不违法。"
+    concept: wrongfulness-essence
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "141"
+  - id: t-unrecht
+    term: "不法"
+    original: { de: "Unrecht" }
+    short: "行为符合构成要件并且违法。"
+    definition: "犯罪的实体由不法与责任组成。不法回答发生了什么刑法所反对的事，判断对象是行为及其造成的结果；责任回答能否就此谴责行为人。不法对所有参与者大体相同，责任则针对具体的行为人个别判断。"
+    concept: crime-system
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "151"
+  - id: t-schuld
+    term: "有责性"
+    aliases: ["责任"]
+    notIn: ["刑事责任", "法律责任", "民事责任", "行政责任", "责任刑", "责任人员", "责任年龄"]
+    original: { de: "Schuld" }
+    short: "能够就违法行为对行为人进行非难、谴责（非难可能性）。"
+    definition: "犯罪成立的最后一个阶层，也称责任。只有行为人具有责任能力、故意或过失、违法性认识的可能性与期待可能性时，才能就其不法行为进行谴责。规范责任论把责任的实质理解为：本来可以期待他不实施违法行为。"
+    concept: culpability-essence
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "141"
+  - id: t-action-theory
+    term: "行为论"
+    short: "讨论刑法上的行为是什么、什么不算行为的理论。"
+    definition: "刑法只处罚行为，因此要界定行为：因果行为论看重有意志的身体动静及其引起的外界变化，目的行为论看重人对目的的操纵，社会行为论看重具有社会意义的身体动静。行为概念的主要作用是把反射动作、睡梦中的举动等排除在外。"
+    concept: action-theory
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "210"
+  - id: t-final-action
+    term: "目的行为论"
+    original: { de: "finale Handlungslehre" }
+    short: "行为的本质是人有意识地操纵因果过程去实现目的。"
+    definition: "由韦尔策尔提出：行为不是单纯的因果过程，而是人预见结果、选择手段、朝目标操纵因果流程的活动。由此故意被移入构成要件与不法之中，成为人的不法论和行为无价值论的重要基础。它难以说明过失犯与不作为犯，受到批评。"
+    concept: action-theory
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "210"
+  - id: t-erfolgsunwert
+    term: "结果无价值"
+    aliases: ["结果无价值论"]
+    original: { de: "Erfolgsunwert" }
+    short: "违法的根据在于行为对法益造成的侵害或危险。"
+    definition: "关于违法性实质的立场：行为之所以违法，是因为它侵害或威胁了法益；违法判断原则上只看客观上发生的事，不考虑行为人的主观意思。它倾向于缩小处罚范围，例如认为偶然防卫不成立犯罪。张明楷教授坚持结果无价值论。"
+    concept: wrongfulness-essence
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "160"
+  - id: t-handlungsunwert
+    term: "行为无价值"
+    aliases: ["行为无价值论"]
+    original: { de: "Handlungsunwert" }
+    short: "违法的根据（也）在于行为本身违反规范、不被允许。"
+    definition: "关于违法性实质的立场：违法不仅取决于结果，还取决于行为本身的样态与行为人的主观意思（故意、目的等）是否违反社会伦理或行为规范。纯粹的行为无价值论已经少见，多数论者采取同时考虑结果无价值的二元论。"
+    concept: wrongfulness-essence
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "160"
+  - id: t-dualism
+    term: "二元论"
+    aliases: ["二元的行为无价值论"]
+    short: "违法同时取决于结果无价值与行为无价值。"
+    definition: "行为无价值论的主流形态：法益侵害是违法的基础，但还要考虑手段、方法以及行为人的主观要素。二元论内部有的侧重结果、有的侧重行为，在偶然防卫、不能犯等问题上常得出与结果无价值论不同的结论。"
+    concept: wrongfulness-essence
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "161"
+  - id: t-norm-violation
+    term: "规范违反说"
+    short: "违法的实质在于违反社会伦理规范或法规范。"
+    definition: "与法益侵害说相对的违法性学说：行为之所以违法，在于它违反了国家承认的文化规范、社会伦理秩序或刑法规范的命令。批评者认为，它容易把单纯违反伦理的行为纳入处罚，使刑法沦为维护道德的工具。"
+    concept: wrongfulness-essence
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "155"
+  - id: t-social-adequacy
+    term: "社会相当性"
+    aliases: ["社会相当性说"]
+    original: { de: "Sozialadäquanz" }
+    short: "处于历史形成的社会生活秩序之内、为社会所容许的行为。"
+    definition: "由韦尔策尔提出：属于社会生活通常范围的行为（如遵守规则的体育运动、正常的道路交通），即使引起了法益侵害，也不具有构成要件符合性或违法性。批评者指出，这一标准不够明确，容易以伦理秩序替代法益判断。"
+    concept: justification-principle
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "292"
+  - id: t-rechtsgut-theory
+    term: "法益侵害说"
+    short: "违法的实质是对法益的侵害或威胁。"
+    definition: "当今占主导地位的违法性学说：刑法的任务是保护法益，没有侵害或威胁法益的行为，即使违反伦理也不违法。它是结果无价值论的基础，并要求以条文所保护的法益指导构成要件的解释。"
+    concept: wrongfulness-essence
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "158"
+  - id: t-act
+    term: "实行行为"
+    short: "刑法分则规定的、具有导致法益侵害紧迫危险的行为。"
+    definition: "形式上指分则条文描述的行为（如杀害、窃取），实质上必须是类型性地具有引起法益侵害危险的行为。它是区分预备与未遂、正犯与共犯的关键：着手实行才可能成立未遂，亲自实施实行行为的通常是正犯。"
+    concept: commencement
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "214"
+  - id: t-causation
+    term: "因果关系"
+    original: { de: "Kausalität" }
+    short: "危害结果能否归属于行为人的行为。"
+    definition: "结果犯成立既遂，要求结果由实行行为引起。判断通常分两步：先看事实上是否存在没有该行为就没有该结果的条件关系，再从规范上判断结果能否归属于行为（相当因果关系说、客观归责理论）。介入因素可能切断归属。"
+    concept: causation
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "267"
+  - id: t-condition-theory
+    term: "条件说"
+    original: { de: "Äquivalenztheorie" }
+    short: "没有前者就没有后者时，前者就是后者的原因。"
+    definition: "判断事实因果关系的基本公式：假定行为不存在，如果结果也不会发生，二者就有条件关系。条件说本身范围过宽，因此需要相当因果关系说或客观归责理论从规范上加以限定，有时还用合法则的条件说补充。"
+    concept: causation
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "261"
+  - id: t-adequacy
+    term: "相当因果关系说"
+    aliases: ["相当因果关系"]
+    original: { de: "Adäquanztheorie" }
+    short: "依一般社会经验，行为通常会引起该结果时才有因果关系。"
+    definition: "在条件关系的基础上加以限定：只有当行为引起结果在社会一般经验上是相当的、而非异常偶然的，才肯定因果关系。至于以哪些事实为判断基础，又有主观说、客观说与折中说之分。它曾长期是日本的通说。"
+    concept: causation
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "268"
+  - id: t-objective-imputation
+    term: "客观归责"
+    aliases: ["客观归责理论", "客观归责论"]
+    original: { de: "objektive Zurechnung" }
+    short: "行为制造了法不允许的危险，且该危险在结果中实现。"
+    definition: "德国通说的结果归属理论：以条件关系为前提，再检验行为是否制造了法所不允许的危险、该危险是否在结果中实现、结果是否在构成要件的保护范围之内。被害人自我答责、第三人故意介入等，都可能否定归责。"
+    concept: causation
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "267"
+  - id: t-intervening
+    term: "介入因素"
+    short: "行为之后、结果之前介入的他人行为、被害人行为或自然事件。"
+    definition: "判断结果能否归属于先前行为时，要考察：先前行为导致结果的危险有多大，介入因素是否异常，介入因素对结果的作用有多大。前行为必然或通常引起介入因素时，一般不切断因果关系；介入因素异常且独立导致结果时，可能切断。"
+    concept: causation
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "283"
+  - id: t-omission
+    term: "不作为"
+    aliases: ["不作为犯"]
+    original: { de: "Unterlassen" }
+    short: "能够履行而不履行自己应尽的作为义务。"
+    definition: "与作为相对的行为形式。真正不作为犯是刑法明文规定以不作为构成的犯罪（如遗弃罪）；不真正不作为犯以不作为实现通常由作为实现的构成要件（如母亲不喂奶致婴儿死亡）。后者要求作为义务、作为可能性与结果回避可能性。"
+    concept: omission
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "218"
+  - id: t-duty
+    term: "作为义务"
+    aliases: ["作为义务的来源"]
+    short: "不真正不作为犯所要求的、法律上防止结果发生的义务。"
+    definition: "我国传统理论从形式上列举义务来源：法律明文规定、职务或业务要求、法律行为（如合同）引起、先前行为引起。德日理论则从实质上说明，例如对危险源负有监督义务、对特定法益处于保护地位等。"
+    concept: omission
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "224"
+  - id: t-guarantor
+    term: "保证人地位"
+    aliases: ["保证人", "保证人义务"]
+    original: { de: "Garantenstellung" }
+    short: "对防止某一结果负有特别法律义务的地位。"
+    definition: "德日刑法理论用来说明不真正不作为犯的概念：只有处于保证人地位的人不防止结果，才能与以作为造成结果同等评价。保证人地位的实质根据一般分为对特定法益的保护义务和对特定危险源的监督义务两类。"
+    concept: omission
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "218"
+  - id: t-danger-offense
+    term: "危险犯"
+    original: { de: "Gefährdungsdelikt" }
+    short: "以对法益造成危险（而非实害）为处罚根据的犯罪。"
+    definition: "与实害犯相对。具体危险犯要求个案中确实出现法益侵害的具体危险（如放火罪中的危害公共安全），需要司法上具体判断；抽象危险犯则由立法推定某类行为具有危险（如醉酒驾驶），一般不需要个案证明。"
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "246"
+  - id: t-abstract-danger
+    term: "抽象危险犯"
+    aliases: ["抽象危险"]
+    short: "立法推定行为本身具有危险、无需个案证明危险的犯罪。"
+    definition: "法条只规定行为，不要求出现具体的危险状态，例如醉酒驾驶机动车。争议在于：个案中行为完全不可能造成危险时，能否以欠缺抽象危险为由出罪。张明楷教授认为，个案事实与立法预设明显不符时，可以否定危险。"
+    concept: drunk-driving
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "249"
+  - id: t-concrete-danger
+    term: "具体危险犯"
+    aliases: ["具体危险"]
+    short: "要求个案中确实出现法益侵害具体危险的犯罪。"
+    definition: "法条通常以足以……、危害公共安全等表述要求危险状态实际发生，例如破坏交通工具罪要求足以使交通工具发生倾覆、毁坏危险。是否存在具体危险，需要结合个案事实判断。"
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "250"
+  - id: t-status-offense
+    term: "身份犯"
+    aliases: ["真正身份犯", "不真正身份犯"]
+    short: "以特殊身份作为成立条件或影响刑罚的犯罪。"
+    definition: "真正身份犯以特殊身份为构成要件要素，没有该身份就不成立本罪（如受贿罪要求国家工作人员）；不真正身份犯中身份不影响定罪、只影响量刑。无身份者与有身份者共同犯罪时如何处理，是共犯与身份的问题。"
+    concept: complicity-status
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "193"
+  - id: t-purpose-offense
+    term: "目的犯"
+    short: "以故意之外的特定目的为成立要件的犯罪。"
+    definition: "例如盗窃罪要求非法占有目的，走私淫秽物品罪要求牟利或者传播目的。这种目的不需要在客观上实现，张明楷教授称之为主观的超过要素。目的属于违法要素还是责任要素，影响共犯与错误问题的处理。"
+    concept: appropriation-intent
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1202"
+  - id: t-objective-condition
+    term: "客观处罚条件"
+    original: { de: "objektive Bedingung der Strafbarkeit" }
+    short: "犯罪成立之外、决定能否实际处罚的客观条件。"
+    definition: "德日刑法理论中的概念：某些客观事实不需要行为人认识，但只有具备它才能处罚。传统观点认为它与犯罪成立无关，只是出于刑事政策考虑而设；也有观点认为它影响违法性，应当纳入构成要件讨论。"
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "764"
+  - id: t-subjective-unrecht
+    term: "主观的违法要素"
+    original: { de: "subjektive Unrechtselemente" }
+    short: "影响行为违法性的行为人主观要素，如目的、故意。"
+    definition: "行为无价值论认为，故意、目的、倾向等主观内容也决定行为是否违法；结果无价值论原则上否认主观的违法要素，认为违法只取决于客观事实，只在例外情形中承认。这一分歧影响未遂犯、不能犯的判断。"
+    concept: subjective-unrecht
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "508"
+  - id: t-negative-elements
+    term: "消极的构成要件要素"
+    aliases: ["消极的构成要件要素理论"]
+    short: "把违法阻却事由的不存在视为构成要件要素的理论。"
+    definition: "该理论认为构成要件与违法性合一：构成要件除积极要素外，还包含不存在正当化事由这一消极要素。据此，误以为存在正当防卫等事由时（如假想防卫），就欠缺对构成要件的认识，因而阻却故意。"
+    concept: putative-defense
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "179"
+  - id: t-intent
+    term: "故意"
+    notIn: ["故意杀人", "故意伤害", "故意毁坏"]
+    original: { de: "Vorsatz" }
+    short: "明知行为会发生危害结果，并且希望或者放任其发生。"
+    definition: "由认识因素与意志因素组成。直接故意是明知结果必然或可能发生而希望其发生，间接故意是明知可能发生而放任其发生。故意的认识内容是符合构成要件的客观事实，不包括对行为违法的认识。"
+    concept: intent
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "382"
+  - id: t-dolus-eventualis
+    term: "未必故意"
+    original: { de: "dolus eventualis" }
+    short: "认识到结果可能发生，仍然容认其发生的心理状态。"
+    definition: "德日刑法上的用语，大体对应我国刑法中的间接故意。它与有认识的过失的界限，是区分故意与过失最困难的问题：通说看行为人是否容认结果发生，也有学说看行为人对危险的认识程度。"
+    concept: intent
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "398"
+  - id: t-indirect-intent
+    term: "间接故意"
+    short: "明知行为可能发生危害结果，并且放任其发生。"
+    definition: "我国刑法上故意的一种。放任意味着对结果的发生持听之任之、容认的态度，而不是希望。它与过于自信的过失都预见到结果可能发生，区别在于：前者容认结果，后者轻信能够避免结果。"
+    concept: intent
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "398"
+  - id: t-conscious-negligence
+    term: "有认识的过失"
+    aliases: ["过于自信的过失"]
+    short: "预见到结果可能发生，但轻信能够避免。"
+    definition: "大体对应我国刑法中的过于自信的过失。行为人已经认识到危险，却相信结果不会发生；与间接故意的区别在于是否容认结果。由于两者只差主观态度，认定时常要借助行为的危险程度、行为人采取的避免措施等客观事实。"
+    concept: intent
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "384"
+  - id: t-negligence
+    term: "过失"
+    notIn: ["过失致人死亡", "过失致人重伤"]
+    original: { de: "Fahrlässigkeit" }
+    short: "应当预见而没有预见，或者已经预见而轻信能够避免。"
+    definition: "刑法第 15 条规定的罪过形式，分为疏忽大意的过失与过于自信的过失；过失犯罪，法律有规定的才负刑事责任。过失的本质是什么，有旧过失论、新过失论与危惧感说之争。"
+    concept: negligence-structure
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "440"
+  - id: t-duty-of-care
+    term: "注意义务"
+    original: { de: "Sorgfaltspflicht" }
+    short: "过失犯中行为人应当预见并避免结果的义务。"
+    definition: "包括结果预见义务与结果回避义务。旧过失论重视预见义务，把过失看作责任形式；新过失论重视结果回避义务，把违反社会生活中应当遵守的行动基准看作过失犯的实行行为。违反注意义务是过失犯的核心。"
+    concept: negligence-structure
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "432"
+  - id: t-foreseeability
+    term: "预见可能性"
+    short: "行为人能够预见危害结果发生的可能性。"
+    definition: "过失责任的前提：没有预见可能性就不能进行过失非难。旧过失论与新过失论都要求对具体结果的预见可能性；危惧感说只要求对危险有模糊的不安感，被批评为扩大处罚、违反责任主义。"
+    concept: negligence-structure
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "429"
+  - id: t-avoidance-duty
+    term: "结果回避义务"
+    short: "为避免预见到的结果而采取必要措施的义务。"
+    definition: "新过失论的核心概念：即使能够预见结果，只要行为人遵守了社会生活所要求的行为标准、采取了避免结果的措施，就不成立过失。与之相关的是结果回避可能性：即使履行义务结果仍会发生时，不能归责。"
+    concept: negligence-structure
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "431"
+  - id: t-old-negligence
+    term: "旧过失论"
+    short: "把过失理解为责任要素、以预见可能性为核心的学说。"
+    definition: "认为故意犯与过失犯在构成要件与违法层面没有区别，只要行为与结果有因果关系就违法；过失是一种责任形式，其核心是对结果的预见可能性。结果无价值论一般与旧过失论相联系。"
+    concept: negligence-structure
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "429"
+  - id: t-new-negligence
+    term: "新过失论"
+    short: "以违反结果回避义务（行动基准）为过失核心的学说。"
+    definition: "认为过失犯在违法层面就与故意犯不同：违反客观注意义务、偏离社会生活所要求的行动基准的行为，才是过失犯的实行行为。它与行为无价值论相联系，并借助信赖原则等限定过失犯的范围。"
+    concept: negligence-structure
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "431"
+  - id: t-fear-theory
+    term: "危惧感说"
+    aliases: ["新新过失论", "超新过失论"]
+    short: "只要对危险有模糊的不安感，就可能成立过失。"
+    definition: "也称新新过失论，主要针对公害、企业事故等新型风险提出：不要求对具体结果的预见可能性，只要行为人对危险存在一般的危惧感，就要求其采取回避措施。批评者认为它会使过失责任接近结果责任。"
+    concept: negligence-structure
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "440"
+  - id: t-mistake
+    term: "认识错误"
+    aliases: ["事实认识错误", "事实错误"]
+    notIn: ["陷入认识错误", "产生认识错误", "基于认识错误"]
+    short: "行为人主观认识的事实与客观发生的事实不一致。"
+    definition: "分为事实认识错误与法律认识错误。事实认识错误又分为具体的事实错误（在同一构成要件内，如对象错误、打击错误）与抽象的事实错误（跨越不同构成要件）。前者是否影响故意，有具体符合说与法定符合说之争。"
+    concept: mistake-of-fact
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "407"
+  - id: t-concrete-conformity
+    term: "具体符合说"
+    short: "认识的事实与发生的事实具体一致，才成立故意既遂。"
+    definition: "处理具体的事实错误的学说。对象错误中认识与事实在那个人上一致，成立故意既遂；打击错误中想杀的甲与实际杀死的乙不是同一人，因此对甲成立未遂、对乙成立过失。德国通说采此说。"
+    concept: mistake-of-fact
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "410"
+  - id: t-legal-conformity
+    term: "法定符合说"
+    short: "认识与事实在构成要件上一致，就成立故意既遂。"
+    definition: "只要行为人认识的事实与实际发生的事实属于同一构成要件（例如都是人），就不影响故意。因此打击错误中误杀乙的，也成立故意杀人既遂。日本与我国的通说采此说，张明楷教授也采取法定符合说。"
+    concept: mistake-of-fact
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "412"
+  - id: t-aberratio
+    term: "打击错误"
+    aliases: ["方法错误"]
+    original: { ja: "方法の錯誤" }
+    short: "因行为本身的偏差，实际侵害的对象不是所瞄准的对象。"
+    definition: "例如甲瞄准 A 开枪，因没打准而击中了旁边的 B。对 B 是否成立故意杀人既遂，具体符合说与法定符合说结论不同。它与对象错误的区别在于：对象错误是认错了人，打击错误是打偏了。"
+    concept: mistake-of-fact
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "407"
+  - id: t-error-in-objecto
+    term: "对象错误"
+    original: { ja: "客体の錯誤" }
+    short: "把甲当成乙而加以侵害，且二者属于同一构成要件。"
+    definition: "例如本想杀 A，黑夜中误把 B 当成 A 杀死。由于行为人想杀的就是眼前这个人，具体符合说与法定符合说都认为成立故意杀人既遂；两说的分歧主要出现在打击错误中。"
+    concept: mistake-of-fact
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "407"
+  - id: t-justification
+    term: "正当化事由"
+    aliases: ["违法阻却事由", "违法性阻却事由"]
+    original: { de: "Rechtfertigungsgrund" }
+    short: "行为虽符合构成要件，但因正当理由而不违法的事由。"
+    definition: "也称违法阻却事由，包括刑法明文规定的正当防卫、紧急避险，以及超法规的被害人承诺、自救行为、正当业务行为等。其一般原理有法益衡量说、社会相当性说等，是违法阶层的核心问题。"
+    concept: justification-principle
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "151"
+  - id: t-self-defense
+    term: "正当防卫"
+    original: { de: "Notwehr" }
+    short: "为制止正在进行的不法侵害而对侵害人实施的防卫行为。"
+    definition: "刑法第 20 条规定的正当化事由。成立条件包括：存在不法侵害、侵害正在进行、针对侵害人本人、没有明显超过必要限度造成重大损害；是否还要求防卫意思有争议。对正在进行的行凶、杀人等严重暴力犯罪，适用特殊防卫。"
+    concept: self-defense
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "296"
+  - id: t-unlawful-attack
+    term: "不法侵害"
+    short: "正当防卫所针对的、侵害法益的违法行为。"
+    definition: "正当防卫的起因条件。不法侵害不限于犯罪，也包括一般违法行为；对无责任能力者的侵害能否防卫、如何防卫存在讨论。防卫还要求不法侵害正在进行，即已经开始且尚未结束，否则可能是事前防卫或事后防卫。"
+    concept: self-defense
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "306"
+  - id: t-defense-intent
+    term: "防卫意思"
+    aliases: ["防卫意识"]
+    original: { de: "Verteidigungswille" }
+    short: "认识到正在进行的不法侵害并意图与之对抗的心理。"
+    definition: "正当防卫是否以防卫意思为成立条件，有必要说与不要说之争，直接决定偶然防卫的处理。必要说多与行为无价值论相联系；不要说认为客观上制止了不法侵害即可。即使采必要说，一般也只要求防卫认识，不要求纯粹的防卫动机。"
+    concept: accidental-defense
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "310"
+  - id: t-excessive-defense
+    term: "防卫过当"
+    short: "防卫明显超过必要限度并造成重大损害。"
+    definition: "刑法第 20 条第 2 款规定，防卫过当应当负刑事责任，但应当减轻或者免除处罚。通常所说的是强度上的过当；理论上还讨论量的过当，即侵害结束后继续反击。防卫过当本身不是罪名，应依行为人的罪过形式确定罪名。"
+    concept: self-defense
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "329"
+  - id: t-putative-defense
+    term: "假想防卫"
+    original: { de: "Putativnotwehr" }
+    short: "本不存在不法侵害，却误以为存在而进行防卫。"
+    definition: "属于正当化事由的事实错误。我国通说认为，假想防卫不成立故意犯罪，有过失的成立过失犯罪，没有过失的是意外事件。国外则有消极的构成要件要素理论、限制责任说、严格责任说等不同处理方案。"
+    concept: putative-defense
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "422"
+  - id: t-accidental-defense
+    term: "偶然防卫"
+    short: "出于犯罪意图的行为，碰巧制止了他人正在进行的不法侵害。"
+    definition: "例如甲为杀乙而开枪，事后查明乙当时正要杀害丙。防卫意思必要说认为成立故意犯罪既遂，二元论中有主张未遂的，结果无价值论则认为不成立犯罪或只成立未遂。它是检验违法性本质之争的典型案例。"
+    concept: accidental-defense
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "313"
+  - id: t-necessity
+    term: "紧急避险"
+    original: { de: "Notstand" }
+    short: "为避免正在发生的危险，不得已损害另一较小的合法利益。"
+    definition: "刑法第 21 条规定的正当化事由。与正当防卫不同，避险损害的是无辜第三者的利益，因此要求不得已（没有其他方法）、所保护的利益大于所损害的利益。超过必要限度造成不应有的损害的，是避险过当。"
+    concept: necessity
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "332"
+  - id: t-consent
+    term: "被害人承诺"
+    aliases: ["被害人同意"]
+    original: { de: "Einwilligung" }
+    short: "法益主体同意他人侵害自己可以处分的法益。"
+    definition: "有效的承诺可以阻却违法或者阻却构成要件符合性。成立条件一般包括：承诺者对该法益有处分权、具有承诺能力、承诺出于真实意思、在行为时存在。对生命的承诺无效；对重伤的承诺是否有效存在争议。"
+    concept: consented-injury
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "344"
+  - id: t-self-help
+    term: "自救行为"
+    original: { de: "Selbsthilfe" }
+    short: "法益受侵害者来不及依法律程序时，自力恢复权利。"
+    definition: "例如盗窃得逞后，被害人不久在街上遇到窃贼，用适当强力夺回自己的财物。它是超法规的违法阻却事由，要求情况紧迫、来不及依靠国家机关救济，手段与所恢复的利益相当。与正当防卫不同，它针对的是已经结束的侵害。"
+    concept: justification-principle
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "360"
+  - id: t-capacity
+    term: "责任能力"
+    original: { de: "Schuldfähigkeit" }
+    short: "辨认和控制自己行为的能力。"
+    definition: "有责性的前提。我国刑法以年龄和精神状态规定责任能力：未满十二周岁的人一律不负刑事责任，其他年龄段承担不同范围的责任；精神病人在不能辨认或者不能控制自己行为时造成危害结果的，不负刑事责任。"
+    concept: insanity
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "457"
+  - id: t-alic
+    term: "原因自由行为"
+    original: { en: "actio libera in causa" }
+    short: "有能力时使自己陷入无能力状态，再在其中造成结果。"
+    definition: "典型例子是为了杀人先把自己灌醉，再在醉酒中杀人。造成结果时行为人已无责任能力，但设定原因时有责任能力。如何说明仍可追究完全责任，有把原因行为视为实行行为的构成要件模式，和承认责任原则例外的例外模式。"
+    concept: alic
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "462"
+  - id: t-mental-disorder
+    term: "精神障碍"
+    aliases: ["精神病"]
+    short: "影响辨认或控制能力的精神疾病或精神状态异常。"
+    definition: "判断精神障碍者的责任能力，通常采取混合标准：既要有医学上的精神障碍（生物学要素），又要因此丧失或减弱了辨认、控制能力（心理学要素）。前者由司法精神鉴定确认，后者最终是法官的规范判断。"
+    concept: insanity
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "458"
+  - id: t-unrechtsbewusstsein
+    term: "违法性认识"
+    aliases: ["法律认识错误", "违法性的错误", "禁止错误"]
+    original: { de: "Unrechtsbewusstsein" }
+    short: "认识到自己的行为是法所禁止的。"
+    definition: "责任说认为，违法性认识不是故意的内容，但没有违法性认识的可能性时不能进行责任非难。误以为自己的行为合法，称为法律认识错误或禁止错误：错误不可避免时阻却责任，可以避免时只减轻责任。传统观点则认为不知法不免责。"
+    concept: mistake-of-law
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "474"
+  - id: t-possibility-ub
+    term: "违法性认识的可能性"
+    aliases: ["违法性认识可能性"]
+    short: "行为人有可能认识到自己的行为违法。"
+    definition: "成立犯罪不要求行为人现实地认识到违法，只要有认识的可能性；如果行为人基于不可避免的法律认识错误而相信行为合法（例如信赖了主管机关的明确答复），就没有违法性认识的可能性，不能进行责任非难。"
+    concept: mistake-of-law
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "474"
+  - id: t-zumutbarkeit
+    term: "期待可能性"
+    original: { de: "Zumutbarkeit" }
+    short: "在当时情况下，能够期待行为人不实施违法行为。"
+    definition: "规范责任论的核心概念：如果在行为当时的具体情况下，不能期待行为人实施合法行为，就不能对其进行谴责。著名的例子是德国的癖马案。判断标准有行为人标准说、平均人标准说与国家标准说之争。"
+    concept: culpability-essence
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "484"
+  - id: t-strict-liability
+    term: "严格责任"
+    original: { en: "strict liability" }
+    short: "不要求证明行为人有故意或过失的责任形式（英美法）。"
+    definition: "英美刑法中，一些规制性犯罪（如违反食品安全、交通管理的轻罪）只要证明行为发生，不要求证明主观罪过。它与责任主义存在紧张关系，大陆法系与我国刑法原则上不承认严格责任。"
+    concept: strict-liability
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "374"
+  - id: t-preparation
+    term: "犯罪预备"
+    aliases: ["预备犯"]
+    short: "为实行犯罪准备工具、制造条件，但尚未着手实行。"
+    definition: "刑法第 22 条规定，对预备犯可以比照既遂犯从轻、减轻处罚或者免除处罚。由于预备行为离法益侵害还远，理论上主张只处罚重大犯罪的预备，实践中处罚预备犯的情形也很少。"
+    concept: commencement
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "494"
+  - id: t-commencement
+    term: "着手"
+    aliases: ["实行的着手"]
+    short: "开始实施实行行为，是预备与未遂的分界。"
+    definition: "何时着手，有形式的客观说（开始实施分则规定的行为）、实质的客观说（行为产生法益侵害的紧迫危险）、主观说等。张明楷教授采取实质的客观说中的危险结果说：行为造成了达致既遂的紧迫危险时，才是着手。"
+    concept: commencement
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "503"
+  - id: t-attempt
+    term: "未遂"
+    aliases: ["犯罪未遂", "未遂犯"]
+    original: { de: "Versuch" }
+    short: "已经着手实行犯罪，因意志以外的原因而未得逞。"
+    definition: "刑法第 23 条规定，对未遂犯可以比照既遂犯从轻或者减轻处罚。未遂犯的处罚根据在于行为人的危险意思，还是行为对法益造成的客观危险，决定了不能犯与未遂犯的界限。"
+    concept: impossible-attempt
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "500"
+  - id: t-completion
+    term: "既遂"
+    aliases: ["犯罪既遂", "既遂犯"]
+    original: { de: "Vollendung" }
+    short: "行为完全具备了某一犯罪的构成要件。"
+    definition: "结果犯以发生法定结果为既遂，危险犯以出现法定危险为既遂，行为犯以完成法定行为为既遂。各罪的既遂标准常有争议，例如盗窃罪采取失控说、控制说还是取得说。"
+    concept: theft-completion
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "503"
+  - id: t-withdrawal
+    term: "中止"
+    aliases: ["中止犯", "犯罪中止"]
+    original: { de: "Rücktritt" }
+    short: "在犯罪过程中自动放弃犯罪或有效防止结果发生。"
+    definition: "刑法第 24 条规定，没有造成损害的应当免除处罚，造成损害的应当减轻处罚。成立中止要求时间性（在犯罪过程中）、自动性（出于本人意志）和有效性（实行终了后还要有效防止结果）。"
+    concept: withdrawal
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "533"
+  - id: t-voluntariness
+    term: "自动性"
+    original: { de: "Freiwilligkeit" }
+    short: "中止出于行为人本人的意志，而非外部障碍。"
+    definition: "区分中止与未遂的关键。常用的弗兰克公式是：即使能达到目的也不想达到的是中止，即使想达到目的也不能达到的是未遂。是否要求出于悔悟等伦理动机存在争议，通说不作此要求。"
+    concept: withdrawal
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "540"
+  - id: t-impossible
+    term: "不能犯"
+    aliases: ["不能犯未遂"]
+    original: { de: "untauglicher Versuch" }
+    short: "行为不可能造成法益侵害结果，因而不可罚的情形。"
+    definition: "例如误把白糖当作毒药给人吃。区分不可罚的不能犯与可罚的未遂犯，有抽象危险说、具体危险说、客观危险说等。我国传统观点把这类情形称为不能犯未遂并作为未遂处罚；张明楷教授采取修正的客观的危险说。"
+    concept: impossible-attempt
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "529"
+  - id: t-impossible-attempt
+    term: "不能未遂"
+    short: "手段或对象使结果不可能发生、但仍作为未遂处罚的情形。"
+    definition: "德国刑法明文规定处罚不能未遂（出于严重无知时可以免除刑罚），英美刑法在废除不能抗辩后也普遍处罚。是否处罚、在多大范围内处罚，取决于未遂犯的处罚根据采主观说还是客观说。"
+    concept: impossible-attempt
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "522"
+  - id: t-complicity
+    term: "共同犯罪"
+    short: "二人以上共同故意犯罪。"
+    definition: "刑法第 25 条的定义。我国刑法按作用把共犯人分为主犯、从犯、胁从犯，另规定教唆犯；理论上则按分工区分正犯（直接正犯、间接正犯、共同正犯）与狭义的共犯（教唆犯、帮助犯）。共同犯罪的范围有犯罪共同说与行为共同说之争。"
+    concept: perpetration
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "563"
+  - id: t-principal
+    term: "正犯"
+    aliases: ["直接正犯"]
+    original: { de: "Täter" }
+    short: "自己实施或支配实现构成要件的人。"
+    definition: "与教唆犯、帮助犯相对。正犯与共犯如何区分，有形式的客观说（是否亲自实施实行行为）、主观说（是否以自己犯罪的意思）、行为支配说（是否支配了犯罪进程）等。直接正犯、间接正犯、共同正犯都是正犯。"
+    concept: perpetration
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "563"
+  - id: t-accessory
+    term: "共犯"
+    aliases: ["狭义的共犯"]
+    original: { de: "Teilnehmer" }
+    short: "狭义指正犯之外的教唆犯与帮助犯；广义包括共同正犯。"
+    definition: "理论上在不同意义上使用共犯：最广义指一切共同犯罪人，广义包括共同正犯、教唆犯和帮助犯，狭义只指教唆犯与帮助犯。狭义的共犯通过正犯间接地侵害法益，其成立以正犯实施了符合构成要件的违法行为为前提。"
+    concept: complicity-basis
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "563"
+  - id: t-coperpetration
+    term: "共同正犯"
+    original: { de: "Mittäter" }
+    short: "二人以上共同实行犯罪，各自对全部结果负责。"
+    definition: "共同正犯适用部分实行全部责任：每人只实施了一部分行为，也要对共同造成的全部结果承担正犯责任。成立需要共同实行的意思与共同实行的事实；是否承认共谋共同正犯、过失的共同正犯，都有争议。"
+    concept: perpetration
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "608"
+  - id: t-indirect-perpetration
+    term: "间接正犯"
+    original: { de: "mittelbarer Täter" }
+    short: "利用他人作为工具实现犯罪的正犯。"
+    definition: "例如利用无责任能力者、不知情者或被强制者实施犯罪。被利用者如同工具，利用者支配了犯罪事实，因此是正犯而不是教唆犯。间接正犯与教唆犯的界限，取决于利用者是否具有这种支配。"
+    concept: perpetration
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "598"
+  - id: t-instigator
+    term: "教唆犯"
+    original: { de: "Anstifter" }
+    short: "故意引起他人实施犯罪的人。"
+    definition: "刑法第 29 条规定，教唆他人犯罪的，按照他在共同犯罪中所起的作用处罚；被教唆的人没有犯被教唆的罪的，可以从轻或者减轻处罚。后一规定如何理解、是否意味着教唆犯具有独立性，是我国共犯理论的著名争点。"
+    concept: complicity-basis
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "659"
+  - id: t-assistant
+    term: "帮助犯"
+    original: { de: "Gehilfe" }
+    short: "故意为正犯的实行提供便利、使其更容易实现的人。"
+    definition: "帮助可以是物理的（提供工具），也可以是心理的（强化犯意）。帮助行为与结果之间需要什么样的因果关系存在争议。日常的中立帮助行为何时可罚是近年的热点，刑法第 287 条之二把部分网络帮助行为规定为独立犯罪。"
+    concept: complicity-basis
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "649"
+  - id: t-main-offender
+    term: "主犯"
+    short: "组织、领导犯罪集团或在共同犯罪中起主要作用的人。"
+    definition: "刑法第 26 条按作用分类的共犯人。主犯与正犯是从不同角度对共犯人的分类：教唆犯也可能起主要作用而成为主犯，实行犯也可能只起次要作用而成为从犯。"
+    concept: perpetration
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "587"
+  - id: t-accomplice
+    term: "从犯"
+    short: "在共同犯罪中起次要或者辅助作用的人。"
+    definition: "刑法第 27 条规定，对从犯应当从轻、减轻处罚或者免除处罚。起次要作用的实行犯和起辅助作用的帮助犯，都可能是从犯。"
+    concept: perpetration
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "702"
+  - id: t-conspiracy-coperp
+    term: "共谋共同正犯"
+    short: "只参与共谋、没有分担实行行为的人也作为共同正犯。"
+    definition: "日本判例确立的概念：二人以上共谋实行犯罪，其中一部分人实行时，没有直接实行的共谋者也作为共同正犯。它便于处罚幕后的组织者，但被批评模糊了正犯与共犯的界限。"
+    concept: perpetration
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "620"
+  - id: t-one-sided
+    term: "片面共犯"
+    aliases: ["片面的共同犯罪"]
+    short: "只有一方知道自己在与他人共同犯罪，另一方不知情。"
+    definition: "例如甲知道乙要去盗窃，暗中替乙打开了门锁，乙对此毫不知情。片面的帮助犯一般被承认；是否承认片面的共同正犯与片面的教唆犯存在争议。否定说认为共同犯罪需要相互的意思联络。"
+    concept: one-sided-complicity
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "684"
+  - id: t-successive
+    term: "承继的共犯"
+    aliases: ["承继的共同正犯", "承继的帮助犯"]
+    short: "他人实施部分犯罪后才中途加入的参与者。"
+    definition: "核心问题是后加入者对加入前的行为及其结果是否负责。例如他人已将被害人打成重伤，后行为人中途加入一起取财，后行为人是否要对抢劫致人重伤负责。对此有全面肯定说、全面否定说与中间说。"
+    concept: successive-complicity
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "669"
+  - id: t-accessoriness
+    term: "共犯从属性"
+    aliases: ["共犯从属性说"]
+    original: { de: "Akzessorietät" }
+    short: "教唆犯、帮助犯的成立以正犯实行为前提。"
+    definition: "包括实行从属性（正犯是否必须着手实行）与要素从属性（正犯需要具备哪些犯罪成立要件）。要素从属性有最小、限制、极端等形式，当今通说是限制从属性说：正犯只需具备构成要件符合性与违法性。"
+    concept: complicity-basis
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "577"
+  - id: t-limited-acc
+    term: "限制从属性"
+    aliases: ["限制从属性说"]
+    short: "正犯行为符合构成要件且违法，共犯即可成立。"
+    definition: "要素从属性的通说，不要求正犯有责。因此教唆没有责任能力的人实施违法行为，也能成立教唆犯（利用者支配了犯罪的，则可能是间接正犯）。它与违法是连带的、责任是个别的这一命题相一致。张明楷教授也采此说。"
+    concept: complicity-basis
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "638"
+  - id: t-extreme-acc
+    term: "极端从属性"
+    aliases: ["极端从属性说"]
+    short: "要求正犯具备构成要件符合性、违法性与有责性。"
+    definition: "只有正犯本身成立完整的犯罪，共犯才成立。按此说，利用无责任能力者犯罪不能成立教唆犯，只能扩张间接正犯的范围。现在主张者已经很少。"
+    concept: complicity-basis
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "638"
+  - id: t-minimal-acc
+    term: "最小从属性"
+    aliases: ["最小从属性说"]
+    short: "正犯只需符合构成要件，共犯即可成立。"
+    definition: "不要求正犯的行为违法。按此说，教唆他人实施正当防卫的也可能成立教唆犯，结论通常被认为不合理，因此支持者较少。"
+    concept: complicity-basis
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "638"
+  - id: t-crime-number
+    term: "罪数"
+    aliases: ["罪数论"]
+    short: "行为人所犯之罪是一罪还是数罪的问题。"
+    definition: "罪数论处理一个人实施一个或多个行为、触犯一个或多个罪名时如何定罪处罚：继续犯、想象竞合等实质的一罪，结合犯等法定的一罪，牵连犯、连续犯等处断的一罪，以及需要数罪并罚的实质数罪。"
+    concept: crime-number
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "705"
+  - id: t-ideal-concurrence
+    term: "想象竞合"
+    aliases: ["想象竞合犯"]
+    original: { de: "Idealkonkurrenz" }
+    short: "一个行为触犯数个罪名，从一重罪处断。"
+    definition: "例如开一枪打死一人、同时打伤另一人。想象竞合本质上是数罪，只因只有一个行为而从一重罪处罚，判决中应当载明行为触犯的全部罪名。它与法条竞合的区别在于：法条竞合中适用一个法条就能充分评价行为。"
+    concept: crime-number
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "739"
+  - id: t-statutory-concurrence
+    term: "法条竞合"
+    original: { de: "Gesetzeskonkurrenz" }
+    short: "一个行为符合数个法条，但只适用其中一个。"
+    definition: "数个法条之间存在包容或交叉关系，适用一个法条就能充分评价行为的不法，例如诈骗罪与合同诈骗罪是普通法与特别法的关系。通常特别法优于普通法，特别法刑罚更轻时能否适用重法存在争议。"
+    concept: crime-number
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "716"
+  - id: t-implicated
+    term: "牵连犯"
+    short: "手段行为或结果行为与目的行为分别触犯不同罪名。"
+    definition: "例如为诈骗而伪造公文。传统上对牵连犯从一重罪处断，但牵连关系的标准很不明确，刑法分则对不少情形又规定了数罪并罚。张明楷教授认为，若承认牵连犯，应采类型说：某种手段通常用于实施某种犯罪时才有牵连关系。"
+    concept: crime-number
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "749"
+  - id: t-cumulative
+    term: "数罪并罚"
+    short: "对一人所犯数罪分别定罪量刑，再合并决定执行的刑罚。"
+    definition: "刑法第 69 条至第 71 条规定了并罚原则：判处死刑或者无期徒刑的，采吸收原则；有期自由刑一般采限制加重原则，在总和刑期以下、数刑中最高刑期以上酌情决定，并设有上限；附加刑仍须执行。"
+    concept: crime-number
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "888"
+  - id: t-continuing
+    term: "继续犯"
+    aliases: ["持续犯"]
+    original: { de: "Dauerdelikt" }
+    short: "犯罪行为与不法状态在一定时间内同时持续。"
+    definition: "典型如非法拘禁罪：只要拘禁状态持续，犯罪就一直在实行之中，因此持续期间加入的人可以成立共犯，追诉时效从行为终了之日起计算。状态犯（如盗窃）则不同，既遂后只是违法状态持续，犯罪行为已经结束。"
+    concept: crime-number
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "256"
+  - id: t-possession
+    term: "占有"
+    original: { de: "Gewahrsam" }
+    short: "刑法上指对财物事实上的支配。"
+    definition: "刑法上的占有重在事实上的控制，比民法上的占有更现实，不承认间接占有、占有改定等观念上的占有，但也结合社会一般观念判断（如放在自家门口的物品仍归主人占有）。占有归谁，决定了取得财物是盗窃还是侵占。"
+    concept: possession
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1462"
+  - id: t-appropriation-intent
+    term: "非法占有目的"
+    original: { de: "Zueignungsabsicht" }
+    short: "排除权利人、把他人财物当作自己所有物利用处分的意思。"
+    definition: "盗窃、诈骗等取得型财产犯罪不成文的主观要件，通常认为由排除意思与利用意思构成：前者把一时借用排除在外，后者把单纯毁坏的意思排除在外，用以区分盗窃与故意毁坏财物。张明楷教授认为它是不成文的责任要素。"
+    concept: appropriation-intent
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "184"
+  - id: t-exclusion-intent
+    term: "排除意思"
+    short: "排除权利人对财物的支配、自己以所有者自居的意思。"
+    definition: "非法占有目的的一部分，主要用来区分可罚的盗窃与不可罚的盗用（暂时使用后归还）。是否具有排除意思，要综合使用时间长短、财物价值的消耗程度、有无归还意思等判断。"
+    concept: appropriation-intent
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1484"
+  - id: t-use-intent
+    term: "利用意思"
+    short: "按照财物可能具有的用法加以利用、处分的意思。"
+    definition: "非法占有目的的另一部分，用来区分取得型犯罪与毁弃型犯罪：只想毁坏财物而取走的，没有利用意思，不成立盗窃罪，可能成立故意毁坏财物罪。利用意思的范围宽严，学说理解不一。"
+    concept: appropriation-intent
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1484"
+  - id: t-disposal
+    term: "处分行为"
+    original: { de: "Vermögensverfügung" }
+    short: "受骗人基于错误把财产转移给行为人或第三人。"
+    definition: "诈骗罪不成文的构成要件要素，是欺骗、陷入错误、处分财产、取得财产、财产损失这一链条中的关键一环。处分行为是诈骗与盗窃的界限：被害人自己交出财物的是诈骗，行为人趁机自己拿走的是盗窃。"
+    concept: fraud-disposal
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1137"
+  - id: t-disposal-consciousness
+    term: "处分意识"
+    aliases: ["处分意思"]
+    short: "受骗人认识到自己在处分财产的意识。"
+    definition: "处分行为是否要求处分意识，有必要说与不要说；必要说内部又有严格与缓和之分。例如把贵重商品藏在纸箱里结账，收银员不知箱中有物而放行时，行为人构成盗窃还是诈骗，就取决于这一问题。"
+    concept: fraud-disposal
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1564"
+  - id: t-property-loss
+    term: "财产损失"
+    original: { de: "Vermögensschaden" }
+    short: "财产犯罪中被害人遭受的财产上的不利益。"
+    definition: "在诈骗等罪中，财产损失如何认定，取决于对财产罪法益的理解：整体财产说比较行为前后的财产总额，个别财产说认为丧失具体财物本身就是损失。还涉及经济的财产说与法律的财产说之争。"
+    concept: property-loss
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1450"
+  - id: t-whole-property
+    term: "整体财产"
+    aliases: ["整体财产说"]
+    short: "把被害人的财产作为整体，看总额是否减少。"
+    definition: "对整体财产的犯罪以被害人财产总体减少为要件，被害人得到了相当对价的，就没有财产损失。德国的诈骗罪采此立场；日本与我国的通说则认为诈骗罪是对个别财产的犯罪。"
+    concept: property-loss
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1440"
+  - id: t-individual-property
+    term: "个别财产"
+    aliases: ["个别财产说"]
+    short: "只要被害人丧失具体的财物或利益，就有财产损失。"
+    definition: "对个别财产的犯罪（如盗窃、诈骗）不需要比较财产总额，被害人丧失了某件具体财物本身就是损失；即使支付了相应对价，也要结合交易目的等判断是否存在实质的损失。"
+    concept: property-loss
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1439"
+  - id: t-property-interest
+    term: "财产性利益"
+    short: "财物以外的财产上的利益，如债权、有偿服务。"
+    definition: "例如免除债务、取得债权、接受有偿服务。我国刑法条文只写财物，但通说认为财产性利益可以成为诈骗等罪的对象；盗窃能否针对财产性利益，争议更大。"
+    concept: property-rechtsgut
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1441"
+  - id: t-illegal-cause
+    term: "不法原因给付"
+    short: "基于违法或违反公序良俗的原因而交付的财物。"
+    definition: "例如行贿人交给中间人用于行贿的钱款。给付者在民法上通常不能请求返还，于是受托人据为己有是否成立侵占罪就成为问题；骗取他人的不法原因给付是否成立诈骗罪，也有争议。"
+    concept: illegal-cause-delivery
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1513"
+  - id: t-entering-home
+    term: "入户"
+    short: "非法进入他人供家庭生活、与外界相对隔离的住所。"
+    definition: "户要求具有家庭生活的功能和与外界相对隔离的特征，学生宿舍、商店营业场所一般不属于户。入户抢劫是抢劫罪的加重情节，入户盗窃是盗窃罪的独立类型；司法解释还要求入户目的具有非法性。"
+    concept: robbery-extended
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1477"
+  - id: t-quasi-robbery
+    term: "事后抢劫"
+    aliases: ["转化型抢劫"]
+    short: "犯盗窃、诈骗、抢夺罪后，为窝藏赃物等当场使用暴力或以暴力相威胁。"
+    definition: "刑法第 269 条规定依照抢劫罪定罪处罚，也称转化型抢劫。要件包括：前提犯罪（盗窃、诈骗、抢夺），目的（窝藏赃物、抗拒抓捕或者毁灭罪证），当场使用暴力或者以暴力相威胁。前提犯罪是否要求数额较大，是常见争点。"
+    concept: robbery-extended
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1532"
+  - id: t-seeking-benefit
+    term: "为他人谋取利益"
+    short: "收受型受贿罪中，与财物形成对价的职务上的利益。"
+    definition: "刑法第 385 条对收受财物型受贿要求为他人谋取利益。其性质有主观说、旧客观说与新客观说之争。司法解释规定，实际或者承诺为他人谋取利益、明知他人有具体请托事项等情形，都应认定为为他人谋取利益。"
+    concept: bribery-benefit
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1946"
+  - id: t-unpurchasable
+    term: "职务行为的不可收买性"
+    short: "受贿罪的法益：国家工作人员的职务行为不能用财物交换。"
+    definition: "关于受贿罪法益的有力学说：只要职务行为与财物形成对价关系，即使职务行为本身是公正的，也侵害了这一法益；它与职务行为的公正性说相对。张明楷教授认为，法益既包括这种不可收买性，也包括公民对它的信赖。"
+    concept: bribery-rechtsgut
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1941"
+  - id: t-state-functionary
+    term: "国家工作人员"
+    short: "依法从事公务的人员。"
+    definition: "刑法第 93 条规定，包括国家机关中从事公务的人员，以及国有公司、企业、事业单位、人民团体中从事公务的人员等以国家工作人员论的人员。认定的关键在于是否从事公务，而不只是看身份。"
+    concept: bribery-rechtsgut
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "196"
+  - id: t-public-safety
+    term: "公共安全"
+    short: "不特定或者多数人的生命、身体与重大财产的安全。"
+    definition: "危害公共安全罪一章保护的法益。不特定指侵害对象与范围事先无法确定、可能随时扩大，多数指人数较多。只针对特定少数人的行为，即使手段危险，一般也不认定为危害公共安全。"
+    concept: drunk-driving
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1022"
+  - id: t-corporate
+    term: "单位犯罪"
+    aliases: ["法人犯罪"]
+    short: "公司、企业、机关等单位作为主体实施的犯罪。"
+    definition: "刑法第 30 条、第 31 条规定，单位犯罪只限于法律明文规定的情形，一般实行双罚制：既对单位判处罚金，也处罚直接负责的主管人员和其他直接责任人员。单位的意志如何认定、能否对单位进行责任非难，是理论难题。"
+    concept: corporate-liability
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "139"
+  - id: t-support-duty
+    term: "扶养义务"
+    short: "遗弃罪中行为人对他人负有的照料、救助义务。"
+    definition: "遗弃罪要求负有扶养义务。传统观点依婚姻家庭法理解，限于家庭成员之间；有力说主张作实质理解，包括基于职业、先前行为等对他人生命身体负有保护义务的人，从而把遗弃罪理解为对生命、身体的犯罪。"
+    concept: abandonment
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1337"
+  - id: t-misuse
+    term: "冒用"
+    short: "违背真正持有人的意志，以持有人的名义使用。"
+    definition: "信用卡诈骗罪中冒用他人信用卡是典型行为。争点在于：在自动取款机上使用他人信用卡取款，是信用卡诈骗还是盗窃，这涉及机器能否被骗。司法解释把拾得他人信用卡并在机器上使用的行为认定为冒用。"
+    concept: card-fraud-misuse
+    sources:
+      - work: zmk-xingfaxue-7
+        pages: "1219"

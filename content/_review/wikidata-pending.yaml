@@ -1,0 +1,287 @@
+# Wikidata 匹配待审核：在 confirm 填 Q 编号（确认是同一人）或 none（Wikidata 上没有此人），然后重新运行 npm run wiki:scholars
+pending:
+  - scholar: hegler
+    name: 黑格勒
+    nameOriginal: August Hegler
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q15549903
+        label: August Hegler
+        description: German jurist (1873-1937)
+        born: '1873-03-11'
+        died: '1937-11-04'
+        score: 5
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+        url: https://www.wikidata.org/wiki/Q15549903
+  - scholar: zielinski
+    name: 齐林斯基
+    nameOriginal: Diethart Zielinski
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q27851298
+        label: Diethart Zielinski
+        description: German jurist and university teacher
+        born: '1941-08-30'
+        score: 6
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q27851298
+  - scholar: otsuka
+    name: 大塚仁
+    nameOriginal: 大塚仁
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q11433950
+        label: 大塚仁
+        description: Japanese jurist
+        born: '1923-07-21'
+        died: '2020-12-23'
+        score: 6
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q11433950
+      - qid: Q130335868
+        label: 大塚仁
+        description: Japanese Mashiko ware Potter
+        born: '1973-01-31'
+        score: 4
+        reasons:
+          - 姓名一致
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q130335868
+  - scholar: fukuda
+    name: 福田平
+    nameOriginal: 福田平
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q11594144
+        label: 福田平
+        description: Japanese jurist
+        born: '1923-11-04'
+        died: '2019-01-08'
+        score: 6
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q11594144
+      - qid: Q11594145
+        label: 福田平八郎
+        description: Japanese painter (1892-1974)
+        born: '1892-02-28'
+        died: '1974-03-22'
+        score: 1
+        reasons:
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q11594145
+      - qid: Q11594146
+        label: 福田平馬
+        score: 0
+        reasons: []
+        url: https://www.wikidata.org/wiki/Q11594146
+  - scholar: nishida
+    name: 西田典之
+    nameOriginal: 西田典之
+    ours:
+      born: 1942
+      died: 2013
+    confirm: ''
+    candidates:
+      - qid: Q11629204
+        label: 西田典之
+        description: Japanese jurist
+        born: '1947-03-02'
+        died: '2013-06-14'
+        score: 2
+        reasons:
+          - 姓名一致
+          - 出生年不符（1947）
+          - 去世年一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q11629204
+  - scholar: okoshi
+    name: 大越义久
+    nameOriginal: 大越義久
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q11439274
+        label: 大越義久
+        description: Japanese jurist-consultant
+        born: '1949-03-27'
+        score: 6
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q11439274
+  - scholar: saeki-chihiro
+    name: 佐伯千仞
+    nameOriginal: 佐伯千仞
+    ours:
+      born: 1907
+      died: 2006
+    confirm: ''
+    candidates: []
+  - scholar: liu-mingxiang
+    name: 刘明祥
+    nameOriginal: 刘明祥
+    ours: {}
+    confirm: ''
+    candidates: []
+  - scholar: lin-shantian
+    name: 林山田
+    nameOriginal: 林山田
+    ours:
+      born: 1945
+      died: 2007
+    confirm: ''
+    candidates:
+      - qid: Q7224963
+        label: 林山田
+        description: 台灣刑事法學者
+        born: '1937-09-01'
+        died: '2007-11-05'
+        score: 2
+        reasons:
+          - 姓名一致
+          - 出生年不符（1937）
+          - 去世年一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q7224963
+  - scholar: hsu-yuhsiu
+    name: 许玉秀
+    nameOriginal: 許玉秀
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q9430701
+        label: 許玉秀
+        description: 臺灣刑事法學者・前司法院大法官
+        born: '1956'
+        score: 6
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q9430701
+  - scholar: huang-rongjian
+    name: 黄荣坚
+    nameOriginal: 黃榮堅
+    ours: {}
+    confirm: ''
+    candidates: []
+  - scholar: zhou-guangquan
+    name: 周光权
+    nameOriginal: 周光权
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q10920163
+        label: 周光权
+        description: 中国法学家
+        born: '1968'
+        score: 6
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q10920163
+  - scholar: li-hong
+    name: 黎宏
+    nameOriginal: 黎宏
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q45683329
+        label: 黎弘业
+        description: Ming dynasty person CBDB = 123630
+        died: '1635'
+        score: 0
+        reasons: []
+        url: https://www.wikidata.org/wiki/Q45683329
+  - scholar: devlin
+    name: 德夫林
+    nameOriginal: Patrick Devlin (Lord Devlin)
+    ours:
+      born: 1905
+      died: 1992
+    confirm: ''
+    candidates:
+      - qid: Q506099
+        label: 德夫林 (歌手)
+        description: British rapper
+        born: '1989-05-07'
+        score: -5
+        reasons:
+          - 出生年不符（1989）
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q506099
+      - qid: Q24572303
+        label: 德夫林·德弗朗切斯科
+        description: Canadian racing driver
+        born: '2000-01-17'
+        score: -6
+        reasons:
+          - 出生年不符（2000）
+        url: https://www.wikidata.org/wiki/Q24572303
+  - scholar: alexander
+    name: 亚历山大
+    nameOriginal: Larry Alexander
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q6489871
+        label: Larry Alexander
+        description: American politician (1950-2012)
+        born: '1950-06-10'
+        died: '2012-11-06'
+        score: 6
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q6489871
+      - qid: Q6489870
+        label: Larry Alexander
+        description: American journalist and military historian
+        born: '1951'
+        score: 4
+        reasons:
+          - 姓名一致
+          - 国籍吻合
+        url: https://www.wikidata.org/wiki/Q6489870
+      - qid: Q100719101
+        label: Larry Alexander
+        description: college basketball player (1983–1983) Jackson State
+        score: 3
+        reasons:
+          - 姓名一致
+        url: https://www.wikidata.org/wiki/Q100719101
+  - scholar: ferzan
+    name: 费尔赞
+    nameOriginal: Kimberly Kessler Ferzan
+    ours: {}
+    confirm: ''
+    candidates:
+      - qid: Q93230009
+        label: Kimberly Kessler Ferzan
+        description: jurist, judge, university teacher (1971-)
+        born: '1971-08-22'
+        score: 5
+        reasons:
+          - 姓名一致
+          - 法学或相关职业
+        url: https://www.wikidata.org/wiki/Q93230009

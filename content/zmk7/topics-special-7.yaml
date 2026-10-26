@@ -1,0 +1,897 @@
+# 分论重点争议问题·第七批（据张明楷《刑法学》第七版整理）：概念、问题与先决关系为编者整理，全部待核实。
+concepts:
+  - id: theft-act
+    name: 盗窃行为（秘密窃取与公开盗窃）
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      盗窃是违反被害人意志、把他人占有的财物转移为自己或第三者占有。传统通说把盗窃限定为「秘密窃取」，
+      并以行为人「自认为」被害人没有发觉为准；有力说则认为盗窃不要求秘密性，公开取得他人并非紧密占有的财物也是盗窃。
+      这一问题决定了盗窃与抢夺的界限。
+
+  - id: robbery-stages
+    name: 抢劫罪的既遂与未遂
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      抢劫罪同时侵害财产与人身。以什么为既遂标准——取得财物、造成人身伤害，还是两者之一——
+      决定了「打伤了人却没抢到钱」「入户抢劫一无所获」等情形是既遂还是未遂，也影响加重情节与未遂规定的适用。
+
+  - id: embezzlement-object
+    name: 侵占罪的对象（遗忘物与遗失物）
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      刑法第 270 条第 2 款处罚将他人的「遗忘物」「埋藏物」非法占为己有、拒不交出的行为。
+      遗忘物是否不同于民法上的遗失物，侵占遗失物能否成立侵占罪，是长期争论的问题；
+      同时还要先区分财物是否仍由被害人占有——仍被占有的，取得行为是盗窃而不是侵占。
+
+  - id: money-laundering
+    name: 洗钱罪
+    kind: problem
+    area: sp-economy
+    originPending: true
+    summary: >-
+      洗钱罪处罚掩饰、隐瞒毒品犯罪等七类上游犯罪所得及其收益的来源和性质的行为。
+      《刑法修正案（十一）》把上游犯罪的本犯「自洗钱」纳入处罚后，洗钱罪保护什么法益、它与掩饰、隐瞒犯罪所得罪是什么关系、
+      自洗钱者是否与上游犯罪数罪并罚，都需要重新说明。
+
+  - id: perjury
+    name: 伪证罪
+    kind: problem
+    area: sp-order
+    originPending: true
+    summary: >-
+      刑法第 305 条处罚在刑事诉讼中，证人、鉴定人、记录人、翻译人对与案件有重要关系的情节作虚假证明、鉴定、记录、翻译的行为。
+      其中「虚假」是指违反证人自己的记忆与体验，还是违反客观事实，各国学说不一。
+
+  - id: self-harboring
+    name: 本犯与妨害司法的犯罪
+    kind: problem
+    area: sp-order
+    originPending: true
+    summary: >-
+      犯罪人自己作虚假供述、自己躲藏逃匿、掩饰自己的犯罪所得，通常不另成立妨害司法的犯罪。
+      问题在于：本犯教唆他人为自己作伪证、窝藏或包庇自己时，能否成立相应犯罪的教唆犯。
+
+  - id: residential-trespass
+    name: 非法侵入住宅罪
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      非法侵入住宅罪处罚非法强行闯入他人住宅、或经要求退出而拒不退出的行为。
+      其法益是居住的平稳与安宁，还是住宅成员决定是否许可他人进入的权利，影响到成员意见不一、侵入其他建筑物、罪数等问题的处理。
+
+  - id: unlawful-detention
+    name: 非法拘禁罪
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      非法拘禁罪保护人的身体活动自由。它保护的是被害人想活动时就能活动的「现实的自由」，
+      还是只要想活动就可以活动的「可能的自由」，决定了反锁熟睡者、拘禁没有意识到被拘禁的人等情形是否成立本罪。
+
+  - id: marital-rape
+    name: 婚内强奸
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      丈夫使用暴力、胁迫等强制手段与妻子性交的，能否成立强奸罪，在我国仍有争论。
+      这一问题牵涉强奸罪的法益（性的自己决定权）、「违背妇女意志」是否因婚姻关系而被否定，以及处罚范围如何合理限定。
+
+  - id: forcible-indecency
+    name: 强制猥亵、侮辱罪
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      强制猥亵、侮辱罪以暴力、胁迫或其他方法强制猥亵他人或侮辱妇女。传统观点要求行为人出于刺激或者满足性欲的内心倾向，
+      即把本罪看作「倾向犯」；反对观点认为猥亵的性质可以从客观上判断，不需要这种倾向。
+
+  - id: arson
+    name: 放火罪
+    kind: problem
+    area: sp-public
+    originPending: true
+    summary: >-
+      放火罪是危害公共安全的犯罪。我国刑法没有「烧损」之类表示既遂的用语，
+      既遂应以对象物能够独立燃烧、已经开始独立燃烧、重要部分开始燃烧，还是失去效用为准，各说的取舍取决于重视放火罪的公共危险性还是财产侵害性。
+
+  - id: drug-sale
+    name: 贩卖毒品罪
+    kind: problem
+    area: sp-order
+    originPending: true
+    summary: >-
+      贩卖毒品罪是选择性罪名「走私、贩卖、运输、制造毒品罪」中的一种行为类型。
+      为了出卖而先购买毒品的，是贩卖的预备、未遂还是既遂，以及贩卖何时既遂，是实务中最常见的争点。
+
+  - id: false-vat-invoice
+    name: 虚开增值税专用发票罪
+    kind: problem
+    area: sp-economy
+    originPending: true
+    summary: >-
+      刑法第 205 条处罚虚开增值税专用发票或者其他可以用于骗取出口退税、抵扣税款的发票的行为，法定刑最高为无期徒刑。
+      本罪是只要虚开就成立的行为犯，还是要求骗抵税款目的的目的犯、抽象危险犯，或者要求国家税款实际遭受损失的实害犯，直接决定罪与非罪和量刑轻重。
+
+questions:
+  - id: q-theft-secrecy
+    concept: theft-act
+    text: 盗窃是否必须是秘密窃取？公开取得他人并非紧密占有的财物，是盗窃还是抢夺？
+    level: applied
+    aliases: [秘密窃取, 公开盗窃, 盗窃与抢夺的区别, 当着主人的面拿走财物]
+    answers:
+      - id: secret
+        label: 限于秘密窃取
+        summary: 盗窃是秘密窃取，只要行为人自认为被害人没有发觉即可；公开取得的是抢夺。
+      - id: open
+        label: 不要求秘密性
+        summary: 以平和手段违反占有人意志转移占有即为盗窃，公开盗窃也是盗窃；抢夺针对的是紧密占有的财物。
+
+  - id: q-robbery-completion
+    concept: robbery-stages
+    text: 普通抢劫罪的既遂标准是什么：取得财物，还是取得财物或造成轻伤以上二者之一？
+    level: applied
+    aliases: [抢劫既遂, 抢劫未遂, 打伤了人没抢到钱, 入户抢劫未遂]
+    answers:
+      - id: property
+        label: 以取得（控制）财物为准
+        summary: 抢劫罪是侵犯财产罪，未取得财物的，即使造成轻伤也是未遂。
+      - id: person
+        label: 以侵害人身权利为准
+      - id: either
+        label: 取得财物或造成轻伤以上，二者之一即既遂
+      - id: aggravated
+        label: 基本犯以取得财物为准，致人重伤、死亡的即使未取得也既遂
+
+  - id: q-forgotten-property
+    concept: embezzlement-object
+    text: 侵占罪中的「遗忘物」是否包括遗失物？侵占他人遗失物的，能否成立侵占罪？
+    level: applied
+    aliases: [遗忘物, 遗失物, 拾得物, 捡到东西不还]
+    answers:
+      - id: distinct
+        label: 区分二者，侵占遗失物不成立侵占罪
+        summary: 遗忘物是一时忘记拿走、通常能想起位置的财物；遗失物不知失落何处，不在本罪对象之内。
+      - id: same
+        label: 不区分，刑法上的遗忘物就是民法上的遗失物
+        summary: 凡非基于本意脱离占有、仍属他人所有的财物，都是本罪的对象。
+
+  - id: q-laundering-rechtsgut
+    concept: money-laundering
+    text: 洗钱罪的保护法益是什么？
+    level: intermediate
+    aliases: [洗钱罪的法益, 自洗钱, 洗钱罪与赃物罪]
+    answers:
+      - id: order-and-justice
+        label: 金融管理秩序与司法机关的正常活动
+      - id: justice
+        label: 司法机关的正常活动
+      - id: finance
+        label: 金融管理秩序
+      - id: finance-upstream
+        label: 金融管理秩序为主，上游犯罪的保护法益为次
+
+  - id: q-self-laundering
+    concept: money-laundering
+    text: 上游犯罪人「自洗钱」的，应当与上游犯罪数罪并罚，还是只按一罪处理？
+    level: applied
+    aliases: [自洗钱, 本犯洗钱, 上游犯罪人洗钱]
+    answers:
+      - id: cumulative
+        label: 数罪并罚
+      - id: upstream-only
+        label: 只按上游犯罪处罚
+        summary: 洗钱是上游犯罪的事后行为，不另评价。
+      - id: heavier
+        label: 从一重罪处罚
+
+  - id: q-perjury-falsity
+    concept: perjury
+    text: 伪证罪中的「虚假」，是指违反证人自己的记忆与体验，还是违反客观事实？
+    level: applied
+    aliases: [伪证, 虚假证明, 主观说, 客观说, 把听说的说成看见的]
+    answers:
+      - id: subjective
+        label: 违反证人的记忆与体验（主观说）
+        summary: 证人应当原封不动地陈述自己的记忆，真假由法官判断；照实陈述记忆的，即使与事实不符也不是虚假。
+      - id: objective
+        label: 违反客观事实（客观说）
+      - id: combined
+        label: 违反记忆与体验，且不符合客观事实
+        summary: 违反记忆但符合事实的不妨害司法；符合记忆但不符合事实的没有伪证故意。
+
+  - id: q-self-instigation
+    concept: self-harboring
+    text: 犯罪人教唆他人为自己作伪证，或者教唆他人窝藏、包庇自己的，是否成立相应犯罪的教唆犯？
+    level: applied
+    aliases: [本犯教唆伪证, 教唆他人窝藏自己, 让朋友帮自己作假证, 让亲友藏匿自己]
+    answers:
+      - id: deny
+        label: 不成立（共犯否认说）
+      - id: affirm
+        label: 成立（共犯成立说）
+        summary: 本犯自己逃匿不罚是因为缺乏期待可能性，但把他人卷入犯罪就不缺乏期待可能性。
+      - id: split
+        label: 教唆作伪证成立，教唆窝藏自己不成立
+
+  - id: q-trespass-rechtsgut
+    concept: residential-trespass
+    text: 非法侵入住宅罪的保护法益是居住的平稳与安宁，还是住宅权（是否许可他人进入的权利）？
+    level: intermediate
+    aliases: [非法侵入住宅罪的法益, 安宁说, 住宅权说, 擅闯民宅]
+    answers:
+      - id: peace
+        label: 居住的平稳与安宁（安宁说）
+      - id: new-right
+        label: 住宅成员决定是否许可他人进入的自由（新住宅权说）
+      - id: old-right
+        label: 家长对他人进入住宅的许诺权（旧住宅权说）
+      - id: public-order
+        label: 公共秩序或社会利益
+
+  - id: q-detention-liberty
+    concept: unlawful-detention
+    text: 非法拘禁罪保护的身体活动自由，是现实的自由，还是可能的自由？（反锁熟睡者是否成立非法拘禁）
+    level: intermediate
+    aliases: [非法拘禁罪的法益, 可能的自由, 现实的自由, 反锁熟睡的人]
+    answers:
+      - id: potential
+        label: 可能的自由（只要想活动就可以活动）
+        summary: 被害人随时可能醒来，反锁熟睡者也侵害了其可能的自由。
+      - id: actual
+        label: 现实的自由（打算活动时就可以活动）
+        summary: 被害人没有现实地想要活动、也没有因此受阻的，不成立本罪。
+
+  - id: q-marital-rape
+    concept: marital-rape
+    text: 丈夫违背妻子意志，以暴力、胁迫等手段强行与妻子性交的，能否成立强奸罪？
+    level: applied
+    aliases: [婚内强奸, 丈夫强奸妻子, 分居期间强奸]
+    answers:
+      - id: never
+        label: 一律不成立
+      - id: always
+        label: 一律成立
+      - id: abnormal-only
+        label: 只在离婚诉讼、分居等婚姻关系不正常期间成立
+      - id: principle-limit
+        label: 原则上可以成立，再合理限定处罚范围
+        summary: 婚姻关系正常持续期间的一般不处罚；偶发冲突中的强制性交、离婚诉讼或分居期间、长期虐待期间以及当众强行等情形成立。
+
+  - id: q-indecency-tendency
+    concept: forcible-indecency
+    text: 强制猥亵、侮辱罪除故意外，是否还需要行为人出于刺激或者满足性欲的内心倾向？
+    level: applied
+    aliases: [强制猥亵, 倾向犯, 性的意图, 报复性扒衣]
+    answers:
+      - id: required
+        label: 需要（倾向犯）
+      - id: not-required
+        label: 不需要
+        summary: 猥亵、侮辱的性质可以从客观上判断，没有性的意图同样严重侵害性的自主权。
+
+  - id: q-arson-completion
+    concept: arson
+    text: 放火罪的既遂标准是什么？
+    level: applied
+    aliases: [放火既遂, 独立燃烧说, 放火未遂, 放火中止]
+    answers:
+      - id: independent
+        label: 能够独立燃烧（独立燃烧说）
+      - id: modified-independent
+        label: 已经开始独立燃烧（修正的独立燃烧说）
+      - id: major-part
+        label: 重要部分开始燃烧且不易熄灭
+      - id: loss-of-use
+        label: 重要部分因燃烧而失去效用
+      - id: destruction
+        label: 达到毁弃罪中的损坏程度
+      - id: danger
+        label: 放火行为具有危害公共安全的危险即既遂
+
+  - id: q-drug-sale-buy
+    concept: drug-sale
+    text: 为了出卖而购买毒品的，是贩卖毒品罪的既遂、未遂，还是预备？贩卖毒品何时既遂？
+    level: applied
+    aliases: [贩卖毒品既遂, 买入即既遂, 为贩卖而购买毒品, 毒品交付]
+    answers:
+      - id: buy-complete
+        label: 买入即既遂
+      - id: buy-attempt
+        label: 买入是着手，未卖出的是未遂
+      - id: transfer
+        label: 购买只是预备，以毒品实际转移给买方为既遂
+
+  - id: q-false-vat-invoice
+    concept: false-vat-invoice
+    text: 虚开增值税专用发票罪是行为犯、目的犯、抽象危险犯，还是要求国家税款遭受损失的实害犯？
+    level: intermediate
+    aliases: [虚开增值税专用发票, 虚开发票, 骗抵税款, 没有骗税目的的虚开]
+    answers:
+      - id: conduct
+        label: 单纯行为犯（虚开即成立）
+      - id: purpose
+        label: 目的犯（须有骗抵税款的目的）
+      - id: abstract-danger
+        label: 抽象危险犯
+      - id: harm
+        label: 实害犯（以国家税款遭受损失为既遂）
+
+  - id: q-post-acceptance
+    concept: bribery-benefit
+    text: 国家工作人员履职时没有受贿故意，事后明知是对其职务行为的不正当报酬而收受财物的（事后受财），是否成立受贿罪？
+    level: applied
+    aliases: [事后受财, 事后收受财物, 事后感谢费, 履职后收礼]
+    answers:
+      - id: affirm
+        label: 成立受贿罪
+      - id: agreed-only
+        label: 只有事前有约定的才成立
+      - id: deny
+        label: 不成立
+
+prerequisites:
+  - question: q-theft-secrecy
+    requires: q-formal-material
+    kind: conceptual
+    why: 通说按「窃」的原本含义把盗窃限定为秘密窃取；能否承认公开盗窃，取决于解释构成要件时是固守用语的通常含义，还是同时考虑处罚的协调与公平。
+    branches:
+      - answer: material
+        leadsTo: 以避免处罚空隙为导向（否则入户公开拿走财物反而无罪），承认公开盗窃，平和地转移占有即可。
+      - answer: formal
+        leadsTo: 更看重用语的通常含义，倾向于维持秘密窃取的通说。
+
+  - question: q-robbery-completion
+    requires: q-theft-completion
+    kind: conceptual
+    why: 以取得财物为既遂标准时，何时算「取得」，要借助取得型财产犯罪既遂的一般判断。
+    branches:
+      - answer: control
+        leadsTo: 行为人控制了被害人的财物时抢劫既遂；手段与取得之间还须有因果关系。
+
+  - question: q-forgotten-property
+    requires: q-formal-material
+    kind: conceptual
+    why: 「遗忘物」应按字面理解为忘记拿走的东西，还是从侵占罪保护所有权的目的出发作规范解释，决定了遗失物是否在处罚范围之内。
+    branches:
+      - answer: material
+        leadsTo: 作规范解释：凡非基于本意脱离他人占有、仍属他人所有的财物，都是遗忘物，包括遗失物。
+      - answer: formal
+        leadsTo: 可能按字面区分遗忘物与遗失物，把侵占遗失物排除在外。
+
+  - question: q-laundering-rechtsgut
+    requires: q-culp-essence
+    kind: systematic
+    why: 本犯掩饰、隐瞒自己的犯罪所得不罚，通常以缺乏期待可能性来说明；刑法却处罚自洗钱，这只有在洗钱罪的法益不同于赃物罪时才说得通。
+    branches:
+      - answer: normative
+        leadsTo: 以期待可能性说明本犯不罚，就不能再把司法活动当作洗钱罪的法益，否则自洗钱入罪自相矛盾。
+
+  - question: q-self-laundering
+    requires: q-laundering-rechtsgut
+    kind: logical
+    why: 自洗钱是另成一罪还是被上游犯罪吸收，取决于洗钱罪是否侵害了上游犯罪之外的独立法益。
+    branches:
+      - answer: finance-upstream
+        leadsTo: 洗钱首先侵害金融管理秩序这一独立法益，自洗钱应与上游犯罪数罪并罚。
+      - answer: finance
+        leadsTo: 金融管理秩序是上游犯罪没有评价到的法益，同样倾向数罪并罚。
+      - answer: justice
+        leadsTo: 若法益只是司法活动，本犯的自我掩饰本应因缺乏期待可能性而不罚，难以说明自洗钱入罪。
+
+  - question: q-self-laundering
+    requires: q-crime-number-standard
+    kind: systematic
+    why: 上游犯罪与其后的洗钱行为是一罪还是数罪，要依区分罪数的一般标准判断。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 两个行为侵害不同法益，原则上是数罪；上游行为本身同时就是洗钱的（如贪污时直接把公款汇往境外），则是想象竞合。
+
+  - question: q-perjury-falsity
+    requires: q-unrecht-core
+    kind: foundational
+    why: 「虚假」看证人的记忆还是看客观事实，取决于伪证罪的不法在于证人违反如实陈述的义务，还是对司法活动造成的危险。
+    branches:
+      - answer: result
+        leadsTo: 只有可能妨害司法的陈述才有不法；违反记忆但符合客观事实的陈述不成立伪证罪。
+
+  - question: q-self-instigation
+    requires: q-comp-basis
+    kind: foundational
+    why: 本犯自己作伪证、自己逃匿不可罚；教唆他人为自己这样做是否可罚，取决于共犯为什么受处罚。
+    branches:
+      - answer: schuld
+        leadsTo: 共犯的不法在于使他人陷入罪责，教唆他人为自己作伪证、窝藏自己，就可能成立教唆犯。
+      - answer: causation
+        leadsTo: 共犯通过正犯间接引起法益侵害；本犯自己引起同样的侵害都不罚，通过他人引起也不应处罚。
+
+  - question: q-self-instigation
+    requires: q-culp-essence
+    kind: systematic
+    why: 本犯自我庇护不罚的理由是缺乏期待可能性；争点在于教唆他人时，这种期待可能性是否仍然欠缺。
+    branches:
+      - answer: normative
+        leadsTo: 共犯否认说认为教唆是比实行更轻的参与形式，自己实行都不可期待其不为，教唆更是如此；共犯成立说则认为把他人卷入犯罪时不再欠缺期待可能性。
+
+  - question: q-trespass-rechtsgut
+    requires: q-rechtsgut-critical
+    kind: foundational
+    why: 法益是条文所保护的形式权限，还是其背后值得保护的实际利益，决定了在住宅权说与安宁说之间如何取舍。
+    branches:
+      - answer: critical
+        leadsTo: 保护住宅权不是为了保护形式上的权限，而是为了保护其背后居住者生活的平稳与安宁。
+      - answer: immanent
+        leadsTo: 可能直接以条文所保护的住宅权（许可他人进入的权利）作为法益。
+
+  - question: q-trespass-rechtsgut
+    requires: q-crime-number-standard
+    kind: systematic
+    why: 侵入一处住宅、违反了数名成员的意思时，只成立一罪还是数罪，可以反过来检验法益的确定是否妥当。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 若法益是每个成员专属的许诺权，侵入一宅就可能成立数罪；采安宁说则只成立一罪，与实务一致。
+
+  - question: q-detention-liberty
+    requires: q-unrecht-core
+    kind: foundational
+    why: 采可能的自由说还是现实的自由说，取决于非法拘禁罪要求现实的法益侵害，还是只要有侵害的可能性即可。
+    branches:
+      - answer: result
+        leadsTo: 作者把非法拘禁罪理解为实害犯：反锁熟睡者只是具有侵害自由的可能性，还没有现实地侵害身体活动自由。
+
+  - question: q-marital-rape
+    requires: q-formal-material
+    kind: conceptual
+    why: 丈夫能否成为强奸妻子的主体，先要看条文文义有无限制，再看哪些情形具有值得科处刑罚的法益侵害。
+    branches:
+      - answer: formal
+        leadsTo: 第 236 条没有把强奸妻子排除在外，从文义看承认丈夫可以成为主体没有法律障碍。
+      - answer: material
+        leadsTo: 再从可罚性上合理限定：婚姻关系正常持续期间的强制性交，对性自主权的侵害一般未达可罚程度。
+
+  - question: q-indecency-tendency
+    requires: q-su-exists
+    kind: foundational
+    why: 要求「刺激或者满足性欲的倾向」，就是把它当作主观的违法要素（倾向犯）；是否承认、在多大范围内承认主观的违法要素，决定了这一问题的答案。
+    branches:
+      - answer: broad
+        leadsTo: 承认倾向犯这类主观的违法要素，会要求行为人出于性的意图。
+      - answer: limited
+        leadsTo: 只在少数情形承认主观的违法要素；猥亵行为的性质可以从客观上判断，不要求性的意图。
+      - answer: none
+        leadsTo: 不承认主观的违法要素，自然不要求性的意图。
+
+  - question: q-arson-completion
+    requires: q-withdrawal-basis
+    kind: systematic
+    why: 既遂时点越早，行为人中止的余地越小；确定放火罪的既遂标准时，要考虑能否给行为人留下中止的机会。
+    branches:
+      - answer: policy
+        leadsTo: 既遂不宜过于提前；作者以有利于鼓励中止、也能维护公共安全为由，采修正的独立燃烧说。
+
+  - question: q-drug-sale-buy
+    requires: q-commencement
+    kind: logical
+    why: 为贩卖而购买毒品是否已是贩卖的实行，取决于实行的着手如何认定。
+    branches:
+      - answer: material-result
+        leadsTo: 购买毒品离危害公众健康的结果还远，只是预备，不是贩卖的着手。
+      - answer: formal
+        leadsTo: 「贩卖」就是出卖，购买并不是出卖行为本身，因而不是着手。
+
+  - question: q-drug-sale-buy
+    requires: q-attempt-basis
+    kind: foundational
+    why: 把「买入」提前认定为未遂乃至既遂，是否妥当，取决于未遂犯为什么受处罚。
+    branches:
+      - answer: objective
+        leadsTo: 未遂、既遂以对法益（公众健康）的客观危险为准，单纯购买不应提前认定为未遂乃至既遂。
+      - answer: subjective
+        leadsTo: 为贩卖而购买已表露出危险的意思，容易被提前认定为着手乃至既遂。
+
+  - question: q-false-vat-invoice
+    requires: q-formal-material
+    kind: conceptual
+    why: 从条文表述看，本罪似乎只要虚开就成立；是否以法益侵害和罪刑相适应为导向作实质限定，决定了它是行为犯还是实害犯。
+    branches:
+      - answer: material
+        leadsTo: 未骗抵税款的虚开不应按票面税额重罚；本罪实际上是骗抵增值税款的犯罪，是实害犯。
+      - answer: formal
+        leadsTo: 依法条表述，倾向于理解为虚开即成立的行为犯。
+
+  - question: q-false-vat-invoice
+    requires: q-unrecht-core
+    kind: foundational
+    why: 本罪的不法在于发票管理秩序被扰乱，还是国家税款遭受损失，决定了它与虚开发票罪悬殊的法定刑能否得到说明。
+    branches:
+      - answer: result
+        leadsTo: 本罪的不法在于国家增值税款的损失；发票的公共信用只是虚开发票罪的法益。
+
+  - question: q-post-acceptance
+    requires: q-bribery-rechtsgut
+    kind: foundational
+    why: 事后收受的财物是否侵害了受贿罪的法益，取决于受贿罪保护的是职务行为的不可收买性还是公正性。
+    branches:
+      - answer: unbuyability
+        leadsTo: 只要财物与职务行为形成对价，事前事后都侵害了职务行为的不可收买性，成立受贿罪。
+      - answer: fairness
+        leadsTo: 职务行为已经完成且本身公正时，事后收受难以说影响了职务的公正，容易得出否定结论。
+
+  - question: q-post-acceptance
+    requires: q-bribery-benefit
+    kind: logical
+    why: 收受型受贿要求「为他人谋取利益」，事后受财时这一要件是否具备，取决于对它的理解。
+    branches:
+      - answer: old-objective
+        leadsTo: 事后受财时已经实际为他人谋取了利益，要件更明显具备。
+      - answer: promise
+        leadsTo: 许诺即可满足要件；事后受财时谋利行为已经完成，当然满足。
+
+bookViews:
+  - id: zmk7-theft-secrecy
+    work: zmk-xingfaxue-7
+    question: q-theft-secrecy
+    pages: "1467-1469"
+    answer: open
+    summary: >-
+      作者认为盗窃行为通常具有秘密性，但不以秘密窃取为必要：以平和手段违反占有人意志、转移他人占有的，就是盗窃，
+      公开盗窃（如当着卧床主人的面搬走电视）同样成立盗窃罪；公开取得他人并非紧密占有的财物，本来就不符合抢夺的特征。
+    reasons:
+      - 通说以行为人「自认为」被害人没有发觉为准，把秘密变成了主观要素；同一个公开取得的行为，会因行为人的想法不同分属盗窃与抢夺。
+      - 故意的内容应与客观构成要件相对应；客观上可以公开盗窃，却要求行为人认识到自己在秘密窃取，等于要求他认识一个并不存在的事实。
+      - 限于秘密窃取会形成处罚空隙：入户秘密拿走少量财物构成盗窃，入户公开拿走反而因「入户抢夺」不入罪而无罪。
+      - 同样规定了抢夺罪的民国刑法与台湾地区刑法理论，仍然承认公开盗窃。
+    reported:
+      - label: 我国通说
+        answer: secret
+        summary: 盗窃是秘密窃取公私财物；只要行为人自认为被害人没有发觉而取得，就是秘密窃取。
+        pages: "1468"
+
+  - id: zmk7-robbery-completion
+    work: zmk-xingfaxue-7
+    question: q-robbery-completion
+    pages: "1539-1540"
+    answer: property
+    summary: >-
+      作者认为抢劫罪属于侵犯财产罪，应以行为人取得（控制）被害人财物为既遂标准，造成轻伤但没有取得财物的仍是未遂。
+      致人重伤、死亡而没有取得财物的，是结果加重犯既遂、基本犯未遂，可以适用未遂犯的规定（故意致死而按故意杀人罪处理时除外）；
+      入户抢劫等加重情形（数额巨大除外）同样存在未遂。成立既遂还要求取得财物是基于压制反抗，与暴力、胁迫之间有因果关系。
+    reasons:
+      - 抢劫罪是侵犯财产罪，既遂应当以财产法益受到侵害为准。
+      - 入户抢劫、在公共交通工具上抢劫等没有取得财物的，不能因为属于加重情形就一律认定为既遂。
+      - 例如投放安眠药后被害人因其他原因外出、行为人再进屋取走财物的，取得与先前手段之间没有因果关系，只能认定抢劫未遂与盗窃。
+    reported:
+      - label: 取得财物说
+        answer: property
+        summary: 以行为人是否占有了他人财物为标准。
+        pages: "1539"
+      - label: 侵害人身说
+        answer: person
+        summary: 以行为是否侵害了他人的人身权利为标准。
+        pages: "1539"
+      - label: 区分说
+        answer: aggravated
+        summary: 基本犯以是否占有财物为准；致人重伤、死亡的，即使没有占有财物也是既遂。
+        pages: "1539"
+      - label: 司法文件的态度
+        answer: either
+        summary: 劫取财物或者造成他人轻伤以上后果，具备其一即为既遂；二者都不具备的是未遂。
+        pages: "1539-1540"
+
+  - id: zmk7-forgotten-property
+    work: zmk-xingfaxue-7
+    question: q-forgotten-property
+    pages: "1507-1508"
+    answer: same
+    summary: >-
+      作者主张不区分遗忘物与遗失物，刑法上的遗忘物就是民法上的遗失物，并作规范意义的理解：
+      非基于他人本意脱离其占有、偶然由行为人占有或占有人不明的财物。误交付的财物、误投的邮件、飘落的衣物、河中的漂流物等，
+      只要所有权没有被放弃，都是遗忘物。尚未脱离被害人控制范围或脱离时间很短的财物，仍由被害人占有，取得的成立盗窃。
+    reasons:
+      - 以能否回忆起财物位置来区分，会让罪与非罪取决于被害人记忆力的强弱。
+      - 「没有完全脱离控制」「脱离时间短」等标准，其实把仍由被害人占有的财物与遗忘物混为一谈。
+      - 二者都是脱离占有但仍属被害人所有的财物；侵占罪保护所有权，没有理由把遗失物排除在外。
+      - 民法全面保护权利人对遗失物的权利，刑法只保护其中一部分并不妥当。
+    reported:
+      - label: 区别说
+        answer: distinct
+        summary: 遗忘物是因疏忽忘记拿走、一般能回忆起位置、尚未完全脱离控制的财物；遗失物不知失落何处、已完全脱离控制，侵占遗失物不构成侵占罪。
+        pages: "1507"
+
+  - id: zmk7-laundering-rechtsgut
+    work: zmk-xingfaxue-7
+    question: q-laundering-rechtsgut
+    pages: "1194-1196"
+    answer: finance-upstream
+    summary: >-
+      作者认为洗钱罪主要保护金融管理秩序——具体说，是金融系统不得为犯罪所得的隐匿、转移提供服务的管理秩序，
+      以及背后国民对金融系统的信赖与金融安全；其次还包括七类上游犯罪的保护法益（次要法益）。司法机关的正常活动不是洗钱罪的法益。
+    reasons:
+      - 若法益包括司法活动，就无法说明为什么替保险诈骗犯转移资产是洗钱、替普通诈骗犯转移资产不是。
+      - 刑法处罚自洗钱，却不处罚本犯对自己犯罪所得的掩饰、隐瞒；若两罪都保护司法活动，就等于说本犯对赃物罪缺乏期待可能性、对洗钱罪却不缺乏，自相矛盾。
+      - 洗钱罪规定在破坏金融管理秩序罪一节，反洗钱义务主要由金融机构承担，金融管理秩序是其主要法益。
+      - 只讲金融管理秩序，又无法说明利用金融系统掩饰七类之外犯罪所得的为什么只成立赃物罪，所以还要加上上游犯罪的法益。
+    reported:
+      - label: 通说
+        answer: order-and-justice
+        summary: 洗钱罪的法益是金融管理秩序和司法机关的正常活动。
+        pages: "1194"
+      - label: 司法活动说
+        answer: justice
+        summary: 只有司法机关的正常活动才是洗钱罪的法益。
+        pages: "1195"
+      - label: 金融管理秩序说
+        answer: finance
+        summary: 洗钱罪的法益是国家金融管理秩序。
+        pages: "1195"
+
+  - id: zmk7-self-laundering
+    work: zmk-xingfaxue-7
+    question: q-self-laundering
+    pages: "1203"
+    answer: cumulative
+    summary: >-
+      作者主张上游犯罪人（包括正犯、共同正犯与共犯）自洗钱的，应对上游犯罪与洗钱罪数罪并罚；事前通谋、事后共同洗钱的，也同样处理。
+      但上游行为本身同时就是洗钱行为的（如贪污时直接把公款汇往境外、行贿款直接汇入境外账户），是想象竞合，从一重罪处罚。
+    reasons:
+      - 只按上游犯罪处罚，刑法处罚自洗钱的范围就极为有限，修改第 191 条将基本失去意义。
+      - 只按洗钱罪处罚，则完全没有评价上游犯罪，明显不当。
+      - 上游犯罪超过追诉时效而洗钱罪没有超过的，仍应追究洗钱罪。
+
+  - id: zmk7-perjury-falsity
+    work: zmk-xingfaxue-7
+    question: q-perjury-falsity
+    pages: "1726-1727"
+    answer: combined
+    summary: >-
+      作者认为，联系主观内容考虑，伪证罪中的「虚假」应是违反证人的记忆与实际体验、且不符合客观事实的陈述。
+      违反记忆但符合事实的，不可能妨害司法，不成立伪证罪；符合记忆但不符合事实的，行为人没有伪证的故意，也不成立。
+    reasons:
+      - 例如把耳闻的事实说成目睹的：所述内容与客观事实相符的，不宜认定为虚假陈述；不相符的，才是虚假陈述。
+      - 折中说与客观说没有重大区别。
+      - 证人因记忆不清作了与事实不符的证明，属于没有故意，不成立本罪。
+    reported:
+      - label: 主观说
+        answer: subjective
+        summary: 证人应当原封不动地陈述自己的记忆与体验，真伪由法官判断；照记忆陈述的即使与事实不符也不是虚假，不照记忆陈述的即使符合事实也是虚假。
+        pages: "1726"
+      - label: 客观说
+        answer: objective
+        summary: 只有陈述内容与客观事实不相符合的，才是虚假的。
+        pages: "1726"
+      - label: 折中说
+        answer: combined
+        summary: 违反自己体验的陈述，在作证时能评价为违反客观真实的，才成立伪证罪。
+        pages: "1726"
+
+  - id: zmk7-self-instigation
+    work: zmk-xingfaxue-7
+    question: q-self-instigation
+    pages: "1728、1751"
+    answer: deny
+    summary: >-
+      作者对两种情形都持否定说：犯罪嫌疑人、被告人教唆他人为自己作伪证的，不成立伪证罪的教唆犯（被教唆者自己成立伪证罪）；
+      犯罪人教唆他人窝藏、包庇自己的，也不成立窝藏、包庇罪的共犯。
+    reasons:
+      - 本犯自己作虚假供述、自己躲藏逃匿都不成立犯罪；教唆是比实行更轻的参与形式，自己实行都不罚，教唆他人就更不应处罚。
+      - 证人的谎言虽然比被告人自己的谎言更难识破，但这不足以改变上述结论。
+      - 犯罪人窝藏共犯人的，要看是否专门为了使共犯人逃避责任：专为共犯人的成立窝藏、包庇罪，为了本人或兼为本人的则不宜认定。
+    reported:
+      - label: 共犯成立说
+        answer: affirm
+        summary: 不处罚本犯自己逃匿，是因为缺乏期待可能性；但教唆他人窝藏、包庇自己，使他人卷入了犯罪，并不缺乏期待可能性。
+        pages: "1751"
+      - label: 区分说（国外学者）
+        answer: split
+        summary: 教唆他人为自己作伪证的成立伪证罪的共犯，教唆他人窝藏自己的则不成立。
+        pages: "1751"
+
+  - id: zmk7-trespass-rechtsgut
+    work: zmk-xingfaxue-7
+    question: q-trespass-rechtsgut
+    pages: "1401-1402"
+    answer: peace
+    summary: >-
+      作者认为，虽然不排除将来采取新住宅权说，但当下宜采安宁说，即本罪保护居住的平稳与安宁。
+      两说并不对立：通常只有在侵害住宅权的前提下才会侵害住宅的安宁；住宅成员有效同意进入的，进入后实施其他违法犯罪，不宜认定为本罪。
+    reasons:
+      - 本罪规定在侵犯公民人身权利的犯罪中，德国的公共秩序说、占有说不合我国规定；旧住宅权说、综合说也不符合我国现实。
+      - 几代同堂并不罕见，新住宅权说会面临成员对是否许可进入意见不一时如何处理的难题。
+      - 我国只处罚侵入住宅、不处罚侵入其他建筑物；新住宅权说会使未得许可的进入一律入罪，扩大处罚并与条文不协调。
+      - 侵入住宅违反数人的意思时只成立一罪，安宁说能够说明，新住宅权说难以说明。
+      - 保护住宅权是为了保护其背后居住者生活的平稳与安宁；司法实践认定的也都是严重妨害安宁的行为。
+    reported:
+      - label: 安宁说（平稳说）
+        answer: peace
+        summary: 法益是个人利益中的居住平稳或安宁。
+        pages: "1401"
+      - label: 公共秩序说
+        answer: public-order
+        summary: 侵入住宅罪的法益是公共秩序或社会利益。
+        pages: "1401"
+      - label: 旧住宅权说
+        answer: old-right
+        summary: 住宅权是指家长决定是否允许他人进入住宅的权利。
+        pages: "1401"
+      - label: 新住宅权说
+        answer: new-right
+        summary: 住宅权不是家长的许诺权，而是管理住宅的权利以及是否许可他人进入的自由。
+        pages: "1401"
+
+  - id: zmk7-detention-liberty
+    work: zmk-xingfaxue-7
+    question: q-detention-liberty
+    pages: "1369-1370"
+    answer: actual
+    summary: >-
+      作者认为本罪的法益是身体（肢体）活动的自由，不限于身体移动的自由，并赞成现实的自由说。
+      夜间把熟睡者反锁、在其醒来前打开的，只是具有侵害自由的可能性，不成立非法拘禁；被害人打算离开却因反锁不能离开时，才现实地受到侵害。
+    reasons:
+      - 非法拘禁罪不是危险犯而是实害犯，要求现实地侵害身体活动自由。
+      - 被害人知道门被反锁但并不想离开的，也没有必要认定其被拘禁。
+      - 采现实的自由说，并不意味着被害人意识到被持续拘禁期间的睡眠时间不算拘禁；被害人受骗而没有意识到被拘禁的（如机长谎称不能降落而返航），也能成立本罪。
+    reported:
+      - label: 可能的自由说
+        answer: potential
+        summary: 本罪保护的是想活动时随时都能活动的自由；被害人随时可能醒来，所以反锁熟睡者也构成非法拘禁。
+        pages: "1369-1370"
+      - label: 现实的自由说
+        answer: actual
+        summary: 本罪的法益是被害人打算现实地活动身体时就可以活动的自由。
+        pages: "1369"
+
+  - id: zmk7-marital-rape
+    work: zmk-xingfaxue-7
+    question: q-marital-rape
+    pages: "1342-1343"
+    answer: principle-limit
+    summary: >-
+      作者主张先一般性地承认丈夫可以对妻子成立强奸罪，再有根据地缩小其成立范围，而不是先一概否认、再例外承认。
+      具体是：婚姻关系正常持续期间（不含长期虐待）一般不以强奸罪追究；但正常期间因偶然冲突强行性交的，原则上成立；
+      离婚诉讼期间、因纠纷分居期间、妻子长期受虐待期间强行性交的，成立；丈夫教唆、帮助他人强奸妻子、与他人轮奸妻子、当众强行性交的，也成立。
+    reasons:
+      - 第 236 条并没有把强奸妻子排除在外，承认丈夫可以成为主体没有法律障碍；外国刑法即使使用「奸淫」一词也承认婚内强奸。
+      - 离婚诉讼、分居期间婚姻关系依然存在，婚姻关系正常与否不能作为判断标准，只能作为判断资料。
+      - 已婚妇女性自主权最核心的内容是不与丈夫以外的男子性交、不公开性交；正常婚姻存续期间的强制性交虽不正当，但对该权利的侵害一般未达可罚程度，且强奸罪是非告诉才处理的重罪。
+      - 国外实践中也主要处罚离婚诉讼、分居期间的婚内强奸，普遍承认并不会扩大处罚范围。
+    reported:
+      - label: 否定说
+        answer: never
+        summary: 丈夫一律不构成强奸罪。
+        pages: "1342"
+      - label: 肯定说
+        answer: always
+        summary: 丈夫一律构成强奸罪。
+        pages: "1342"
+      - label: 折中说
+        answer: abnormal-only
+        summary: 在提起离婚诉讼期间或者分居期间，丈夫构成强奸罪。
+        pages: "1342"
+
+  - id: zmk7-indecency-tendency
+    work: zmk-xingfaxue-7
+    question: q-indecency-tendency
+    pages: "1364"
+    answer: not-required
+    summary: >-
+      作者认为强制猥亵、侮辱罪的责任形式是故意，即明知自己的行为侵犯他人的性行为自己决定权而仍然实施，
+      不需要出于刺激或者满足性欲的内心倾向；本罪是故意犯，但不是目的犯、倾向犯。
+    reasons:
+      - 没有这种倾向的猥亵、侮辱行为，同样严重侵犯他人的性行为自主权。
+      - 是否属于猥亵、侮辱可以从客观上判断，足以区分罪与非罪以及本罪与侮辱罪。
+      - 要求性的意图会不当缩小或扩大处罚范围：为了让邻女生育而强行注入精液、为报复在公共场所强行扒光他人衣服等，若要求性的意图便都不能定罪。
+      - 据该书介绍，日本最高裁判所于 2017 年变更判例，不再一律要求性的意图。
+    reported:
+      - label: 传统观点
+        answer: required
+        summary: 除故意外，还需要刺激或者满足性欲的内心倾向；这样有利于区分本罪与非罪、本罪与侮辱罪。
+        pages: "1364"
+
+  - id: zmk7-arson-completion
+    work: zmk-xingfaxue-7
+    question: q-arson-completion
+    pages: "1032"
+    answer: modified-independent
+    summary: >-
+      作者对独立燃烧说作了修正：放火行为使对象物离开媒介物后已经开始独立燃烧时，就是放火既遂（修正的独立燃烧说）。
+      危害公共安全、但因意志以外的原因没有达到开始独立燃烧程度的是未遂；行为人自动使其没有达到的是中止；
+      已经开始独立燃烧后撤走或扑灭引燃物、对象物仍在继续燃烧的，只能是既遂。
+    reasons:
+      - 传统独立燃烧说以「能够」独立燃烧为标准，缺乏明确的判断标准，也可能使既遂过于提前。
+      - 刑法把放火罪规定在危害公共安全罪中，重视的是公共危险，不应从毁坏财物的角度确定既遂。
+      - 我国建筑物的结构使其独立燃烧需要一定时间、丧失效用也不容易；修正的独立燃烧说有利于鼓励中止，也能有效维护公共安全。
+    reported:
+      - label: 独立燃烧说
+        answer: independent
+        summary: 对象物在离开媒介物的情况下能够独立燃烧时，就是烧损（既遂）。
+        pages: "1032"
+      - label: 丧失效用说
+        answer: loss-of-use
+        summary: 对象物的重要部分因燃烧而失去效用时，才是烧损。
+        pages: "1032"
+      - label: 重要部分开始燃烧说
+        answer: major-part
+        summary: 对象物的主要部分着火燃烧、且已难以扑灭时，才算烧损。
+        pages: "1032"
+      - label: 毁弃说
+        answer: destruction
+        summary: 火力使对象物达到故意毁损财物罪中的损坏程度时，就是烧损。
+        pages: "1032"
+      - label: 危险即既遂的观点
+        answer: danger
+        summary: 只要放火行为具有危害公共安全的危险，就是既遂；作者不赞成。
+        pages: "1032"
+
+  - id: zmk7-drug-sale-buy
+    work: zmk-xingfaxue-7
+    question: q-drug-sale-buy
+    pages: "1848、1856"
+    answer: transfer
+    summary: >-
+      作者认为贩卖毒品就是出卖毒品，购买毒品不是贩卖的实行行为；出于贩卖目的而购买的，属于贩卖毒品的预备（可能同时触犯非法持有毒品罪）。
+      贩卖以毒品实际转移给买方为既遂，转移后是否已获利不影响既遂；只达成交易协议或已经收款、但毒品没有转移的，不宜认定为既遂。
+    reasons:
+      - 刑法第 347 条只规定了贩卖毒品罪，没有规定购买毒品罪，单纯购买毒品不在规制之内。
+      - 贩卖并不以先买后卖为前提：出卖拾得的海洛因、出卖祖辈留下的鸦片，也都是贩卖。
+      - 把毒品犯罪的着手与既遂一再提前，会把预备当作未遂、把未遂当作既遂。
+    reported:
+      - label: 长期的理论与实务做法
+        answer: buy-attempt
+        summary: 把为了出卖而购买毒品的行为认定为贩卖毒品罪的未遂犯乃至既遂犯。
+        pages: "1848"
+      - label: 检察机关指导性案例的立场
+        answer: buy-complete
+        summary: 为了非法用途、出于出卖目的而非法买入国家管制的麻醉药品或精神药品，即认定为贩卖毒品罪既遂。
+        pages: "1848"
+
+  - id: zmk7-false-vat-invoice
+    work: zmk-xingfaxue-7
+    question: q-false-vat-invoice
+    pages: "1244-1246"
+    answer: harm
+    summary: >-
+      作者主张虚开增值税专用发票罪是实害犯：客观上须有使国家增值税款遭受损失的行为与结果，主观上须明知并希望或放任，骗抵目的由此成为故意的内容。
+      骗抵成功的是既遂；实施骗抵未得逞但产生具体危险的是未遂；虚开而不实施骗抵、没有骗抵故意的，只成立虚开发票罪；
+      有骗抵故意但未能实施骗抵的，是虚开发票罪既遂与本罪预备的想象竞合。
+    reasons:
+      - 单纯行为犯说使本罪与虚开发票罪的法益都成为发票的公共信用，无法说明两罪悬殊的不法程度；骗抵税款如今已很难发生，按票面税额重判会量刑畸重。
+      - 目的犯说下，虚开后未骗抵、骗抵未得逞、骗抵成功三种情形适用同一法定刑，不符合罪刑相适应。
+      - 原第 2 款以骗取税款、造成特别重大损失为加重情节，表明第 1 款规定的是实害犯；《刑法修正案（八）》删除该款是为了废除死刑，不是为了改变罪质。
+      - 虚开用于骗取出口退税的发票后骗取退税的适用骗取出口退税罪，刑法没有另设骗抵增值税罪，可见本罪实际上是骗抵增值税款的诈骗类犯罪。
+    reported:
+      - label: 单纯行为犯说
+        answer: conduct
+        summary: 实施虚开四种行为之一并达到立案标准，就破坏了增值税发票管理秩序而既遂，是否骗抵、有无骗抵目的都不影响。
+        pages: "1244"
+      - label: 目的犯说
+        answer: purpose
+        summary: 成立本罪必须以骗取国家增值税款为目的；具有该目的而虚开的，即使没有实现目的也是既遂。
+        pages: "1244"
+      - label: 抽象危险犯说
+        answer: abstract-danger
+        summary: 本罪是抽象危险犯，不需要判断骗税目的、损害结果或具体危险；即便如实代开，只要有导致税收损失的抽象危险，也应定罪。
+        pages: "1244-1245"
+      - label: 结果犯说（立法论）
+        summary: 本罪的法益是国家增值税，建议修改法条，以造成国家增值税损失作为既遂条件。
+        pages: "1245"
+
+  - id: zmk7-post-acceptance
+    work: zmk-xingfaxue-7
+    question: q-post-acceptance
+    pages: "1950-1952"
+    answer: affirm
+    summary: >-
+      作者认为事后受财成立受贿罪：国家工作人员事前履职时没有受贿故意，事后（仍在职时）明知他人交付的财物是对自己职务行为的不正当报酬而收受的，
+      财物与职务行为已形成对价关系，侵害了职务行为的不可收买性；事前违法履职与正当履职的事后受财应作同样处理。
+    reasons:
+      - 收受在职务执行之前还是之后并无本质区别；事后受财同样存在权钱交易，而且此时已经实际为他人谋取了利益，交换性质更明显。
+      - 明知财物是自己职务行为的不正当报酬而收受，就具备受贿故意的认识与意志因素；「事」与「财」的主观关联不必限于事前，也不违反责任与行为同时存在的原则。
+      - 事前履职、事后索取财物的无疑成立受贿罪，事后收受不应区别对待。
+      - 为他人谋取的利益不限于非法利益；若正当履职后的事后受财不罚，违法履职后的事后受财也将不罚，不当缩小处罚范围。

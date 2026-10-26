@@ -1,0 +1,216 @@
+# 分论重点争议问题·第四批（据张明楷《刑法学》第七版整理）：概念、问题与先决关系为编者整理，全部待核实。
+concepts:
+  - id: drunk-driving
+    name: 危险驾驶罪（醉酒驾驶）
+    kind: problem
+    area: sp-public
+    originPending: true
+    summary: >-
+      刑法第 133 条之一把醉酒驾驶机动车规定为危险驾驶罪的一种类型。争点包括定罪的酒精含量标准、
+      本罪作为抽象危险犯是否允许以「没有危险」出罪，以及责任形式是故意还是过失。
+
+  - id: rights-exercise
+    name: 权利行使与财产犯罪
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      为了实现自己的民事权利（取回被盗财物、索要到期债务、要求损害赔偿）而使用胁迫等手段的，
+      是否成立敲诈勒索罪等财产犯罪？这与财产犯罪的保护法益和「财产损害」的概念密切相关。
+
+  - id: misappropriation
+    name: 挪用公款罪的实行行为
+    kind: problem
+    area: sp-duty
+    originPending: true
+    summary: >-
+      挪用公款罪处罚的是把公款挪出、使其脱离单位控制的行为，还是对公款的使用？
+      这决定了「挪而未用」、一笔公款先后用于不同用途等情形如何处理。
+
+  - id: false-accusation
+    name: 诬告陷害罪的主观要件
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      诬告陷害罪要求捏造犯罪事实向有关机关告发，意图使他人受刑事追究。
+      行为人对所告发事实的虚假性需要何种程度的认识，关系到公民告发权与他人人身权利之间的平衡。
+
+questions:
+  - id: q-drunk-driving-culpability
+    concept: drunk-driving
+    text: 醉酒型危险驾驶罪的责任形式是故意还是过失？
+    level: intermediate
+    aliases: [醉驾, 危险驾驶罪, 抽象危险犯, 醉酒驾驶的故意]
+    answers:
+      - id: intent
+        label: 故意
+        summary: 行为人须认识到自己在醉酒状态下驾驶，但只需大体上的认识。
+      - id: negligence
+        label: 过失
+        summary: 本罪是过失犯；出于故意的，按以危险方法危害公共安全罪处理。
+      - id: negligence-plus
+        label: 过失的抽象危险犯（故意的也可成立）
+        summary: 本罪是过失的抽象危险犯，但故意醉驾而未发生具体公共危险的，仍成立本罪。
+
+  - id: q-debt-collection-threat
+    concept: rights-exercise
+    text: 债权人以胁迫手段向债务人索要到期债务，是否成立敲诈勒索罪？
+    level: applied
+    aliases: [权利行使, 敲诈勒索, 讨债, 胁迫索债]
+    answers:
+      - id: no-crime
+        label: 无罪说
+        summary: 有正当权利的人以胁迫为实现权利的手段，不宜认定为犯罪。
+      - id: coercion
+        label: 胁迫罪说
+        summary: 没有财产损害，不成立财产犯罪；但手段超出法律允许的范围，成立胁迫罪。
+      - id: extortion
+        label: 敲诈勒索罪说
+        summary: 使对方基于恐惧交付财物，侵害了对财物的本权机能，成立敲诈勒索罪。
+
+  - id: q-misappropriation-unused
+    concept: misappropriation
+    text: 挪用公款后尚未使用（「挪而未用」），是否构成挪用公款罪？
+    level: applied
+    aliases: [挪而未用, 挪用公款, 脱离单位控制, 进行其他活动]
+    answers:
+      - id: not-misappropriation
+        label: 不属于挪用公款
+        summary: 挪用公款以对公款的使用为内容，挪而未用、挪而不用不属于挪用。
+      - id: misappropriation
+        label: 属于挪用公款
+        summary: 只要使公款脱离单位控制就是挪用；尚未使用的，按挪用公款「进行其他活动」认定。
+
+  - id: q-false-accusation-knowledge
+    concept: false-accusation
+    text: 诬告陷害罪是否要求行为人确定地认识到所告发的是虚假的犯罪事实？
+    level: intermediate
+    aliases: [诬告陷害罪, 确定的认识, 未必的认识, 错告]
+    answers:
+      - id: certain
+        label: 确定的认识说
+        summary: 须明知所告发的确实是虚假的犯罪事实；只认识到可能虚假的，不成立本罪。
+      - id: possible
+        label: 未必的认识说
+        summary: 认识到所告发的可能是虚假的犯罪事实即可。
+
+prerequisites:
+  - question: q-drunk-driving-culpability
+    requires: q-intent-position
+    kind: systematic
+    why: 过失说把故意醉驾一律当作以危险方法危害公共安全罪，隐含着「故意决定是否有具体公共危险」的前提；故意是不是违法要素、能否左右危险的有无，是检验这一推论的关键。
+    branches:
+      - answer: schuld
+        leadsTo: 故意不影响行为是否产生具体公共危险，故意醉驾未必构成以危险方法危害公共安全罪。
+      - answer: unrecht
+        leadsTo: 即使认为故意是违法要素，也推不出故意醉驾就产生具体公共危险。
+
+  - question: q-debt-collection-threat
+    requires: q-theft-rechtsgut
+    kind: foundational
+    why: 行使权利的手段不当时是否成立财产犯罪，取决于财产犯罪保护的是本权，还是事实上的占有与其机能。
+    branches:
+      - answer: honken
+        leadsTo: 权利范围内的取得没有造成对方财产上的损害，倾向无罪说或胁迫罪说。
+      - answer: possession
+        leadsTo: 使对方基于恐惧交付财物即侵害了占有，倾向敲诈勒索罪说。
+      - answer: intermediate
+        leadsTo: 债务人一方有值得保护的利益（期限利益、清算利益等）时，仍可能成立敲诈勒索罪。
+
+  - question: q-misappropriation-unused
+    requires: q-formal-material
+    kind: systematic
+    why: 「挪用」是只按字面理解为挪出后使用，还是按处罚根据实质地理解为使公款脱离单位控制、置于流失的危险之中，取决于解释方法。
+
+  - question: q-false-accusation-knowledge
+    requires: q-dolus-eventualis
+    kind: conceptual
+    why: 一般的故意包括未必的认识；对「虚假性」是否例外地要求确定的认识，要在故意理论的框架内说明。
+
+bookViews:
+  - id: zmk7-drunk-driving-culpability
+    work: zmk-xingfaxue-7
+    question: q-drunk-driving-culpability
+    pages: "1083"
+    answer: intent
+    summary: >-
+      作者认为醉酒驾驶属于故意犯罪，行为人须认识到自己在醉酒状态下驾驶机动车，但只要有大体上的认识，
+      不需要认识到血液中的具体酒精含量；知道自己喝了一定量的酒、事实上又达到醉酒状态而驾驶的，就有醉驾的故意，
+      「以为只是酒后驾驶」的辩解不能排除故意。同时，本罪是抽象危险犯，通常只需类型化判断，
+      但没有抽象危险的行为（如在没有车辆与行人的荒野道路上醉驾）不成立本罪。作者也不赞成再提高定罪的酒精含量标准。
+    reasons:
+      - 过失说缺乏刑法第 15 条第 2 款所要求的「法律有规定」的文理根据。
+      - 行为是否产生具体公共危险，不取决于醉驾出于故意还是过失；把故意醉驾一律按以危险方法危害公共安全罪处理，既不符合司法实践，也会导致刑罚畸重。
+      - 「过失的抽象危险犯但故意也可成立」的观点同样缺乏法律根据，还把故意犯与过失犯等同处罚，不符合罪刑相适应原则。
+    reported:
+      - label: 过失说
+        answer: negligence
+        summary: 本罪的责任形式为过失，行为人持故意的构成以危险方法危害公共安全罪。
+        pages: "1083"
+      - label: 过失的抽象危险犯说
+        answer: negligence-plus
+        summary: 本罪是过失的抽象危险犯，但故意醉驾而没有发生具体公共危险的，依然成立本罪。
+        pages: "1083"
+
+  - id: zmk7-debt-collection-threat
+    work: zmk-xingfaxue-7
+    question: q-debt-collection-threat
+    pages: "1600-1601"
+    answer: no-crime
+    summary: >-
+      作者认为行使民事权利（指有民法根据的权利，不是自己主张的道德权利）阻却敲诈勒索罪的违法性。
+      对于以胁迫手段实现到期债权，作者原则上采无罪说：没有超出权利的范围、有使用实力的必要、手段本身不构成其他犯罪的，
+      应认为没有造成对方财产上的损害。但债务人有期限利益、清算利益等值得保护的利益，债权内容尚未确定，
+      或者所取财物明显超出确定的债权范围的，仍可能成立敲诈勒索罪；索要赌债、高利贷等不受法律保护的债务的，不是行使权利，也可能成立敲诈勒索罪。
+    reasons:
+      - 这一问题与财产罪的法益、财产损害的概念密切相关；我国司法实践一般也采无罪说。
+      - 损害赔偿请求权的行使（如吃出苍蝇后以向媒体反映、起诉相要挟索赔）原则上不成立敲诈勒索罪；以加害生命、身体相要挟且索赔明显过高的除外。
+    reported:
+      - label: 无罪说（国外学说）
+        answer: no-crime
+        summary: 具有正当权利的人即使以胁迫为实现权利的手段，也不宜认定为犯罪。
+        pages: "1600"
+      - label: 胁迫罪说（国外学说）
+        answer: coercion
+        summary: 行为人有接受财物的权利，对方没有财产损害，不成立财产犯罪；但手段超出法律允许的范围，成立胁迫罪。
+        pages: "1600"
+      - label: 敲诈勒索罪说（国外学说）
+        answer: extortion
+        summary: 使他人基于恐惧交付财物，侵害了对财物占有、使用、收益、处分的事实上的机能，产生财产损害。
+        pages: "1600-1601"
+
+  - id: zmk7-misappropriation-unused
+    work: zmk-xingfaxue-7
+    question: q-misappropriation-unused
+    pages: "1918"
+    answer: misappropriation
+    summary: >-
+      作者认为挪用公款罪的处罚对象是使公款脱离单位控制的挪出行为，而不是使用行为本身；凡是使公款脱离单位控制的，就属于挪用。
+      把公款转出准备日后买房而尚未购买的，长时间把公款存放在家中保险柜的，也属于挪用公款进行其他活动。
+      反之，没有使公款脱离单位控制的（如只是把公款从一家银行转入另一家银行、户名仍是本单位），不是挪用。
+    reasons:
+      - 一次挪用 20 万元先赌博、后买股票的，只能认定为挪用 20 万元进行非法活动，不能认定为 40 万元，说明实行行为是挪出而非使用。
+      - 刑法对进行非法活动、营利活动降低数额或时间要求，是因为把公款置于特别危险的流通领域增加了不法程度。
+    reported:
+      - label: 「挪而未用」不属于挪用的观点
+        answer: not-misappropriation
+        summary: 挪而未用、挪而不用的，不属于挪用公款。
+        pages: "1918"
+
+  - id: zmk7-false-accusation-knowledge
+    work: zmk-xingfaxue-7
+    question: q-false-accusation-knowledge
+    pages: "1398"
+    answer: certain
+    summary: >-
+      作者采确定的认识说：为了防止不当限制公民的告发权，应当要求行为人明知所告发的确实是虚假的犯罪事实；
+      只是猜测某人犯罪、认识到告发的事实仅有可能性而告发的，不宜认定为本罪。对虚假的犯罪事实须有确定的认识，
+      但对其他构成要件要素可以是未必的认识，对侵害结果也可以是放任，因此不能简单地说本罪只能由直接故意构成。错告、检举失实不成立犯罪。
+    reasons:
+      - 防止不当限制公民的告发权。
+    reported:
+      - label: 未必的认识说（国外学说）
+        answer: possible
+        summary: 刑法并没有把未必的认识排除在外。
+        pages: "1398"

@@ -1,0 +1,468 @@
+# 违法性（不法）部分：张明楷《刑法学》（第七版）中的论述
+bookViews:
+  - id: zmk7-ad-treatment
+    work: zmk-xingfaxue-7
+    question: q-ad-treatment
+    pages: "313-315"
+    answer: acquit
+    summary: >-
+      作者坚持结果无价值论，认为偶然防卫不成立犯罪：行为人虽有犯罪故意，但客观上没有侵犯刑法保护的法益，
+      反而在刑法允许的范围内保护了另一法益，既无实害也无危险，实质上属于不能犯。
+    reasons:
+      - 结果是否被刑法允许只能客观判断；偶然防卫造成的是刑法允许乃至鼓励的结果，不可能是犯罪既遂所要求的结果。
+      - 行为无价值论的未遂说一面肯定好结果、一面禁止产生这一结果的行为，自相矛盾；对客观上完全相同的两个挽救行为，仅因认识不同就作出相反评价。
+      - 结果无价值论的未遂说既已承认不要求防卫意识，偶然防卫就已符合正当防卫的条件；把行为人没有认识到的客观事实纳入判断后，造成侵害的盖然性几乎为零。
+      - 二分说把保护他人与保护自己区别对待，掺入了伦理判断；两种防卫在刑法上完全等价。
+      - 即便依刑法第 20 条的文字认为防卫意识是正当防卫的要件，不成立正当防卫也不等于直接以犯罪论处。
+    reported:
+      - label: 行为无价值论的既遂说
+        answer: completed
+        summary: 正当防卫以防卫意识为要件；偶然防卫欠缺防卫意识且造成了侵害结果，成立犯罪既遂。
+        pages: "313"
+      - label: 二元论的未遂说
+        answer: attempt
+        theory: dual-act-disvalue
+        summary: 要求防卫意识；偶然防卫造成的是正当的结果，缺乏结果无价值，但存在行为无价值，成立未遂。
+        pages: "313"
+      - label: 结果无价值论的未遂说
+        answer: attempt
+        theory: result-disvalue
+        summary: 不要求防卫意识，但侵害结果之所以没有发生只是出于偶然，行为仍有侵害法益的危险，成立未遂。
+        pages: "313"
+      - label: 结果无价值论的二分说
+        answer: null
+        theory: result-disvalue
+        summary: 为他人防卫（紧急救助型）的偶然防卫是正当防卫；为自己防卫的偶然防卫成立未遂。
+        pages: "313"
+      - label: 结果无价值论的无罪说
+        answer: acquit
+        theory: result-disvalue
+        summary: 不要求防卫意识，偶然防卫成立正当防卫。
+        pages: "313"
+    editorNote: 书中把分歧归结为三点：正当防卫是否需要防卫意识、如何判断行为的危险、违法性的实质是什么。
+
+  - id: zmk7-ad-intent-required
+    work: zmk-xingfaxue-7
+    question: q-ad-intent-required
+    pages: "309-310"
+    answer: not-required
+    summary: >-
+      作者采防卫意识不要说：行为符合正当防卫的客观条件时，客观上保护了法益、没有违反法规范，缺乏违法性的根据；
+      不能把「主客观相一致」从成立犯罪的要求倒过来套用到排除犯罪的事由上。
+    reasons:
+      - 成立犯罪要求主客观相一致，不意味着不成立犯罪的行为也必须主客观相一致；只要不符合犯罪成立条件，就不成立犯罪。
+      - 没有防卫意识但符合客观条件时，最多只有「心情无价值」，并无行为无价值；反过来要求阻却事由主客观一致，等于主客观条件只具其一就可成立犯罪。
+      - 退一步说，即使把防卫意识当作正当防卫的条件，欠缺它也只是不成立正当防卫，不能直接推出成立犯罪。
+      - 刑法第 20 条「为了保护……」可以理解为表示客观原因的表述。
+    reported:
+      - label: 我国传统刑法理论
+        answer: required
+        summary: 具有防卫意识（主观的正当化要素）时才可能成立正当防卫；相关司法文件也要求准确把握防卫的「意图条件」。
+        pages: "309"
+      - label: 必要说
+        answer: required
+        theory: dual-act-disvalue
+        summary: 防卫行为是主客观的统一体；只有既无行为无价值、也无结果无价值时才合法，偶然防卫至少存在行为无价值。
+        pages: "310"
+      - label: 不要说
+        answer: not-required
+        theory: result-disvalue
+        summary: 只要符合正当防卫的客观条件，行为客观上就保护了法益，缺乏违法性的根据（法益侵害）。
+        pages: "310"
+
+  - id: zmk7-ad-intent-content
+    work: zmk-xingfaxue-7
+    question: q-ad-intent-content
+    pages: "309-310"
+    answer: cognition
+    summary: >-
+      作者本人不要求防卫意识；在说明防卫意识的内容时，认为其重点在于防卫认识：只要行为人认识到自己是在与正在进行的不法侵害相对抗，
+      就具有防卫意识，这有利于把出于兴奋、愤怒等实施的防卫认定为正当防卫。
+    reasons:
+      - 以认识为重点，可以避免因防卫人情绪激动、动机混杂而否定正当防卫。
+    reported:
+      - label: 一般说明
+        answer: null
+        summary: 防卫意识包括防卫认识（认识到不法侵害正在进行）与防卫意志（出于保护合法权益免受侵害的目的）。
+        pages: "309"
+    editorNote: 作者在上一问题上采不要说，这里的结论是在讨论防卫意识内容时的立场。
+
+  - id: zmk7-task
+    work: zmk-xingfaxue-7
+    question: q-task
+    pages: "156-158"
+    answer: rechtsgut
+    summary: >-
+      作者认为依我国刑法，刑法的任务与目的是保护法益；反过来，侵害或威胁法益就是刑法禁止某种行为的根据，即违法性的实质。
+    reasons:
+      - 法益侵害说本身要求行为侵害或威胁了法益才能处罚，单纯的危险想法不可能侵害法益，因此它反对而不是贯彻主观主义。
+      - 法益侵害说不是「只要有法益侵害就违法」的形式判断，立法和司法都要选定值得科处刑罚的具体法益侵害。
+      - 法益保护只在罪刑法定原则的框架内进行。
+    reported:
+      - label: 法规范维护说
+        answer: ethic
+        summary: 刑法的目的在于维护规范的效力；以保护法益为目的会把危险的主观想法当作犯罪处罚，导致处罚扩大。
+        pages: "156-158"
+
+  - id: zmk7-objective-wrong
+    work: zmk-xingfaxue-7
+    question: q-objective-wrong
+    pages: "158-159"
+    answer: objective
+    summary: >-
+      作者采客观的违法性论：违法性的实质是法益侵害与威胁，与行为人的主观能力、有无故意过失无关；精神病人杀人与常人杀人在侵害生命这一点上没有差别。
+    reasons:
+      - 判断违法与否的规范只是评价规范，不必包括意思决定规范。
+      - 有利于区分违法性与有责性，避免笼统地判断是否构成犯罪。
+      - 可以顺理成章地对精神病人的侵害行为进行制止乃至防卫，并把其盗窃所得评价为违法所得。
+    reported:
+      - label: 客观的违法性论
+        answer: objective
+        summary: 评价规范对应违法性，意思决定规范对应责任；无责任能力者的侵害行为也是违法的，可以对其正当防卫。
+        pages: "159"
+      - label: 主观的违法性论（命令说）
+        answer: subjective
+        summary: 刑法规范是对行为人的意思决定规范，只有能够理解规范的有责任能力者的行为才谈得上违法，不法与责任融为一体。
+        pages: "159"
+      - label: 新的客观的违法性论
+        answer: objective
+        summary: 评价规范与意思决定规范都是违法判断的基准；违法是违反针对抽象一般人的命令，责任是违反针对具体行为人的命令。
+        pages: "159"
+
+  - id: zmk7-norm-type
+    work: zmk-xingfaxue-7
+    question: q-norm-type
+    pages: "158-159"
+    answer: evaluation
+    summary: >-
+      作者认为，判断行为是否违法的规范只是评价规范；意思决定规范与责任相对应。
+    reasons:
+      - 行为是否侵害或威胁法益，与行为人能否理解规范、作出意思决定无关。
+    reported:
+      - label: 一般认识
+        answer: both
+        summary: 刑法规范既是评价规范，也是意思决定规范。
+        pages: "158"
+      - label: 新的客观的违法性论
+        answer: both
+        summary: 意思决定规范在违法与责任两个阶层分别发挥作用。
+        pages: "159"
+
+  - id: zmk7-unrecht-core
+    work: zmk-xingfaxue-7
+    question: q-unrecht-core
+    pages: "160-166"
+    answer: result
+    summary: >-
+      作者采结果无价值论：刑法的目的与任务是保护法益，违法性的根据是法益侵害及其危险；没有造成法益侵害或危险的行为，
+      即使违反伦理、缺乏社会相当性或违反某种行为规则，也不是刑法处罚的对象；故意、过失是责任要素。
+    reasons:
+      - 刑法目的明确：没有侵害、威胁法益，刑法就不得干预，不至于用刑法推行伦理，有利于保障行为自由，这在价值多元的时代尤其重要。
+      - 违法判断清晰：判断资料限于客观事实。
+      - 刑法按行为方式规定不同罪名，是罪刑法定要求类型化的结果，并不表明立法者重视行为无价值。
+    reported:
+      - label: 一元的行为无价值论
+        answer: monist-act
+        theory: monist-act-disvalue
+        summary: 行为的目的、故意、过失与行为样态决定违法性，结果只是客观处罚条件；作者指出现在采此说的学者极少。
+        pages: "161"
+      - label: 二元论（社会相当性说、行为规范违反说等）
+        answer: dual
+        theory: dual-act-disvalue
+        summary: 违法性的根据兼有结果无价值与行为无价值，二者的侧重因学者而异。
+        pages: "161-163"
+
+  - id: zmk7-intent-position
+    work: zmk-xingfaxue-7
+    question: q-intent-position
+    pages: "165-166"
+    answer: schuld
+    summary: >-
+      作者不赞成把故意作为违法要素或不法的组成部分，故意属于责任要素。
+    reasons:
+      - 构成要件符合性与违法性需要分开判断；正当防卫致人死亡时同样具备「构成要件故意」，可见它并不说明行为更严重地违反了刑法保护的规范。
+      - 把故意作为违法要素，与主观的违法论只有一纸之隔，而且会使违法判断几乎总是得出肯定结论。
+    reported:
+      - label: 行为无价值论
+        answer: unrecht
+        summary: 故意是违法要素而不是责任要素，或者构成要件故意是违法要素、责任故意是责任要素。
+        pages: "165"
+
+  - id: zmk7-su-exists
+    work: zmk-xingfaxue-7
+    question: q-su-exists
+    pages: "159, 534, 1459"
+    answer: none
+    summary: >-
+      作者暂不承认主观的违法要素，把目的犯的目的等主观内容作为责任要素处理；同时指出，即使承认目的犯的目的是主观的违法要素，也不影响客观违法论的成立。
+    reasons:
+      - 违法性的实质是客观的法益侵害与危险，判断资料原则上限于客观事实。
+    editorNote: 第 1459 页的说法是「暂不承认」，讨论的是财产犯罪中的非法占有目的。
+
+  - id: zmk7-attempt-intent
+    work: zmk-xingfaxue-7
+    question: q-attempt-intent
+    pages: "165-166"
+    answer: "no"
+    summary: >-
+      作者不赞成把未遂犯中「引起既遂结果的意思」作为主观的违法要素：只要行为客观上有致人死亡的具体危险、行为人对此有认识，就可以认定杀人未遂；
+      引起既遂的意思最多是责任层面的主观超过要素。
+    reported:
+      - label: 肯定说（部分结果无价值论者）
+        answer: "yes"
+        summary: 未遂行为没有发生结果，是否有法益侵害的危险需要根据行为人有无引起既遂结果的意思判断，因而该意思是主观的违法要素。
+        pages: "166"
+
+  - id: zmk7-just-principle
+    work: zmk-xingfaxue-7
+    question: q-just-principle
+    pages: "292-295"
+    answer: interest
+    summary: >-
+      作者认为违法阻却的根据与违法性的实质是一个问题的正反两面，应以法益侵害为中心理解违法阻却事由：
+      依据「法益性阙如」原理（如被害人承诺）和「优越的利益（法益衡量）」原理（如正当防卫、紧急避险）阻却违法；并否认主观的正当化要素。
+    reasons:
+      - 目的说中「为了正当目的的适当手段」含义并不明确，容易导致以国家目的制约个人权利；衡量型目的说实际上与法益衡量说相差无几。
+      - 社会相当性说依赖社会伦理秩序，与结果无价值论的立场不合。
+    reported:
+      - label: 目的说
+        answer: purpose
+        summary: 为了达到国家承认的共同生活目的而采取的适当手段，例外地阻却违法；内部又有衡量型与重视手段型之分。
+        pages: "292"
+      - label: 社会相当性说
+        answer: social-adequacy
+        summary: 在历史形成的社会伦理秩序范围内被允许的行为阻却违法；作者认为它属于行为无价值论的思路。
+        pages: "292"
+
+  - id: zmk7-defense-basis
+    work: zmk-xingfaxue-7
+    question: q-defense-basis
+    pages: "297-298"
+    answer: interest
+    summary: >-
+      作者不赞成以个人保全原理与法确证原理相结合的二元论说明正当防卫的正当化根据，而采优越的利益保护原理：
+      不法侵害者的利益在防卫的必要限度内要保护性降低，防卫者保护的利益因而优越。
+    reasons:
+      - 个人保全原理无法说明为第三人、为公共利益实施的正当防卫。
+      - 法确证原理内容空泛模糊，既可用来否定比例原则，又可用来限制防卫，几乎能由解释者任意填充，成了万能原理。
+    reported:
+      - label: 二元论（德国通说与判例）
+        answer: dual-basis
+        summary: 个人保全原理与法确证原理相结合说明正当防卫；在日本、韩国和我国也有赞成者。
+        pages: "297"
+      - label: 个人保全原理
+        answer: individual
+        summary: 受不法侵害攻击的个人可以采取必要手段保全自己，可以用社会契约论说明。
+        pages: "297"
+      - label: 法确证原理
+        answer: rechtsbewaehrung
+        summary: 法秩序即使受到侵害也不必退让，防卫在保护个人利益之外还确证了法秩序。
+        pages: "297-298"
+
+  - id: zmk7-defense-proportionality
+    work: zmk-xingfaxue-7
+    question: q-defense-proportionality
+    pages: "319-325"
+    answer: necessity-plus
+    summary: >-
+      作者依优越利益保护原理采「一体说」：只要结果不过当就不构成防卫过当；防卫限度以制止不法侵害的必要性为中心综合判断，
+      不需要把手段的相当性设为防卫条件，但不能为保护微小利益而造成重大损害（如为一只笼中鸟、树上一个果子杀害盗窃者）。
+    reasons:
+      - 刑法第 20 条第 3 款不是特殊规定，而是对如何判断防卫限度的提示性规定。
+      - 不能过分要求手段相适应，否则会把正当防卫不当地认定为防卫过当。
+      - 要考虑不法侵害者在防卫过程中实施的新的暴力侵害，不能只把防卫行为与最初的侵害相比较。
+    reported:
+      - label: 基本相适应说
+        answer: proportionality
+        summary: 防卫行为造成的损害与不法侵害在轻重、大小上应大体相适应。
+        pages: "319"
+      - label: 必需说
+        answer: no-balance
+        summary: 以有效制止不法侵害的客观实际需要为限度，防卫强度可以大于、小于或相当于侵害强度。
+        pages: "319"
+      - label: 适当说
+        answer: necessity-plus
+        summary: 防卫行为正好足以制止不法侵害、又没有造成不应有的危害，主张把基本相适应说与必需说结合起来判断。
+        pages: "319"
+
+  - id: zmk7-necessity-nature
+    work: zmk-xingfaxue-7
+    question: q-necessity-nature
+    pages: "333"
+    answer: justification
+    summary: >-
+      作者原则上把紧急避险作为违法阻却事由：避险通常以损害较小法益保护较大法益，从法益衡量看阻却违法；
+      不得已时损害与保护的法益价值相等，也没有造成法益侵害。只有以生命保护生命的避险，可能例外地只阻却责任。
+    reasons:
+      - 责任阻却事由说无法说明为无亲属关系的他人避险；若避险行为违法，对它就可以正当防卫，这不妥当。
+      - 刑法第 21 条第 1 款并没有把紧急避险限定为违法阻却事由，因此可以原则上阻却违法、例外地阻却责任。
+    reported:
+      - label: 责任阻却事由说
+        answer: excuse
+        summary: 避险行为侵害了法益，是违法的，但行为人别无选择、缺乏期待可能性，因而阻却责任。
+        pages: "333"
+      - label: 违法阻却事由说
+        answer: justification
+        summary: 法益冲突且别无他法时，权衡后损害较小的法益，阻却实质的违法性。
+        pages: "333"
+      - label: 二分说
+        answer: differentiated
+        summary: 分为原则上阻却违法的二分说（德国通说）与原则上阻却责任的二分说。
+        pages: "333"
+      - label: 以阻却违法为中心的三分说
+        answer: differentiated
+        summary: 保护了更优越的利益且无民法上的违法性时阻却违法；有民法上的违法性时阻却可罚的违法性；保护等值法益时阻却责任。
+        pages: "333"
+    editorNote: 作者的表述是「原则上采取违法阻却事由说，例外地承认责任阻却事由」，例外主要指生命对生命的避险。
+
+  - id: zmk7-life-vs-life
+    work: zmk-xingfaxue-7
+    question: q-life-vs-life
+    pages: "340-342"
+    answer: null
+    summary: >-
+      作者的初步看法是：所有人的生命等价，但要区分情形综合判断；对「不得已」的认定应极为严格。为保全生命而牺牲他人生命的避险，
+      有的情形阻却违法（如被牺牲者同意牺牲自己保护他人），其余情形可能只阻却责任。
+    reasons:
+      - 人的生命不能作为他人的手段，但这并不意味着在任何生命冲突中牺牲他人都具有违法性。
+    editorNote: 作者没有一概给出「正当化」或「免责」的结论，而是区分情形；具体情形见第 340—341 页。
+
+  - id: zmk7-consent
+    work: zmk-xingfaxue-7
+    question: q-consent
+    pages: "343-347"
+    answer: no-interest
+    summary: >-
+      作者把被害人承诺归入「因法益性的阙如阻却违法」的事由：被害人允许他人侵害其可以处分的法益，表明其放弃了该法益和对它的保护；
+      法律没有必要保护被放弃的法益，损害它的行为没有侵害法益，因而不违法。
+    reasons:
+      - 承诺须针对法益侵害的结果，只承诺行为而不承诺结果的，不能认为放弃了法益。
+      - 关于受骗承诺，作者采法益关系错误说：只有对所放弃法益的种类、范围、危险程度发生错误时承诺才无效；关于承诺的有无，采意思方向说。
+
+  - id: zmk7-pd-treatment
+    work: zmk-xingfaxue-7
+    question: q-pd-treatment
+    pages: "332, 422-423"
+    answer: negate-intent
+    summary: >-
+      作者认为，正当化事由的前提事实发生错误（如假想防卫）时，结论与限制责任说相同：行为人没有认识到不法事实，不成立故意；
+      假想防卫要么只成立过失犯罪，要么属于意外事件。
+    reasons:
+      - 故意是对不法事实的认识与容认；误以为存在正当防卫状况的人，没有认识到自己行为的不法事实。
+    reported:
+      - label: 消极的构成要件要素理论
+        answer: negate-intent
+        summary: 违法阻却事由是消极的构成要件要素，对其前提事实的错误就是构成要件的错误，阻却故意；作者指出此理论本身没有被多数人认可。
+        pages: "422"
+      - label: 严格责任说
+        answer: strict-culpability
+        summary: 正当化事由的错误是禁止的错误，不影响故意，只在不可避免时阻却责任。
+        pages: "422"
+      - label: 限制责任说
+        answer: negate-intent
+        summary: 正当化事由前提事实的错误是事实的错误，而不是禁止的错误。
+        pages: "422"
+    editorNote: 作者注明，这一观点与消极的构成要件要素理论没有实质区别（第 423 页脚注）。
+
+  - id: zmk7-tatbestand-function
+    work: zmk-xingfaxue-7
+    question: q-tatbestand-function
+    pages: "172-180"
+    answer: unrecht-type
+    summary: >-
+      作者基于违法类型说，认为只有表明违法行为类型的特征才属于构成要件；构成要件对大多数犯罪具有个别化机能，
+      故意、过失等是责任类型的要素，不是构成要件的要素。
+    reasons:
+      - 采结果无价值论，不主张由构成要件实现犯罪的个别化，而由「犯罪类型」实现。
+    reported:
+      - label: 违法类型说
+        answer: unrecht-type
+        summary: 构成要件是违法行为的类型，使构成要件与违法性的关系更为密切（麦茨格尔等）。
+        pages: "177"
+      - label: 违法有责类型说
+        answer: unrecht-schuld-type
+        summary: 构成要件既包括违法要素，也包括表明责任要素的故意与过失。
+        pages: "177"
+
+  - id: zmk7-negative-elements
+    work: zmk-xingfaxue-7
+    question: q-negative-elements
+    pages: "179-180, 423"
+    answer: "no"
+    summary: >-
+      作者没有采用消极的构成要件要素理论，但认为自己的观点与该理论似乎没有本质区别：该理论可以把正当化事由的前提事实错误（如假想防卫）
+      作为构成要件的错误处理，结论与作者相同；该理论是少数说，受到的批判是混淆了构成要件要素与正当化事由。
+    editorNote: 第 423 页脚注说，作者关于正当化事由错误的观点「与消极的构成要件要素理论没有实质区别」。
+
+  - id: zmk7-formal-material
+    work: zmk-xingfaxue-7
+    question: q-formal-material
+    pages: "180"
+    answer: material
+    summary: >-
+      作者认为，构成要件的违法类型性决定了必须对构成要件进行实质的解释：只有值得科处刑罚的法益侵害行为才符合构成要件；
+      实质解释并不违反罪刑法定原则，它在用语可能含义的范围内进行。
+    reasons:
+      - 构成要件是违法类型，解释时必须以保护法益为指导，排除不具有可罚违法性的行为。
+
+  - id: zmk7-causation-test
+    work: zmk-xingfaxue-7
+    question: q-causation-test
+    pages: "261-290"
+    answer: imputation
+    summary: >-
+      作者赞成「从存在论到规范论」的判断：先以条件关系确认事实上的因果关系，再作规范的结果归属；
+      对实行行为缺乏定型性的单纯结果犯（如故意杀人），运用客观归责理论解决因果关系与结果归属比较合适；
+      许多结果犯只要判断具体构成要件的符合性即可，因果关系已蕴含在构成要件的定型中。
+    reasons:
+      - 盗窃、诈骗等犯罪的构成要件本身要求对象的同一性，符合定型就能进行结果归属，不必逐一套用客观归责的规则。
+      - 结果加重犯要求「危险的直接性关联」这种更严格的归属；我国刑法在一些场合又存在「缓和的结果归属」。
+    editorNote: 作者在判断中也大量使用「行为危险的现实化」的表述（第 280—283 页）。
+
+  - id: zmk7-duty-source
+    work: zmk-xingfaxue-7
+    question: q-duty-source
+    pages: "222-233"
+    answer: functional
+    summary: >-
+      作者从实质上说明作为义务的来源，并赞成保证人地位与作为义务的一体说：只有应当阻止危险而未排除或控制既存危险的不作为，才与作为相当。
+      按不作为导致法益侵害的过程，作为义务分为三类：基于对危险源的支配产生的监督义务；法益处于无助状态、其保护具体依赖特定人时的保护义务；
+      基于对特定领域的支配产生的阻止义务。
+    reasons:
+      - 单纯事实上可以控制危险源还不足以产生作为义务。
+      - 「排他性支配设定」的实质仍然是法益存在紧迫的危险；没有紧迫危险就没有作为义务。
+
+  - id: zmk7-prior-conduct
+    work: zmk-xingfaxue-7
+    question: q-prior-conduct
+    pages: "227-229"
+    answer: yes-all
+    summary: >-
+      作者认为，只要先前行为制造了法益侵害的危险，就会成为作为义务的来源，不要求先前行为本身违反义务。
+      对正当防卫要分情形：防卫致人死亡也不过当，或伤害不可能导致死亡的，没有救助义务；防卫造成的伤害不过当但有导致死亡（从而过当）的紧迫危险时，应当肯定救助义务。
+    reasons:
+      - 德国否认正当防卫产生作为义务，是因为可以按「见危不救」罪处理；我国刑法没有规定这一犯罪，不能照搬。
+
+  - id: zmk7-corp-possible
+    work: zmk-xingfaxue-7
+    question: q-corp-possible
+    pages: "197-202"
+    answer: "yes"
+    summary: >-
+      我国刑法规定单位可以成为犯罪的行为主体；作者认为单位犯罪是在单位整体意志支配下实施的，单位意志不同于个人意志的简单相加，
+      并进一步认为国家机关事实上也完全可以实施犯罪。
+
+  - id: zmk7-corp-model
+    work: zmk-xingfaxue-7
+    question: q-corp-model
+    pages: "201-202"
+    answer: null
+    summary: >-
+      作者认为，可以把我国刑法关于单位犯罪的规定理解为同一视理论与组织模式理论的结合：在决定层面，以直接负责的主管人员的行为认定单位行为，
+      体现同一视理论；在具体实施层面，又反映出组织模式理论。同一视理论有利于处理单位经济犯罪，组织模式理论有利于处理单位公害犯罪。
+    reported:
+      - label: 同一视理论
+        answer: identification
+        summary: 把特定自然人（如单位的决策者）的犯罪视为单位犯罪，进而处罚单位。
+        pages: "201"
+    editorNote: 作者是对我国刑法规定的解读，没有在两种理论中只选其一，所以不归入单一答案。

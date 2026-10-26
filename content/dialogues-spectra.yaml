@@ -1,0 +1,420 @@
+# 学者对话与学术光谱
+# 光谱上的每一个位置都是「编者定位」——解释性判断，而非事实陈述。
+
+dialogues:
+  - id: dlg-de-personal-unrecht
+    title: 人的不法论与新古典体系（Welzel × Mezger）
+    concept: wrongfulness-essence
+    jurisdictions: [de]
+    summary: 故意属于不法还是责任？这场争论决定了德国犯罪论体系此后半个世纪的走向。
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: mezger
+        work: w-mezger-1924
+        year: 1924
+        claim: 违法是对客观事态的否定评价，以评价规范为基准；主观违法要素只是例外，存在于目的犯等少数场合。
+      - id: t2
+        scholar: welzel
+        work: w-welzel-1939
+        year: 1939
+        respondsTo: t1
+        claim: 行为是目的性的活动，故意是行为的核心。不法不是与行为人分离的结果惹起，而是「人的」不法；行为无价值是一切犯罪不法的要素。
+      - id: t3
+        scholar: mezger
+        work: w-mezger-1950
+        year: 1950
+        respondsTo: t2
+        claim: 目的行为论难以说明过失犯（过失行为并没有指向结果的目的）与不作为犯，新古典体系的基本构造应当维持。
+
+  - id: dlg-de-monism
+    title: 一元论与二元论（Kaufmann、Zielinski × Gallas）
+    concept: wrongfulness-essence
+    jurisdictions: [de]
+    summary: 人的不法论内部的分裂：结果究竟是不是不法的组成部分？
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: armin-kaufmann
+        work: w-kaufmann-1954
+        year: 1954
+        claim: 规范只能命令或禁止人的意思活动，不能命令结果的发生；因此规范违反、也就是不法，只能存在于行为之中。
+      - id: t2
+        scholar: zielinski
+        work: w-zielinski-1973
+        year: 1973
+        respondsTo: t1
+        claim: 结果是否发生取决于偶然，对不法毫无贡献，只是客观处罚条件。未遂与既遂的不法完全相同。
+      - id: t3
+        scholar: gallas
+        work: w-gallas-1979
+        year: 1979
+        respondsTo: t2
+        claim: 刑法以保护法益为目的，结果无价值是不法的独立组成部分；一元论无法说明既遂与未遂在法定刑上的差别。
+
+  - id: dlg-jp-hirano-dando
+    title: 道义的违法观与结果无价值论（团藤 × 平野 × 山口 × 井田）
+    concept: wrongfulness-essence
+    jurisdictions: [jp]
+    summary: 日本战后违法论的主轴：刑法应否维护伦理？违法判断应当事前还是事后？
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: dando
+        work: w-dando-1957
+        year: 1957
+        claim: 违法是对法秩序（含社会伦理规范）的违反；行为无价值处于违法判断的中心。
+      - id: t2
+        scholar: hirano
+        work: w-hirano-1972
+        year: 1972
+        respondsTo: t1
+        claim: 刑法不应维护伦理本身；违法的实质是法益侵害或危险。以「道义」充实违法，会导致刑法的伦理化与主观化。
+      - id: t3
+        scholar: yamaguchi
+        work: w-yamaguchi-2001
+        year: 2001
+        respondsTo: t2
+        claim: 违法判断应以事后查明的客观事实为基础；把行为人的故意放进违法，会使违法失去客观性。
+      - id: t4
+        scholar: ida
+        work: w-ida-2005
+        year: 2005
+        respondsTo: t3
+        claim: 刑法通过面向行为时一般人的行为规范来保护法益，因此违法判断不能完全事后化；二元论更能说明故意犯与过失犯在不法上的差异。
+
+  - id: dlg-cn-zhang-zhou
+    title: 中国大陆的行为无价值与结果无价值之争（张明楷 × 周光权）
+    concept: wrongfulness-essence
+    jurisdictions: [cn]
+    summary: 2000 年代以来中国刑法学最重要的立场之争，几乎波及总论的每一个问题。
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: zhang-mingkai
+        work: w-zhang-2002
+        year: 2002
+        claim: 刑法的基本立场应是结果无价值论：违法的本质是法益侵害；伦理不是刑法的保护对象。
+      - id: t2
+        scholar: zhou-guangquan
+        work: w-zhou-2008
+        year: 2008
+        respondsTo: t1
+        claim: 违法判断不能只看结果；行为人对行为规范的违反同样是不法的核心，在中国语境中更应重视行为规范的指引功能。
+      - id: t3
+        scholar: zhang-mingkai
+        work: w-zhang-2009
+        year: 2009
+        respondsTo: t2
+        claim: 行为无价值论会导致处罚范围扩大与刑法的伦理化；故意、过失应归入责任。
+      - id: t4
+        scholar: zhou-guangquan
+        work: w-zhou-2012
+        year: 2012
+        respondsTo: t3
+        claim: 「新行为无价值论」以法益保护为前提，行为规范服务于法益保护，因而不会导致刑法的伦理化。
+      - id: t5
+        scholar: zhang-mingkai
+        work: w-zhang-2012
+        year: 2012
+        respondsTo: t4
+        claim: 逐一比较两种立场在各个具体问题上的结论，坚持结果无价值论更为协调。
+
+  - id: dlg-cl-robinson-fletcher
+    title: 正当化是行为还是理由（Robinson × Fletcher）
+    concept: unknowingly-justified-actor
+    jurisdictions: [us, uk-ew]
+    summary: 英美法上关于 Dadson 案的经典论战，与大陆法的偶然防卫之争功能对应。
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: robinson
+        work: w-robinson-1975
+        year: 1975
+        claim: 正当化取决于客观上有无社会危害（deeds）。不知情的正当化行为人没有造成不法的危害，只能按未遂处罚。
+      - id: t2
+        scholar: fletcher
+        work: w-fletcher-1975
+        year: 1975
+        respondsTo: t1
+        claim: 正当化要求行为人基于正当化的理由而行动；「为了错误理由做对的事」不能被正当化，Dadson 案的结论是对的。
+      - id: t3
+        scholar: jc-smith
+        work: w-smith-1989
+        year: 1989
+        respondsTo: t2
+        claim: 在客观上已经正当化的场合，至多应论以未遂。
+      - id: t4
+        scholar: gardner
+        work: w-gardner-1996
+        year: 1996
+        respondsTo: t1
+        claim: 被正当化的行为必须是基于使之正当的理由而实施的；正当化与行为人的理由不可分离。
+
+  - id: dlg-cl-results
+    title: 结果重要吗（Ashworth × Duff × Moore）
+    concept: cl-subjectivism
+    jurisdictions: [uk-ew, us]
+    summary: 道德运气问题：既遂与未遂应否区别对待？
+    needsSource: true
+    turns:
+      - id: t1
+        scholar: ashworth
+        work: w-ashworth-1993
+        year: 1993
+        claim: 结果是否发生取决于运气；刑事责任应以行为人能够控制的东西为准。
+      - id: t2
+        scholar: duff
+        work: w-duff-1996
+        year: 1996
+        respondsTo: t1
+        claim: 行为人所做之事包括他在世界中造成的改变；未遂与既遂在不法上确有不同。
+      - id: t3
+        scholar: moore
+        work: w-moore-1997
+        year: 1997
+        respondsTo: t1
+        claim: 实际造成伤害的人比只是试图造成伤害的人更值得责难；结果具有独立的道德意义。
+      - id: t4
+        scholar: alexander
+        work: w-alexander-ferzan-2009
+        year: 2009
+        respondsTo: t3
+        claim: 刑事责任只取决于可责的选择；结果、乃至未遂与既遂的区分，都不应影响刑罚。
+
+spectra:
+  - id: sp-unrecht
+    title: 不法的重心：结果无价值 ↔ 行为无价值
+    concept: wrongfulness-essence
+    description: 横轴表示不法的重心更靠近结果（法益侵害）还是行为（规范违反）。「法域」点表示该法域通说的大致位置。打开「叠加英美」后，英美学者会按功能对应被放到这条轴上，这是编者的跨法系类比，仅供参照。
+    axes:
+      - id: x
+        label: 不法的重心
+        left: 结果无价值（法益侵害）
+        right: 行为无价值（规范违反）
+    placements:
+      # ---- 德国 ----
+      - entity: scholar:liszt
+        x: 0.12
+        year: 1881
+        rationale: 古典体系：违法客观、责任主观；实质违法即法益侵害。
+      - entity: scholar:beling
+        x: 0.15
+        year: 1906
+        rationale: 客观、价值中立的构成要件；主观要素一律属于责任。
+      - entity: scholar:mezger
+        x: 0.32
+        year: 1924
+        rationale: 承认主观违法要素，但只是例外；违法以评价规范为基准。
+      - entity: scholar:welzel
+        x: 0.78
+        year: 1939
+        rationale: 人的不法论：故意属于不法，行为无价值是一切不法的要素。
+      - entity: scholar:armin-kaufmann
+        x: 0.92
+        year: 1954
+        rationale: 规范只能命令行为；为一元论奠定规范论基础。
+      - entity: scholar:jescheck
+        x: 0.6
+        year: 1969
+        rationale: 二元论通说的教科书表述。
+      - entity: scholar:roxin
+        x: 0.55
+        year: 1970
+        rationale: 不法构造二元，但以法益保护为刑法任务，重心较 Welzel 更偏向结果一侧。
+        needsSource: true
+      - entity: scholar:zielinski
+        x: 0.98
+        year: 1973
+        rationale: 结果只是客观处罚条件——行为无价值一元论最彻底的表述。
+      - entity: scholar:gallas
+        x: 0.6
+        year: 1979
+        rationale: 以二元论批判一元论。
+      - entity: scholar:jakobs
+        x: 0.7
+        year: 1983
+        rationale: 不法是对规范效力的否认；虽非 Welzel 意义上的人的不法论，但重心在规范违反一侧。
+        needsSource: true
+      - entity: jurisdiction:de
+        x: 0.35
+        year: 1930
+        rationale: 新古典体系时期的通说：客观违法论为主，例外承认主观违法要素。
+      - entity: jurisdiction:de
+        x: 0.6
+        year: 1970
+        rationale: 二元的人的不法论成为通说。
+      # ---- 日本 ----
+      - entity: scholar:ono-seiichiro
+        x: 0.75
+        year: 1953
+        rationale: 以违反国家的道义（文化规范）理解违法的实质。
+      - entity: scholar:dando
+        x: 0.7
+        year: 1957
+        rationale: 行为无价值处于违法判断的中心，带有伦理色彩。
+      - entity: scholar:hirano
+        x: 0.15
+        year: 1972
+        rationale: 违法的实质是法益侵害或危险；故意原则上属于责任。
+      - entity: scholar:maeda
+        x: 0.2
+        year: 1988
+        rationale: 实质的犯罪论，以结果无价值为基础。
+        needsSource: true
+      - entity: scholar:yamaguchi
+        x: 0.08
+        year: 2001
+        rationale: 违法判断以事后查明的客观事实为基础。
+      - entity: scholar:ida
+        x: 0.6
+        year: 2005
+        rationale: 以规范论为基础的二元论。
+      - entity: scholar:nishida
+        x: 0.12
+        year: 2006
+        rationale: 结果无价值论。
+        needsSource: true
+      - entity: jurisdiction:jp
+        x: 0.7
+        year: 1960
+        rationale: 战后初期行为无价值论占优。
+      - entity: jurisdiction:jp
+        x: 0.35
+        year: 1990
+        rationale: 平野之后，结果无价值论成为有力说乃至多数说。
+        needsSource: true
+      - entity: jurisdiction:jp
+        x: 0.4
+        year: 2015
+        rationale: 两说长期对峙，二元论在规范论上重新获得支持。
+        needsSource: true
+      # ---- 台湾地区 ----
+      - entity: scholar:hsu-yuhsiu
+        x: 0.55
+        year: 1997
+        rationale: 在主观不法与客观归责之间寻求平衡。
+        needsSource: true
+      - entity: scholar:huang-rongjian
+        x: 0.2
+        year: 2003
+        rationale: 以法益保护为中心建构体系。
+        needsSource: true
+      # ---- 中国大陆 ----
+      - entity: scholar:zhang-mingkai
+        x: 0.1
+        year: 2002
+        rationale: 明确以结果无价值论为刑法的基本立场。
+      - entity: scholar:zhou-guangquan
+        x: 0.65
+        year: 2008
+        rationale: 提倡行为无价值论，重视行为规范的指引功能。
+        needsSource: true
+      - entity: scholar:zhou-guangquan
+        x: 0.55
+        year: 2012
+        rationale: 「新行为无价值论」以法益保护为前提，较此前更靠近结果一侧。
+        needsSource: true
+      - entity: scholar:li-hong
+        x: 0.15
+        year: 2007
+        rationale: 结果无价值论。
+        needsSource: true
+      - entity: jurisdiction:cn
+        x: 0.4
+        year: 2015
+        rationale: 去苏俄化之后，两说在学界形成对峙。
+        needsSource: true
+      # ---- 英美（叠加）----
+      - entity: scholar:ashworth
+        x: 0.8
+        year: 1993
+        overlay: true
+        rationale: 主观主义否认结果的意义，在「结果是否构成不法」这一点上接近行为无价值一侧。这是跨法系类比。
+      - entity: scholar:duff
+        x: 0.45
+        year: 1996
+        overlay: true
+        rationale: 承认结果与行为的外在性质对不法的意义，结构上接近二元论。这是跨法系类比。
+      - entity: scholar:moore
+        x: 0.3
+        year: 1997
+        overlay: true
+        rationale: 结果具有独立的道德意义，接近结果无价值一侧。这是跨法系类比。
+      - entity: scholar:alexander
+        x: 0.97
+        year: 2009
+        overlay: true
+        rationale: culpability-only：结果完全无关，结构上接近一元行为无价值论。这是跨法系类比。
+      - entity: scholar:ferzan
+        x: 0.97
+        year: 2009
+        overlay: true
+        rationale: 同 Alexander。
+
+  - id: sp-cl
+    title: 刑事责任的根据：主观主义 ↔ 客观主义（英美）
+    concept: cl-subjectivism
+    description: 横轴表示刑事责任更取决于行为人的内心，还是外在行为与结果。「法域」点表示该法域立法与判例的大致位置。
+    axes:
+      - id: x
+        label: 刑事责任的根据
+        left: 主观主义
+        right: 客观主义
+    placements:
+      - entity: scholar:holmes
+        x: 0.85
+        year: 1881
+        rationale: 外部标准：以一般人的预见为准，而非行为人实际的心态。
+      - entity: scholar:glanville-williams
+        x: 0.15
+        year: 1953
+        rationale: 以意图、认识与鲁莽为中心的主观主义。
+      - entity: scholar:wechsler
+        x: 0.2
+        year: 1962
+        rationale: 《模范刑法典》以行为人的认识与信念为中心。
+      - entity: scholar:robinson
+        x: 0.6
+        year: 1975
+        rationale: 正当化的行为说：以客观上有无社会危害为准。
+      - entity: scholar:fletcher
+        x: 0.65
+        year: 1978
+        rationale: 「显现的犯罪性」模式；但在正当化问题上持理由说。
+      - entity: scholar:jc-smith
+        x: 0.2
+        year: 1989
+        rationale: 主观主义。
+      - entity: scholar:ashworth
+        x: 0.12
+        year: 1993
+        rationale: 结果是运气，不应影响责任。
+      - entity: scholar:duff
+        x: 0.72
+        year: 1996
+        rationale: 未遂论中的客观主义。
+      - entity: scholar:moore
+        x: 0.7
+        year: 1997
+        rationale: 结果具有独立的道德意义。
+      - entity: scholar:alexander
+        x: 0.03
+        year: 2009
+        rationale: 只有可责的选择才重要。
+      - entity: scholar:ferzan
+        x: 0.03
+        year: 2009
+        rationale: 同 Alexander。
+      - entity: jurisdiction:uk-ew
+        x: 0.55
+        year: 1975
+        rationale: Haughton v Smith：普通法在不能未遂问题上限制处罚。
+      - entity: jurisdiction:uk-ew
+        x: 0.2
+        year: 1986
+        rationale: Criminal Attempts Act 1981 与 R v Shivpuri：全面主观化。
+      - entity: jurisdiction:us
+        x: 0.25
+        year: 1962
+        rationale: 《模范刑法典》的主观主义取向。

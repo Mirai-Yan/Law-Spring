@@ -1,0 +1,92 @@
+# 学说（根据论层面的立场）
+# 一个学说 = 某个根据论问题上的一个答案，加上它的核心命题与代表学者。
+
+theories:
+  - id: result-disvalue
+    name: 结果无价值论
+    original:
+      de: Erfolgsunwertlehre
+      ja: 結果無価値論
+    question: q-unrecht-core
+    answer: result
+    thesis: >-
+      违法性的实质是法益侵害或其危险。行为人的故意、动机等主观要素原则上不影响违法，而属于责任。
+      刑法的任务限于法益保护，不应以维护伦理为目的。在日本由 [[scholar:hirano]] 奠基，中国大陆以 [[scholar:zhang-mingkai]] 为代表。
+    proponents: [hirano, maeda, yamaguchi, nishida, zhang-mingkai, li-hong]
+    jurisdictions: [jp, cn]
+    needsSource: true
+    editorNote: 代表学者名单为编者归纳，需逐一核实。
+
+  - id: dual-act-disvalue
+    name: 二元行为无价值论
+    original:
+      de: dualistische personale Unrechtslehre
+      ja: 二元的行為無価値論
+    question: q-unrecht-core
+    answer: dual
+    thesis: >-
+      不法由行为无价值（行为对行为规范的违反，包括故意等主观要素）与结果无价值（法益侵害或危险）共同构成。
+      它从 [[scholar:welzel]] 的人的不法论发展而来，是德国的通说。
+    proponents: [welzel, jescheck, roxin, gallas, dando, otsuka, ida, zhou-guangquan]
+    jurisdictions: [de, jp, tw, cn]
+    needsSource: true
+    editorNote: Welzel 本人是否应归入「二元论」有争议（他是人的不法论的创立者，一元论出自其门下）；Roxin 的体系以目的理性为特征，归入二元论是就其不法构造而言。
+
+  - id: monist-act-disvalue
+    name: 一元行为无价值论
+    original:
+      de: monistisch-subjektive (personale) Unrechtslehre
+      ja: 一元的行為無価値論
+    question: q-unrecht-core
+    answer: monist-act
+    thesis: >-
+      不法仅由行为无价值构成。规范只能命令或禁止行为，不能命令结果；结果是否发生取决于偶然，因此只是客观处罚条件。
+      代表是 [[scholar:armin-kaufmann]] 与 [[scholar:zielinski]]。
+    proponents: [armin-kaufmann, zielinski]
+    jurisdictions: [de]
+
+  - id: norm-violation
+    name: 规范违反说
+    original:
+      ja: 規範違反説
+    question: q-task
+    answer: ethic
+    thesis: >-
+      违法的实质是违反法秩序背后的社会伦理规范（国家的道义、文化规范）；法益侵害只是违法的一个方面。
+      这是日本战前到战后初期的有力说，代表是 [[scholar:ono-seiichiro]] 与 [[scholar:dando]]。
+    proponents: [ono-seiichiro, dando]
+    jurisdictions: [jp]
+    needsSource: true
+
+  - id: rechtsgut-protection
+    name: 法益保护主义
+    original:
+      de: Rechtsgüterschutzprinzip
+      ja: 法益保護主義
+    question: q-task
+    answer: rechtsgut
+    thesis: 刑法的任务是保护法益，而不是维护道德或伦理本身。它被结果无价值论与多数二元论者共同接受；两者的分歧在于违法评价的对象，而不在于刑法的任务。
+    proponents: [roxin, hirano, zhang-mingkai]
+    jurisdictions: [de, jp, cn]
+
+  - id: cl-subjectivism
+    name: 主观主义（英美）
+    original:
+      en: subjectivism
+    question: q-cl-basis
+    answer: subjectivism
+    thesis: 刑事责任应当取决于行为人在行为时的意图、认识与信念，而不是行为人无法控制的外在情况和实际结果。
+    proponents: [glanville-williams, jc-smith, ashworth, wechsler, alexander, ferzan]
+    jurisdictions: [uk-ew, us]
+
+  - id: cl-objectivism
+    name: 客观主义（英美）
+    original:
+      en: objectivism
+    question: q-cl-basis
+    answer: objectivism
+    thesis: 外在行为与实际结果本身就是不法的一部分；刑法应当回应「行为人实际做了什么」，而不只是他想做什么。
+    proponents: [holmes, fletcher, duff, moore]
+    jurisdictions: [uk-ew, us]
+    needsSource: true
+    editorNote: Holmes 的「外部标准」与 Fletcher、Duff 的客观主义动机不同，归为一类只是就其结论倾向而言。

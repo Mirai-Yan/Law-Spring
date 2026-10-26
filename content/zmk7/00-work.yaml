@@ -1,0 +1,11 @@
+# 张明楷《刑法学》（第七版）：据此书整理的教科书论述、罪名卡片与新专题都放在本目录。
+# 只写编者的概括并标注印刷页码；原文锚点在 content/_private/anchors.yaml（不提交、不发布）。
+works:
+  - id: zmk-xingfaxue-7
+    title: 刑法学（第七版）
+    authors: [zhang-mingkai]
+    year: 2026
+    type: textbook
+    jurisdiction: cn
+    venue: 法律出版社
+    editorNote: 全四册，2026 年 1 月第 7 版；版本信息取自本书版权页（CIP 数据）。

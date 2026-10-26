@@ -1,0 +1,355 @@
+# 未遂与不能犯、主观的违法要素、过失犯的构造、英美的不能未遂
+
+questions:
+  # ---------------- 未遂与不能犯 ----------------
+  - id: q-attempt-basis
+    concept: impossible-attempt
+    text: 未遂犯的处罚根据是什么？
+    level: foundation
+    aliases:
+      - 未遂犯的处罚根据
+      - 未遂 处罚根据
+      - 主观未遂论
+      - 客观未遂论
+      - 印象说
+      - 为什么处罚未遂
+    answers:
+      - id: objective
+        label: 客观说（法益侵害的危险）
+      - id: subjective
+        label: 主观说（行为人敌对法的意思）
+      - id: impression
+        label: 印象说（动摇一般人对法秩序的信赖）
+
+  - id: q-danger-standard
+    concept: impossible-attempt
+    text: 未遂所要求的危险应如何判断？
+    level: intermediate
+    aliases:
+      - 具体危险说
+      - 客观危险说
+      - 修正的客观危险说
+      - 抽象危险说
+      - 危险的判断基准
+      - 不能犯的判断标准
+    answers:
+      - id: concrete
+        label: 具体危险说
+        summary: 以行为时一般人能认识的事实，以及行为人特别认识到的事实为基础，从一般人的立场判断有无危险。
+      - id: objective
+        label: （修正的）客观危险说
+        summary: 以事后查明的客观事实为基础，考察结果发生的（假定的）可能性。
+      - id: abstract
+        label: 抽象危险说
+        summary: 以行为人所认识的事实为基础，从一般人的立场判断有无危险。
+
+  - id: q-empty-bed
+    concept: impossible-attempt
+    text: 「向空床开枪」（被害人恰好不在床上）应成立杀人未遂，还是不可罚的不能犯？
+    level: applied
+    aliases:
+      - 空床开枪
+      - 向空床射击
+      - 不能犯怎么处理
+      - 不能犯与未遂的区别
+      - 白糖杀人
+      - 不能犯
+    answers:
+      - id: attempt
+        label: 杀人未遂
+      - id: impossible
+        label: 不能犯（不可罚）
+
+  # ---------------- 主观的违法要素 ----------------
+  - id: q-su-exists
+    concept: subjective-unrecht
+    text: 是否承认主观的违法要素？范围有多大？
+    level: intermediate
+    aliases:
+      - 主观的违法要素
+      - 主观违法要素
+      - 目的犯的目的是违法要素吗
+      - 倾向犯
+      - 表现犯
+    answers:
+      - id: broad
+        label: 广泛承认
+        summary: 包括一般的故意在内，主观要素可以是不法的组成部分。
+      - id: limited
+        label: 仅例外承认
+        summary: 只承认目的犯的目的等「超过的主观要素」。
+      - id: none
+        label: 全面否认
+        summary: 一切主观要素都归入责任。
+
+  - id: q-intent-position
+    concept: subjective-unrecht
+    text: 故意属于不法（构成要件）要素，还是责任要素？
+    level: intermediate
+    aliases:
+      - 故意的体系地位
+      - 故意是构成要件要素吗
+      - 故意是责任要素吗
+      - 故意的双重地位
+    answers:
+      - id: unrecht
+        label: 不法（构成要件）要素
+      - id: schuld
+        label: 责任要素
+      - id: double
+        label: 双重地位
+        summary: 既是构成要件（不法）要素，也是责任要素。
+
+  - id: q-attempt-intent
+    concept: subjective-unrecht
+    text: 未遂犯中的故意是违法要素吗？
+    level: intermediate
+    aliases:
+      - 未遂犯的故意
+      - 未遂 故意 主观违法要素
+    answers:
+      - id: "yes"
+        label: 是
+        summary: 不知道行为人想做什么，就无法判断未遂的危险。
+      - id: "no"
+        label: 否
+        summary: 危险可以客观地判断，故意只是责任要素。
+
+  # ---------------- 过失犯 ----------------
+  - id: q-neg-structure
+    concept: negligence-structure
+    text: 过失犯的不法核心是什么？
+    level: intermediate
+    aliases:
+      - 旧过失论
+      - 新过失论
+      - 新新过失论
+      - 危惧感说
+      - 过失犯的结构
+      - 结果回避义务
+      - 结果预见可能性
+    answers:
+      - id: old
+        label: 旧过失论
+        summary: 以结果预见可能性为核心；过失首先是责任形式。
+      - id: new
+        label: 新过失论
+        summary: 以客观注意义务（结果回避义务）的违反为核心；过失也是不法要素。
+      - id: uneasiness
+        label: 新新过失论（危惧感说）
+        summary: 只要对危险有不能忽视的危惧感，就产生结果回避义务。
+
+  - id: q-neg-standard
+    concept: negligence-structure
+    text: 过失的注意义务以一般人还是行为人本人的能力为标准？
+    level: applied
+    aliases:
+      - 注意义务的标准
+      - 过失 一般人标准
+      - 个别化标准
+      - 行为人标准说
+    answers:
+      - id: objective
+        label: 一般人（客观）标准
+      - id: individual
+        label: 行为人（个别化）标准
+      - id: two-step
+        label: 不法阶层用客观标准，责任阶层用个别标准
+
+  # ---------------- 英美 ----------------
+  - id: q-cl-impossible
+    concept: impossible-attempt-cl
+    text: 不能未遂（impossible attempts）应否处罚？
+    level: applied
+    aliases:
+      - impossible attempts
+      - 英美法上的不能犯
+      - Shivpuri
+      - 法律不能 事实不能
+      - Anderton v Ryan
+    answers:
+      - id: punish
+        label: 应当处罚（以行为人所认识的事实为准）
+      - id: distinguish
+        label: 区分事实不能（可罚）与法律不能（不可罚）
+      - id: not-punish
+        label: 不应处罚
+
+prerequisites:
+  # ---- 未遂 ----
+  - question: q-attempt-basis
+    requires: q-unrecht-core
+    kind: foundational
+    why: 未遂是「结果没有发生」的犯罪；为什么处罚它，直接取决于不法的重心在结果还是在行为。
+    branches:
+      - answer: result
+        leadsTo: 未遂的不法只能是法益侵害的危险 → 客观说。
+      - answer: dual
+        leadsTo: 行为无价值已经具备，结果无价值以危险的形式存在 → 印象说或客观说（具体危险说）。
+      - answer: monist-act
+        leadsTo: 未遂与既遂的不法完全相同 → 主观说。
+
+  - question: q-danger-standard
+    requires: q-attempt-basis
+    kind: logical
+    why: 只有先确定未遂处罚的是「危险」，才需要追问危险怎么判断。
+    branches:
+      - answer: objective
+        leadsTo: 客观危险说，或以一般人视角修正的具体危险说。
+      - answer: subjective
+        leadsTo: 抽象危险说，乃至纯粹的主观说（只排除迷信犯）。
+      - answer: impression
+        leadsTo: 以一般人是否感受到法秩序被动摇为准 → 接近具体危险说。
+
+  - question: q-danger-standard
+    requires: q-norm-type
+    kind: foundational
+    why: 危险是「事前」判断还是「事后」判断，取决于违法评价是面向行为时的行为规范，还是对客观事态的事后评价。
+    branches:
+      - answer: determination
+        leadsTo: 行为规范面向行为时的一般人，危险应事前判断 → 具体危险说。
+      - answer: evaluation
+        leadsTo: 违法是对客观事态的事后评价 → 客观危险说。
+      - answer: both
+        leadsTo: 以事前判断为主，同时考虑事后查明的部分事实。
+
+  - question: q-empty-bed
+    requires: q-danger-standard
+    kind: logical
+    why: 「空床开枪」是否有危险，完全取决于用什么标准判断危险。
+    branches:
+      - answer: concrete
+        leadsTo: 行为时一般人看来，被害人可能就在床上，有危险 → 未遂。
+      - answer: objective
+        leadsTo: 事后看来被害人不在，结果不可能发生；修正的客观危险说会进一步追问「被害人当时在床上的假定可能性」，结论视具体情况而定。
+      - answer: abstract
+        leadsTo: 依行为人的认识（以为人在床上），一般人看来有危险 → 未遂。
+
+  # ---- 主观的违法要素 ----
+  - question: q-su-exists
+    requires: q-objective-wrong
+    kind: foundational
+    why: 主观违法要素首先挑战的是「违法是客观的」这一命题。
+    branches:
+      - answer: objective
+        leadsTo: 古典的客观违法论原本否认主观违法要素；主观违法要素被发现后，客观违法论被迫修正为「违法判断的标准客观，对象可以包含主观要素」。
+      - answer: subjective
+        leadsTo: 违法与责任不分，主观要素自然影响违法，但「主观违法要素」这一概念不再有独立意义。
+
+  - question: q-su-exists
+    requires: q-unrecht-core
+    kind: foundational
+    why: 不法包含多少主观要素，取决于不法的重心在哪里。
+    branches:
+      - answer: result
+        leadsTo: 只在少数场合（如目的犯）例外承认，或全面否认。
+      - answer: dual
+        leadsTo: 故意、过失等都是不法的组成部分 → 广泛承认。
+      - answer: monist-act
+        leadsTo: 不法的核心就是主观的行为意思 → 广泛承认。
+
+  - question: q-intent-position
+    requires: q-su-exists
+    kind: logical
+    why: 故意能否放进不法阶层，要看是否承认（一般性的）主观违法要素。
+    branches:
+      - answer: broad
+        leadsTo: 故意是主观的不法要素。
+      - answer: limited
+        leadsTo: 故意仍是责任要素，只例外承认超过的主观要素。
+      - answer: none
+        leadsTo: 故意是责任要素。
+
+  - question: q-intent-position
+    requires: q-unrecht-core
+    kind: foundational
+    why: 故意是否改变「行为的不法」，正是结果无价值与行为无价值分歧之处。
+    branches:
+      - answer: result
+        leadsTo: 故意不影响法益侵害 → 原则上是责任要素。
+      - answer: dual
+        leadsTo: 故意决定行为无价值 → 构成要件故意；同时作为故意责任 → 双重地位。
+      - answer: monist-act
+        leadsTo: 故意是不法的核心 → 不法要素。
+
+  - question: q-attempt-intent
+    requires: q-su-exists
+    kind: logical
+    why: 未遂犯的故意是主观违法要素中最常被讨论、也最难否认的一种。
+    branches:
+      - answer: broad
+        leadsTo: 当然是违法要素。
+      - answer: limited
+        leadsTo: 有学者把它作为例外承认的主观违法要素之一，也有学者否认。
+      - answer: none
+        leadsTo: 不是；未遂的危险要客观地判断。
+
+  - question: q-attempt-intent
+    requires: q-attempt-basis
+    kind: foundational
+    why: 未遂处罚的是危险还是意思，决定了故意在未遂不法中的地位。
+    branches:
+      - answer: objective
+        leadsTo: 以客观危险为准；有学者仍承认故意是危险判断的基础（不知道行为计划就无法判断危险），也有学者否认。
+      - answer: subjective
+        leadsTo: 故意是未遂不法的核心。
+      - answer: impression
+        leadsTo: 动摇法秩序的印象来自行为人的意思 → 是违法要素。
+
+  # ---- 过失犯 ----
+  - question: q-neg-structure
+    requires: q-unrecht-core
+    kind: foundational
+    why: 过失犯与故意犯在不法上是否不同，取决于不法是否包含行为本身的规范违反。
+    branches:
+      - answer: result
+        leadsTo: 过失犯与故意犯的不法相同，都是法益侵害；区别只在责任 → 旧过失论（或修正的旧过失论）。
+      - answer: dual
+        leadsTo: 过失犯的不法在于违反客观注意义务的行为 → 新过失论。
+      - answer: monist-act
+        leadsTo: 注意义务的违反本身就是过失不法的全部 → 新过失论。
+
+  - question: q-neg-structure
+    requires: q-norm-type
+    kind: foundational
+    why: 注意义务是否为不法要素，取决于是否把刑法规范理解为面向一般人的行为规范。
+    branches:
+      - answer: determination
+        leadsTo: 注意义务就是面向一般人的行为规范 → 新过失论。
+      - answer: evaluation
+        leadsTo: 违法是对结果的评价，注意义务属于责任 → 旧过失论。
+      - answer: both
+        leadsTo: 不法阶层判断客观的注意义务违反，责任阶层判断个人的预见可能性。
+
+  - question: q-neg-standard
+    requires: q-neg-structure
+    kind: logical
+    why: 注意义务的标准放在哪一阶层、以谁为准，取决于过失犯的构造。
+    branches:
+      - answer: old
+        leadsTo: 过失是责任问题，以行为人本人的预见能力为准。
+      - answer: new
+        leadsTo: 不法阶层以一般人的注意义务为准，个人能力留到责任阶层 → 二阶段判断。
+      - answer: uneasiness
+        leadsTo: 以一般人能否产生危惧感为准。
+
+  # ---- 英美 ----
+  - question: q-cl-impossible
+    requires: q-cl-basis
+    kind: foundational
+    why: 不能未遂之所以成为问题，正是因为客观上不存在任何危险，只剩下行为人的意图。
+    branches:
+      - answer: subjectivism
+        leadsTo: 以行为人所相信的事实来判断，不能未遂与普通未遂同样可罚（Criminal Attempts Act 1981 s.1(3)、MPC §5.01 的路径）。
+      - answer: objectivism
+        leadsTo: 要求行为在客观上具有某种危险或「显现的」不法外观，至少部分不能未遂不可罚。
+
+  - question: q-cl-impossible
+    requires: q-cl-result-relevance
+    kind: logical
+    why: 如果结果对责任毫无意义，未遂与既遂、可能未遂与不能未遂之间就没有原则区别。
+    branches:
+      - answer: irrelevant
+        leadsTo: 不能未遂与可能未遂的可责性相同 → 应当处罚。
+      - answer: relevant
+        leadsTo: 与世界的实际「接触」影响不法 → 倾向区分对待。

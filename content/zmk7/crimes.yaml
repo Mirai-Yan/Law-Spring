@@ -1,0 +1,5124 @@
+# 罪名卡片：罪名、分则章节与页码取自张明楷《刑法学》（第七版）的标题结构；
+# 条文号、保护法益、要件要点为编者概括（不是原文），全部待核实。由 build_crimes.py 生成。
+crimes:
+- id: crime-001
+  name: 背叛国家罪
+  chapter: 危害国家安全罪
+  section: 危害国家、颠覆政权的犯罪
+  article: 第102条
+  elements:
+  - 勾结外国或与境外机构、组织、个人相勾结，危害国家的主权、领土完整和安全。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1014'
+- id: crime-002
+  name: 分裂国家罪
+  chapter: 危害国家安全罪
+  section: 危害国家、颠覆政权的犯罪
+  article: 第103条
+  elements:
+  - 组织、策划、实施分裂国家、破坏国家统一。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1014-1015
+- id: crime-003
+  name: 煽动分裂国家罪
+  chapter: 危害国家安全罪
+  section: 危害国家、颠覆政权的犯罪
+  article: 第103条
+  elements:
+  - 煽动分裂国家、破坏国家统一。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1015-1016
+- id: crime-004
+  name: 武装叛乱、暴乱罪
+  chapter: 危害国家安全罪
+  section: 危害国家、颠覆政权的犯罪
+  article: 第104条
+  elements:
+  - 组织、策划、实施武装叛乱或者武装暴乱。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1016'
+- id: crime-005
+  name: 颠覆国家政权罪
+  chapter: 危害国家安全罪
+  section: 危害国家、颠覆政权的犯罪
+  article: 第105条
+  elements:
+  - 组织、策划、实施颠覆国家政权、推翻社会主义制度。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1016-1017
+- id: crime-006
+  name: 煽动颠覆国家政权罪
+  chapter: 危害国家安全罪
+  section: 危害国家、颠覆政权的犯罪
+  article: 第105条
+  elements:
+  - 以造谣、诽谤或其他方式煽动颠覆国家政权、推翻社会主义制度。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1017'
+- id: crime-007
+  name: 资助危害国家安全犯罪活动罪
+  chapter: 危害国家安全罪
+  section: 危害国家、颠覆政权的犯罪
+  article: 第107条
+  elements:
+  - 境内外机构、组织或个人资助实施背叛国家、分裂国家、武装叛乱暴乱、颠覆国家政权等犯罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1017-1018
+- id: crime-008
+  name: 投敌叛变罪
+  chapter: 危害国家安全罪
+  section: 叛变、叛逃的犯罪
+  article: 第108条
+  elements:
+  - 投敌叛变。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1018'
+- id: crime-009
+  name: 叛逃罪
+  chapter: 危害国家安全罪
+  section: 叛变、叛逃的犯罪
+  article: 第109条
+  elements:
+  - 国家机关工作人员在履行公务期间擅离岗位叛逃境外或在境外叛逃；掌握国家秘密的国家工作人员叛逃的，从重处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1018'
+- id: crime-010
+  name: 间谍罪
+  chapter: 危害国家安全罪
+  section: 间谍、资敌的犯罪
+  article: 第110条
+  elements:
+  - 参加间谍组织或接受间谍组织及其代理人的任务，或为敌人指示轰击目标。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1018-1019
+- id: crime-011
+  name: 为境外窃取、刺探、收买、非法提供国家秘密、情报罪
+  chapter: 危害国家安全罪
+  section: 间谍、资敌的犯罪
+  article: 第111条
+  elements:
+  - 为境外的机构、组织、人员窃取、刺探、收买、非法提供国家秘密或情报。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1019-1021
+- id: crime-012
+  name: 资敌罪
+  chapter: 危害国家安全罪
+  section: 间谍、资敌的犯罪
+  article: 第112条
+  elements:
+  - 战时供给敌人武器装备、军用物资。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1021-1029
+- id: crime-013
+  name: 放火罪、失火罪
+  chapter: 危害公共安全罪
+  section: 以危险方法危害公共安全的犯罪
+  area: sp-public
+  article: 第114条、第115条
+  legalInterest: 公共安全，即不特定或多数人的生命、身体安全以及重大公私财产的安全。
+  elements:
+  - 放火罪：故意引起火灾，危害公共安全；尚未造成严重后果的适用第 114 条，致人重伤、死亡或使公私财产遭受重大损失的适用第 115 条第 1 款。
+  - 失火罪：过失引起火灾，致人重伤、死亡或者使公私财产遭受重大损失。
+  issues:
+  - q-arson-completion
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1029-1033
+- id: crime-014
+  name: 决水罪、过失决水罪
+  chapter: 危害公共安全罪
+  section: 以危险方法危害公共安全的犯罪
+  area: sp-public
+  article: 第114条、第115条
+  elements:
+  - 利用水的破坏力制造水患，危害公共安全；过失决水以造成严重后果为要件。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1033-1034
+- id: crime-015
+  name: 爆炸罪、过失爆炸罪
+  chapter: 危害公共安全罪
+  section: 以危险方法危害公共安全的犯罪
+  area: sp-public
+  article: 第114条、第115条
+  elements:
+  - 引起爆炸物或其他设备、装置爆炸，危害公共安全；过失爆炸以造成严重后果为要件。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1034'
+- id: crime-016
+  name: 投放危险物质罪、过失投放危险物质罪
+  chapter: 危害公共安全罪
+  section: 以危险方法危害公共安全的犯罪
+  area: sp-public
+  article: 第114条、第115条
+  elements:
+  - 投放毒害性、放射性、传染病病原体等物质，危害公共安全；过失投放以造成严重后果为要件。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1034-1035
+- id: crime-017
+  name: 以危险方法危害公共安全罪、过失以危险方法危害公共安全罪
+  chapter: 危害公共安全罪
+  section: 以危险方法危害公共安全的犯罪
+  area: sp-public
+  article: 第114条、第115条
+  elements:
+  - 使用放火、决水、爆炸、投放危险物质以外的、与之危险性相当的方法危害公共安全。
+  - 「其他危险方法」应限定在与前述方法具有相当危险性的范围内，不能作为兜底罪名随意扩张。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1035-1041
+- id: crime-018
+  name: 破坏交通工具罪、过失损坏交通工具罪
+  chapter: 危害公共安全罪
+  section: 破坏公用工具、设施危害公共安全的犯罪
+  area: sp-public
+  article: 第116条、第119条
+  elements:
+  - 破坏火车、汽车、电车、船只、航空器，足以使其发生倾覆、毁坏危险（具体危险犯）。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1041-1043
+- id: crime-019
+  name: 破坏交通设施罪、过失损坏交通设施罪
+  chapter: 危害公共安全罪
+  section: 破坏公用工具、设施危害公共安全的犯罪
+  area: sp-public
+  article: 第117条、第119条
+  elements:
+  - 破坏轨道、桥梁、隧道、公路、机场、航道、灯塔、标志等，足以使交通工具发生倾覆、毁坏危险。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1043-1044
+- id: crime-020
+  name: 破坏电力设备罪、过失损坏电力设备罪
+  chapter: 危害公共安全罪
+  section: 破坏公用工具、设施危害公共安全的犯罪
+  area: sp-public
+  article: 第118条、第119条
+  elements:
+  - 破坏正在使用中的电力设备，危害公共安全。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1044-1045
+- id: crime-021
+  name: 破坏易燃易爆设备罪、过失损坏易燃易爆设备罪
+  chapter: 危害公共安全罪
+  section: 破坏公用工具、设施危害公共安全的犯罪
+  area: sp-public
+  article: 第118条、第119条
+  elements:
+  - 破坏燃气或其他易燃易爆设备，危害公共安全。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1045-1048
+- id: crime-022
+  name: 组织、领导、参加恐怖组织罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第120条
+  elements:
+  - 组织、领导或者积极参加、其他参加恐怖活动组织；并实施杀人、爆炸、绑架等犯罪的，数罪并罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1048-1050
+- id: crime-023
+  name: 帮助恐怖活动罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第120条之一
+  elements:
+  - 资助恐怖活动组织、实施恐怖活动的个人或恐怖活动培训，或为其招募、运送人员；帮助行为被独立规定为正犯。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1050-1051
+- id: crime-024
+  name: 准备实施恐怖活动罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第120条之二
+  elements:
+  - 为实施恐怖活动准备凶器、危险物品，组织或积极参加恐怖活动培训，与境外恐怖组织或人员联络，或进行策划等准备；预备行为被独立规定为犯罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1051-1053
+- id: crime-025
+  name: 宣扬恐怖主义、极端主义、煽动实施恐怖活动罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第120条之三
+  elements:
+  - 以制作、散发物品或讲授、发布信息等方式宣扬恐怖主义、极端主义，或者煽动实施恐怖活动。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1053-1054
+- id: crime-026
+  name: 利用极端主义破坏法律实施罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第120条之四
+  elements:
+  - 利用极端主义煽动、胁迫群众破坏国家法律确立的婚姻、司法、教育、社会管理等制度的实施。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1054'
+- id: crime-027
+  name: 强制穿戴宣扬恐怖主义、极端主义服饰、标志罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第120条之五
+  elements:
+  - 以暴力、胁迫等方式强制他人在公共场所穿着、佩戴宣扬恐怖主义、极端主义的服饰、标志。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1054-1055
+- id: crime-028
+  name: 非法持有宣扬恐怖主义、极端主义物品罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第120条之六
+  elements:
+  - 明知是宣扬恐怖主义、极端主义的图书、音视频资料或其他物品而非法持有，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1055-1056
+- id: crime-029
+  name: 劫持航空器罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第121条
+  elements:
+  - 以暴力、胁迫或其他方法劫持航空器。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1056-1058
+- id: crime-030
+  name: 劫持船只、汽车罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第122条
+  elements:
+  - 以暴力、胁迫或其他方法劫持船只、汽车。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1058'
+- id: crime-031
+  name: 暴力危及飞行安全罪
+  chapter: 危害公共安全罪
+  section: 实施恐怖、危险活动危害公共安全的犯罪
+  area: sp-public
+  article: 第123条
+  elements:
+  - 对飞行中的航空器上的人员使用暴力，危及飞行安全。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1058-1059
+- id: crime-032
+  name: 非法制造、买卖、运输、邮寄、储存枪支、弹药、爆炸物罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第125条
+  elements:
+  - 违反枪支、弹药、爆炸物管理法规，擅自制造、买卖、运输、邮寄、储存枪支、弹药、爆炸物。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1059-1064
+- id: crime-033
+  name: 非法制造、买卖、运输、储存危险物质罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第125条
+  elements:
+  - 非法制造、买卖、运输、储存毒害性、放射性、传染病病原体等物质，危害公共安全。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1064'
+- id: crime-034
+  name: 违规制造、销售枪支罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第126条
+  elements:
+  - 依法被指定、确定的枪支制造、销售企业违反枪支管理规定，擅自制造、销售枪支。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1064-1065
+- id: crime-035
+  name: 盗窃、抢夺枪支、弹药、爆炸物、危险物质罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第127条
+  elements:
+  - 盗窃、抢夺枪支、弹药、爆炸物或者毒害性、放射性、传染病病原体等危险物质。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1065'
+- id: crime-036
+  name: 抢劫枪支、弹药、爆炸物、危险物质罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第127条
+  elements:
+  - 以暴力、胁迫或其他方法抢劫枪支、弹药、爆炸物或者危险物质。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1065-1066
+- id: crime-037
+  name: 非法持有、私藏枪支、弹药罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第128条
+  elements:
+  - 违反枪支管理规定，非法持有、私藏枪支、弹药。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1066-1067
+- id: crime-038
+  name: 非法出租、出借枪支罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第128条
+  elements:
+  - 依法配备公务用枪的人员与单位非法出租、出借枪支；依法配置枪支的人员与单位非法出租、出借，造成严重后果的，也成立本罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1067-1068
+- id: crime-039
+  name: 丢失枪支不报罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第129条
+  elements:
+  - 依法配备公务用枪的人员丢失枪支不及时报告，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1068-1070
+- id: crime-040
+  name: 非法携带枪支、弹药、管制刀具、危险物品危及公共安全罪
+  chapter: 危害公共安全罪
+  section: 违反枪支、弹药管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第130条
+  elements:
+  - 非法携带枪支、弹药、管制刀具或者危险物品进入公共场所或公共交通工具，危及公共安全，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1070-1072
+- id: crime-041
+  name: 重大飞行事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第131条
+  elements:
+  - 航空人员违反规章制度，致使发生重大飞行事故，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1072'
+- id: crime-042
+  name: 铁路运营安全事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第132条
+  elements:
+  - 铁路职工违反规章制度，致使发生铁路运营安全事故，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1072'
+- id: crime-043
+  name: 交通肇事罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第133条
+  elements:
+  - 违反交通运输管理法规，因而发生重大事故，致人重伤、死亡或者使公私财产遭受重大损失。
+  - 肇事后逃逸、因逃逸致人死亡的，法定刑升格。
+  issues:
+  - q-hit-and-run-death
+  related:
+  - crime: crime-044
+    note: 危险驾驶是抽象危险犯，不以发生事故为要件；发生重大事故的，可能成立交通肇事罪。
+  - crime: crime-017
+    note: 对危害公共安全的结果持故意时，可能成立以危险方法危害公共安全罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1072-1081
+- id: crime-044
+  name: 危险驾驶罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第133条之一
+  elements:
+  - 在道路上驾驶机动车追逐竞驶情节恶劣、醉酒驾驶，从事校车业务或旅客运输严重超员超速，或违规运输危险化学品危及公共安全。
+  issues:
+  - q-drunk-driving-culpability
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1081-1086
+- id: crime-045
+  name: 妨害安全驾驶罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第133条之二
+  elements:
+  - 对行驶中的公共交通工具的驾驶人员使用暴力或抢控驾驶操纵装置，干扰正常行驶，危及公共安全；驾驶人员擅离职守与他人互殴或殴打他人的，同样处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1086-1087
+- id: crime-046
+  name: 重大责任事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第134条
+  elements:
+  - 在生产、作业中违反有关安全管理的规定，因而发生重大伤亡事故或造成其他严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1087-1090
+- id: crime-047
+  name: 强令、组织他人违章冒险作业罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第134条
+  elements:
+  - 强令他人违章冒险作业，或明知存在重大事故隐患而不排除、仍冒险组织作业，因而发生重大伤亡事故或其他严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1090-1091
+- id: crime-048
+  name: 危险作业罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第134条之一
+  elements:
+  - 在生产、作业中违反安全管理规定，关闭、破坏安全设备，拒不执行整改措施，或擅自从事高危生产作业，具有发生重大伤亡事故或其他严重后果的现实危险。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1091-1093
+- id: crime-049
+  name: 重大劳动安全事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第135条
+  elements:
+  - 安全生产设施或安全生产条件不符合国家规定，因而发生重大伤亡事故或造成其他严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1093-1094
+- id: crime-050
+  name: 大型群众性活动重大安全事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第135条之一
+  elements:
+  - 举办大型群众性活动违反安全管理规定，因而发生重大伤亡事故或造成其他严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1094'
+- id: crime-051
+  name: 危险物品肇事罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第136条
+  elements:
+  - 违反危险物品管理规定，在生产、储存、运输、使用中发生重大事故，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1094-1095
+- id: crime-052
+  name: 工程重大安全事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第137条
+  elements:
+  - 建设、设计、施工、监理单位违反国家规定，降低工程质量标准，造成重大安全事故。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1095'
+- id: crime-053
+  name: 教育设施重大安全事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第138条
+  elements:
+  - 明知校舍或教育教学设施有危险，而不采取措施或不及时报告，致使发生重大伤亡事故。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1095-1096
+- id: crime-054
+  name: 消防责任事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第139条
+  elements:
+  - 违反消防管理法规，经消防监督机构通知采取改正措施而拒绝执行，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1096'
+- id: crime-055
+  name: 不报、谎报安全事故罪
+  chapter: 危害公共安全罪
+  section: 违反安全管理规定危害公共安全的犯罪
+  area: sp-public
+  article: 第139条之一
+  elements:
+  - 安全事故发生后，负有报告职责的人员不报或谎报事故情况，贻误事故抢救，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1096-1099
+- id: crime-056
+  name: 生产、销售伪劣产品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第140条
+  elements:
+  - 生产者、销售者在产品中掺杂掺假、以假充真、以次充好或以不合格产品冒充合格产品，销售金额较大（5 万元以上）。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1099-1104
+- id: crime-057
+  name: 生产、销售、提供假药罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第141条
+  elements:
+  - 生产、销售假药，或药品使用单位的人员明知是假药而提供给他人使用。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1104-1107
+- id: crime-058
+  name: 生产、销售、提供劣药罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第142条
+  elements:
+  - 生产、销售劣药或明知是劣药而提供使用，对人体健康造成严重危害。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1107'
+- id: crime-059
+  name: 妨害药品管理罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第142条之一
+  elements:
+  - 违反药品管理法规，生产、销售禁止使用的药品、未取得批准文件的药品，或在注册申请中提供虚假材料等，足以严重危害人体健康。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1107-1109
+- id: crime-060
+  name: 生产、销售不符合安全标准的食品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第143条
+  elements:
+  - 生产、销售不符合食品安全标准的食品，足以造成严重食物中毒事故或其他严重食源性疾病（具体危险犯）。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1109-1110
+- id: crime-061
+  name: 生产、销售有毒、有害食品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第144条
+  elements:
+  - 在生产、销售的食品中掺入有毒、有害的非食品原料，或销售明知掺有此类原料的食品（抽象危险犯）。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1110-1114
+- id: crime-062
+  name: 生产、销售不符合标准的医用器材罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第145条
+  elements:
+  - 生产或销售明知不符合保障人体健康的国家标准、行业标准的医疗器械、医用卫生材料，足以严重危害人体健康。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1114-1116
+- id: crime-063
+  name: 生产、销售不符合安全标准的产品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第146条
+  elements:
+  - 生产、销售不符合保障人身、财产安全标准的电器、压力容器、易燃易爆产品等，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1116'
+- id: crime-064
+  name: 生产、销售伪劣农药、兽药、化肥、种子罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第147条
+  elements:
+  - 生产、销售假的或失效、不合格的农药、兽药、化肥、种子，使生产遭受较大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1116-1117
+- id: crime-065
+  name: 生产、销售不符合卫生标准的化妆品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 生产、销售伪劣商品罪
+  area: sp-economy
+  article: 第148条
+  elements:
+  - 生产、销售不符合卫生标准的化妆品，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1117-1121
+- id: crime-066
+  name: 走私武器、弹药罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第151条
+  elements:
+  - 违反海关法规，逃避海关监管，走私武器、弹药。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1121-1123
+- id: crime-067
+  name: 走私核材料罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第151条
+  elements:
+  - 违反海关法规，走私核材料。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1123'
+- id: crime-068
+  name: 走私假币罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第151条
+  elements:
+  - 违反海关法规，走私伪造的货币。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1123-1124
+- id: crime-069
+  name: 走私文物罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第151条
+  elements:
+  - 违反海关法规，走私国家禁止出口的文物。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1124'
+- id: crime-070
+  name: 走私贵重金属罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第151条
+  elements:
+  - 违反海关法规，走私国家禁止出口的黄金、白银或其他贵重金属。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1124'
+- id: crime-071
+  name: 走私珍贵动物、珍贵动物制品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第151条
+  elements:
+  - 违反海关法规，走私国家禁止进出口的珍贵动物及其制品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1124-1125
+- id: crime-072
+  name: 走私国家禁止进出口的货物、物品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第151条
+  elements:
+  - 违反海关法规，走私珍稀植物及其制品等国家禁止进出口的其他货物、物品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1125-1126
+- id: crime-073
+  name: 走私淫秽物品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第152条
+  elements:
+  - 以牟利或传播为目的，走私淫秽的影片、录像带、录音带、图片、书刊或其他淫秽物品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1126'
+- id: crime-074
+  name: 走私废物罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第152条
+  elements:
+  - 逃避海关监管，将境外固体、液态、气态废物运输进境，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1126-1127
+- id: crime-075
+  name: 走私普通货物、物品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 走私罪
+  area: sp-economy
+  article: 第153条
+  elements:
+  - 走私第 151、152、347 条规定以外的货物、物品，偷逃应缴税额较大，或一年内曾因走私受过二次行政处罚后又走私。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1127-1132
+- id: crime-076
+  name: 虚报注册资本罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第158条
+  elements:
+  - 申请公司登记时以虚假证明文件或其他欺诈手段虚报注册资本，取得登记，数额巨大、后果严重或有其他严重情节；适用于依法实行注册资本实缴登记制的公司。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1132-1133
+- id: crime-077
+  name: 虚假出资、抽逃出资罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第159条
+  elements:
+  - 公司发起人、股东未交付出资或未转移财产权而虚假出资，或公司成立后抽逃出资，数额巨大、后果严重或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1133-1134
+- id: crime-078
+  name: 欺诈发行证券罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第160条
+  elements:
+  - 在招股说明书、债券募集办法等发行文件中隐瞒重要事实或编造重大虚假内容，发行股票、债券、存托凭证等，数额巨大、后果严重或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1134-1135
+- id: crime-079
+  name: 违规披露、不披露重要信息罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第161条
+  elements:
+  - 负有信息披露义务的公司、企业提供虚假或隐瞒重要事实的财务会计报告，或对应当披露的重要信息不按规定披露，严重损害股东或他人利益或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1135-1136
+- id: crime-080
+  name: 妨害清算罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第162条
+  elements:
+  - 公司、企业清算时隐匿财产、对资产负债表或财产清单作虚伪记载，或未清偿债务前分配财产，严重损害债权人或他人利益。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1136'
+- id: crime-081
+  name: 隐匿、故意销毁会计凭证、会计帐簿、财务会计报告罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第162条之一
+  elements:
+  - 隐匿或故意销毁依法应当保存的会计凭证、会计账簿、财务会计报告，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1136-1137
+- id: crime-082
+  name: 虚假破产罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第162条之二
+  elements:
+  - 通过隐匿财产、承担虚构债务或以其他方法转移、处分财产，实施虚假破产，严重损害债权人或他人利益。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1137'
+- id: crime-083
+  name: 非国家工作人员受贿罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第163条
+  elements:
+  - 公司、企业或其他单位的工作人员利用职务便利，索取或非法收受他人财物为他人谋取利益，数额较大。
+  related:
+  - crime: crime-382
+    note: 主体是国家工作人员的，成立受贿罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1137-1141
+- id: crime-084
+  name: 对非国家工作人员行贿罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第164条
+  elements:
+  - 为谋取不正当利益，给予公司、企业或其他单位的工作人员以财物，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1141-1142
+- id: crime-085
+  name: 对外国公职人员、国际公共组织官员行贿罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第164条
+  elements:
+  - 为谋取不正当商业利益，给予外国公职人员或国际公共组织官员以财物。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1142'
+- id: crime-086
+  name: 非法经营同类营业罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第165条
+  elements:
+  - 国有公司、企业的董事、经理等利用职务便利，自己经营或为他人经营与所任职公司同类的营业，获取非法利益，数额巨大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1142-1144
+- id: crime-087
+  name: 为亲友非法牟利罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第166条
+  elements:
+  - 国有单位的工作人员利用职务便利，将本单位的盈利业务交由亲友经营，或以明显不公平的价格与亲友经营的单位交易，使国家利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1144-1145
+- id: crime-088
+  name: 签订、履行合同失职被骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第167条
+  elements:
+  - 国有单位直接负责的主管人员在签订、履行合同过程中，因严重不负责任被诈骗，致使国家利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1145-1147
+- id: crime-089
+  name: 徇私舞弊低价折股、出售公司、企业资产罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第169条
+  elements:
+  - 国有公司、企业或其上级主管部门直接负责的主管人员徇私舞弊，将国有资产低价折股或低价出售，致使国家利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1147-1148
+- id: crime-090
+  name: 背信损害上市公司利益罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 妨害对公司、企业的管理秩序罪
+  area: sp-economy
+  article: 第169条之一
+  elements:
+  - 上市公司的董事、监事、高级管理人员违背忠实义务，利用职务便利操纵公司从事损害公司利益的活动，致使公司利益遭受重大损失。
+  editorNote: 条文号未能在本书该罪小节的原文中找到相同写法，请对照法条核对。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1148-1149
+- id: crime-091
+  name: 伪造货币罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第170条
+  legalInterest: 货币的公共信用。
+  elements:
+  - 没有货币制作、发行权的人，制造外观上足以使一般人误认为真币的假货币。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1149-1152
+- id: crime-092
+  name: 出售、购买、运输假币罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第171条
+  elements:
+  - 明知是伪造的货币而出售、购买或者运输，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1152-1153
+- id: crime-093
+  name: 金融工作人员购买假币、以假币换取货币罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第171条
+  elements:
+  - 金融机构工作人员购买伪造的货币，或利用职务便利以伪造的货币换取货币。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1153'
+- id: crime-094
+  name: 持有、使用假币罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第172条
+  elements:
+  - 明知是伪造的货币而持有、使用，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1153-1157
+- id: crime-095
+  name: 变造货币罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第173条
+  elements:
+  - 对真币进行加工，改变其面额、形态或含量，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1157-1159
+- id: crime-096
+  name: 擅自设立金融机构罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第174条
+  elements:
+  - 未经国家有关主管部门批准，擅自设立商业银行、证券或期货交易所、证券公司、保险公司等金融机构。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1159'
+- id: crime-097
+  name: 伪造、变造、转让金融机构经营许可证、批准文件罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第174条
+  elements:
+  - 伪造、变造、转让金融机构的经营许可证或批准文件。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1159-1160
+- id: crime-098
+  name: 高利转贷罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第175条
+  elements:
+  - 以转贷牟利为目的，套取金融机构信贷资金高利转贷他人，违法所得数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1160-1161
+- id: crime-099
+  name: 骗取贷款、票据承兑、金融票证罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第175条之一
+  elements:
+  - 以欺骗手段取得金融机构贷款、票据承兑、信用证、保函等，给金融机构造成重大损失。
+  related:
+  - crime: crime-122
+    note: 贷款诈骗罪要求非法占有目的。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1161-1168
+- id: crime-100
+  name: 非法吸收公众存款罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第176条
+  elements:
+  - 非法吸收或变相吸收公众存款，扰乱金融秩序。
+  related:
+  - crime: crime-121
+    note: 以非法占有为目的使用诈骗方法非法集资的，成立集资诈骗罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1168-1175
+- id: crime-101
+  name: 伪造、变造金融票证罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第177条
+  elements:
+  - 伪造、变造汇票、本票、支票、委托收款凭证、银行存单等结算凭证或信用证，或伪造信用卡。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1175-1177
+- id: crime-102
+  name: 妨害信用卡管理罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第177条之一
+  elements:
+  - 明知是伪造的信用卡而持有、运输，或明知是伪造的空白信用卡而持有、运输数量较大，非法持有他人信用卡数量较大，使用虚假身份证明骗领信用卡，或出售、购买、为他人提供伪造、骗领的信用卡。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1177-1180
+- id: crime-103
+  name: 窃取、收买、非法提供信用卡信息罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第177条之一
+  elements:
+  - 窃取、收买或非法提供他人信用卡信息资料。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1180'
+- id: crime-104
+  name: 伪造、变造国家有价证券罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第178条
+  elements:
+  - 伪造、变造国库券或国家发行的其他有价证券，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1180-1181
+- id: crime-105
+  name: 伪造、变造股票、公司、企业债券罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第178条
+  elements:
+  - 伪造、变造股票或公司、企业债券，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1181'
+- id: crime-106
+  name: 擅自发行股票、公司、企业债券罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第179条
+  elements:
+  - 未经国家有关主管部门批准，擅自发行股票或公司、企业债券，数额巨大、后果严重或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1181'
+- id: crime-107
+  name: 内幕交易、泄露内幕信息罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第180条
+  elements:
+  - 内幕信息的知情人员或非法获取者，在内幕信息公开前买卖相关证券、期货或泄露该信息、明示暗示他人交易，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1181-1184
+- id: crime-108
+  name: 利用未公开信息交易罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第180条
+  elements:
+  - 金融机构从业人员及监管、行业协会工作人员，利用职务便利获取的内幕信息以外的未公开信息从事相关交易，或明示暗示他人交易，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1184-1186
+- id: crime-109
+  name: 编造并传播证券、期货交易虚假信息罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第181条
+  elements:
+  - 编造并传播影响证券、期货交易的虚假信息，扰乱交易市场，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1186'
+- id: crime-110
+  name: 诱骗投资者买卖证券、期货合约罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第181条
+  elements:
+  - 交易所、证券期货公司从业人员及协会、监管部门工作人员，故意提供虚假信息或伪造、变造、销毁交易记录，诱骗投资者交易，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1186-1187
+- id: crime-111
+  name: 操纵证券、期货市场罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第182条
+  elements:
+  - 以联合或连续买卖、对倒、虚假申报、蛊惑交易等方法操纵证券、期货市场，影响交易价格或交易量，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1187-1188
+- id: crime-112
+  name: 背信运用受托财产罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第185条之一
+  elements:
+  - 金融机构违背受托义务，擅自运用客户资金或其他委托、信托财产，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1188'
+- id: crime-113
+  name: 违法运用资金罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第185条之一
+  elements:
+  - 社会保障基金、住房公积金等公众资金管理机构以及保险公司等违反国家规定运用资金。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1188'
+- id: crime-114
+  name: 违法发放贷款罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第186条
+  elements:
+  - 金融机构工作人员违反国家规定发放贷款，数额巨大或造成重大损失；向关系人发放贷款的从重处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1188-1191
+- id: crime-115
+  name: 吸收客户资金不入帐罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第187条
+  elements:
+  - 金融机构工作人员吸收客户资金不入账，数额巨大或造成重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1191'
+- id: crime-116
+  name: 违规出具金融票证罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第188条
+  elements:
+  - 金融机构工作人员违反规定，为他人出具信用证、保函、票据、存单、资信证明，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1191-1192
+- id: crime-117
+  name: 对违法票据承兑、付款、保证罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第189条
+  elements:
+  - 金融机构工作人员在票据业务中，对违反票据法规定的票据予以承兑、付款或保证，造成重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1192-1193
+- id: crime-118
+  name: 逃汇罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第190条
+  elements:
+  - 公司、企业或其他单位违反国家规定，擅自将外汇存放境外或将境内外汇非法转移到境外，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1193'
+- id: crime-119
+  name: 骗购外汇罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  elements:
+  - 使用伪造、变造或重复使用的报关单、进口证明、核准件等凭证骗购外汇，数额较大。
+  - 本罪规定在全国人大常委会关于惩治骗购外汇、逃汇和非法买卖外汇犯罪的决定中，不在刑法典条文之内。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1193-1194
+- id: crime-120
+  name: 洗钱罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 破坏金融管理秩序罪
+  area: sp-economy
+  article: 第191条
+  elements:
+  - 为掩饰、隐瞒毒品犯罪、黑社会性质组织犯罪、恐怖活动犯罪、走私犯罪、贪污贿赂犯罪、破坏金融管理秩序犯罪、金融诈骗犯罪的所得及收益的来源和性质，提供资金账户、转换财产形式、转移资金等。
+  - 上游犯罪的本犯为自己洗钱（自洗钱）也成立本罪。
+  issues:
+  - q-laundering-rechtsgut
+  - q-self-laundering
+  related:
+  - crime: crime-286
+    note: 上游犯罪属于洗钱罪列举的七类犯罪时，优先考虑洗钱罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1194-1204
+- id: crime-121
+  name: 集资诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 金融诈骗罪
+  area: sp-economy
+  article: 第192条
+  elements:
+  - 以非法占有为目的，使用诈骗方法非法集资，数额较大。
+  related:
+  - crime: crime-100
+    note: 是否具有非法占有目的。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1204-1208
+- id: crime-122
+  name: 贷款诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 金融诈骗罪
+  area: sp-economy
+  article: 第193条
+  elements:
+  - 以非法占有为目的，编造引进资金项目、使用虚假证明文件等欺骗方法，骗取金融机构贷款，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1208-1214
+- id: crime-123
+  name: 票据诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 金融诈骗罪
+  area: sp-economy
+  article: 第194条
+  elements:
+  - 以非法占有为目的，使用伪造、变造、作废或冒用他人的汇票、本票、支票，或签发空头、与预留印鉴不符的支票等进行诈骗，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1214-1217
+- id: crime-124
+  name: 金融凭证诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 金融诈骗罪
+  area: sp-economy
+  article: 第194条
+  elements:
+  - 使用伪造、变造的委托收款凭证、汇款凭证、银行存单等结算凭证骗取财物，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1217'
+- id: crime-125
+  name: 信用证诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 金融诈骗罪
+  area: sp-economy
+  article: 第195条
+  elements:
+  - 使用伪造、变造或作废的信用证或附随单据、骗取信用证或以其他方法进行信用证诈骗。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1217-1218
+- id: crime-126
+  name: 信用卡诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 金融诈骗罪
+  area: sp-economy
+  article: 第196条
+  elements:
+  - 使用伪造、骗领或作废的信用卡，冒用他人信用卡，或恶意透支，骗取数额较大的财物。
+  - 盗窃信用卡并使用的，依盗窃罪论处。
+  issues:
+  - q-atm-misuse
+  related:
+  - crime: crime-207
+    note: 第 196 条第 3 款规定，盗窃信用卡并使用的依照盗窃罪定罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1218-1230
+- id: crime-127
+  name: 有价证券诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 金融诈骗罪
+  area: sp-economy
+  article: 第197条
+  elements:
+  - 使用伪造、变造的国库券或国家发行的其他有价证券进行诈骗，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1230'
+- id: crime-128
+  name: 保险诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 金融诈骗罪
+  area: sp-economy
+  article: 第198条
+  elements:
+  - 投保人、被保险人、受益人以虚构保险标的、编造事故原因、夸大损失、编造未发生的事故或故意制造保险事故等方法骗取保险金，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1230-1237
+- id: crime-129
+  name: 逃税罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第201条
+  elements:
+  - 纳税人采取欺骗、隐瞒手段虚假申报或不申报，逃避缴纳税款数额较大并且占应纳税额 10% 以上；扣缴义务人不缴或少缴已扣、已收税款的，同样处罚。
+  - 经税务机关依法下达追缴通知后补缴税款、滞纳金并接受行政处罚的，原则上不予追究刑事责任。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1237-1240
+- id: crime-130
+  name: 抗税罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第202条
+  elements:
+  - 以暴力、威胁方法拒不缴纳税款。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1240-1241
+- id: crime-131
+  name: 逃避追缴欠税罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第203条
+  elements:
+  - 纳税人欠缴应纳税款，采取转移或隐匿财产的手段，致使税务机关无法追缴欠缴的税款，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1241-1242
+- id: crime-132
+  name: 骗取出口退税罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第204条
+  elements:
+  - 以假报出口或其他欺骗手段，骗取国家出口退税款，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1242-1243
+- id: crime-133
+  name: 虚开增值税专用发票、用于骗取出口退税、抵扣税款发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第205条
+  elements:
+  - 为他人虚开、为自己虚开、让他人为自己虚开或介绍他人虚开增值税专用发票或可用于骗取出口退税、抵扣税款的其他发票。
+  - 不以骗取税款为目的、未造成国家税款损失的虚开，是否构成本罪存在争议。
+  issues:
+  - q-false-vat-invoice
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1243-1249
+- id: crime-134
+  name: 虚开发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第205条之一
+  elements:
+  - 虚开第 205 条规定以外的其他发票，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1249-1252
+- id: crime-135
+  name: 伪造、出售伪造的增值税专用发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第206条
+  elements:
+  - 伪造增值税专用发票，或出售伪造的增值税专用发票。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1252'
+- id: crime-136
+  name: 非法出售增值税专用发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第207条
+  elements:
+  - 违反发票管理法规，非法出售增值税专用发票。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1252-1254
+- id: crime-137
+  name: 非法购买增值税专用发票、购买伪造的增值税专用发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第208条
+  elements:
+  - 非法购买增值税专用发票或者购买伪造的增值税专用发票。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1254'
+- id: crime-138
+  name: 非法制造、出售非法制造的用于骗取出口退税、抵扣税款发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第209条
+  elements:
+  - 伪造、擅自制造或出售伪造、擅自制造的可用于骗取出口退税、抵扣税款的其他发票。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1254-1255
+- id: crime-139
+  name: 非法制造、出售非法制造的发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第209条
+  elements:
+  - 伪造、擅自制造或出售伪造、擅自制造的普通发票。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1255-1256
+- id: crime-140
+  name: 非法出售用于骗取出口退税、抵扣税款发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第209条
+  elements:
+  - 非法出售可用于骗取出口退税、抵扣税款的其他发票。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1256'
+- id: crime-141
+  name: 非法出售发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第209条
+  elements:
+  - 非法出售普通发票。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1256'
+- id: crime-142
+  name: 持有伪造的发票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 危害税收征管罪
+  area: sp-economy
+  article: 第210条之一
+  elements:
+  - 明知是伪造的发票而持有，数量较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1256-1257
+- id: crime-143
+  name: 假冒注册商标罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 侵犯知识产权罪
+  area: sp-economy
+  article: 第213条
+  elements:
+  - 未经注册商标所有人许可，在同一种商品、服务上使用与其注册商标相同的商标，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1257-1262
+- id: crime-144
+  name: 销售假冒注册商标的商品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 侵犯知识产权罪
+  area: sp-economy
+  article: 第214条
+  elements:
+  - 销售明知是假冒注册商标的商品，违法所得数额较大或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1262-1263
+- id: crime-145
+  name: 非法制造、销售非法制造的注册商标标识罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 侵犯知识产权罪
+  area: sp-economy
+  article: 第215条
+  elements:
+  - 伪造、擅自制造他人注册商标标识，或销售伪造、擅自制造的注册商标标识，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1263'
+- id: crime-146
+  name: 假冒专利罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 侵犯知识产权罪
+  area: sp-economy
+  article: 第216条
+  elements:
+  - 假冒他人专利，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1263-1264
+- id: crime-147
+  name: 侵犯著作权罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 侵犯知识产权罪
+  area: sp-economy
+  article: 第217条
+  elements:
+  - 以营利为目的，未经许可复制发行、通过信息网络传播他人作品等侵犯著作权或相关权利的行为，违法所得数额较大或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1264-1267
+- id: crime-148
+  name: 销售侵权复制品罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 侵犯知识产权罪
+  area: sp-economy
+  article: 第218条
+  elements:
+  - 以营利为目的，销售明知是侵权复制品，违法所得数额巨大或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1267-1268
+- id: crime-149
+  name: 侵犯商业秘密罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 侵犯知识产权罪
+  area: sp-economy
+  article: 第219条
+  elements:
+  - 以盗窃、贿赂、欺诈、胁迫、电子侵入等不正当手段获取商业秘密，或披露、使用、允许他人使用以不正当手段获取或违反保密义务所掌握的商业秘密，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1268-1272
+- id: crime-150
+  name: 为境外窃取、刺探、收买、非法提供商业秘密罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 侵犯知识产权罪
+  area: sp-economy
+  article: 第219条之一
+  elements:
+  - 为境外的机构、组织、人员窃取、刺探、收买、非法提供商业秘密。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1272-1273
+- id: crime-151
+  name: 损害商业信誉、商品声誉罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第221条
+  elements:
+  - 捏造并散布虚伪事实，损害他人商业信誉、商品声誉，造成重大损失或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1273-1275
+- id: crime-152
+  name: 虚假广告罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第222条
+  elements:
+  - 广告主、广告经营者、广告发布者违反国家规定，利用广告对商品或服务作虚假宣传，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1275-1276
+- id: crime-153
+  name: 串通投标罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第223条
+  elements:
+  - 投标人相互串通投标报价损害招标人或其他投标人利益，情节严重；或投标人与招标人串通投标，损害国家、集体、公民的合法利益。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1276-1278
+- id: crime-154
+  name: 合同诈骗罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第224条
+  elements:
+  - 以非法占有为目的，在签订、履行合同过程中使用欺骗手段，骗取对方当事人财物，数额较大。
+  related:
+  - crime: crime-212
+    note: 法条竞合关系；利用合同、侵害市场秩序的诈骗适用本罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1278-1285
+- id: crime-155
+  name: 组织、领导传销活动罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第224条之一
+  elements:
+  - 组织、领导以推销商品、提供服务为名，要求参加者缴费或购买商品获得加入资格，按层级以发展人员数量作为计酬或返利依据，引诱、胁迫参加者继续发展他人参加，骗取财物的传销活动。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1285-1289
+- id: crime-156
+  name: 非法经营罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第225条
+  elements:
+  - 违反国家规定，未经许可经营专营、专卖物品，买卖经营许可证，未经批准非法经营证券、期货、保险或资金支付结算业务，或从事其他严重扰乱市场秩序的非法经营行为，情节严重。
+  - 「其他严重扰乱市场秩序的非法经营行为」应限制解释，避免成为口袋罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1289-1300
+- id: crime-157
+  name: 强迫交易罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第226条
+  elements:
+  - 以暴力、威胁手段强买强卖、强迫他人提供或接受服务、参与或退出投标拍卖、转让或收购股份债券、参与或退出特定经营活动，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1300-1301
+- id: crime-158
+  name: 伪造、倒卖伪造的有价票证罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第227条
+  elements:
+  - 伪造或倒卖伪造的车票、船票、邮票或其他有价票证，数额较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1301-1302
+- id: crime-159
+  name: 倒卖车票、船票罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第227条
+  elements:
+  - 倒卖车票、船票，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1302'
+- id: crime-160
+  name: 非法转让、倒卖土地使用权罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第228条
+  elements:
+  - 以牟利为目的，违反土地管理法规，非法转让、倒卖土地使用权，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1302-1303
+- id: crime-161
+  name: 提供虚假证明文件罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第229条
+  elements:
+  - 资产评估、验资、会计、审计、法律服务、保荐、安全评价、环境影响评价等中介组织的人员故意提供虚假证明文件，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1303-1305
+- id: crime-162
+  name: 出具证明文件重大失实罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第229条
+  elements:
+  - 上述中介组织的人员严重不负责任，出具的证明文件有重大失实，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1305'
+- id: crime-163
+  name: 逃避商检罪
+  chapter: 破坏社会主义市场经济秩序罪
+  section: 扰乱市场秩序罪
+  area: sp-economy
+  article: 第230条
+  elements:
+  - 违反进出口商品检验法规，逃避商品检验，将必须经检验的进口商品未报检擅自销售、使用，或将必须经检验的出口商品未报检合格擅自出口，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1305-1307
+- id: crime-164
+  name: 故意杀人罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯生命、健康的犯罪
+  area: sp-person
+  article: 第232条
+  legalInterest: 他人的生命。
+  elements:
+  - 行为是非法剥夺他人生命，作为与不作为均可实施。
+  - 对象是行为人以外的有生命的自然人。
+  - 主观上是故意，包括直接故意与间接故意。
+  issues:
+  - q-suicide-participation
+  related:
+  - crime: crime-166
+    note: 区别在于故意的内容：是否有剥夺生命的故意（含放任死亡）。
+  - crime: crime-165
+    note: 对死亡结果是故意还是过失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1307-1314
+- id: crime-165
+  name: 过失致人死亡罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯生命、健康的犯罪
+  area: sp-person
+  article: 第233条
+  legalInterest: 他人的生命。
+  elements:
+  - 过失造成他人死亡的结果。
+  - 刑法另有规定的（如交通肇事、重大责任事故致人死亡），依照特别规定。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1314-1316
+- id: crime-166
+  name: 故意伤害罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯生命、健康的犯罪
+  area: sp-person
+  article: 第234条
+  legalInterest: 他人的身体健康（身体的完整性与生理机能的健全）。
+  elements:
+  - 非法损害他人身体健康，以造成轻伤以上的伤害为成立条件。
+  - 致人重伤、致人死亡的，法定刑升格；致人死亡时对死亡结果至少须有过失。
+  issues:
+  - q-consented-injury
+  related:
+  - crime: crime-164
+    note: 伤害故意与杀人故意的区分。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1316-1335
+- id: crime-167
+  name: 组织出卖人体器官罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯生命、健康的犯罪
+  area: sp-person
+  article: 第234条之一
+  elements:
+  - 组织他人出卖人体器官；未经本人同意摘取器官、摘取未成年人器官或强迫、欺骗他人捐献的，依故意伤害、故意杀人罪论处。
+  editorNote: 书中讨论了本罪保护法益与被害人承诺的关系（第 1335—1336 页）。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1335-1336
+- id: crime-168
+  name: 过失致人重伤罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯生命、健康的犯罪
+  area: sp-person
+  article: 第235条
+  legalInterest: 他人的身体健康。
+  elements:
+  - 过失伤害他人身体，致人重伤；造成轻伤的不成立本罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1336-1337
+- id: crime-169
+  name: 遗弃罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯生命、健康的犯罪
+  area: sp-person
+  article: 第261条
+  legalInterest: 被遗弃者的生命、身体安全。
+  elements:
+  - 对年老、年幼、患病或其他没有独立生活能力的人负有扶养义务而拒绝扶养，情节恶劣。
+  - 作者不赞成把本罪法益局限于家庭成员之间的扶养权利，因而行为主体不限于家庭成员。
+  issues:
+  - q-abandonment-rechtsgut
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1337-1340
+- id: crime-170
+  name: 强奸罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯性的决定权的犯罪
+  area: sp-person
+  article: 第236条
+  legalInterest: 妇女的性行为自己决定权。
+  elements:
+  - 普通强奸：使用暴力、胁迫或其他手段，违背妇女意志与其发生性交。
+  - 奸淫幼女：与不满 14 周岁的幼女发生性关系，无论幼女是否同意。
+  issues:
+  - q-marital-rape
+  related:
+  - crime: crime-172
+    note: 强奸以性交为内容，强制猥亵针对性交以外的猥亵行为。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1340-1356
+- id: crime-171
+  name: 负有照护职责人员性侵罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯性的决定权的犯罪
+  area: sp-person
+  article: 第236条之一
+  elements:
+  - 对已满 14 周岁不满 16 周岁的未成年女性负有监护、收养、看护、教育、医疗等特殊职责的人员，与其发生性关系。
+  - 不以违背被害人意志为要件；违背意志的，依强奸罪论处。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1356-1359
+- id: crime-172
+  name: 强制猥亵、侮辱罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯性的决定权的犯罪
+  area: sp-person
+  article: 第237条
+  legalInterest: 他人的性行为自己决定权。
+  elements:
+  - 以暴力、胁迫或者其他方法强制猥亵他人，或者强制侮辱妇女。
+  - 被害人不限于女性。
+  issues:
+  - q-indecency-tendency
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1359-1367
+- id: crime-173
+  name: 猥亵儿童罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯性的决定权的犯罪
+  area: sp-person
+  article: 第237条
+  elements:
+  - 猥亵不满 14 周岁的儿童，不要求使用强制手段。
+  - 作者认为本罪法益不同于强制猥亵罪，因此诱使儿童自拍隐私部位等不接触身体的行为也可能构成本罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1367-1369
+- id: crime-174
+  name: 非法拘禁罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第238条
+  legalInterest: 人的身体活动的自由。
+  elements:
+  - 非法拘禁他人或以其他方法非法剥夺他人人身自由。
+  - 为索取债务（含非法债务）非法扣押、拘禁他人的，依本罪论处。
+  issues:
+  - q-detention-liberty
+  related:
+  - crime: crime-175
+    note: 绑架罪以勒索财物或满足其他不法要求为目的，并利用第三人对被害人安危的忧虑。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1369-1375
+- id: crime-175
+  name: 绑架罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第239条
+  elements:
+  - 以勒索财物或满足其他不法要求为目的，以暴力、胁迫、麻醉等方法劫持或以实力控制他人。
+  - 利用被绑架人的近亲属或其他人对其安危的忧虑。
+  issues:
+  - q-kidnapping-act
+  - q-kidnapping-rechtsgut
+  related:
+  - crime: crime-174
+    note: 目的不同；为索债而扣押人质的属于非法拘禁。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1375-1384
+- id: crime-176
+  name: 拐卖妇女、儿童罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第240条
+  elements:
+  - 以出卖为目的，拐骗、绑架、收买、贩卖、接送、中转妇女、儿童。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1384-1390
+- id: crime-177
+  name: 收买被拐卖的妇女、儿童罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第241条
+  elements:
+  - 收买被拐卖的妇女、儿童。
+  - 作者认为本罪的保护法益与拐卖罪相同，法定刑本应相当。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1390-1394
+- id: crime-178
+  name: 聚众阻碍解救被收买的妇女、儿童罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第242条
+  elements:
+  - 首要分子聚集多人阻碍国家机关工作人员解救被收买的妇女、儿童。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1394'
+- id: crime-179
+  name: 诬告陷害罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第243条
+  elements:
+  - 捏造犯罪事实向有关机关告发，意图使他人受刑事追究，情节严重。
+  issues:
+  - q-false-accusation-knowledge
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1394-1398
+- id: crime-180
+  name: 强迫劳动罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第244条
+  elements:
+  - 以暴力、威胁或者限制人身自由的方法强迫他人劳动；为此招募、运送人员或协助强迫的，同样处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1398-1399
+- id: crime-181
+  name: 雇用童工从事危重劳动罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第244条之一
+  elements:
+  - 违反劳动管理法规，雇用未满 16 周岁的未成年人从事超强度体力劳动、高空井下作业或在危险环境下劳动，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1399-1400
+- id: crime-182
+  name: 非法搜查罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第245条
+  elements:
+  - 无权搜查的人擅自对他人的身体或住宅进行搜查，或有权者滥用搜查权。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1400-1401
+- id: crime-183
+  name: 非法侵入住宅罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第245条
+  elements:
+  - 未经允许进入他人住宅，或经要求退出而拒不退出。
+  - 本罪法益有「居住安宁（平稳）说」与「住宅权说」之争，见本卡所引页码。
+  issues:
+  - q-trespass-rechtsgut
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1401-1405
+- id: crime-184
+  name: 刑讯逼供罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第247条
+  elements:
+  - 司法工作人员对犯罪嫌疑人、被告人使用肉刑或变相肉刑逼取口供。
+  - 致人伤残、死亡的，依故意伤害、故意杀人罪从重处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1405-1407
+- id: crime-185
+  name: 暴力取证罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第247条
+  elements:
+  - 司法工作人员使用暴力逼取证人证言。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1407'
+- id: crime-186
+  name: 虐待被监管人罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第248条
+  elements:
+  - 监管机构的监管人员对被监管人殴打或者体罚虐待，情节严重；也包括指使被监管人殴打、体罚虐待其他被监管人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1407-1409
+- id: crime-187
+  name: 暴力干涉婚姻自由罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第257条
+  legalInterest: 婚姻自由与人身自由。
+  elements:
+  - 以暴力干涉他人结婚或离婚的自由；未致人死亡的，告诉才处理。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1409-1410
+- id: crime-188
+  name: 虐待罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第260条
+  legalInterest: 家庭成员身体的不可侵犯性与精神的健全。
+  elements:
+  - 对共同生活的家庭成员经常以打骂、冻饿、限制自由、凌辱人格等方法进行摧残、折磨，情节恶劣。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1410-1412
+- id: crime-189
+  name: 虐待被监护、看护人罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第260条之一
+  elements:
+  - 对未成年人、老年人、患病的人、残疾人等负有监护、看护职责的人，虐待被监护、看护的人，情节恶劣。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1412-1413
+- id: crime-190
+  name: 拐骗儿童罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第262条
+  legalInterest: 未成年人的人身自由与身体安全（而非监护权）。
+  elements:
+  - 采用蒙骗、利诱等方法，使不满 14 周岁的未成年人脱离家庭或者监护人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1413-1414
+- id: crime-191
+  name: 组织残疾人、儿童乞讨罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第262条之一
+  elements:
+  - 以暴力、胁迫手段组织残疾人或者不满 14 周岁的未成年人乞讨。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1414'
+- id: crime-192
+  name: 组织未成年人进行违反治安管理活动罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯自由的犯罪
+  area: sp-person
+  article: 第262条之二
+  elements:
+  - 组织未成年人进行盗窃、诈骗、抢夺、敲诈勒索等违反治安管理的活动。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1414-1415
+- id: crime-193
+  name: 侮辱罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯名誉、隐私、信息的犯罪
+  area: sp-person
+  article: 第246条
+  legalInterest: 他人的名誉。
+  elements:
+  - 以暴力或其他方法公然贬损他人人格、败坏其名誉，情节严重。
+  - 原则上告诉才处理；严重危害社会秩序和国家利益的除外。
+  related:
+  - crime: crime-194
+    note: 诽谤以散布捏造的事实为内容；侮辱不以捏造事实为必要。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1415-1418
+- id: crime-194
+  name: 诽谤罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯名誉、隐私、信息的犯罪
+  area: sp-person
+  article: 第246条
+  legalInterest: 他人的名誉。
+  elements:
+  - 散布捏造的事实，足以败坏他人名誉，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1418-1422
+- id: crime-195
+  name: 煽动民族仇恨、民族歧视罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯名誉、隐私、信息的犯罪
+  area: sp-person
+  article: 第249条
+  elements:
+  - 向不特定或多数人煽动民族仇恨、民族歧视，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1422'
+- id: crime-196
+  name: 出版歧视、侮辱少数民族作品罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯名誉、隐私、信息的犯罪
+  area: sp-person
+  article: 第250条
+  elements:
+  - 在出版物中刊载歧视、侮辱少数民族的内容，情节恶劣，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1422-1423
+- id: crime-197
+  name: 侵犯公民个人信息罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯名誉、隐私、信息的犯罪
+  area: sp-person
+  article: 第253条之一
+  elements:
+  - 违反国家有关规定，向他人出售或提供公民个人信息，或窃取、以其他方法非法获取公民个人信息，情节严重。
+  - 本罪保护法益存在争论，见本卡所引页码。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1423-1431
+- id: crime-198
+  name: 非法剥夺公民宗教信仰自由罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯民主权利的犯罪
+  area: sp-person
+  article: 第251条
+  legalInterest: 公民的宗教信仰自由。
+  elements:
+  - 国家机关工作人员非法剥夺公民宗教信仰自由，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1431-1432
+- id: crime-199
+  name: 侵犯少数民族风俗习惯罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯民主权利的犯罪
+  area: sp-person
+  article: 第251条
+  legalInterest: 少数民族保持与改革本民族风俗习惯的权利。
+  elements:
+  - 国家机关工作人员以强制手段非法干涉、破坏少数民族风俗习惯，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1432'
+- id: crime-200
+  name: 侵犯通信自由罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯民主权利的犯罪
+  area: sp-person
+  article: 第252条
+  elements:
+  - 隐匿、毁弃或非法开拆他人信件，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1432-1433
+- id: crime-201
+  name: 私自开拆、隐匿、毁弃邮件、电报罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯民主权利的犯罪
+  area: sp-person
+  article: 第253条
+  elements:
+  - 邮政工作人员私自开拆或者隐匿、毁弃邮件、电报。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1433-1434
+- id: crime-202
+  name: 报复陷害罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯民主权利的犯罪
+  area: sp-person
+  article: 第254条
+  legalInterest: 公民的控告权、申诉权、批评监督权与举报权。
+  elements:
+  - 国家机关工作人员滥用职权、假公济私，对控告人、申诉人、批评人、举报人实行报复陷害。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1434-1435
+- id: crime-203
+  name: 打击报复会计、统计人员罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯民主权利的犯罪
+  area: sp-person
+  article: 第255条
+  elements:
+  - 单位领导人对依法履行职责、抵制违反会计法统计法行为的会计、统计人员实行打击报复，情节恶劣。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1435'
+- id: crime-204
+  name: 破坏选举罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 侵犯民主权利的犯罪
+  area: sp-person
+  article: 第256条
+  elements:
+  - 在选举人大代表和国家机关领导人员时，以暴力、威胁、欺骗、贿赂、伪造选举文件、虚报选票等手段破坏选举或妨害选民自由行使选举权，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1435-1436
+- id: crime-205
+  name: 重婚罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 妨害婚姻的犯罪
+  area: sp-person
+  article: 第258条
+  elements:
+  - 有配偶而重婚，或明知他人有配偶而与之结婚；包括登记的法律婚与事实婚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1436-1438
+- id: crime-206
+  name: 破坏军婚罪
+  chapter: 侵犯公民人身权利、民主权利罪
+  section: 妨害婚姻的犯罪
+  area: sp-person
+  article: 第259条
+  elements:
+  - 明知是现役军人的配偶而与之同居或者结婚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1438-1459
+- id: crime-207
+  name: 盗窃罪
+  chapter: 侵犯财产罪
+  section: 盗窃罪与侵占罪
+  area: sp-property
+  article: 第264条
+  legalInterest: 财产所有权及其他本权，以及需要通过法定程序恢复应有状态的占有（作者的中间说）。
+  elements:
+  - 以非法占有为目的，违反被害人意志，将他人占有的财物转移为自己或第三者占有。
+  - 数额较大，或者多次盗窃、入户盗窃、携带凶器盗窃、扒窃。
+  - 对象包括财产性利益。
+  issues:
+  - q-theft-rechtsgut
+  - q-self-help-recovery
+  - q-theft-completion
+  - q-appropriation-intent-required
+  - q-appropriation-intent-content
+  - q-dead-possession
+  - q-atm-misuse
+  - q-theft-secrecy
+  related:
+  - crime: crime-212
+    note: 诈骗以被害人基于认识错误的处分行为为要件；没有处分行为的是盗窃。
+  - crime: crime-208
+    note: 盗窃的对象是他人占有的财物；侵占的对象是自己占有的他人财物或脱离占有物。
+  - crime: crime-210
+    note: 抢夺是对他人紧密占有的财物当场直接夺取。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1459-1501
+- id: crime-208
+  name: 侵占罪
+  chapter: 侵犯财产罪
+  section: 盗窃罪与侵占罪
+  area: sp-property
+  article: 第270条
+  legalInterest: 财物的所有权（含其他本权）；委托物侵占还侵害委托信任关系。
+  elements:
+  - 将代为保管的他人财物非法占为己有，数额较大，拒不退还；或将遗忘物、埋藏物非法占为己有，数额较大，拒不交出。
+  - 告诉才处理。
+  issues:
+  - q-dead-possession
+  - q-illegal-cause-embezzlement
+  - q-forgotten-property
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1501-1519
+- id: crime-209
+  name: 抢劫罪
+  chapter: 侵犯财产罪
+  section: 抢劫罪与抢夺罪
+  area: sp-property
+  article: 第263条
+  legalInterest: 财产，以及被害人的人身（意思活动自由、身体安全）。
+  elements:
+  - 以非法占有为目的，以暴力、胁迫或其他方法压制被害人反抗，当场强取财物。
+  - 刑法第 269 条规定了转化型抢劫；入户抢劫、持枪抢劫等八种情形法定刑升格。
+  issues:
+  - q-successive-nature
+  - q-successive-liability
+  - q-post-theft-robbery-precondition
+  - q-home-robbery-purpose
+  - q-robbery-completion
+  related:
+  - crime: crime-210
+    note: 抢劫以压制被害人反抗的强制手段取得财物，抢夺则直接夺取。
+  - crime: crime-213
+    note: 敲诈勒索的胁迫程度未达到压制反抗，被害人仍有选择余地而交付财物。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1519-1549
+- id: crime-210
+  name: 抢夺罪
+  chapter: 侵犯财产罪
+  section: 抢劫罪与抢夺罪
+  area: sp-property
+  article: 第267条
+  elements:
+  - 以非法占有为目的，当场直接夺取他人紧密占有的数额较大的财物，或者多次抢夺。
+  - 携带凶器抢夺的，依抢劫罪论处。
+  issues:
+  - q-theft-secrecy
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1549-1558
+- id: crime-211
+  name: 聚众哄抢罪
+  chapter: 侵犯财产罪
+  section: 抢劫罪与抢夺罪
+  area: sp-property
+  article: 第268条
+  elements:
+  - 以非法占有为目的，聚众哄抢公私财物，数额较大或者有其他严重情节；只处罚首要分子和积极参加者。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1558-1559
+- id: crime-212
+  name: 诈骗罪
+  chapter: 侵犯财产罪
+  section: 诈骗罪与敲诈勒索罪
+  area: sp-property
+  article: 第266条
+  legalInterest: 财物的所有与占有以及财产性利益（作者采以经济的财产说为基础的折中说）。
+  elements:
+  - 构造：欺骗行为 → 对方产生（或维持）认识错误 → 基于认识错误处分财产 → 行为人或第三者取得财产 → 被害人遭受财产损失。
+  - 以非法占有为目的，数额较大。
+  issues:
+  - q-fraud-property
+  - q-fraud-disposal-awareness
+  - q-triangle-fraud
+  - q-crossing-statutes
+  - q-fraud-whole-property
+  related:
+  - crime: crime-207
+    note: 是否存在被害人（或受骗人）基于认识错误的处分行为。
+  - crime: crime-213
+    note: 诈骗利用认识错误，敲诈勒索利用恐惧心理。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1559-1596
+- id: crime-213
+  name: 敲诈勒索罪
+  chapter: 侵犯财产罪
+  section: 诈骗罪与敲诈勒索罪
+  area: sp-property
+  article: 第274条
+  elements:
+  - 以非法占有为目的，对他人实行威胁或要挟，使其产生恐惧心理而交付财物，数额较大或者多次敲诈勒索。
+  issues:
+  - q-debt-collection-threat
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1596-1603
+- id: crime-214
+  name: 职务侵占罪
+  chapter: 侵犯财产罪
+  section: 职务侵占罪与挪用罪
+  area: sp-property
+  article: 第271条
+  legalInterest: 行为人本单位的财产。
+  elements:
+  - 公司、企业或其他单位的工作人员，利用职务上的便利，将本单位财物非法占为己有，数额较大。
+  issues:
+  - q-mixed-status-embezzlement
+  - q-occupational-embezzlement-acts
+  related:
+  - crime: crime-377
+    note: 国家工作人员利用职务便利侵吞公共财物的，成立贪污罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1603-1607
+- id: crime-215
+  name: 挪用资金罪
+  chapter: 侵犯财产罪
+  section: 职务侵占罪与挪用罪
+  area: sp-property
+  article: 第272条
+  elements:
+  - 单位工作人员利用职务便利，挪用本单位资金归个人使用或借贷给他人：数额较大超过 3 个月未还，或进行营利活动，或进行非法活动。
+  related:
+  - crime: crime-378
+    note: 主体是国家工作人员、对象是公款的，成立挪用公款罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1607-1610
+- id: crime-216
+  name: 挪用特定款物罪
+  chapter: 侵犯财产罪
+  section: 职务侵占罪与挪用罪
+  area: sp-property
+  article: 第273条
+  elements:
+  - 将专用于救灾、抢险、防汛、优抚、扶贫、移民、救济的款物挪作他用，情节严重，致使国家和人民群众利益遭受重大损害。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1610'
+- id: crime-217
+  name: 故意毁坏财物罪
+  chapter: 侵犯财产罪
+  section: 毁坏罪与拒付报酬罪
+  area: sp-property
+  article: 第275条
+  elements:
+  - 故意毁坏公私财物，数额较大或者有其他严重情节；「毁坏」包括使财物的效用丧失或减少。
+  issues:
+  - q-appropriation-intent-content
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1610-1613
+- id: crime-218
+  name: 破坏生产经营罪
+  chapter: 侵犯财产罪
+  section: 毁坏罪与拒付报酬罪
+  area: sp-property
+  article: 第276条
+  elements:
+  - 由于泄愤报复或者其他个人目的，毁坏机器设备、残害耕畜或者以其他方法破坏生产经营。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1613-1615
+- id: crime-219
+  name: 拒不支付劳动报酬罪
+  chapter: 侵犯财产罪
+  section: 毁坏罪与拒付报酬罪
+  area: sp-property
+  article: 第276条之一
+  elements:
+  - 以转移财产、逃匿等方法逃避支付劳动者的劳动报酬，或者有能力支付而不支付，数额较大，经政府有关部门责令支付仍不支付。
+  editorNote: 条文号未能在本书该罪小节的原文中找到相同写法，请对照法条核对。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1615-1619
+- id: crime-220
+  name: 妨害公务罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第277条
+  elements:
+  - 以暴力、威胁方法阻碍国家机关工作人员、人大代表、红十字会工作人员依法执行职务；故意阻碍国家安全机关、公安机关依法执行国家安全工作任务，造成严重后果的，不要求暴力、威胁。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1619-1626
+- id: crime-221
+  name: 袭警罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第277条
+  elements:
+  - 暴力袭击正在依法执行职务的人民警察；使用枪支、管制刀具或驾驶机动车撞击等严重危及人身安全的，法定刑升格。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1626-1631
+- id: crime-222
+  name: 煽动暴力抗拒法律实施罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第278条
+  elements:
+  - 煽动群众暴力抗拒国家法律、行政法规实施。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1631-1632
+- id: crime-223
+  name: 招摇撞骗罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第279条
+  elements:
+  - 冒充国家机关工作人员进行招摇撞骗，骗取地位、荣誉、待遇或财物等利益。
+  issues:
+  - q-crossing-statutes
+  related:
+  - crime: crime-212
+    note: 冒充国家机关工作人员骗取数额较大财物的，与诈骗罪可能形成竞合。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1632-1633
+- id: crime-224
+  name: 伪造、变造、买卖国家机关公文、证件、印章罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第280条
+  elements:
+  - 伪造、变造、买卖国家机关的公文、证件、印章。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1633-1638
+- id: crime-225
+  name: 盗窃、抢夺、毁灭国家机关公文、证件、印章罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第280条
+  elements:
+  - 盗窃、抢夺或者毁灭国家机关的公文、证件、印章。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1638'
+- id: crime-226
+  name: 伪造公司、企业、事业单位、人民团体印章罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第280条
+  elements:
+  - 伪造公司、企业、事业单位、人民团体的印章。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1638-1639
+- id: crime-227
+  name: 伪造、变造、买卖身份证件罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第280条
+  elements:
+  - 伪造、变造、买卖居民身份证、护照、社会保障卡、驾驶证等依法可以用于证明身份的证件。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1639-1640
+- id: crime-228
+  name: 使用虚假身份证件、盗用身份证件罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第280条之一
+  elements:
+  - 在依照国家规定应当提供身份证明的活动中，使用伪造、变造的或者盗用他人的身份证件，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1640-1641
+- id: crime-229
+  name: 冒名顶替罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第280条之二
+  elements:
+  - 盗用、冒用他人身份，顶替他人取得的高等学历教育入学资格、公务员录用资格、就业安置待遇。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1641-1644
+- id: crime-230
+  name: 非法生产、买卖警用装备罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第281条
+  elements:
+  - 非法生产、买卖人民警察制式服装、车辆号牌等专用标志、警械，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1644'
+- id: crime-231
+  name: 非法获取国家秘密罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第282条
+  elements:
+  - 以窃取、刺探、收买方法非法获取国家秘密。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1644-1645
+- id: crime-232
+  name: 非法持有国家绝密、机密文件、资料、物品罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第282条
+  elements:
+  - 非法持有属于国家绝密、机密的文件、资料或其他物品，拒不说明来源与用途。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1645-1646
+- id: crime-233
+  name: 非法生产、销售专用间谍器材、窃听、窃照专用器材罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第283条
+  elements:
+  - 非法生产、销售专用间谍器材或者窃听、窃照专用器材。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1646'
+- id: crime-234
+  name: 非法使用窃听、窃照专用器材罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第284条
+  elements:
+  - 非法使用窃听、窃照专用器材，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1646'
+- id: crime-235
+  name: 组织考试作弊罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第284条之一
+  elements:
+  - 在法律规定的国家考试中组织作弊，或为他人组织作弊提供作弊器材或其他帮助。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1646-1648
+- id: crime-236
+  name: 非法出售、提供试题、答案罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第284条之一
+  elements:
+  - 为实施考试作弊行为，向他人非法出售或提供法律规定的国家考试的试题、答案。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1648-1649
+- id: crime-237
+  name: 代替考试罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第284条之一
+  elements:
+  - 代替他人或让他人代替自己参加法律规定的国家考试。
+  editorNote: 条文号未能在本书该罪小节的原文中找到相同写法，请对照法条核对。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1649'
+- id: crime-238
+  name: 非法侵入计算机信息系统罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第285条
+  elements:
+  - 违反国家规定，侵入国家事务、国防建设、尖端科学技术领域的计算机信息系统。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1649-1650
+- id: crime-239
+  name: 非法获取计算机信息系统数据、非法控制计算机信息系统罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第285条
+  elements:
+  - 侵入前款规定以外的计算机信息系统或采用其他技术手段，获取其中存储、处理、传输的数据，或对其实施非法控制，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1650-1651
+- id: crime-240
+  name: 提供侵入、非法控制计算机信息系统程序、工具罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第285条
+  elements:
+  - 提供专门用于侵入、非法控制计算机信息系统的程序、工具，或明知他人实施此类行为而为其提供程序、工具，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1651-1652
+- id: crime-241
+  name: 破坏计算机信息系统罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第286条
+  elements:
+  - 违反国家规定，对计算机信息系统功能或其中的数据、应用程序进行删除、修改、增加、干扰，或故意制作、传播计算机病毒等破坏性程序，后果严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1652-1657
+- id: crime-242
+  name: 拒不履行信息网络安全管理义务罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第286条之一
+  elements:
+  - 网络服务提供者不履行信息网络安全管理义务，经监管部门责令改正而拒不改正，致使违法信息大量传播、用户信息泄露等严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1657-1660
+- id: crime-243
+  name: 非法利用信息网络罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第287条之一
+  elements:
+  - 利用信息网络设立用于实施违法犯罪活动的网站、通讯群组，发布违法犯罪信息，或为实施诈骗等违法犯罪活动发布信息，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1660-1663
+- id: crime-244
+  name: 帮助信息网络犯罪活动罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第287条之二
+  elements:
+  - 明知他人利用信息网络实施犯罪，为其提供互联网接入、服务器托管、网络存储、通讯传输等技术支持，或提供广告推广、支付结算等帮助，情节严重。
+  - 帮助行为被规定为独立的犯罪；同时构成其他犯罪的，依处罚较重的规定定罪处罚。
+  issues:
+  - q-aiding-cybercrime-nature
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1663-1678
+- id: crime-245
+  name: 扰乱无线电通讯管理秩序罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第288条
+  elements:
+  - 违反国家规定，擅自设置、使用无线电台（站），或擅自使用无线电频率，干扰无线电通讯秩序，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1678-1679
+- id: crime-246
+  name: 聚众扰乱社会秩序罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第290条
+  elements:
+  - 聚众扰乱社会秩序，情节严重，致使工作、生产、营业和教学、科研、医疗无法进行，造成严重损失；处罚首要分子和积极参加者。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1679-1680
+- id: crime-247
+  name: 聚众冲击国家机关罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第290条
+  elements:
+  - 聚众冲击国家机关，致使国家机关工作无法进行，造成严重损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1680-1681
+- id: crime-248
+  name: 扰乱国家机关工作秩序罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第290条
+  elements:
+  - 多次扰乱国家机关工作秩序，经行政处罚后仍不改正，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1681'
+- id: crime-249
+  name: 组织、资助非法聚集罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第290条
+  elements:
+  - 多次组织、资助他人非法聚集，扰乱社会秩序，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1681'
+- id: crime-250
+  name: 聚众扰乱公共场所秩序、交通秩序罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第291条
+  elements:
+  - 聚众扰乱车站、码头、商场、公园等公共场所秩序，或聚众堵塞交通、破坏交通秩序，抗拒、阻碍治安管理人员依法执行职务，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1681-1682
+- id: crime-251
+  name: 投放虚假危险物质罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第291条之一
+  elements:
+  - 投放虚假的爆炸性、毒害性、放射性、传染病病原体等物质，严重扰乱社会秩序。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1682'
+- id: crime-252
+  name: 编造、故意传播虚假恐怖信息罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第291条之一
+  elements:
+  - 编造爆炸威胁、生化威胁、放射威胁等恐怖信息，或明知是编造的恐怖信息而故意传播，严重扰乱社会秩序。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1682-1684
+- id: crime-253
+  name: 编造、故意传播虚假信息罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第291条之一
+  elements:
+  - 编造虚假的险情、疫情、灾情、警情，在信息网络或其他媒体上传播，或明知是此类虚假信息而故意传播，严重扰乱社会秩序。
+  editorNote: 条文号未能在本书该罪小节的原文中找到相同写法，请对照法条核对。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1684-1685
+- id: crime-254
+  name: 高空抛物罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第291条之二
+  elements:
+  - 从建筑物或其他高空抛掷物品，情节严重；同时构成其他犯罪的，依处罚较重的规定处罚。
+  related:
+  - crime: crime-017
+    note: 高空抛物危害公共安全、与放火爆炸等危险性相当时，才可能成立以危险方法危害公共安全罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1685-1686
+- id: crime-255
+  name: 聚众斗殴罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第292条
+  elements:
+  - 聚众斗殴；致人重伤、死亡的，依故意伤害、故意杀人罪论处。处罚首要分子和积极参加者。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1686-1689
+- id: crime-256
+  name: 寻衅滋事罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第293条
+  elements:
+  - 随意殴打他人、追逐拦截辱骂恐吓他人、强拿硬要或任意损毁占用公私财物、在公共场所起哄闹事，情节恶劣或造成严重后果。
+  - 构成要件较为宽泛，应依据所侵犯的法益进行限制解释。
+  issues:
+  - q-hooliganism-motive
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1689-1700
+- id: crime-257
+  name: 催收非法债务罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第293条之一
+  elements:
+  - 以暴力、胁迫，限制他人人身自由或侵入他人住宅，恐吓、跟踪、骚扰他人等方法，催收高利放贷等产生的非法债务，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1700-1705
+- id: crime-258
+  name: 组织、领导、参加黑社会性质组织罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第294条
+  elements:
+  - 组织、领导、积极参加或者参加具备组织特征、经济特征、行为特征和危害性特征的黑社会性质组织。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1705-1706
+- id: crime-259
+  name: 入境发展黑社会组织罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第294条
+  elements:
+  - 境外的黑社会组织的人员到我国境内发展组织成员。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1706-1707
+- id: crime-260
+  name: 包庇、纵容黑社会性质组织罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第294条
+  elements:
+  - 国家机关工作人员包庇黑社会性质组织，或纵容其进行违法犯罪活动。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1707'
+- id: crime-261
+  name: 传授犯罪方法罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第295条
+  elements:
+  - 以语言、文字、动作或其他方式向他人传授实施犯罪的具体方法。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1707-1708
+- id: crime-262
+  name: 非法集会、游行、示威罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第296条
+  elements:
+  - 举行集会、游行、示威未依法申请或申请未获许可，或未按照许可的起止时间、地点、路线进行，又拒不服从解散命令，严重破坏社会秩序；处罚负责人和直接责任人员。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1708-1709
+- id: crime-263
+  name: 非法携带武器、管制刀具、爆炸物参加集会、游行、示威罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第297条
+  elements:
+  - 违反法律规定，携带武器、管制刀具或爆炸物参加集会、游行、示威。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1709'
+- id: crime-264
+  name: 破坏集会、游行、示威罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第298条
+  elements:
+  - 扰乱、冲击或以其他方法破坏依法举行的集会、游行、示威，造成公共秩序混乱。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1709'
+- id: crime-265
+  name: 侮辱国旗、国徽、国歌罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第299条
+  elements:
+  - 在公共场合故意焚烧、毁损、涂划、玷污、践踏等方式侮辱国旗、国徽，或篡改歌词曲谱、以歪曲贬损方式奏唱国歌等，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1709-1710
+- id: crime-266
+  name: 侵害英雄烈士名誉、荣誉罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第299条之一
+  elements:
+  - 侮辱、诽谤或以其他方式侵害英雄烈士的名誉、荣誉，损害社会公共利益，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1710-1711
+- id: crime-267
+  name: 组织、利用会道门、邪教组织、利用迷信破坏法律实施罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第300条
+  elements:
+  - 组织、利用会道门、邪教组织或利用迷信破坏国家法律、行政法规实施。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1711-1712
+- id: crime-268
+  name: 组织、利用会道门、邪教组织、利用迷信致人重伤、死亡罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第300条
+  elements:
+  - 组织、利用会道门、邪教组织或利用迷信蒙骗他人，致人重伤、死亡。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1712-1713
+- id: crime-269
+  name: 聚众淫乱罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第301条
+  elements:
+  - 聚众进行淫乱活动；处罚首要分子和多次参加者。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1713'
+- id: crime-270
+  name: 引诱未成年人聚众淫乱罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第301条
+  elements:
+  - 引诱未成年人参加聚众淫乱活动。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1713-1714
+- id: crime-271
+  name: 盗窃、侮辱、故意毁坏尸体、尸骨、骨灰罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第302条
+  elements:
+  - 盗窃、侮辱、故意毁坏尸体、尸骨、骨灰。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1714'
+- id: crime-272
+  name: 赌博罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第303条
+  elements:
+  - 以营利为目的，聚众赌博或以赌博为业。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1714-1717
+- id: crime-273
+  name: 开设赌场罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第303条
+  elements:
+  - 开设赌场，包括利用互联网、移动通讯终端开设网络赌场。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1717-1719
+- id: crime-274
+  name: 组织参与国（境）外赌博罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第303条
+  elements:
+  - 组织中华人民共和国公民参与国（境）外赌博，数额巨大或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1719-1725
+- id: crime-275
+  name: 故意延误投递邮件罪
+  chapter: 妨害社会管理秩序罪
+  section: 扰乱公共秩序罪
+  area: sp-order
+  article: 第304条
+  elements:
+  - 邮政工作人员严重不负责任，故意延误投递邮件，致使公共财产、国家和人民利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1725'
+- id: crime-276
+  name: 伪证罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第305条
+  elements:
+  - 在刑事诉讼中，证人、鉴定人、记录人、翻译人对与案件有重要关系的情节，故意作虚假证明、鉴定、记录、翻译，意图陷害他人或隐匿罪证。
+  issues:
+  - q-perjury-falsity
+  - q-self-instigation
+  related:
+  - crime: crime-179
+    note: 伪证罪只能发生在刑事诉讼过程中，主体限于证人、鉴定人、记录人、翻译人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1725-1729
+- id: crime-277
+  name: 辩护人、诉讼代理人毁灭证据、伪造证据、妨害作证罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第306条
+  elements:
+  - 在刑事诉讼中，辩护人、诉讼代理人毁灭、伪造证据，帮助当事人毁灭、伪造证据，或威胁、引诱证人违背事实改变证言或作伪证。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1729-1730
+- id: crime-278
+  name: 妨害作证罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第307条
+  elements:
+  - 以暴力、威胁、贿买等方法阻止证人作证或指使他人作伪证。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1730-1734
+- id: crime-279
+  name: 帮助毁灭、伪造证据罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第307条
+  elements:
+  - 帮助当事人毁灭、伪造证据，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1734-1738
+- id: crime-280
+  name: 虚假诉讼罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第307条之一
+  elements:
+  - 以捏造的事实提起民事诉讼，妨害司法秩序或严重侵害他人合法权益。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1738-1746
+- id: crime-281
+  name: 打击报复证人罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第308条
+  elements:
+  - 对证人进行打击报复。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1746'
+- id: crime-282
+  name: 泄露不应公开的案件信息罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第308条之一
+  elements:
+  - 司法工作人员、辩护人、诉讼代理人或其他诉讼参与人，泄露依法不公开审理的案件中不应当公开的信息，造成信息公开传播或其他严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1746-1748
+- id: crime-283
+  name: 披露、报道不应公开的案件信息罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第308条之一
+  elements:
+  - 公开披露、报道依法不公开审理的案件中不应当公开的信息，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1748'
+- id: crime-284
+  name: 扰乱法庭秩序罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第309条
+  elements:
+  - 聚众哄闹、冲击法庭，殴打司法工作人员或诉讼参与人，侮辱、诽谤、威胁司法工作人员或诉讼参与人不听制止，或毁坏法庭设施、抢夺损毁诉讼文书证据等，严重扰乱法庭秩序。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1748'
+- id: crime-285
+  name: 窝藏、包庇罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第310条
+  elements:
+  - 明知是犯罪的人而为其提供隐藏处所、财物，帮助其逃匿，或者作假证明包庇。
+  issues:
+  - q-self-instigation
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1748-1754
+- id: crime-286
+  name: 掩饰、隐瞒犯罪所得、犯罪所得收益罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第312条
+  elements:
+  - 明知是犯罪所得及其产生的收益，而予以窝藏、转移、收购、代为销售或以其他方法掩饰、隐瞒。
+  issues:
+  - q-laundering-rechtsgut
+  related:
+  - crime: crime-120
+    note: 上游犯罪属于第 191 条列举的七类犯罪时，可能成立洗钱罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1754-1772
+- id: crime-287
+  name: 拒不执行判决、裁定罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第313条
+  elements:
+  - 对人民法院的判决、裁定有能力执行而拒不执行，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1772-1781
+- id: crime-288
+  name: 非法处置查封、扣押、冻结的财产罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第314条
+  elements:
+  - 隐藏、转移、变卖、故意毁损已被司法机关查封、扣押、冻结的财产，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1781-1782
+- id: crime-289
+  name: 破坏监管秩序罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第315条
+  elements:
+  - 依法被关押的罪犯殴打监管人员、组织其他被监管人破坏监管秩序、聚众闹事或殴打、体罚其他被监管人，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1782-1783
+- id: crime-290
+  name: 脱逃罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第316条
+  elements:
+  - 依法被关押的罪犯、被告人、犯罪嫌疑人脱逃。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1783-1784
+- id: crime-291
+  name: 劫夺被押解人员罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第316条
+  elements:
+  - 劫夺押解途中的罪犯、被告人、犯罪嫌疑人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1784-1785
+- id: crime-292
+  name: 组织越狱罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第317条
+  elements:
+  - 依法被关押的人有组织、有计划地共同越狱。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1785'
+- id: crime-293
+  name: 暴动越狱罪、聚众持械劫狱罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害司法罪
+  area: sp-order
+  article: 第317条
+  elements:
+  - 被关押的人以暴动方式集体越狱；或狱外人员聚众持械劫夺被关押的人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1785-1786
+- id: crime-294
+  name: 组织他人偷越国（边）境罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害国（边）境管理罪
+  area: sp-order
+  article: 第318条
+  elements:
+  - 领导、策划、指挥他人偷越国（边）境，或在首要分子指挥下实施拉拢、引诱、介绍他人偷越国（边）境等行为。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1786-1787
+- id: crime-295
+  name: 骗取出境证件罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害国（边）境管理罪
+  area: sp-order
+  article: 第319条
+  elements:
+  - 以劳务输出、经贸往来等名义，弄虚作假骗取护照、签证等出境证件，为组织他人偷越国（边）境使用。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1787-1789
+- id: crime-296
+  name: 提供伪造、变造的出入境证件罪、出售出入境证件罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害国（边）境管理罪
+  area: sp-order
+  article: 第320条
+  elements:
+  - 为他人提供伪造、变造的护照、签证等出入境证件，或出售护照、签证等出入境证件。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1789-1790
+- id: crime-297
+  name: 运送他人偷越国（边）境罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害国（边）境管理罪
+  area: sp-order
+  article: 第321条
+  elements:
+  - 运送他人偷越国（边）境。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1790-1791
+- id: crime-298
+  name: 偷越国（边）境罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害国（边）境管理罪
+  area: sp-order
+  article: 第322条
+  elements:
+  - 违反国（边）境管理法规偷越国（边）境，情节严重；为参加恐怖活动组织、接受恐怖活动培训或实施恐怖活动而偷越的，法定刑升格。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1791'
+- id: crime-299
+  name: 破坏界碑、界桩罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害国（边）境管理罪
+  area: sp-order
+  article: 第323条
+  elements:
+  - 故意破坏国家边境的界碑、界桩。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1791-1792
+- id: crime-300
+  name: 破坏永久性测量标志罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害国（边）境管理罪
+  area: sp-order
+  article: 第323条
+  elements:
+  - 故意破坏永久性测量标志。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1792'
+- id: crime-301
+  name: 故意损毁文物罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第324条
+  elements:
+  - 故意损毁国家保护的珍贵文物或被确定为全国、省级重点文物保护单位的文物。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1792-1793
+- id: crime-302
+  name: 故意损毁名胜古迹罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第324条
+  elements:
+  - 故意损毁国家保护的名胜古迹，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1793'
+- id: crime-303
+  name: 过失损毁文物罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第324条
+  elements:
+  - 过失损毁国家保护的珍贵文物或重点文物保护单位的文物，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1793-1794
+- id: crime-304
+  name: 非法向外国人出售、赠送珍贵文物罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第325条
+  elements:
+  - 违反文物保护法规，将收藏的国家禁止出口的珍贵文物私自出售或私自赠送给外国人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1794'
+- id: crime-305
+  name: 倒卖文物罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第326条
+  elements:
+  - 以牟利为目的，倒卖国家禁止经营的文物，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1794-1795
+- id: crime-306
+  name: 非法出售、私赠文物藏品罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第327条
+  elements:
+  - 国有博物馆、图书馆等单位违反文物保护法规，将国家保护的文物藏品出售或私自送给非国有单位或个人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1795'
+- id: crime-307
+  name: 盗掘古文化遗址、古墓葬罪和盗掘古人类化石、古脊椎动物化石罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第328条
+  elements:
+  - 盗掘具有历史、艺术、科学价值的古文化遗址、古墓葬，或盗掘国家保护的具有科学价值的古人类化石、古脊椎动物化石。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1795-1797
+- id: crime-308
+  name: 抢夺、窃取国有档案罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第329条
+  elements:
+  - 抢夺、窃取国家所有的档案。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1797'
+- id: crime-309
+  name: 擅自出卖、转让国有档案罪
+  chapter: 妨害社会管理秩序罪
+  section: 妨害文物管理罪
+  area: sp-order
+  article: 第329条
+  elements:
+  - 违反档案法规定，擅自出卖、转让国家所有的档案，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1797'
+- id: crime-310
+  name: 妨害传染病防治罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第330条
+  elements:
+  - 违反传染病防治法的规定，有供水不符合卫生标准、拒绝消毒处理、拒绝执行防控措施等情形之一，引起甲类传染病以及依法确定采取甲类传染病预防、控制措施的传染病传播或有传播严重危险。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1797-1798
+- id: crime-311
+  name: 传染病菌种、毒种扩散罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第331条
+  elements:
+  - 从事实验、保藏、携带、运输传染病菌种、毒种的人员违反卫生行政部门的有关规定，造成传染病菌种、毒种扩散，后果严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1798-1799
+- id: crime-312
+  name: 妨害国境卫生检疫罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第332条
+  elements:
+  - 违反国境卫生检疫规定，引起检疫传染病传播或有传播严重危险。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1799-1800
+- id: crime-313
+  name: 非法组织卖血罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第333条
+  elements:
+  - 非法组织他人出卖血液。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1800'
+- id: crime-314
+  name: 强迫卖血罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第333条
+  elements:
+  - 以暴力、威胁方法强迫他人出卖血液。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1800-1801
+- id: crime-315
+  name: 非法采集、供应血液、制作、供应血液制品罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第334条
+  elements:
+  - 非法采集、供应血液或制作、供应血液制品，不符合国家规定的标准，足以危害人体健康。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1801-1802
+- id: crime-316
+  name: 采集、供应血液、制作、供应血液制品事故罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第334条
+  elements:
+  - 经批准采集、供应血液或制作、供应血液制品的部门，不依照规定进行检测或违背操作规定，造成危害他人身体健康后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1802'
+- id: crime-317
+  name: 非法采集人类遗传资源、走私人类遗传资源材料罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第334条之一
+  elements:
+  - 违反国家有关规定，非法采集我国人类遗传资源或非法运送、邮寄、携带人类遗传资源材料出境，危害公众健康或社会公共利益，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1802'
+- id: crime-318
+  name: 医疗事故罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第335条
+  elements:
+  - 医务人员由于严重不负责任，造成就诊人死亡或严重损害就诊人身体健康。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1802-1804
+- id: crime-319
+  name: 非法行医罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第336条
+  elements:
+  - 未取得医生执业资格的人非法行医，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1804-1809
+- id: crime-320
+  name: 非法进行节育手术罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第336条
+  elements:
+  - 未取得医生执业资格的人擅自为他人进行节育复通手术、假节育手术、终止妊娠手术或摘取宫内节育器，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1809'
+- id: crime-321
+  name: 非法植入基因编辑、克隆胚胎罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第336条之一
+  elements:
+  - 将基因编辑、克隆的人类胚胎植入人体或动物体内，或将基因编辑、克隆的动物胚胎植入人体内，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1809'
+- id: crime-322
+  name: 妨害动植物防疫、检疫罪
+  chapter: 妨害社会管理秩序罪
+  section: 危害公共卫生罪
+  area: sp-order
+  article: 第337条
+  elements:
+  - 违反动植物防疫、检疫的国家规定，引起重大动植物疫情，或有引起重大动植物疫情的危险，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1809-1810
+- id: crime-323
+  name: 污染环境罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第338条
+  elements:
+  - 违反国家规定，排放、倾倒或处置有放射性的废物、含传染病病原体的废物、有毒物质或其他有害物质，严重污染环境。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1810-1821
+- id: crime-324
+  name: 非法处置进口的固体废物罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第339条
+  elements:
+  - 违反国家规定，将境外的固体废物进境倾倒、堆放、处置。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1821-1822
+- id: crime-325
+  name: 擅自进口固体废物罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第339条
+  elements:
+  - 未经国务院有关主管部门许可，擅自进口固体废物用作原料，造成重大环境污染事故。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1822'
+- id: crime-326
+  name: 非法捕捞水产品罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第340条
+  elements:
+  - 违反保护水产资源法规，在禁渔区、禁渔期或使用禁用的工具、方法捕捞水产品，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1822-1823
+- id: crime-327
+  name: 危害珍贵、濒危野生动物罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第341条
+  elements:
+  - 非法猎捕、杀害国家重点保护的珍贵、濒危野生动物，或非法收购、运输、出售其及其制品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1823-1826
+- id: crime-328
+  name: 非法狩猎罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第341条
+  elements:
+  - 违反狩猎法规，在禁猎区、禁猎期或使用禁用的工具、方法进行狩猎，破坏野生动物资源，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1826'
+- id: crime-329
+  name: 非法猎捕、收购、运输、出售陆生野生动物罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第341条
+  elements:
+  - 违反野生动物保护管理法规，以食用为目的非法猎捕、收购、运输、出售前述以外的在野外环境自然生长繁殖的陆生野生动物，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1826-1827
+- id: crime-330
+  name: 非法占用农用地罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第342条
+  elements:
+  - 违反土地管理法规，非法占用耕地、林地等农用地，改变被占用土地用途，数量较大，造成耕地、林地等农用地大量毁坏。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1827-1829
+- id: crime-331
+  name: 破坏自然保护地罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第342条之一
+  elements:
+  - 违反自然保护地管理法规，在国家公园、国家级自然保护区进行开垦、开发活动或修建建筑物，造成严重后果或有其他恶劣情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1829'
+- id: crime-332
+  name: 非法采矿罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第343条
+  elements:
+  - 违反矿产资源法的规定，未取得采矿许可证擅自采矿，或擅自进入国家规划矿区、对国民经济具有重要价值的矿区和他人矿区范围采矿，或擅自开采国家规定实行保护性开采的特定矿种，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1829-1832
+- id: crime-333
+  name: 破坏性采矿罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第343条
+  elements:
+  - 违反矿产资源法的规定，采取破坏性的开采方法开采矿产资源，造成矿产资源严重破坏。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1832'
+- id: crime-334
+  name: 危害国家重点保护植物罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第344条
+  elements:
+  - 违反国家规定，非法采伐、毁坏珍贵树木或国家重点保护的其他植物，或非法收购、运输、加工、出售其及其制品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1832-1834
+- id: crime-335
+  name: 非法引进、释放、丢弃外来入侵物种罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第344条之一
+  elements:
+  - 违反国家规定，非法引进、释放或丢弃外来入侵物种，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1834'
+- id: crime-336
+  name: 盗伐林木罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第345条
+  elements:
+  - 盗伐森林或其他林木，数量较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1834-1841
+- id: crime-337
+  name: 滥伐林木罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第345条
+  elements:
+  - 违反森林法的规定，滥伐森林或其他林木，数量较大。
+  related:
+  - crime: crime-336
+    note: 盗伐是未经许可砍伐他人所有的林木；滥伐是对自己所有或经许可但超出许可范围的砍伐。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1841-1842
+- id: crime-338
+  name: 非法收购、运输盗伐、滥伐的林木罪
+  chapter: 妨害社会管理秩序罪
+  section: 破坏环境资源保护罪
+  area: sp-order
+  article: 第345条
+  elements:
+  - 非法收购、运输明知是盗伐、滥伐的林木，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1842-1843
+- id: crime-339
+  name: 走私、贩卖、运输、制造毒品罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第347条
+  elements:
+  - 走私、贩卖、运输、制造毒品；无论数量多少，都应追究刑事责任。
+  issues:
+  - q-drug-sale-buy
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1843-1862
+- id: crime-340
+  name: 非法持有毒品罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第348条
+  elements:
+  - 非法持有鸦片 200 克以上、海洛因或甲基苯丙胺 10 克以上或其他毒品数量较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1862-1864
+- id: crime-341
+  name: 包庇毒品犯罪分子罪、窝藏、转移、隐瞒毒品、毒赃罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第349条
+  elements:
+  - 包庇走私、贩卖、运输、制造毒品的犯罪分子，或为其窝藏、转移、隐瞒毒品或犯罪所得的财物。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1864-1865
+- id: crime-342
+  name: 非法生产、买卖、运输制毒物品、走私制毒物品罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第350条
+  elements:
+  - 违反国家规定，非法生产、买卖、运输醋酸酐、乙醚、三氯甲烷等制毒原料、配剂，或携带上述物品进出境，情节较重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1865-1867
+- id: crime-343
+  name: 非法种植毒品原植物罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第351条
+  elements:
+  - 非法种植罂粟、大麻等毒品原植物，数量较大，或经公安机关处理后又种植，或抗拒铲除。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1867-1869
+- id: crime-344
+  name: 非法买卖、运输、携带、持有毒品原植物种子、幼苗罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第352条
+  elements:
+  - 非法买卖、运输、携带、持有未经灭活的罂粟等毒品原植物种子或幼苗，数量较大。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1869'
+- id: crime-345
+  name: 引诱、教唆、欺骗他人吸毒罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第353条
+  elements:
+  - 引诱、教唆、欺骗他人吸食、注射毒品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1869-1870
+- id: crime-346
+  name: 强迫他人吸毒罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第353条
+  elements:
+  - 强迫他人吸食、注射毒品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1870'
+- id: crime-347
+  name: 容留他人吸毒罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第354条
+  elements:
+  - 容留他人吸食、注射毒品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1870-1871
+- id: crime-348
+  name: 非法提供麻醉药品、精神药品罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第355条
+  elements:
+  - 依法从事生产、运输、管理、使用国家管制的麻醉药品、精神药品的人员，违反规定向吸食、注射毒品的人提供这些药品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1871-1872
+- id: crime-349
+  name: 妨害兴奋剂管理罪
+  chapter: 妨害社会管理秩序罪
+  section: 走私、贩卖、运输、制造毒品罪
+  area: sp-order
+  article: 第355条之一
+  elements:
+  - 引诱、教唆、欺骗运动员使用兴奋剂参加国内、国际重大体育竞赛，或明知运动员参赛而向其提供兴奋剂，情节严重；组织、强迫运动员使用的，从重处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1872-1873
+- id: crime-350
+  name: 组织卖淫罪、强迫卖淫罪
+  chapter: 妨害社会管理秩序罪
+  section: 组织、强迫、引诱、容留、介绍卖淫罪
+  area: sp-order
+  article: 第358条
+  elements:
+  - 组织他人卖淫，或强迫他人卖淫。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1873-1876
+- id: crime-351
+  name: 协助组织卖淫罪
+  chapter: 妨害社会管理秩序罪
+  section: 组织、强迫、引诱、容留、介绍卖淫罪
+  area: sp-order
+  article: 第358条
+  elements:
+  - 为组织卖淫的人招募、运送人员或有其他协助组织他人卖淫的行为。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1876-1881
+- id: crime-352
+  name: 引诱、容留、介绍卖淫罪
+  chapter: 妨害社会管理秩序罪
+  section: 组织、强迫、引诱、容留、介绍卖淫罪
+  area: sp-order
+  article: 第359条
+  elements:
+  - 引诱、容留、介绍他人卖淫。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1881-1882
+- id: crime-353
+  name: 引诱幼女卖淫罪
+  chapter: 妨害社会管理秩序罪
+  section: 组织、强迫、引诱、容留、介绍卖淫罪
+  area: sp-order
+  article: 第359条
+  elements:
+  - 引诱不满 14 周岁的幼女卖淫。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1882-1883
+- id: crime-354
+  name: 传播性病罪
+  chapter: 妨害社会管理秩序罪
+  section: 组织、强迫、引诱、容留、介绍卖淫罪
+  area: sp-order
+  article: 第360条
+  elements:
+  - 明知自己患有梅毒、淋病等严重性病而卖淫、嫖娼。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1883-1885
+- id: crime-355
+  name: 制作、复制、出版、贩卖、传播淫秽物品牟利罪
+  chapter: 妨害社会管理秩序罪
+  section: 制作、贩卖、传播淫秽物品罪
+  area: sp-order
+  article: 第363条
+  elements:
+  - 以牟利为目的，制作、复制、出版、贩卖、传播淫秽物品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1885-1890
+- id: crime-356
+  name: 为他人提供书号出版淫秽书刊罪
+  chapter: 妨害社会管理秩序罪
+  section: 制作、贩卖、传播淫秽物品罪
+  area: sp-order
+  article: 第363条
+  elements:
+  - 为他人提供书号，出版淫秽书刊。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1890'
+- id: crime-357
+  name: 传播淫秽物品罪
+  chapter: 妨害社会管理秩序罪
+  section: 制作、贩卖、传播淫秽物品罪
+  area: sp-order
+  article: 第364条
+  elements:
+  - 传播淫秽的书刊、影片、音像、图片或其他淫秽物品，情节严重；向不满 18 周岁的未成年人传播的从重处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1890-1891
+- id: crime-358
+  name: 组织播放淫秽音像制品罪
+  chapter: 妨害社会管理秩序罪
+  section: 制作、贩卖、传播淫秽物品罪
+  area: sp-order
+  article: 第364条
+  elements:
+  - 组织播放淫秽的电影、录像等音像制品。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1891'
+- id: crime-359
+  name: 组织淫秽表演罪
+  chapter: 妨害社会管理秩序罪
+  section: 制作、贩卖、传播淫秽物品罪
+  area: sp-order
+  article: 第365条
+  elements:
+  - 组织进行淫秽表演。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1891-1894
+- id: crime-360
+  name: 阻碍军人执行职务罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第368条
+  elements:
+  - 以暴力、威胁方法阻碍军人依法执行职务。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1894'
+- id: crime-361
+  name: 阻碍军事行动罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第368条
+  elements:
+  - 故意阻碍武装部队军事行动，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1894'
+- id: crime-362
+  name: 破坏武器装备、军事设施、军事通信罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第369条
+  elements:
+  - 破坏武器装备、军事设施、军事通信。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1894-1895
+- id: crime-363
+  name: 过失损坏武器装备、军事设施、军事通信罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第369条
+  elements:
+  - 过失损坏武器装备、军事设施、军事通信，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1895-1896
+- id: crime-364
+  name: 聚众冲击军事禁区罪、聚众扰乱军事管理区秩序罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第371条
+  elements:
+  - 聚众冲击军事禁区，严重扰乱军事禁区秩序；或聚众扰乱军事管理区秩序，情节严重，致使军事管理区工作无法进行，造成严重损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1896'
+- id: crime-365
+  name: 冒充军人招摇撞骗罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第372条
+  elements:
+  - 冒充军人招摇撞骗。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1896-1897
+- id: crime-366
+  name: 煽动军人逃离部队罪、雇用逃离部队军人罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第373条
+  elements:
+  - 煽动军人逃离部队，或明知是逃离部队的军人而雇用，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1897'
+- id: crime-367
+  name: 接送不合格兵员罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第374条
+  elements:
+  - 在征兵工作中徇私舞弊，接送不合格兵员，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1897-1898
+- id: crime-368
+  name: 非法生产、买卖武装部队制式服装罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第375条
+  elements:
+  - 非法生产、买卖武装部队制式服装，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1898'
+- id: crime-369
+  name: 伪造、盗窃、买卖、非法提供、非法使用武装部队专用标志罪
+  chapter: 危害国防利益罪
+  section: 平时危害国防利益的犯罪
+  article: 第375条
+  elements:
+  - 伪造、盗窃、买卖或非法提供、使用武装部队车辆号牌等专用标志，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1898-1899
+- id: crime-370
+  name: 战时拒绝、逃避征召、军事训练罪
+  chapter: 危害国防利益罪
+  section: 战时危害国防利益的犯罪
+  article: 第376条
+  elements:
+  - 预备役人员战时拒绝、逃避征召或军事训练，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1899-1900
+- id: crime-371
+  name: 战时拒绝、逃避服役罪
+  chapter: 危害国防利益罪
+  section: 战时危害国防利益的犯罪
+  article: 第376条
+  elements:
+  - 公民战时拒绝、逃避服役，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1900'
+- id: crime-372
+  name: 战时故意提供虚假敌情罪
+  chapter: 危害国防利益罪
+  section: 战时危害国防利益的犯罪
+  article: 第377条
+  elements:
+  - 战时故意向武装部队提供虚假敌情，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1900'
+- id: crime-373
+  name: 战时造谣扰乱军心罪
+  chapter: 危害国防利益罪
+  section: 战时危害国防利益的犯罪
+  article: 第378条
+  elements:
+  - 战时造谣惑众，扰乱军心。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1900'
+- id: crime-374
+  name: 战时窝藏逃离部队军人罪
+  chapter: 危害国防利益罪
+  section: 战时危害国防利益的犯罪
+  article: 第379条
+  elements:
+  - 战时明知是逃离部队的军人而为其提供隐蔽处所、财物，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1900-1901
+- id: crime-375
+  name: 战时拒绝、故意延误军事订货罪
+  chapter: 危害国防利益罪
+  section: 战时危害国防利益的犯罪
+  article: 第380条
+  elements:
+  - 战时拒绝或故意延误军事订货，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1901'
+- id: crime-376
+  name: 战时拒绝军事征收、征用罪
+  chapter: 危害国防利益罪
+  section: 战时危害国防利益的犯罪
+  article: 第381条
+  elements:
+  - 战时拒绝军事征收、征用，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1901-1904
+- id: crime-377
+  name: 贪污罪
+  chapter: 贪污贿赂罪
+  section: 贪污犯罪
+  area: sp-duty
+  article: 第382条
+  legalInterest: 公共财产，以及国家工作人员职务行为的廉洁性。
+  elements:
+  - 国家工作人员利用职务上的便利，以侵吞、窃取、骗取或其他手段非法占有公共财物，数额较大或有其他较重情节。
+  issues:
+  - q-status-complicity
+  - q-mixed-status-embezzlement
+  related:
+  - crime: crime-214
+    note: 主体与对象不同：非国家工作人员侵占本单位财物的，成立职务侵占罪。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1904-1917
+- id: crime-378
+  name: 挪用公款罪
+  chapter: 贪污贿赂罪
+  section: 贪污犯罪
+  area: sp-duty
+  article: 第384条
+  elements:
+  - 国家工作人员利用职务便利挪用公款归个人使用：进行非法活动；数额较大进行营利活动；或数额较大超过 3 个月未还。
+  issues:
+  - q-misappropriation-unused
+  related:
+  - crime: crime-377
+    note: 挪用以归还的意思暂时使用，贪污以非法占有为目的。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1917-1928
+- id: crime-379
+  name: 私分国有资产罪、私分罚没财物罪
+  chapter: 贪污贿赂罪
+  section: 贪污犯罪
+  area: sp-duty
+  article: 第396条
+  elements:
+  - 国有单位违反国家规定，以单位名义将国有资产集体私分给个人，数额较大；司法、行政执法机关私分罚没财物的，同样处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1928-1929
+- id: crime-380
+  name: 巨额财产来源不明罪
+  chapter: 贪污贿赂罪
+  section: 贪污犯罪
+  area: sp-duty
+  article: 第395条
+  elements:
+  - 国家工作人员的财产、支出明显超过合法收入，差额巨大，本人不能说明来源。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1929-1932
+- id: crime-381
+  name: 隐瞒境外存款罪
+  chapter: 贪污贿赂罪
+  section: 贪污犯罪
+  area: sp-duty
+  article: 第395条
+  elements:
+  - 国家工作人员在境外的存款数额较大，隐瞒不报。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1932-1933
+- id: crime-382
+  name: 受贿罪
+  chapter: 贪污贿赂罪
+  section: 贿赂犯罪
+  area: sp-duty
+  article: 第385条
+  legalInterest: 国家工作人员职务行为的不可收买性。
+  elements:
+  - 国家工作人员利用职务上的便利，索取他人财物，或者非法收受他人财物为他人谋取利益。
+  - 第 388 条规定了斡旋受贿：利用本人职权或地位形成的便利条件，通过其他国家工作人员的职务行为为请托人谋取不正当利益。
+  issues:
+  - q-bribery-rechtsgut
+  - q-bribery-benefit
+  - q-post-acceptance
+  related:
+  - crime: crime-384
+    note: 主体是国家工作人员的近亲属等关系密切的人或离职的国家工作人员。
+  - crime: crime-385
+    note: 对向犯；行贿罪以谋取不正当利益为要件。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1933-1970
+- id: crime-383
+  name: 单位受贿罪
+  chapter: 贪污贿赂罪
+  section: 贿赂犯罪
+  area: sp-duty
+  article: 第387条
+  elements:
+  - 国有单位索取、非法收受他人财物，为他人谋取利益，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1970'
+- id: crime-384
+  name: 利用影响力受贿罪
+  chapter: 贪污贿赂罪
+  section: 贿赂犯罪
+  area: sp-duty
+  article: 第388条之一
+  elements:
+  - 国家工作人员的近亲属或其他关系密切的人、离职的国家工作人员及其关系密切的人，利用其影响力为请托人谋取不正当利益，索取或收受财物，数额较大或有其他较重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1970-1973
+- id: crime-385
+  name: 行贿罪
+  chapter: 贪污贿赂罪
+  section: 贿赂犯罪
+  area: sp-duty
+  article: 第389条
+  elements:
+  - 为谋取不正当利益，给予国家工作人员以财物。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1973-1992
+- id: crime-386
+  name: 对有影响力的人行贿罪
+  chapter: 贪污贿赂罪
+  section: 贿赂犯罪
+  area: sp-duty
+  article: 第390条之一
+  elements:
+  - 为谋取不正当利益，向国家工作人员的近亲属等关系密切的人或离职的国家工作人员及其关系密切的人行贿。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1992-1993
+- id: crime-387
+  name: 对单位行贿罪
+  chapter: 贪污贿赂罪
+  section: 贿赂犯罪
+  area: sp-duty
+  article: 第391条
+  elements:
+  - 为谋取不正当利益，给予国有单位以财物，或在经济往来中违反国家规定给予回扣、手续费。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '1993'
+- id: crime-388
+  name: 单位行贿罪
+  chapter: 贪污贿赂罪
+  section: 贿赂犯罪
+  area: sp-duty
+  article: 第393条
+  elements:
+  - 单位为谋取不正当利益而行贿，或违反国家规定给予国家工作人员回扣、手续费，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1993-1994
+- id: crime-389
+  name: 介绍贿赂罪
+  chapter: 贪污贿赂罪
+  section: 贿赂犯罪
+  area: sp-duty
+  article: 第392条
+  elements:
+  - 向国家工作人员介绍贿赂，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 1994-2004
+- id: crime-390
+  name: 滥用职权罪
+  chapter: 渎职罪
+  section: 一般国家机关工作人员的渎职罪
+  area: sp-duty
+  article: 第397条
+  elements:
+  - 国家机关工作人员超越职权或违法行使职权，致使公共财产、国家和人民利益遭受重大损失。
+  related:
+  - crime: crime-391
+    note: 滥用职权是故意违法行使职权，玩忽职守是严重不负责任、不履行或不认真履行职责。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2004-2008
+- id: crime-391
+  name: 玩忽职守罪
+  chapter: 渎职罪
+  section: 一般国家机关工作人员的渎职罪
+  area: sp-duty
+  article: 第397条
+  elements:
+  - 国家机关工作人员严重不负责任，不履行或不正确履行职责，致使公共财产、国家和人民利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2008-2014
+- id: crime-392
+  name: 故意泄露国家秘密罪、过失泄露国家秘密罪
+  chapter: 渎职罪
+  section: 一般国家机关工作人员的渎职罪
+  area: sp-duty
+  article: 第398条
+  elements:
+  - 国家机关工作人员违反保守国家秘密法的规定，故意或过失泄露国家秘密，情节严重；非国家机关工作人员也可构成。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2014-2016
+- id: crime-393
+  name: 国家机关工作人员签订、履行合同失职被骗罪
+  chapter: 渎职罪
+  section: 一般国家机关工作人员的渎职罪
+  area: sp-duty
+  article: 第406条
+  elements:
+  - 国家机关工作人员在签订、履行合同过程中因严重不负责任被诈骗，致使国家利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2016'
+- id: crime-394
+  name: 非法批准征收、征用、占用土地罪和非法低价出让国有土地使用权罪
+  chapter: 渎职罪
+  section: 一般国家机关工作人员的渎职罪
+  area: sp-duty
+  article: 第410条
+  elements:
+  - 国家机关工作人员徇私舞弊，违反土地管理法规，滥用职权非法批准征收、征用、占用土地，或非法低价出让国有土地使用权，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2016-2017
+- id: crime-395
+  name: 招收公务员、学生徇私舞弊罪
+  chapter: 渎职罪
+  section: 一般国家机关工作人员的渎职罪
+  area: sp-duty
+  article: 第418条
+  elements:
+  - 国家机关工作人员在招收公务员、学生工作中徇私舞弊，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2017'
+- id: crime-396
+  name: 失职造成珍贵文物损毁、流失罪
+  chapter: 渎职罪
+  section: 一般国家机关工作人员的渎职罪
+  area: sp-duty
+  article: 第419条
+  elements:
+  - 国家机关工作人员严重不负责任，造成珍贵文物损毁或流失，后果严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2017-2018
+- id: crime-397
+  name: 徇私枉法罪
+  chapter: 渎职罪
+  section: 司法工作人员的渎职罪
+  area: sp-duty
+  article: 第399条
+  elements:
+  - 司法工作人员徇私枉法、徇情枉法，对明知是无罪的人使其受追诉、对明知是有罪的人故意包庇不使其受追诉，或在刑事审判中故意违背事实和法律作枉法裁判。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2018-2022
+- id: crime-398
+  name: 民事、行政枉法裁判罪
+  chapter: 渎职罪
+  section: 司法工作人员的渎职罪
+  area: sp-duty
+  article: 第399条
+  elements:
+  - 在民事、行政审判活动中故意违背事实和法律作枉法裁判，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2022-2024
+- id: crime-399
+  name: 私放在押人员罪
+  chapter: 渎职罪
+  section: 司法工作人员的渎职罪
+  area: sp-duty
+  article: 第400条
+  elements:
+  - 司法工作人员私放在押的犯罪嫌疑人、被告人或罪犯。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2024-2025
+- id: crime-400
+  name: 失职致使在押人员脱逃罪
+  chapter: 渎职罪
+  section: 司法工作人员的渎职罪
+  area: sp-duty
+  article: 第400条
+  elements:
+  - 司法工作人员由于严重不负责任，致使在押人员脱逃，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2025'
+- id: crime-401
+  name: 徇私舞弊减刑、假释、暂予监外执行罪
+  chapter: 渎职罪
+  section: 司法工作人员的渎职罪
+  area: sp-duty
+  article: 第401条
+  elements:
+  - 司法工作人员徇私舞弊，对不符合条件的罪犯予以减刑、假释或暂予监外执行。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2025-2026
+- id: crime-402
+  name: 枉法仲裁罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第399条之一
+  elements:
+  - 依法承担仲裁职责的人员在仲裁活动中故意违背事实和法律作枉法裁决，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2026'
+- id: crime-403
+  name: 徇私舞弊不移交刑事案件罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第402条
+  elements:
+  - 行政执法人员徇私舞弊，对依法应当移交司法机关追究刑事责任的案件不移交，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2026-2027
+- id: crime-404
+  name: 滥用管理公司、证券职权罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第403条
+  elements:
+  - 国家有关主管部门的工作人员徇私舞弊、滥用职权，对不符合法定条件的公司设立、登记申请或股票、债券发行、上市申请予以批准或登记，致使公共财产、国家和人民利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2027-2028
+- id: crime-405
+  name: 徇私舞弊不征、少征税款罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第404条
+  elements:
+  - 税务机关工作人员徇私舞弊，不征或少征应征税款，致使国家税收遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2028'
+- id: crime-406
+  name: 徇私舞弊发售发票、抵扣税款、出口退税罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第405条
+  elements:
+  - 税务机关工作人员违反法律、行政法规，在办理发售发票、抵扣税款、出口退税工作中徇私舞弊，致使国家利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2028-2029
+- id: crime-407
+  name: 违法提供出口退税凭证罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第405条
+  elements:
+  - 其他国家机关工作人员违反国家规定，在提供出口货物报关单、出口收汇核销单等出口退税凭证工作中徇私舞弊，致使国家利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2029'
+- id: crime-408
+  name: 违法发放林木采伐许可证罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第407条
+  elements:
+  - 林业主管部门工作人员违反森林法的规定，超过批准的年采伐限额发放林木采伐许可证或违规滥发，情节严重，致使森林遭受严重破坏。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2029'
+- id: crime-409
+  name: 环境监管失职罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第408条
+  elements:
+  - 负有环境保护监督管理职责的国家机关工作人员严重不负责任，导致发生重大环境污染事故，致使公私财产遭受重大损失或造成人身伤亡的严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2029-2030
+- id: crime-410
+  name: 食品、药品监管渎职罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第408条之一
+  elements:
+  - 负有食品药品安全监督管理职责的国家机关工作人员滥用职权或玩忽职守，有瞒报谎报食品药品安全事故等情形之一，造成严重后果或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2030-2031
+- id: crime-411
+  name: 传染病防治失职罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第409条
+  elements:
+  - 从事传染病防治的政府卫生行政部门的工作人员严重不负责任，导致传染病传播或流行，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2031'
+- id: crime-412
+  name: 放纵走私罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第411条
+  elements:
+  - 海关工作人员徇私舞弊，放纵走私，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2031-2032
+- id: crime-413
+  name: 商检徇私舞弊罪、商检失职罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第412条
+  elements:
+  - 国家商检部门、商检机构的工作人员徇私舞弊伪造检验结果，或严重不负责任对应当检验的物品不检验、延误检验或错误出证，致使国家利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2032-2033
+- id: crime-414
+  name: 动植物检疫徇私舞弊罪、动植物检疫失职罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第413条
+  elements:
+  - 动植物检疫机关的检疫人员徇私舞弊伪造检疫结果，或严重不负责任对应当检疫的检疫物不检疫、延误检疫或错误出证，致使国家利益遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2033'
+- id: crime-415
+  name: 放纵制售伪劣商品犯罪行为罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第414条
+  elements:
+  - 对生产、销售伪劣商品犯罪行为负有追究责任的国家机关工作人员徇私舞弊，不履行法律规定的追究职责，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2033-2034
+- id: crime-416
+  name: 办理偷越国（边）境人员出入境证件罪、放行偷越国（边）境人员罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第415条
+  elements:
+  - 负责办理护照、签证等出入境证件的国家机关工作人员，对明知是企图偷越国（边）境的人员予以办理出入境证件；或边防、海关等国家机关工作人员对明知是偷越国（边）境的人员予以放行。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2034'
+- id: crime-417
+  name: 不解救被拐卖、绑架的妇女、儿童罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第416条
+  elements:
+  - 对被拐卖、绑架的妇女、儿童负有解救职责的国家机关工作人员，接到被拐卖、绑架的妇女、儿童及其家属的解救要求或接到其他人的举报，而对被拐卖、绑架的妇女、儿童不进行解救，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2034-2035
+- id: crime-418
+  name: 阻碍解救被拐卖、绑架的妇女、儿童罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第416条
+  elements:
+  - 负有解救职责的国家机关工作人员利用职务阻碍解救。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2035'
+- id: crime-419
+  name: 帮助犯罪分子逃避处罚罪
+  chapter: 渎职罪
+  section: 特定机关工作人员的渎职罪
+  area: sp-duty
+  article: 第417条
+  elements:
+  - 有查禁犯罪活动职责的国家机关工作人员向犯罪分子通风报信、提供便利，帮助犯罪分子逃避处罚。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2035-2038
+- id: crime-420
+  name: 战时违抗命令罪
+  chapter: 军人违反职责罪
+  section: 危害作战利益的犯罪
+  article: 第421条
+  elements:
+  - 战时违抗命令，对作战造成危害。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2038'
+- id: crime-421
+  name: 隐瞒、谎报军情罪和拒传、假传军令罪
+  chapter: 军人违反职责罪
+  section: 危害作战利益的犯罪
+  article: 第422条
+  elements:
+  - 故意隐瞒、谎报军情或拒传、假传军令，对作战造成危害。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2038-2039
+- id: crime-422
+  name: 投降罪
+  chapter: 军人违反职责罪
+  section: 危害作战利益的犯罪
+  article: 第423条
+  elements:
+  - 在战场上贪生怕死，自动放下武器投降敌人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2039'
+- id: crime-423
+  name: 战时临阵脱逃罪
+  chapter: 军人违反职责罪
+  section: 危害作战利益的犯罪
+  article: 第424条
+  elements:
+  - 战时临阵脱逃。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2039'
+- id: crime-424
+  name: 违令作战消极罪
+  chapter: 军人违反职责罪
+  section: 危害作战利益的犯罪
+  article: 第428条
+  elements:
+  - 指挥人员违抗命令，临阵畏缩，作战消极，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2039-2040
+- id: crime-425
+  name: 拒不救援友邻部队罪
+  chapter: 军人违反职责罪
+  section: 危害作战利益的犯罪
+  article: 第429条
+  elements:
+  - 在战场上明知友邻部队处境危急请求救援，能救援而不救援，致使友邻部队遭受重大损失。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2040'
+- id: crime-426
+  name: 战时造谣惑众罪
+  chapter: 军人违反职责罪
+  section: 危害作战利益的犯罪
+  article: 第433条
+  elements:
+  - 战时造谣惑众，动摇军心。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2040'
+- id: crime-427
+  name: 战时自伤罪
+  chapter: 军人违反职责罪
+  section: 危害作战利益的犯罪
+  article: 第434条
+  elements:
+  - 战时自伤身体，逃避军事义务。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2040-2041
+- id: crime-428
+  name: 擅离、玩忽军事职守罪
+  chapter: 军人违反职责罪
+  section: 违反部队管理制度的犯罪
+  article: 第425条
+  elements:
+  - 指挥人员和值班、值勤人员擅离职守或玩忽职守，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2041'
+- id: crime-429
+  name: 阻碍执行军事职务罪
+  chapter: 军人违反职责罪
+  section: 违反部队管理制度的犯罪
+  article: 第426条
+  elements:
+  - 以暴力、威胁方法阻碍指挥人员或值班、值勤人员执行职务。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2041'
+- id: crime-430
+  name: 指使部属违反职责罪
+  chapter: 军人违反职责罪
+  section: 违反部队管理制度的犯罪
+  article: 第427条
+  elements:
+  - 滥用职权，指使部属进行违反职责的活动，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2041-2042
+- id: crime-431
+  name: 军人叛逃罪
+  chapter: 军人违反职责罪
+  section: 违反部队管理制度的犯罪
+  article: 第430条
+  elements:
+  - 在履行公务期间擅离岗位叛逃境外或在境外叛逃，危害国家军事利益。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2042'
+- id: crime-432
+  name: 逃离部队罪
+  chapter: 军人违反职责罪
+  section: 违反部队管理制度的犯罪
+  article: 第435条
+  elements:
+  - 违反兵役法规，逃离部队，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2042-2043
+- id: crime-433
+  name: 私放俘虏罪
+  chapter: 军人违反职责罪
+  section: 违反部队管理制度的犯罪
+  article: 第447条
+  elements:
+  - 私放俘虏。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2043'
+- id: crime-434
+  name: 非法获取军事秘密罪
+  chapter: 军人违反职责罪
+  section: 危害军事秘密的犯罪
+  article: 第431条
+  elements:
+  - 以窃取、刺探、收买方法非法获取军事秘密。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2043'
+- id: crime-435
+  name: 为境外窃取、刺探、收买、非法提供军事秘密罪
+  chapter: 军人违反职责罪
+  section: 危害军事秘密的犯罪
+  article: 第431条
+  elements:
+  - 为境外的机构、组织、人员窃取、刺探、收买、非法提供军事秘密。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2043-2044
+- id: crime-436
+  name: 故意泄露军事秘密罪、过失泄露军事秘密罪
+  chapter: 军人违反职责罪
+  section: 危害军事秘密的犯罪
+  article: 第432条
+  elements:
+  - 违反保守国家秘密法规，故意或过失泄露军事秘密，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2044'
+- id: crime-437
+  name: 武器装备肇事罪
+  chapter: 军人违反职责罪
+  section: 危害部队物资保障的犯罪
+  article: 第436条
+  elements:
+  - 违反武器装备使用规定，情节严重，因而发生责任事故，致人重伤、死亡或造成其他严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2044-2045
+- id: crime-438
+  name: 擅自改变武器装备编配用途罪
+  chapter: 军人违反职责罪
+  section: 危害部队物资保障的犯罪
+  article: 第437条
+  elements:
+  - 违反武器装备管理规定，擅自改变武器装备的编配用途，造成严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2045-2046
+- id: crime-439
+  name: 盗窃、抢夺武器装备、军用物资罪
+  chapter: 军人违反职责罪
+  section: 危害部队物资保障的犯罪
+  article: 第438条
+  elements:
+  - 盗窃、抢夺武器装备或军用物资。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2046-2047
+- id: crime-440
+  name: 非法出卖、转让武器装备罪
+  chapter: 军人违反职责罪
+  section: 危害部队物资保障的犯罪
+  article: 第439条
+  elements:
+  - 非法出卖、转让军队武器装备。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2047'
+- id: crime-441
+  name: 遗弃武器装备罪
+  chapter: 军人违反职责罪
+  section: 危害部队物资保障的犯罪
+  article: 第440条
+  elements:
+  - 违抗命令，遗弃武器装备。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2047'
+- id: crime-442
+  name: 遗失武器装备罪
+  chapter: 军人违反职责罪
+  section: 危害部队物资保障的犯罪
+  article: 第441条
+  elements:
+  - 遗失武器装备，不及时报告或有其他严重情节。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2047-2048
+- id: crime-443
+  name: 擅自出卖、转让军队房地产罪
+  chapter: 军人违反职责罪
+  section: 危害部队物资保障的犯罪
+  article: 第442条
+  elements:
+  - 违反规定，擅自出卖、转让军队房地产，情节严重。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2048'
+- id: crime-444
+  name: 虐待部属罪
+  chapter: 军人违反职责罪
+  section: 侵犯部属、伤病军人、平民、俘虏利益的犯罪
+  article: 第443条
+  elements:
+  - 滥用职权，虐待部属，情节恶劣，致人重伤或造成其他严重后果。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2048-2049
+- id: crime-445
+  name: 遗弃伤病军人罪
+  chapter: 军人违反职责罪
+  section: 侵犯部属、伤病军人、平民、俘虏利益的犯罪
+  article: 第444条
+  elements:
+  - 在战场上故意遗弃伤病军人，情节恶劣。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2049'
+- id: crime-446
+  name: 战时拒不救治伤病军人罪
+  chapter: 军人违反职责罪
+  section: 侵犯部属、伤病军人、平民、俘虏利益的犯罪
+  article: 第445条
+  elements:
+  - 战时在救护治疗职位上，有条件救治而拒不救治危重伤病军人。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2049'
+- id: crime-447
+  name: 战时残害居民、掠夺居民财物罪
+  chapter: 军人违反职责罪
+  section: 侵犯部属、伤病军人、平民、俘虏利益的犯罪
+  article: 第446条
+  elements:
+  - 战时在军事行动地区残害无辜居民或掠夺无辜居民财物。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: 2049-2050
+- id: crime-448
+  name: 虐待俘虏罪
+  chapter: 军人违反职责罪
+  section: 侵犯部属、伤病军人、平民、俘虏利益的犯罪
+  article: 第448条
+  elements:
+  - 虐待俘虏，情节恶劣。
+  sources:
+  - work: zmk-xingfaxue-7
+    pages: '2050'

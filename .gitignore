@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
@@ -39,3 +40,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# AI 调用缓存与草稿箱
+/.cache/
+/content/_inbox/
+
+# 据书整理时的原文锚点：只在本机核对用，不提交
+/content/_private/
+
+# 用户数据库（账号、同步、反馈、个人资料库）
+/data/

@@ -1,0 +1,579 @@
+# 英格兰与威尔士、美国：学者、文献、演化事件
+# 起草：AI（Claude）。判例引注、论文卷期需核实。
+
+scholars:
+  # ---------------- 英格兰与威尔士 ----------------
+  - id: mill
+    name: 密尔
+    nameOriginal: John Stuart Mill
+    jurisdiction: uk-ew
+    born: 1806
+    died: 1873
+    bio: 哲学家。《论自由》提出伤害原则：对文明社会的任何成员违背其意志而正当行使权力的唯一目的，是防止对他人的伤害。
+  - id: devlin
+    name: 德夫林
+    nameOriginal: Patrick Devlin (Lord Devlin)
+    jurisdiction: uk-ew
+    born: 1905
+    died: 1992
+    bio: 法官。主张社会有权以刑法维护其共享的道德（法律道德主义）。
+  - id: hart
+    name: 哈特
+    nameOriginal: H. L. A. Hart
+    jurisdiction: uk-ew
+    born: 1907
+    died: 1992
+    affiliations: [牛津大学]
+    influencedBy: [mill]
+    bio: 法哲学家。在与德夫林的论战中为伤害原则辩护。
+  - id: glanville-williams
+    name: 格兰维尔·威廉姆斯
+    nameOriginal: Glanville Williams
+    jurisdiction: uk-ew
+    born: 1911
+    died: 1997
+    affiliations: [剑桥大学]
+    bio: 英国刑法学主观主义的代表人物。
+  - id: jc-smith
+    name: J. C. 史密斯
+    nameOriginal: Sir John Cyril Smith
+    jurisdiction: uk-ew
+    born: 1922
+    died: 2003
+    affiliations: [诺丁汉大学]
+    bio: 与 Hogan 合著的刑法教科书长期是英国的标准教科书；持主观主义立场。
+  - id: ashworth
+    name: 阿什沃斯
+    nameOriginal: Andrew Ashworth
+    jurisdiction: uk-ew
+    born: 1947
+    affiliations: [牛津大学]
+    bio: 主观主义的当代代表，主张结果是运气，不应影响刑事责任。
+  - id: duff
+    name: 达夫
+    nameOriginal: R. A. Duff
+    jurisdiction: uk-ew
+    born: 1945
+    affiliations: [斯特灵大学]
+    bio: 刑法哲学家，在未遂论上主张一种客观主义，强调行为与世界的「接触」。
+  - id: gardner
+    name: 加德纳
+    nameOriginal: John Gardner
+    jurisdiction: uk-ew
+    born: 1965
+    died: 2019
+    affiliations: [牛津大学]
+    teachers: [hart]
+    bio: 法哲学家，从实践理性的角度论证正当化须基于正当化理由而行动。
+    needsSource: true
+    editorNote: 师承关系待核。
+
+  # ---------------- 美国 ----------------
+  - id: holmes
+    name: 霍姆斯
+    nameOriginal: Oliver Wendell Holmes Jr.
+    jurisdiction: us
+    born: 1841
+    died: 1935
+    bio: 《普通法》主张刑事责任应以「外部标准」衡量，而不取决于行为人实际的可责心态。
+  - id: wechsler
+    name: 韦克斯勒
+    nameOriginal: Herbert Wechsler
+    jurisdiction: us
+    born: 1909
+    died: 2000
+    affiliations: [哥伦比亚大学]
+    bio: 《模范刑法典》的首席起草人（Chief Reporter）。
+  - id: fletcher
+    name: 弗莱彻
+    nameOriginal: George P. Fletcher
+    jurisdiction: us
+    born: 1939
+    affiliations: [哥伦比亚大学]
+    influencedBy: [welzel]
+    bio: 把德国刑法学系统引入美国刑法理论；《反思刑法》区分「显现的犯罪性」与「主观的犯罪性」等模式。
+    needsSource: true
+  - id: robinson
+    name: 罗宾逊
+    nameOriginal: Paul H. Robinson
+    jurisdiction: us
+    born: 1948
+    affiliations: [宾夕法尼亚大学]
+    bio: 1975 年提出正当化的「行为说」（deeds theory）：正当化取决于客观上有无社会危害。
+  - id: feinberg
+    name: 范伯格
+    nameOriginal: Joel Feinberg
+    jurisdiction: us
+    born: 1926
+    died: 2004
+    influencedBy: [mill, hart]
+    bio: 四卷本《刑法的道德界限》系统发展了伤害原则与冒犯原则。
+  - id: kadish
+    name: 卡迪什
+    nameOriginal: Sanford H. Kadish
+    jurisdiction: us
+    born: 1921
+    died: 2014
+    affiliations: [加州大学伯克利分校]
+    bio: 以「派生责任」说明共犯：共犯的责任来自正犯基于自由意志实施的行为。
+  - id: moore
+    name: 摩尔
+    nameOriginal: Michael S. Moore
+    jurisdiction: us
+    born: 1943
+    bio: 报应主义者，主张实际造成的结果具有独立的道德意义。
+  - id: alexander
+    name: 亚历山大
+    nameOriginal: Larry Alexander
+    jurisdiction: us
+    affiliations: [圣地亚哥大学]
+    bio: 与 Ferzan 合著《犯罪与可责性》，主张刑事责任只取决于可责的选择，结果完全无关。
+  - id: ferzan
+    name: 费尔赞
+    nameOriginal: Kimberly Kessler Ferzan
+    jurisdiction: us
+    bio: 与 Alexander 合著《犯罪与可责性》。
+
+works:
+  - id: w-dadson-1850
+    title: R v Dadson (1850) 2 Den 35; 169 ER 407
+    authorText: Court for Crown Cases Reserved
+    year: 1850
+    type: case
+    jurisdiction: uk-ew
+  - id: w-mill-1859
+    title: On Liberty
+    titleZh: 论自由
+    authors: [mill]
+    year: 1859
+    type: monograph
+    jurisdiction: uk-ew
+  - id: w-collins-1864
+    title: R v Collins (1864)
+    authorText: Court for Crown Cases Reserved
+    year: 1864
+    type: case
+    jurisdiction: uk-ew
+    needsSource: true
+    editorNote: 报告引注待核。
+  - id: w-williams-1953
+    title: "Criminal Law: The General Part"
+    titleZh: 刑法总论
+    authors: [glanville-williams]
+    year: 1953
+    type: textbook
+    jurisdiction: uk-ew
+  - id: w-devlin-1959
+    title: The Enforcement of Morals (Maccabaean Lecture)
+    titleZh: 道德的强制执行
+    authors: [devlin]
+    year: 1959
+    type: lecture
+    jurisdiction: uk-ew
+  - id: w-hart-1963
+    title: Law, Liberty, and Morality
+    titleZh: 法律、自由与道德
+    authors: [hart]
+    year: 1963
+    type: monograph
+    jurisdiction: uk-ew
+  - id: w-haughton-1975
+    title: Haughton v Smith [1975] AC 476
+    authorText: House of Lords
+    year: 1975
+    type: case
+    jurisdiction: uk-ew
+  - id: w-caa-1981
+    title: Criminal Attempts Act 1981
+    authorText: Parliament
+    year: 1981
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-anderton-1985
+    title: Anderton v Ryan [1985] AC 560
+    authorText: House of Lords
+    year: 1985
+    type: case
+    jurisdiction: uk-ew
+  - id: w-shivpuri-1986
+    title: R v Shivpuri [1987] AC 1
+    authorText: House of Lords
+    year: 1986
+    type: case
+    jurisdiction: uk-ew
+  - id: w-smith-1989
+    title: Justification and Excuse in the Criminal Law (Hamlyn Lectures)
+    titleZh: 刑法中的正当化与免责
+    authors: [jc-smith]
+    year: 1989
+    type: lecture
+    jurisdiction: uk-ew
+    needsSource: true
+  - id: w-ashworth-1993
+    title: Taking the Consequences
+    authors: [ashworth]
+    year: 1993
+    type: article
+    jurisdiction: uk-ew
+    venue: Shute, Gardner & Horder (eds), Action and Value in Criminal Law
+  - id: w-duff-1996
+    title: Criminal Attempts
+    titleZh: 刑事未遂
+    authors: [duff]
+    year: 1996
+    type: monograph
+    jurisdiction: uk-ew
+  - id: w-gardner-1996
+    title: Justifications and Reasons
+    authors: [gardner]
+    year: 1996
+    type: article
+    jurisdiction: uk-ew
+    venue: Simester & Smith (eds), Harm and Culpability
+    needsSource: true
+
+  - id: w-holmes-1881
+    title: The Common Law
+    titleZh: 普通法
+    authors: [holmes]
+    year: 1881
+    type: monograph
+    jurisdiction: us
+  - id: w-jaffe-1906
+    title: People v. Jaffe, 185 N.Y. 497 (1906)
+    authorText: New York Court of Appeals
+    year: 1906
+    type: case
+    jurisdiction: us
+  - id: w-mpc-1962
+    title: Model Penal Code (Proposed Official Draft)
+    titleZh: 模范刑法典
+    authors: [wechsler]
+    authorText: American Law Institute
+    year: 1962
+    type: statute
+    jurisdiction: us
+  - id: w-robinson-1975
+    title: "A Theory of Justification: Societal Harm as a Prerequisite for Criminal Liability"
+    authors: [robinson]
+    year: 1975
+    type: article
+    jurisdiction: us
+    venue: 23 UCLA Law Review 266
+  - id: w-fletcher-1975
+    title: "The Right Deed for the Wrong Reason: A Reply to Mr. Robinson"
+    authors: [fletcher]
+    year: 1975
+    type: article
+    jurisdiction: us
+    venue: 23 UCLA Law Review
+    needsSource: true
+  - id: w-fletcher-1978
+    title: Rethinking Criminal Law
+    titleZh: 反思刑法
+    authors: [fletcher]
+    year: 1978
+    type: monograph
+    jurisdiction: us
+  - id: w-feinberg-1984
+    title: Harm to Others (The Moral Limits of the Criminal Law, Vol. 1)
+    titleZh: 对他人的伤害（刑法的道德界限 第一卷）
+    authors: [feinberg]
+    year: 1984
+    type: monograph
+    jurisdiction: us
+  - id: w-kadish-1985
+    title: "Complicity, Cause and Blame: A Study in the Interpretation of Doctrine"
+    authors: [kadish]
+    year: 1985
+    type: article
+    jurisdiction: us
+    venue: 73 California Law Review 323
+  - id: w-moore-1997
+    title: "Placing Blame: A General Theory of the Criminal Law"
+    authors: [moore]
+    year: 1997
+    type: monograph
+    jurisdiction: us
+  - id: w-alexander-ferzan-2009
+    title: "Crime and Culpability: A Theory of Criminal Law"
+    titleZh: 犯罪与可责性
+    authors: [alexander, ferzan]
+    authorText: with Stephen J. Morse
+    year: 2009
+    type: monograph
+    jurisdiction: us
+
+events:
+  # ---------------- 英格兰与威尔士 ----------------
+  - id: e-uk-dadson-1850
+    year: 1850
+    jurisdiction: uk-ew
+    type: origin
+    originOf: unknowingly-justified-actor
+    originType: case
+    title: R v Dadson：不知情者不能援用正当化
+    description: 警察 Dadson 向一名逃跑的偷木材者开枪致伤。此人因多次前科，其行为依当时法律构成重罪，可以用武力制止；但 Dadson 并不知道这一点。法院维持了对 Dadson 的有罪判决：行为人不知道正当化事实时，不能援用正当化。
+    concepts: [unknowingly-justified-actor]
+    works: [w-dadson-1850]
+
+  - id: e-uk-mill-1859
+    year: 1859
+    jurisdiction: uk-ew
+    type: origin
+    originOf: harm-principle
+    originType: term
+    title: 密尔《论自由》：伤害原则
+    description: 违背个人意志而对其正当行使权力的唯一目的，是防止对他人的伤害。这成为此后英美刑事立法正当性讨论的出发点。
+    concepts: [harm-principle]
+    scholars: [mill]
+    works: [w-mill-1859]
+
+  - id: e-uk-collins-1864
+    year: 1864
+    jurisdiction: uk-ew
+    type: origin
+    originOf: impossible-attempt-cl
+    originType: case
+    title: R v Collins：扒窃空口袋不成立未遂
+    description: 法院认为，把手伸进空口袋企图扒窃，不成立盗窃未遂。不能未遂是否可罚由此成为普通法上的问题；这一立场后来在 R v Ring（1892）中被放弃。
+    concepts: [impossible-attempt-cl]
+    works: [w-collins-1864]
+    needsSource: true
+
+  - id: e-uk-williams-1953
+    year: 1953
+    jurisdiction: uk-ew
+    type: development
+    title: 格兰维尔·威廉姆斯与英国的主观主义
+    description: 以行为人的意图、认识与鲁莽为中心组织刑法总论，主观主义成为英国刑法理论的主流框架。
+    concepts: [cl-subjectivism, crime-system]
+    scholars: [glanville-williams]
+    works: [w-williams-1953]
+    derivedFrom: [e-us-holmes-1881]
+    editorNote: 这里的「派生」指作为对 Holmes 外部标准的反动。
+
+  - id: e-uk-devlin-1959
+    year: 1959
+    jurisdiction: uk-ew
+    type: critique
+    title: 德夫林：道德的强制执行
+    description: 社会是由共享的道德结合起来的，社会有权用刑法保护这种道德。这是对伤害原则的正面挑战。
+    concepts: [harm-principle]
+    scholars: [devlin]
+    works: [w-devlin-1959]
+    derivedFrom: [e-uk-mill-1859]
+
+  - id: e-uk-hart-1963
+    year: 1963
+    jurisdiction: uk-ew
+    type: critique
+    title: 哈特为伤害原则辩护
+    description: 哈特反驳德夫林，认为单纯不道德而不伤害他人的行为，不应成为刑罚的对象。
+    concepts: [harm-principle]
+    scholars: [hart]
+    works: [w-hart-1963]
+    derivedFrom: [e-uk-devlin-1959]
+
+  - id: e-uk-haughton-1975
+    year: 1975
+    jurisdiction: uk-ew
+    type: case
+    title: Haughton v Smith：普通法上不能未遂不可罚
+    description: 上议院认为，处理已不再是赃物的货物，不成立处理赃物罪的未遂。普通法在不能未遂问题上采取了限制处罚的立场。
+    concepts: [impossible-attempt-cl]
+    works: [w-haughton-1975]
+    derivedFrom: [e-uk-collins-1864]
+
+  - id: e-uk-caa-1981
+    year: 1981
+    jurisdiction: uk-ew
+    type: legislation
+    title: Criminal Attempts Act 1981
+    description: 第 1 条第 2、3 款规定，即使事实使犯罪不可能既遂，仍可成立未遂；以行为人所相信的事实判断其意图。立法转向主观主义。未遂的行为要件被表述为「超出单纯预备」的行为；该法没有规定自愿放弃的抗辩，未遂一经成立，事后放弃不影响定罪。
+    concepts: [impossible-attempt-cl, cl-subjectivism, commencement, withdrawal]
+    works: [w-caa-1981]
+    derivedFrom: [e-uk-haughton-1975]
+
+  - id: e-uk-anderton-1985
+    year: 1985
+    jurisdiction: uk-ew
+    type: case
+    title: Anderton v Ryan：上议院限缩解释 1981 年法
+    description: 上议院认为，误以为购买的是赃物（实际不是）的被告人不成立未遂，在「客观上无辜」的行为上限制了 1981 年法的适用。
+    concepts: [impossible-attempt-cl]
+    works: [w-anderton-1985]
+    derivedFrom: [e-uk-caa-1981]
+
+  - id: e-uk-shivpuri-1986
+    year: 1986
+    jurisdiction: uk-ew
+    type: turn
+    title: R v Shivpuri：推翻 Anderton v Ryan
+    description: 一年后，上议院推翻了 Anderton v Ryan：以为自己在运送毒品、实际上运送的是无害粉末的被告人，成立未遂。英格兰在不能未遂问题上全面采取主观主义。
+    concepts: [impossible-attempt-cl, cl-subjectivism]
+    works: [w-shivpuri-1986]
+    derivedFrom: [e-uk-anderton-1985]
+
+  - id: e-uk-smith-1989
+    year: 1989
+    jurisdiction: uk-ew
+    type: critique
+    title: J. C. 史密斯检讨 Dadson
+    description: 史密斯检讨 Dadson 案的结论，认为在客观上已正当化的场合，至多应论以未遂。
+    concepts: [unknowingly-justified-actor]
+    scholars: [jc-smith]
+    works: [w-smith-1989]
+    derivedFrom: [e-uk-dadson-1850, e-us-robinson-1975]
+    needsSource: true
+
+  - id: e-uk-ashworth-1993
+    year: 1993
+    jurisdiction: uk-ew
+    type: development
+    title: 阿什沃斯：结果是运气
+    description: 是否发生结果，常常取决于行为人无法控制的偶然；刑事责任与刑罚应当以行为人可以控制的东西为准。
+    concepts: [cl-subjectivism]
+    scholars: [ashworth]
+    works: [w-ashworth-1993]
+    derivedFrom: [e-uk-williams-1953]
+
+  - id: e-uk-duff-1996
+    year: 1996
+    jurisdiction: uk-ew
+    type: critique
+    title: 达夫：未遂论中的客观主义
+    description: 达夫批评主观主义，主张未遂的不法取决于行为与世界之间的「接触」，结果与行为的外在性质并非无关紧要。
+    concepts: [cl-subjectivism, impossible-attempt-cl]
+    scholars: [duff]
+    works: [w-duff-1996]
+    derivedFrom: [e-uk-ashworth-1993, e-us-fletcher-1978]
+
+  - id: e-uk-gardner-1996
+    year: 1996
+    jurisdiction: uk-ew
+    type: development
+    title: 加德纳：正当化与理由
+    description: 被正当化的行为，必须是基于那些使之正当的理由而实施的。这为「理由说」提供了实践哲学上的论证。
+    concepts: [unknowingly-justified-actor]
+    scholars: [gardner]
+    works: [w-gardner-1996]
+    derivedFrom: [e-us-fletcher-1975]
+    needsSource: true
+
+  # ---------------- 美国 ----------------
+  - id: e-us-holmes-1881
+    year: 1881
+    jurisdiction: us
+    type: origin
+    originOf: cl-subjectivism
+    originType: problem
+    title: 霍姆斯：刑事责任的外部标准
+    description: 刑法衡量的是一般人在当时情况下会预见到什么，而不是行为人实际的可责心态。「主观的可责性」与「客观的外部标准」由此成为英美刑法理论的一条主线。
+    concepts: [cl-subjectivism]
+    scholars: [holmes]
+    works: [w-holmes-1881]
+
+  - id: e-us-jaffe-1906
+    year: 1906
+    jurisdiction: us
+    type: case
+    title: People v. Jaffe：法律不能不可罚
+    description: 被告人以为所购货物是赃物，实际上不是。法院认为这是「法律不能」，不成立收受赃物罪的未遂。事实不能与法律不能的区分由此在美国长期存在。
+    concepts: [impossible-attempt-cl]
+    works: [w-jaffe-1906]
+    derivedFrom: [e-uk-collins-1864]
+
+  - id: e-us-mpc-1962
+    year: 1962
+    jurisdiction: us
+    type: legislation
+    title: 《模范刑法典》
+    description: >-
+      美国法学会的《模范刑法典》系统重述了刑法总则，主观主义在立法上取得主导地位：
+      自愿行为要求（第 2.01 条）；以目的、明知、鲁莽、疏忽四级界定可责性（第 2.02 条）；因果关系（第 2.03 条）；
+      事实错误与对官方意见的信赖（第 2.04 条）；共犯责任并拒绝 Pinkerton 规则（第 2.06 条）；
+      「两害相权」的紧急避险（第 3.02 条）；以行为人的信念界定正当防卫（第 3.04 条）；
+      精神失常的实质能力标准（第 4.01 条）；以「行为人所相信的情况」与「实质步骤」界定未遂，基本废除不能犯抗辩，并承认自愿放弃（第 5.01 条）。
+    concepts: [impossible-attempt-cl, unknowingly-justified-actor, cl-subjectivism, crime-system, action-theory, causation, intent, mistake-of-fact, self-defense, necessity, mistake-of-law, insanity, commencement, withdrawal, perpetration]
+    scholars: [wechsler]
+    works: [w-mpc-1962]
+    derivedFrom: [e-us-jaffe-1906, e-uk-williams-1953]
+
+  - id: e-us-robinson-1975
+    year: 1975
+    jurisdiction: us
+    type: development
+    title: 罗宾逊：正当化的行为说
+    description: 正当化取决于客观上有无社会危害（deeds）。不知情的正当化行为人没有造成不法的危害，只能按未遂处罚。这是对 Dadson 案的正面批评。
+    concepts: [unknowingly-justified-actor]
+    scholars: [robinson]
+    works: [w-robinson-1975]
+    derivedFrom: [e-uk-dadson-1850]
+
+  - id: e-us-fletcher-1975
+    year: 1975
+    jurisdiction: us
+    type: critique
+    title: 弗莱彻：为了错误的理由做了对的事
+    description: 正当化要求行为人基于正当化的理由而行动；「为了错误理由做对的事」不能被正当化，Dadson 案的结论是对的。
+    concepts: [unknowingly-justified-actor]
+    scholars: [fletcher]
+    works: [w-fletcher-1975]
+    derivedFrom: [e-us-robinson-1975]
+    needsSource: true
+
+  - id: e-us-fletcher-1978
+    year: 1978
+    jurisdiction: us
+    type: turn
+    title: 弗莱彻《反思刑法》
+    description: 系统引入德国刑法学的概念工具（不法与责任的区分、正当化与免责的区分），并以「显现的犯罪性」「主观的犯罪性」「有害后果」三种模式重述英美刑法史。
+    concepts: [cl-subjectivism, wrongfulness-essence, crime-system]
+    scholars: [fletcher]
+    works: [w-fletcher-1978]
+    derivedFrom: [e-us-holmes-1881, e-de-welzel-1939]
+
+  - id: e-us-feinberg-1984
+    year: 1984
+    jurisdiction: us
+    type: development
+    title: 范伯格《对他人的伤害》
+    description: 把「伤害」界定为对利益的不法挫折，并在伤害原则之外承认冒犯原则，拒绝法律道德主义与法律家长主义。范伯格还主张，处罚见危不救的「坏撒玛利亚人」立法与伤害原则相容。
+    concepts: [harm-principle, omission]
+    scholars: [feinberg]
+    works: [w-feinberg-1984]
+    derivedFrom: [e-uk-hart-1963, e-uk-mill-1859]
+
+  - id: e-us-kadish-1985
+    year: 1985
+    jurisdiction: us
+    type: development
+    title: 卡迪什：共犯的派生责任
+    description: 正犯的行为是其自由意志的产物，不能被理解为共犯「引起」的结果；共犯的责任因此是从正犯派生出来的。这是英美法上对「共犯处罚根据」的代表性回答。
+    concepts: [complicity-basis, perpetration]
+    scholars: [kadish]
+    works: [w-kadish-1985]
+    derivedFrom: [e-us-mpc-1962]
+
+  - id: e-us-moore-1997
+    year: 1997
+    jurisdiction: us
+    type: development
+    title: 摩尔：结果的独立道德意义
+    description: 实际造成伤害的人，比只是试图造成伤害的人更值得责难；结果本身具有道德意义。
+    concepts: [cl-subjectivism, culpability-essence]
+    scholars: [moore]
+    works: [w-moore-1997]
+    derivedFrom: [e-us-fletcher-1978]
+
+  - id: e-us-alexander-ferzan-2009
+    year: 2009
+    jurisdiction: us
+    type: development
+    title: 亚历山大与费尔赞：只有可责性才重要
+    description: 刑事责任只取决于行为人对他人利益的不当漠视的选择，结果与未遂、既遂的区分都无关紧要。这是主观主义最彻底的表述，结构上接近德国的一元行为无价值论。
+    concepts: [cl-subjectivism]
+    scholars: [alexander, ferzan]
+    works: [w-alexander-ferzan-2009]
+    derivedFrom: [e-uk-ashworth-1993]

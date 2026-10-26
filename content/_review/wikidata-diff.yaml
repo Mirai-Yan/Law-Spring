@@ -1,0 +1,20 @@
+# 本库记录与 Wikidata 不一致之处（2026-10-24），供核对；以原始文献为准
+diffs:
+  - scholar: roxin
+    name: 罗克辛
+    field: 去世年
+    ours: （未记录）
+    wikidata: '2025-02-18'
+    note: 本库未记录去世年
+  - scholar: gao-mingxuan
+    name: 高铭暄
+    field: 去世年
+    ours: （未记录）
+    wikidata: '2026-02-26'
+    note: 本库未记录去世年
+  - scholar: bentham
+    name: 边沁
+    field: 出生年
+    ours: '1748'
+    wikidata: '1749-02-15'
+    note: 请核对

@@ -1,0 +1,544 @@
+# 分论与特殊主体：财产犯罪的保护法益、单位（法人）犯罪
+# 起草：AI（Claude）。全部为 draft；日本判例与中国大陆合规改革的细节尤需核实。
+
+concepts:
+  - id: property-rechtsgut
+    name: 财产犯罪的保护法益
+    original:
+      de: Schutzgut der Vermögensdelikte / Vermögensbegriff
+      ja: 財産犯の保護法益（本権説・占有説）
+      en: property offences — the protected interest
+    kind: problem
+    area: special
+    tradition: both
+    summary: >-
+      盗窃罪保护的是所有权等本权，还是事实上的占有？诈骗罪中的「财产」是法律上的权利，还是经济上的价值？
+      这两个问题都取决于刑法与民法的关系（违法一元论还是相对论），在「所有人窃回自己的财物」「骗取赌资、毒品」等案件中直接决定结论。
+
+  - id: corporate-liability
+    name: 单位（法人）犯罪
+    original:
+      de: Unternehmensstrafbarkeit / Verbandsgeldbuße
+      ja: 法人処罰（両罰規定）
+      en: corporate criminal liability
+    kind: problem
+    area: special
+    tradition: both
+    summary: >-
+      法人能否犯罪？德国坚持「法人不能犯罪」，以秩序违反法上的罚款处理；日本以两罚规定处罚业主；中国大陆在刑法总则中规定单位犯罪；
+      英美法则从替代责任、同一视原则走向以合规缺陷为核心的组织责任（「未能预防」型犯罪）。企业合规因此成为当代刑法的热点。
+
+questions:
+  - id: q-theft-rechtsgut
+    concept: property-rechtsgut
+    text: 盗窃罪的保护法益是所有权等本权，还是事实上的占有？
+    level: intermediate
+    aliases:
+      - 本权说
+      - 占有说
+      - 盗窃罪的保护法益
+      - 中间说
+      - 平稳占有说
+      - 财产犯罪的保护法益
+    answers:
+      - id: honken
+        label: 本权说
+      - id: possession
+        label: 占有说
+      - id: intermediate
+        label: 中间说（平稳占有说等）
+
+  - id: q-self-help-recovery
+    concept: property-rechtsgut
+    text: 所有人从窃贼或合法占有人处窃回自己的财物，是否构成盗窃罪？
+    level: applied
+    aliases:
+      - 窃回自己的财物
+      - 所有人取回
+      - 自救行为
+      - 窃取自己所有的财物
+      - 自動車金融事件
+      - R v Turner
+    answers:
+      - id: not-theft
+        label: 不构成
+      - id: theft
+        label: 构成要件该当（再考虑是否因自救行为等阻却违法）
+
+  - id: q-fraud-property
+    concept: property-rechtsgut
+    text: 诈骗罪中的「财产」应采法律的财产说、经济的财产说，还是法律—经济的财产说？
+    level: intermediate
+    aliases:
+      - 财产概念
+      - 经济的财产说
+      - 法律的财产说
+      - 法律经济的财产说
+      - 诈骗罪的财产损失
+      - 骗取赌资
+      - 骗取毒品
+    answers:
+      - id: juristic
+        label: 法律的财产说
+      - id: economic
+        label: 经济的财产说
+      - id: juristic-economic
+        label: 法律—经济的财产说
+
+  - id: q-corp-possible
+    concept: corporate-liability
+    text: 法人（单位）能否成为犯罪主体？
+    level: intermediate
+    aliases:
+      - 单位犯罪
+      - 法人犯罪
+      - 法人能否犯罪
+      - 企业刑事责任
+      - societas delinquere non potest
+      - 公司犯罪
+    answers:
+      - id: "no"
+        label: 不能（法人不能犯罪）
+      - id: "yes"
+        label: 能
+
+  - id: q-corp-model
+    concept: corporate-liability
+    text: 法人的刑事责任应以何种模式归责？
+    level: applied
+    aliases:
+      - 同一视原则
+      - 替代责任
+      - 组织责任
+      - 企业合规
+      - failure to prevent
+      - 单位意志
+      - 合规不起诉
+    answers:
+      - id: vicarious
+        label: 替代责任（雇员的行为与心态归属于法人）
+      - id: identification
+        label: 同一视原则（高级管理人员的心态即法人的心态）
+      - id: organizational
+        label: 组织责任（合规缺陷、组织文化）
+      - id: collective-decision
+        label: 单位意志（经集体研究决定或负责人决定）
+
+prerequisites:
+  - question: q-theft-rechtsgut
+    requires: q-unity
+    kind: logical
+    why: 刑法能否保护民法上不被保护的占有，取决于违法在各法域之间是否统一。
+    branches:
+      - answer: strict
+        leadsTo: 刑法上的财产保护从属于民法 → 本权说。
+      - answer: moderate
+        leadsTo: 原则上从属于民法，但保护平稳的占有 → 中间说。
+      - answer: relative
+        leadsTo: 刑法可以独立地保护事实上的财产秩序 → 占有说。
+
+  - question: q-theft-rechtsgut
+    requires: q-rechtsgut-critical
+    kind: conceptual
+    why: 财产犯罪的保护法益是法益概念在分论中的具体化。
+    branches:
+      - answer: critical
+        leadsTo: 法益须是值得保护的利益，单纯的占有是否值得刑法保护需要论证。
+      - answer: immanent
+        leadsTo: 以条文的保护目的为准。
+
+  - question: q-self-help-recovery
+    requires: q-theft-rechtsgut
+    kind: logical
+    why: 所有人取回自己的财物是否侵害了法益，取决于法益是本权还是占有。
+    branches:
+      - answer: honken
+        leadsTo: 所有人没有侵害任何人的本权 → 不构成盗窃。
+      - answer: possession
+        leadsTo: 侵害了他人事实上的占有 → 构成要件该当，再看是否阻却违法（自救行为）。
+      - answer: intermediate
+        leadsTo: 窃贼的占有不是平稳的占有，从窃贼处取回不构成；从合法占有人（如担保权人）处取回则构成。
+
+  - question: q-fraud-property
+    requires: q-unity
+    kind: logical
+    why: 民法上不受保护的利益（如赌资、毒品）能否成为诈骗罪的财产，取决于刑法与民法的关系。
+    branches:
+      - answer: strict
+        leadsTo: 财产即法律上的权利 → 法律的财产说。
+      - answer: relative
+        leadsTo: 一切具有经济价值的利益都是财产 → 经济的财产说。
+      - answer: moderate
+        leadsTo: 具有经济价值且不为法秩序所否定的利益 → 法律—经济的财产说。
+
+  - question: q-corp-possible
+    requires: q-action-concept
+    kind: conceptual
+    why: 法人能否「行为」，取决于刑法上的行为概念。
+    branches:
+      - answer: causal
+        leadsTo: 行为是有意志的身体动静，法人没有身体与意志 → 不能。
+      - answer: final
+        leadsTo: 行为是目的性的操纵，只有自然人才能 → 不能。
+      - answer: social
+        leadsTo: 法人的活动同样具有社会意义 → 可以。
+      - answer: personal
+        leadsTo: 人格是自然人的属性 → 倾向不能。
+
+  - question: q-corp-possible
+    requires: q-culp-essence
+    kind: logical
+    why: 法人能否「有责任」，取决于责任的本质。
+    branches:
+      - answer: normative
+        leadsTo: 非难可能性以个人的意志自由为前提 → 法人不能有责任。
+      - answer: psychological
+        leadsTo: 法人没有心理 → 不能。
+      - answer: functional
+        leadsTo: 责任由预防需要决定，法人的组织缺陷可以成为归责的根据 → 可以。
+
+  - question: q-corp-possible
+    requires: q-punish-basis
+    kind: foundational
+    why: 处罚法人有没有意义，取决于刑罚为什么正当。
+    branches:
+      - answer: retribution
+        leadsTo: 法人不能「应得」报应 → 不能。
+      - answer: general-prevention
+        leadsTo: 处罚法人可以促使企业预防犯罪 → 可以。
+      - answer: special-prevention
+        leadsTo: 可以针对企业的组织缺陷进行矫正（如合规整改）→ 可以。
+      - answer: union
+        leadsTo: 以预防为目的，但需要找到法人自身的「责任」→ 组织责任。
+
+  - question: q-corp-model
+    requires: q-corp-possible
+    kind: logical
+    why: 只有承认法人可以犯罪，才需要决定如何归责。
+    branches:
+      - answer: "yes"
+        leadsTo: 进入归责模式之争：替代责任、同一视原则、组织责任，或单位意志。
+      - answer: "no"
+        leadsTo: 只能处罚自然人，或以行政罚款处理法人。
+
+relations:
+  - from: property-rechtsgut
+    to: rechtsgut
+    type: derived_from
+    description: 财产犯罪的保护法益之争，是法益概念在分论中的具体化。
+  - from: corporate-liability
+    to: strict-liability
+    type: derived_from
+    description: 英美的法人替代责任在历史上与严格责任相伴而生，都与责任主义存在紧张关系。
+
+works:
+  - id: w-rgst-44-230
+    title: RGSt 44, 230
+    titleZh: 帝国法院 1910 年经济的财产概念判决
+    authorText: 帝国法院
+    year: 1910
+    type: case
+    jurisdiction: de
+    needsSource: true
+  - id: w-jp-1918-honken
+    title: 大判大正7年9月25日
+    titleZh: 大审院采本权说的判决
+    authorText: 大审院
+    year: 1918
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-jp-1959-possession
+    title: 最判昭和34年8月28日
+    titleZh: 最高裁判所采占有说的判决
+    authorText: 最高裁判所
+    year: 1959
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-jp-1989-car-finance
+    title: 最決平成元年7月7日（自動車金融事件）
+    titleZh: 汽车金融案
+    authorText: 最高裁判所
+    year: 1989
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-uk-theft-act-1968
+    title: Theft Act 1968, s. 5(1)
+    authorText: Parliament
+    year: 1968
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-turner-1971
+    title: R v Turner (No 2) [1971] 1 WLR 901
+    authorText: Court of Appeal
+    year: 1971
+    type: case
+    jurisdiction: uk-ew
+  - id: w-birmingham-1842
+    title: R v Birmingham & Gloucester Railway Co (1842) 3 QB 223
+    authorText: Court of Queen's Bench
+    year: 1842
+    type: case
+    jurisdiction: uk-ew
+  - id: w-nyc-railroad-1909
+    title: New York Central & Hudson River Railroad Co. v. United States, 212 U.S. 481 (1909)
+    authorText: U.S. Supreme Court
+    year: 1909
+    type: case
+    jurisdiction: us
+  - id: w-tesco-1971
+    title: Tesco Supermarkets Ltd v Nattrass [1972] AC 153
+    authorText: House of Lords
+    year: 1971
+    type: case
+    jurisdiction: uk-ew
+  - id: w-de-owig-1968
+    title: Gesetz über Ordnungswidrigkeiten（1968），§ 30
+    titleZh: 秩序违反法第 30 条
+    authorText: 联邦立法者
+    year: 1968
+    type: statute
+    jurisdiction: de
+  - id: w-cn-customs-1987
+    title: 中华人民共和国海关法（1987 年）
+    authorText: 全国人民代表大会常务委员会
+    year: 1987
+    type: statute
+    jurisdiction: cn
+  - id: w-ussg-1991
+    title: U.S. Sentencing Guidelines, Chapter 8（Sentencing of Organizations）
+    titleZh: 美国联邦量刑指南第八章（组织体量刑）
+    authorText: U.S. Sentencing Commission
+    year: 1991
+    type: report
+    jurisdiction: us
+  - id: w-uk-cmcha-2007
+    title: Corporate Manslaughter and Corporate Homicide Act 2007
+    authorText: Parliament
+    year: 2007
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-uk-bribery-2010
+    title: Bribery Act 2010, s. 7
+    authorText: Parliament
+    year: 2010
+    type: statute
+    jurisdiction: uk-ew
+  - id: w-de-vsg-2020
+    title: Entwurf eines Verbandssanktionengesetzes（2020）
+    titleZh: 团体制裁法草案
+    authorText: 联邦政府
+    year: 2020
+    type: report
+    jurisdiction: de
+    needsSource: true
+
+events:
+  # ---------------- 财产犯罪的保护法益 ----------------
+  - id: e-de-rgst-1910
+    year: 1910
+    jurisdiction: de
+    type: origin
+    originOf: property-rechtsgut
+    originType: case
+    title: 帝国法院采经济的财产概念
+    description: 帝国法院的联合审判庭认为，诈骗罪中的财产是一个人所拥有的具有经济价值的财物的总和，而不限于法律上的权利。法律的财产说（宾丁）与经济的财产说之争由此成为财产犯罪论的基本问题。
+    concepts: [property-rechtsgut]
+    works: [w-rgst-44-230]
+    needsSource: true
+
+  - id: e-jp-1918-honken
+    year: 1918
+    jurisdiction: jp
+    type: case
+    title: 大审院采本权说
+    description: 大审院认为，盗窃罪保护的是所有权等本权，所有人取回自己的财物不构成盗窃。
+    concepts: [property-rechtsgut]
+    works: [w-jp-1918-honken]
+    needsSource: true
+
+  - id: e-jp-1959-possession
+    year: 1959
+    jurisdiction: jp
+    type: case
+    title: 最高裁判所转向占有说
+    description: 最高裁判所认为，即使是法律上禁止持有的财物，其事实上的占有也受刑法保护。判例由此从本权说转向占有说。
+    concepts: [property-rechtsgut]
+    works: [w-jp-1959-possession]
+    derivedFrom: [e-jp-1918-honken]
+    needsSource: true
+
+  - id: e-uk-theft-act-1968
+    year: 1968
+    jurisdiction: uk-ew
+    type: legislation
+    title: 1968 年盗窃法：财物「属于」占有或控制者
+    description: 第 5 条第 1 款规定，财物被视为属于对其享有占有、控制或任何财产权益的人。所有人取走他人占有中的自己的财物，也可能构成盗窃。
+    concepts: [property-rechtsgut]
+    works: [w-uk-theft-act-1968]
+
+  - id: e-uk-turner-1971
+    year: 1971
+    jurisdiction: uk-ew
+    type: case
+    title: R v Turner (No 2)：从修车厂开走自己的车
+    description: 被告人把车送去修理，修好后趁修车厂不注意把车开走，以逃避支付修理费。上诉法院认为，修车厂对车辆的占有与控制使车辆「属于」修车厂，被告人构成盗窃。
+    concepts: [property-rechtsgut]
+    works: [w-turner-1971]
+    derivedFrom: [e-uk-theft-act-1968]
+
+  - id: e-jp-1989-car-finance
+    year: 1989
+    jurisdiction: jp
+    type: case
+    title: 汽车金融案：占有说的确立
+    description: 被告人以汽车作为借款担保并转移了所有权，却在债务人仍可使用期间趁机把车开走。最高裁判所认为，即使被告人在民法上可能有权取回，债务人对车辆的占有仍受刑法保护，被告人构成盗窃。
+    concepts: [property-rechtsgut]
+    works: [w-jp-1989-car-finance]
+    derivedFrom: [e-jp-1959-possession]
+    needsSource: true
+    editorNote: 案情中谁是所有人、谁是占有人，需核对原判决。
+
+  # ---------------- 单位（法人）犯罪 ----------------
+  - id: e-uk-birmingham-1842
+    year: 1842
+    jurisdiction: uk-ew
+    type: origin
+    originOf: corporate-liability
+    originType: case
+    title: 铁路公司因不作为被起诉
+    description: 铁路公司因未履行拆除桥梁的法定义务而被起诉，法院认为法人可以因不作为而承担刑事责任。英美法上的法人刑事责任由此起步，此后逐步扩展到作为犯与需要犯意的犯罪。
+    concepts: [corporate-liability]
+    works: [w-birmingham-1842]
+
+  - id: e-us-nyc-railroad-1909
+    year: 1909
+    jurisdiction: us
+    type: case
+    title: 美国确立法人的替代责任
+    description: 联邦最高法院认为，法人可以因其雇员在职务范围内为法人利益实施的犯罪承担刑事责任（雇主责任原则）。美国的法人刑事责任由此采取了非常宽的替代责任模式。
+    concepts: [corporate-liability]
+    works: [w-nyc-railroad-1909]
+    derivedFrom: [e-uk-birmingham-1842]
+
+  - id: e-de-owig-1968
+    year: 1968
+    jurisdiction: de
+    type: legislation
+    title: 秩序违反法上的团体罚款
+    description: 法人的机关或代表人实施犯罪或秩序违反行为，违反了法人的义务或使法人获利的，可以对法人科处罚款。德国以此回避法人的刑事责任，维持「法人不能犯罪」的原则。
+    concepts: [corporate-liability]
+    works: [w-de-owig-1968]
+
+  - id: e-uk-tesco-1971
+    year: 1971
+    jurisdiction: uk-ew
+    type: case
+    title: Tesco v Nattrass：同一视原则
+    description: 上议院认为，只有法人「指挥中枢」（董事会与高级管理人员）的心态才能被视为法人的心态，分店经理的过失不能归属于公司。这一原则使大型企业很难被追究需要犯意的犯罪。
+    concepts: [corporate-liability]
+    works: [w-tesco-1971]
+    derivedFrom: [e-uk-birmingham-1842]
+
+  - id: e-cn-customs-1987
+    year: 1987
+    jurisdiction: cn
+    type: legislation
+    title: 海关法首次规定单位走私犯罪
+    description: 1987 年海关法规定企业事业单位、国家机关、社会团体走私的，追究刑事责任。单位犯罪由此进入中国大陆的刑事立法，1997 年刑法在总则中作出系统规定。
+    concepts: [corporate-liability]
+    works: [w-cn-customs-1987]
+
+  - id: e-us-ussg-1991
+    year: 1991
+    jurisdiction: us
+    type: legislation
+    title: 组织体量刑指南：合规计划可以减轻刑罚
+    description: 联邦量刑指南第八章规定，企业实施有效的合规与道德计划，可以显著减轻罚金。合规由此从企业管理问题变成刑事责任问题。
+    concepts: [corporate-liability]
+    works: [w-ussg-1991]
+    derivedFrom: [e-us-nyc-railroad-1909, e-us-sra-1984]
+
+  - id: e-uk-cmcha-2007
+    year: 2007
+    jurisdiction: uk-ew
+    type: legislation
+    title: 法人杀人罪法
+    description: 法人的活动因高级管理层的组织与管理方式存在严重违反注意义务的缺陷而导致他人死亡的，构成法人杀人罪。立法由此绕开同一视原则，转向组织责任。
+    concepts: [corporate-liability]
+    works: [w-uk-cmcha-2007]
+    derivedFrom: [e-uk-tesco-1971]
+
+  - id: e-uk-bribery-2010
+    year: 2010
+    jurisdiction: uk-ew
+    type: legislation
+    title: 反贿赂法：「未能预防」型犯罪
+    description: 与商业组织有关联的人员为该组织的利益行贿的，组织构成「未能预防贿赂」罪，除非证明自己已经建立了「充分的程序」。以合规缺陷为核心的组织责任由此成为立法模式，此后被推广到逃税、欺诈等领域。
+    concepts: [corporate-liability]
+    works: [w-uk-bribery-2010]
+    derivedFrom: [e-uk-cmcha-2007]
+
+  - id: e-de-vsg-2020
+    year: 2020
+    jurisdiction: de
+    type: legislation
+    title: 团体制裁法草案未能通过
+    description: 联邦政府提出团体制裁法草案，拟对企业科处与营业额挂钩的制裁，并以合规措施作为减免事由；草案最终未能在议会通过，德国仍维持秩序违反法的模式。
+    concepts: [corporate-liability]
+    works: [w-de-vsg-2020]
+    derivedFrom: [e-de-owig-1968]
+    needsSource: true
+
+  - id: e-cn-compliance-2020
+    year: 2020
+    jurisdiction: cn
+    type: legislation
+    title: 涉案企业合规改革试点
+    description: 最高人民检察院启动涉案企业合规改革试点，对承诺并有效实施合规整改的涉案企业依法作出不起诉等从宽处理。合规由此进入中国大陆的刑事程序。
+    concepts: [corporate-liability]
+    derivedFrom: [e-cn-1997, e-us-ussg-1991]
+    needsSource: true
+
+positions:
+  - theory: retributivism
+    question: q-corp-possible
+    answer: "no"
+    derivation:
+      - 刑罚以应得为根据。
+      - 法人没有自己的意志与罪责，不能应得报应。
+  - theory: deterrence
+    question: q-corp-possible
+    answer: "yes"
+    derivation:
+      - 处罚法人可以促使企业采取措施预防内部人员犯罪。
+  - theory: normative-culp
+    question: q-corp-possible
+    answer: "no"
+    derivation:
+      - 责任是对个人意志形成的非难。
+      - 法人没有意志，不能成为非难的对象（法人不能犯罪）。
+    alternatives:
+      - answer: "yes"
+        note: 也有学者以「组织责任」「经营责任」类比规范责任，承认法人的可罚性。
+  - theory: functional-culp
+    question: q-corp-possible
+    answer: "yes"
+    derivation:
+      - 责任由维护规范信赖的需要决定。
+      - 法人的组织缺陷同样动摇规范的效力 → 法人可以负责。
+    needsSource: true
+  - theory: functional-culp
+    question: q-corp-model
+    answer: organizational
+    derivation:
+      - 法人的责任不是自然人责任的转嫁，而是其自身组织（合规制度、组织文化）的缺陷。
+    needsSource: true
+  - theory: deterrence
+    question: q-corp-model
+    answer: vicarious
+    derivation:
+      - 以最有效的威慑为准：只要雇员为企业利益犯罪，就让企业承担责任，促使其严加管理。
+    needsSource: true

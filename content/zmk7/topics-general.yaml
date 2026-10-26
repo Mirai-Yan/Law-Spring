@@ -1,0 +1,632 @@
+# 总论补缺（据张明楷《刑法学》第七版整理）：承继的共犯、共犯与身份、片面共犯、罪数、追诉时效。
+# 概念、问题与先决关系为编者整理，全部待核实；学说史起点尚未考证的专题标 originPending，不为通过校验编造奇点。
+concepts:
+  - id: successive-complicity
+    name: 承继的共犯
+    original:
+      ja: 承継的共犯
+    kind: problem
+    area: participation
+    originPending: true
+    summary: >-
+      前行为人已经实施了一部分犯罪之后，后行为人才加入进来。问题分三个侧面：加入的时间能晚到什么时候（时间范围），
+      后行为人按什么罪名认定（行为性质），后行为人要不要对加入前已经发生的结果负责（责任范围）。
+      在不同侧面持不同立场是常见的，所以不能简单归为肯定说、否定说与折中说。
+
+  - id: complicity-status
+    name: 共犯与身份
+    original:
+      ja: 共犯と身分
+    kind: problem
+    area: participation
+    originPending: true
+    summary: >-
+      没有特定身份的人参与身份犯时如何处理：在真正（构成）身份犯中，无身份者能否成立共犯、共同犯罪定什么罪；
+      不同身份者共同犯罪时如何定罪；在不真正（加减）身份犯中，加重或减轻的规定是否适用于无身份者。
+      我国刑法总则没有直接规定，分则有零星规定（如刑法第 382 条第 3 款）。
+
+  - id: one-sided-complicity
+    name: 片面共犯
+    original:
+      ja: 片面的共犯
+    kind: problem
+    area: participation
+    originPending: true
+    summary: >-
+      参与同一犯罪的人中，只有一方知道自己在和他人共同实施犯罪，另一方并不知情。
+      可能表现为片面的帮助、片面的教唆和片面的共同正犯。是否承认、承认到什么范围，取决于如何理解共同犯罪的因果性。
+
+  - id: crime-number
+    name: 罪数论（一罪与数罪）
+    original:
+      de: Konkurrenzlehre
+      ja: 罪数論
+    kind: problem
+    area: system
+    originPending: true
+    summary: >-
+      一个人的行为构成一罪还是数罪，数罪是否并罚。涉及区分标准、法条竞合与想象竞合的界分、牵连犯、连续犯、包括的一罪等。
+      区分罪数既影响定罪，也直接影响量刑。
+
+  - id: limitation
+    name: 追诉时效
+    original:
+      de: Verfolgungsverjährung
+      ja: 公訴時効
+    kind: problem
+    area: sanctions
+    originPending: true
+    summary: >-
+      刑法规定的对犯罪人进行刑事追诉的有效期限；超过期限不再追诉（刑法第 87—89 条）。
+      争议集中在时效制度为什么正当、追诉期限的延长与中断如何理解，以及新旧刑法之间如何适用。
+
+questions:
+  - id: q-successive-time
+    concept: successive-complicity
+    text: 犯罪已经既遂、但尚未「实质性终了」时加入的人，能否成立承继的共犯？
+    level: applied
+    aliases: [承继的共犯, 实质性终了, 既遂后的帮助, 承继的时间范围]
+    answers:
+      - id: until-termination
+        label: 肯定说（实质性终了前均可）
+        summary: 在犯罪结果得到保障（实质性终了）之前加入的，都可以成立承继的共同正犯或帮助犯。
+      - id: until-completion
+        label: 否定说（以既遂为限）
+        summary: 除继续犯外，承继的共犯只能存在于既遂之前；既遂后的参与只能考虑窝藏、包庇、掩饰隐瞒犯罪所得等罪。
+
+  - id: q-successive-nature
+    concept: successive-complicity
+    text: 前行为人实施了一部分实行行为后中途加入的人（如在他人以暴力压制被害人后参与取财），应当按什么罪名认定？
+    level: applied
+    aliases: [承继的抢劫, 中途加入, 承继的共同正犯, 承继的行为性质]
+    answers:
+      - id: full
+        label: 肯定说
+        summary: 后行为人与前行为人就整个犯罪成立共同犯罪，罪名相同。
+      - id: partial
+        label: 否定说
+        summary: 后行为人只对加入后的行为与结果负责，按加入后的行为所符合的犯罪认定。
+      - id: intermediate
+        label: 中间说
+        summary: 原则上与前行为人罪名相同，但在一定情形下否定承继；各中间说划定例外的方法不同。
+
+  - id: q-successive-liability
+    concept: successive-complicity
+    text: 中途加入的后行为人，是否要对加入之前已经发生的结果（如抢劫致人死亡）承担责任？
+    level: applied
+    aliases: [承继的责任范围, 抢劫致死, 中途加入]
+    answers:
+      - id: yes
+        label: 肯定说
+        summary: 后行为人了解并利用了前行为人造成的事态，应对该结果负责。
+      - id: no
+        label: 否定说
+        summary: 后行为人只对与自己的行为有因果性的结果负责。
+
+  - id: q-status-complicity
+    concept: complicity-status
+    text: 无身份者与有身份者共同实施真正身份犯（如一般公民伙同国家工作人员侵吞公共财物）时，罪名如何确定？
+    level: intermediate
+    aliases: [共犯与身份, 身份犯的共犯, 内外勾结, 主犯决定说]
+    answers:
+      - id: by-principal
+        label: 主犯决定说
+        summary: 按主犯的犯罪性质确定共同犯罪的罪名。
+      - id: by-perpetrator
+        label: 实行犯（正犯）决定说
+        summary: 按实行犯的犯罪性质确定共同犯罪的罪名。
+      - id: per-participant
+        label: 以正犯为中心逐人认定
+        summary: 先认定正犯，再依各参与人的身份与责任确定其罪名；罪名可能不同，必要时按想象竞合处理。
+
+  - id: q-mixed-status-embezzlement
+    concept: complicity-status
+    text: 公司、企业中的非国家工作人员与国家工作人员勾结，分别利用各自的职务便利共同侵占本单位财物，应当如何定罪？
+    level: applied
+    aliases: [贪污与职务侵占, 不同身份者的共同犯罪, 内外勾结]
+    answers:
+      - id: by-principal
+        label: 按主犯的犯罪性质定罪
+        summary: 能区分主从犯的按主犯性质定罪；地位作用相当的，可以贪污罪定罪（司法解释与会议纪要的做法）。
+      - id: embezzlement
+        label: 均成立贪污罪的共犯
+        summary: 把贪污罪与职务侵占罪看作特别关系，按贪污罪的共犯论处。
+      - id: concurrence
+        label: 想象竞合，从一重罪处罚
+        summary: 二人都同时触犯贪污罪与职务侵占罪，从一重罪处罚。
+
+  - id: q-one-sided-complicity
+    concept: one-sided-complicity
+    text: 是否承认片面共犯（只有一方知道自己在与他人共同犯罪）？承认到什么范围？
+    level: intermediate
+    aliases: [片面共犯, 片面帮助犯, 片面教唆犯, 片面的共同正犯]
+    answers:
+      - id: deny
+        label: 否定说
+        summary: 片面共犯不成立共同犯罪。
+      - id: all
+        label: 全面肯定说
+        summary: 片面的共同正犯、教唆犯、帮助犯都可以成立。
+      - id: instigation-aid
+        label: 只承认片面教唆犯与片面帮助犯
+      - id: aid-only
+        label: 只承认片面帮助犯
+
+  - id: q-crime-number-standard
+    concept: crime-number
+    text: 区分一罪与数罪的标准是什么？
+    level: foundation
+    aliases: [罪数, 一罪与数罪, 罪数的区分标准, 犯罪构成说]
+    answers:
+      - id: act
+        label: 行为说
+        summary: 一个行为为一罪，数个行为为数罪。
+      - id: rechtsgut
+        label: 法益说（结果说）
+        summary: 侵犯一个法益为一罪，侵犯数个法益为数罪。
+      - id: intent
+        label: 犯意说
+        summary: 一个犯意为一罪，数个犯意为数罪。
+      - id: tatbestand
+        label: 构成要件说（犯罪构成说）
+        summary: 符合一个构成要件（犯罪构成）为一罪，符合数个或数次符合同一构成为数罪。
+      - id: individualized
+        label: 个别化说
+        summary: 按罪数的不同种类采用不同标准。
+
+  - id: q-crossing-statutes
+    concept: crime-number
+    text: 两个法条的构成要件部分交叉（如冒充国家机关工作人员骗取财物，同时触犯诈骗罪与招摇撞骗罪）时，属于法条竞合还是想象竞合？
+    level: intermediate
+    aliases: [交叉关系, 法条竞合, 想象竞合, 重法优于轻法, 交互竞合]
+    answers:
+      - id: statutory
+        label: 法条竞合（重法条优于轻法条）
+        summary: 交叉关系也是法条竞合，只适用其中较重的法条。
+      - id: ideal
+        label: 想象竞合
+        summary: 判决中写明行为触犯的数个罪名，按其中最重的法定刑处罚。
+
+  - id: q-implicated-relation
+    concept: crime-number
+    text: 牵连犯中的「牵连关系」应当如何认定？
+    level: intermediate
+    aliases: [牵连犯, 牵连关系, 手段行为与目的行为, 类型说]
+    answers:
+      - id: objective
+        label: 客观说
+        summary: 客观上两行为之间有手段与目的、原因与结果的关系即可。
+      - id: subjective
+        label: 主观说
+        summary: 行为人主观上把某行为当作手段或结果行为即可。
+      - id: mixed
+        label: 折中说
+        summary: 主观上与客观上都有牵连关系时才成立。
+      - id: typified
+        label: 类型说
+        summary: 只有类型化（通常性）的手段与目的、原因与结果的关系，才是牵连关系。
+
+  - id: q-limitation-basis
+    concept: limitation
+    text: 追诉时效制度的根据是什么？
+    level: foundation
+    aliases: [追诉时效, 时效的根据, 改善推测说, 准受刑说]
+    answers:
+      - id: improvement
+        label: 改善推测说
+        summary: 长期没有再犯罪，可以推测犯罪人已经改善。
+      - id: evidence
+        label: 证据湮灭说
+        summary: 证据随时间流逝而散失，难以正确处理案件。
+      - id: quasi-punishment
+        label: 准受刑说
+        summary: 长期逃避与恐惧带来的痛苦，近似于已经受刑。
+      - id: norm-feeling
+        label: 规范感情缓和说
+        summary: 随着时间经过，社会对犯罪的规范感情得以缓和。
+      - id: factual-state
+        label: 尊重事实状态说
+        summary: 行为人已形成与一般人相同的社会生活关系，应尊重这一事实状态。
+      - id: combined
+        label: 综合说
+        summary: 联系刑罚的正当化根据，把几种学说结合起来说明。
+
+  - id: q-limitation-extension
+    concept: limitation
+    text: 1997 年刑法扩大了「不受追诉期限限制」的情形，对 1997 年 10 月 1 日以前实施的犯罪能否适用？
+    level: applied
+    aliases: [追诉期限延长, 从旧兼从轻, 刑法第88条, 追诉时效的溯及力]
+    answers:
+      - id: lenient
+        label: 从旧兼从轻
+        summary: 适用对行为人有利的 1979 年刑法第 77 条。
+      - id: new
+        label: 从新
+        summary: 适用现行刑法第 88 条。
+
+prerequisites:
+  - question: q-successive-nature
+    requires: q-successive-time
+    kind: logical
+    why: 先要确定加入的时间还在可以成立承继的共犯的范围之内，才谈得上后行为人按什么罪名认定。
+    branches:
+      - answer: until-completion
+        leadsTo: 只有在前行为人既遂之前（或继续犯的持续期间）加入的，才进入罪名问题；既遂后的参与另按赃物犯罪等处理。
+      - answer: until-termination
+        leadsTo: 既遂后、实质性终了前加入的人，也要讨论能否按前行为人的罪名认定。
+
+  - question: q-successive-nature
+    requires: q-comp-basis
+    kind: foundational
+    why: 后行为人能否对加入前的行为负责，取决于共犯为什么受罚：因果共犯论要求参与行为与结果之间有因果性。
+    branches:
+      - answer: causation
+        leadsTo: 后行为人只能对与自己行为有因果性的部分负责；但把「结果」理解为抽象的财物转移，还是具体的「压制反抗后取得财物」，结论不同。
+
+  - question: q-successive-liability
+    requires: q-successive-nature
+    kind: logical
+    why: 先确定后行为人成立何罪的承继的共犯，再讨论他要不要对加入前已经发生的加重结果负责。
+
+  - question: q-successive-liability
+    requires: q-comp-basis
+    kind: foundational
+    why: 结果能否归属于后行为人，取决于共犯处罚根据是否要求因果性。
+    branches:
+      - answer: causation
+        leadsTo: 加入前已经发生的结果不可能由后行为人引起，通向否定说。
+
+  - question: q-successive-time
+    requires: q-legality-basis
+    kind: systematic
+    why: 「实质性终了」不是我国刑法上的概念；用它划定共犯的范围，是否扩大处罚、违背罪刑法定，是否定说的主要理由之一。
+
+  - question: q-status-complicity
+    requires: q-joint-nature
+    kind: foundational
+    why: 「共同犯罪应定什么罪」这一设问以犯罪共同说为前提；不预设整体罪名的话，各参与人的罪名取决于各自的身份与责任。
+    branches:
+      - answer: crime-joint
+        leadsTo: 需要为整个共同犯罪确定一个罪名，于是有主犯决定说与实行犯决定说之争。
+      - answer: act-joint
+        leadsTo: 不必为共同犯罪确定统一罪名，以正犯为中心逐人认定。
+
+  - question: q-status-complicity
+    requires: q-perpetrator-criterion
+    kind: systematic
+    why: 以正犯为中心认定共同犯罪，先要知道谁是正犯；实行犯决定说也面临「实行行为具有相对性」的问题。
+
+  - question: q-mixed-status-embezzlement
+    requires: q-status-complicity
+    kind: logical
+    why: 不同身份者共同犯罪是共犯与身份问题的延伸，处理方法取决于对无身份者参与身份犯的一般立场。
+    branches:
+      - answer: by-principal
+        leadsTo: 按主犯的犯罪性质定罪，地位作用相当时另需规则。
+      - answer: per-participant
+        leadsTo: 二人同时触犯两罪，进入法条竞合还是想象竞合的判断。
+
+  - question: q-mixed-status-embezzlement
+    requires: q-crossing-statutes
+    kind: conceptual
+    why: 结论取决于如何划分法条竞合与想象竞合：把贪污罪与职务侵占罪看作特别关系，就按贪污罪论处；看作想象竞合，就从一重罪处罚。
+
+  - question: q-one-sided-complicity
+    requires: q-comp-basis
+    kind: foundational
+    why: 是否承认片面共犯，关键在于如何理解共同犯罪的因果性：重视物理的因果性就能承认，只强调相互沟通带来的心理因果性就难以承认。
+    branches:
+      - answer: causation
+        leadsTo: 只要知情一方的行为与结果之间有物理的因果性，即使对方不知情，也能把结果归属于知情一方。
+
+  - question: q-crime-number-standard
+    requires: q-task
+    kind: foundational
+    why: 用行为侵犯的法益数量来实质判断符合几个犯罪构成，前提是刑法以保护法益为目的、犯罪的本质是侵害法益。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 按行为侵犯的法益数量判断成立一罪还是数罪。
+
+  - question: q-crossing-statutes
+    requires: q-crime-number-standard
+    kind: logical
+    why: 法条竞合是单纯的一罪，想象竞合是科刑上的一罪；先要有区分一罪与数罪的标准。
+
+  - question: q-implicated-relation
+    requires: q-crime-number-standard
+    kind: logical
+    why: 牵连犯本是数个行为、数个犯罪，只在科刑上作一罪处理；先要明确评价意义上的罪数与科刑意义上的罪数。
+
+  - question: q-limitation-basis
+    requires: q-punish-basis
+    kind: foundational
+    why: 经过一定时间就不再追诉，必须从刑罚为什么正当来说明：报应与预防的必要性是否随时间减弱。
+    branches:
+      - answer: union
+        leadsTo: 把准受刑（报应必要性降低）、改善推测（特殊预防必要性消失）与规范感情缓和结合起来。
+      - answer: special-prevention
+        leadsTo: 偏向改善推测说。
+
+  - question: q-limitation-extension
+    requires: q-legality-basis
+    kind: systematic
+    why: 追诉期限的延长对行为人不利；它是否受「不得溯及既往」的约束，取决于罪刑法定原则的适用范围是否及于追诉条件。
+
+bookViews:
+  - id: zmk7-successive-time
+    work: zmk-xingfaxue-7
+    question: q-successive-time
+    pages: "670-672"
+    answer: until-completion
+    summary: >-
+      作者采否定说：除继续犯（持续犯）外，承继的共犯只能存在于既遂之前，既遂后不可能有承继的共犯。
+      例如盗窃既遂后受托把赃物从隐藏处取走，不成立盗窃罪的帮助犯，只能考虑赃物犯罪等。
+    reasons:
+      - 「实质性终了」不是我国刑法上的概念；用它扩大共犯范围、加重处罚，有违反罪刑法定之嫌，也会架空洗钱罪、掩饰隐瞒犯罪所得罪等规定。
+      - 杀人、伤害等犯罪既遂后的参与不成立共犯；财产犯罪也应以既遂为时间标准，才能协调。
+      - 德国判例用「正犯者的认识和意志」区分帮助与包庇，标准空洞；实质性终了的界限也极不明确。
+      - 以非法占有目的是否确实实现来决定共犯成立，超出了构成要件的要求，主观主义色彩浓厚；站在法益侵害说的立场，被害人此时已经完全丧失占有。
+      - 这种观点还可能把同时正犯错认为片面的帮助犯。
+    reported:
+      - label: 德国的肯定说与判例
+        answer: until-termination
+        summary: 在实质性终了（犯罪结果得到保障）之前加入的，都可以成立承继的共犯。
+        pages: "670"
+
+  - id: zmk7-successive-nature
+    work: zmk-xingfaxue-7
+    question: q-successive-nature
+    pages: "672-675"
+    answer: intermediate
+    summary: >-
+      作者采中间说：原则上后行为人与前行为人的罪名相同，中途参与抢劫的成立抢劫罪，参与诈骗的成立诈骗罪；
+      在诈骗、敲诈勒索中只参与接受财物的，宜认定为承继的帮助犯。但在结合犯、牵连犯等一罪可以分割的场合，
+      后行为人只参与可以独立成罪的后一行为的，只成立后一犯罪（如只参与杀害被绑架者的，只成立故意杀人罪）。
+      作者自承这或许只是权宜之计，但符合我国立法现状。
+    reasons:
+      - 否定说割裂了前后行为的内在联系，对结果作抽象判断，没有采取具体的结果观。
+      - 抢劫罪是独立的犯罪类型；后行为人客观上和主观上都利用了压制被害人反抗这一持续存在的中间结果，与「压制反抗后转移占有」的抢劫结果有因果性。
+      - 我国犯罪的成立起点较高、没有暴行罪，采否定说会使后行为人往往不负刑事责任，不当缩小处罚范围。
+    reported:
+      - label: 肯定说
+        answer: full
+        summary: 后行为人参与的是抢劫行为，与前行为人成立抢劫的共同犯罪。
+        pages: "672"
+      - label: 否定说
+        answer: partial
+        summary: 后行为人只对加入后的行为与结果负责；在承继的抢劫中只负盗窃或抢夺的责任。
+        pages: "672"
+      - label: 中间说（利用效果说）
+        answer: intermediate
+        summary: 前行为的效果仍在持续、后行为人加以利用时，对所利用的状态负责，可以成立抢劫。
+        pages: "672"
+      - label: 中间说（不作为说）
+        answer: intermediate
+        summary: 前行为人施暴后负有消除被害人不能反抗状态的义务；后行为人共谋分担时也产生这一义务，以不作为与前行为人成立抢劫的共同正犯。
+        pages: "672"
+
+  - id: zmk7-successive-liability
+    work: zmk-xingfaxue-7
+    question: q-successive-liability
+    pages: "675"
+    answer: no
+    summary: >-
+      作者赞成否定说：后行为人只对与自己的行为有因果性的结果负责。参与取财的人只成立普通抢劫，不适用抢劫致人死亡的法定刑；
+      中途参与拘禁、连续诈骗的，只对参与后的拘禁时间和诈骗数额负责；中途参与伤害、杀人而不能证明伤亡发生在其参与之后的，
+      后行为人至多承担未遂的责任。
+    reasons:
+      - 利用前行为人已经造成的结果，不等于与该结果之间有因果关系。
+    reported:
+      - label: 肯定说
+        answer: yes
+        summary: 后行为人了解前行为人的意图并利用其造成的事态，就整体形成了共同故意；相互了解的时间并不重要。
+        pages: "675"
+      - label: 否定说
+        answer: no
+        summary: 后行为人的行为不可能是此前结果的原因；了解前行为也不表明二人对结果有共同故意。
+        pages: "675"
+
+  - id: zmk7-status-complicity
+    work: zmk-xingfaxue-7
+    question: q-status-complicity
+    pages: "680-682"
+    answer: per-participant
+    summary: >-
+      作者认为，无身份者可以成立真正身份犯的教唆犯、帮助犯乃至共同正犯，刑法第 27—29 条已经表明了这一点。
+      「共同犯罪定什么罪」这一设问以犯罪共同说为前提，并无实际意义：应先认定正犯，再以正犯为中心判断其他参与人，
+      并依各自的身份与责任确定罪名。有身份者与无身份者分别是不同犯罪的正犯时，按想象竞合处理；
+      如果按重罪的从犯处罚反而轻于轻罪的正犯，就按轻罪的正犯处罚。
+    reasons:
+      - 主犯决定说的问题：作用大小是确定共犯人种类的依据，不是确定罪名的依据；作用相当时无法定罪；还为避重就轻指明了方向。
+      - 实行犯决定说的问题：实行行为具有相对性，一罪的帮助行为可能是另一罪的实行行为；也难以保证罪刑相适应。
+    reported:
+      - label: 主犯决定说（源于 1985 年「两高」解答）
+        answer: by-principal
+        summary: 共同犯罪的基本特征一般由主犯犯罪的基本特征决定。
+        pages: "681"
+      - label: 实行犯决定说
+        answer: by-perpetrator
+        summary: 按实行犯（正犯）的犯罪性质决定共同犯罪的性质。
+        pages: "681"
+
+  - id: zmk7-mixed-status-embezzlement
+    work: zmk-xingfaxue-7
+    question: q-mixed-status-embezzlement
+    pages: "682-683"
+    answer: concurrence
+    summary: >-
+      作者认为两个司法文件的做法值得商榷：非国家工作人员甲与国家工作人员乙分别利用各自职务便利共同侵占本单位财物时，
+      二人都同时触犯贪污罪与职务侵占罪，作者倾向于认定想象竞合、从一重罪处罚；如果按贪污罪的从犯处罚反而轻于职务侵占罪的正犯，
+      则对甲按职务侵占罪的正犯论处。只利用乙的职务便利的，成立贪污罪的共犯；只利用甲的职务便利的，乙的身份没有意义，二人成立职务侵占罪的共同犯罪。
+    reasons:
+      - 一般公民伙同国家工作人员贪污的都成立贪污罪的共犯，公司、企业中的非国家工作人员更应如此。
+      - 按主犯性质定罪，与主犯决定说有同样的缺陷。
+    reported:
+      - label: 2000 年最高人民法院解释、2003 年座谈会纪要
+        answer: by-principal
+        summary: 尽量区分主从犯，按主犯的犯罪性质定罪；地位作用相当、难以区分的，可以贪污罪定罪处罚。
+        pages: "682"
+      - label: 视二罪为特别关系的观点
+        answer: embezzlement
+        summary: 贪污罪与职务侵占罪是特别法条关系的话，应按贪污罪的共犯论处。
+        pages: "682"
+
+  - id: zmk7-one-sided-complicity
+    work: zmk-xingfaxue-7
+    question: q-one-sided-complicity
+    pages: "684-686"
+    answer: all
+    summary: >-
+      作者肯定片面的帮助犯、片面的教唆犯和片面的共同正犯，但共同犯罪的处罚原则只适用于知情的一方。
+      片面共犯以知情一方的行为与结果之间有物理的因果性为限；暗中与他人同时开枪而不能查明谁击中的，既无物理也无心理的因果性，只是同时犯。
+    reasons:
+      - 是否承认片面共犯，关键在于如何理解共同犯罪的因果性；肯定物理的因果性，片面共犯也能共同或通过他人引起法益侵害。
+      - 承认片面帮助，就没有理由否认片面教唆与片面共同正犯。
+      - 否认片面帮助犯，暗中为盗窃者望风、拖延被害人回家的人就不成立犯罪，这一结论难以接受。
+      - 被教唆者是否意识到自己的犯意由他人引起并不重要。
+    reported:
+      - label: 否定说
+        answer: deny
+        summary: 片面共犯不成立共同犯罪。
+        pages: "684"
+      - label: 全面肯定说
+        answer: all
+        summary: 所有片面共犯都成立共同犯罪。
+        pages: "684"
+      - label: 只承认片面教唆犯与片面帮助犯
+        answer: instigation-aid
+        summary: 否认片面的共同正犯。
+        pages: "684"
+      - label: 只承认片面帮助犯
+        answer: aid-only
+        summary: 只承认片面的帮助犯。
+        pages: "684"
+
+  - id: zmk7-crime-number-standard
+    work: zmk-xingfaxue-7
+    question: q-crime-number-standard
+    pages: "705-708"
+    answer: tatbestand
+    summary: >-
+      作者区分评价意义上的罪数与科刑意义上的罪数。评价意义上采犯罪构成说，但犯罪构成的符合性要作实质判断，
+      最终按行为侵犯的法益数量决定符合几个犯罪构成（一个犯罪的保护法益为复数时，侵害这些法益仍是一罪）；
+      科刑意义上采个别化说，有的数罪并罚，有的只适用一个重法定刑就能全面评价（归入包括的一罪或科刑的一罪）。
+    reasons:
+      - 犯罪构成包含全部要素，一个案件可能在某一方面只符合一个犯罪构成、在另一方面符合两个，所以需要实质标准来决定评价次数。
+      - 刑法的目的是保护法益，犯罪的本质是侵害法益。
+      - 罪数论终究是为量刑服务的；数罪之间常有密切关联乃至重合，一概并罚会导致量刑畸重。
+    reported:
+      - label: 行为说
+        answer: act
+        summary: 以行为的数量区分一罪与数罪；但行为单复本身难以区分，复数行为也可能被规定为一罪。
+        pages: "706"
+      - label: 法益说（结果说）
+        answer: rechtsgut
+        summary: 以侵犯的法益数量区分；有实质合理性，但一个犯罪的法益可能是复数，两个犯罪的法益也可能重合。
+        pages: "706"
+      - label: 犯意说
+        answer: intent
+        summary: 以犯意的个数区分；属于主观主义的观点，当今不取，但犯意的一体性事实上影响罪数判断。
+        pages: "706"
+      - label: 构成要件说
+        answer: tatbestand
+        summary: 以符合构成要件的数量区分；被批评没有回答按什么标准决定构成要件的评价次数。
+        pages: "707"
+      - label: 个别化说
+        answer: individualized
+        summary: 单纯一罪用构成要件标准，包括的一罪结合行为与法益，科刑上一罪用行为标准。
+        pages: "707"
+
+  - id: zmk7-crossing-statutes
+    work: zmk-xingfaxue-7
+    question: q-crossing-statutes
+    pages: "716-718"
+    answer: ideal
+    summary: >-
+      作者认为交叉关系不是法条竞合而是想象竞合；法条竞合的基本类型实质上只是特别关系（包容关系是其外在表现）。
+      冒充国家机关工作人员骗取财物的，同时触犯招摇撞骗罪与诈骗罪，成立想象竞合。
+    reasons:
+      - 想象竞合有明示机能：判决写明行为触犯的数个罪名，才能全面评价不法内容，量刑时只按最重的法定刑。
+      - 只定招摇撞骗罪，没有评价对财产的侵害；只定诈骗罪，没有评价对国家机关公共信用的侵害。
+    reported:
+      - label: 我国刑法理论的通说
+        answer: statutory
+        summary: 两个法条处于交叉关系时存在法条竞合，适用重法条优于轻法条的原则。
+        pages: "716-717"
+
+  - id: zmk7-implicated-relation
+    work: zmk-xingfaxue-7
+    question: q-implicated-relation
+    pages: "749-750"
+    answer: typified
+    summary: >-
+      作者认为，如果承认牵连犯的概念，就应采类型说：只有某种手段通常用于实施某种犯罪，或某种原因行为通常导致某种结果行为时，
+      才是牵连犯。非法侵入住宅杀人可以是牵连犯，盗窃枪支后杀人则应并罚；牵连犯也可以触犯相同罪名。
+      范围上，分则明文规定数罪并罚的、规定独立较重法定刑的（可作结合犯理解）都应排除在外；判决中仍须写明行为触犯数罪。
+    reasons:
+      - 牵连犯本是两个行为、原应并罚；之所以不并罚，是因为设置重罪的法定刑时已大体考虑了通常伴随的轻罪的不法与责任。
+      - 不具有类型性关联的情形也认定为牵连犯，必然导致罪刑不相适应。
+    reported:
+      - label: 客观说
+        answer: objective
+        summary: 客观上两行为之间有手段与目的、原因与结果的关系即可。
+        pages: "749"
+      - label: 主观说
+        answer: subjective
+        summary: 行为人主观上把某种行为当作手段或结果行为即可。
+        pages: "749"
+      - label: 折中说
+        answer: mixed
+        summary: 主观上与客观上都有牵连关系时才成立。
+        pages: "749"
+
+  - id: zmk7-limitation-basis
+    work: zmk-xingfaxue-7
+    question: q-limitation-basis
+    pages: "961"
+    answer: combined
+    summary: >-
+      作者认为各说都只说明了时效根据的一个侧面，应联系刑罚的正当化根据，把准受刑说、改善推测说与规范感情缓和说结合起来：
+      犯罪后长期遭受的痛苦使报应的必要性降低；长期没有再犯罪，说明缺乏特殊预防的必要。证据湮灭说至多只是补充理由。
+    reasons:
+      - 只采证据湮灭说，意味着只要证据容易收集，无论经过多久都可以追诉，这并不合适。
+    reported:
+      - label: 改善推测说（普鲁士一般邦法时代）
+        answer: improvement
+        summary: 长期没有再犯罪，可以推想犯罪人已经改善，没有处刑的必要。
+        pages: "961"
+      - label: 证据湮灭说（19 世纪法国）
+        answer: evidence
+        summary: 证据因时间流逝而散失，难以正确处理案件。
+        pages: "961"
+      - label: 准受刑说（19 世纪法国）
+        answer: quasi-punishment
+        summary: 长期逃避与恐惧造成的痛苦与执行刑罚相差无几。
+        pages: "961"
+      - label: 规范感情缓和说（日本部分学者）
+        answer: norm-feeling
+        summary: 随着时间经过，社会对犯罪的规范感情得以缓和，不一定要求现实的处罚。
+        pages: "961"
+      - label: 尊重事实状态说（日本部分学者）
+        answer: factual-state
+        summary: 社会秩序恢复、行为人形成了正常的社会生活关系，应当尊重这一事实状态。
+        pages: "961"
+      - label: 不法关联性消逝说（国内学者）
+        summary: 经过特定时间后，罪行被推定为与当下社会无关的历史事件，不再视为刑事不法；作者质疑这样就连违法所得也无法追缴没收。
+        pages: "961-962"
+
+  - id: zmk7-limitation-extension
+    work: zmk-xingfaxue-7
+    question: q-limitation-extension
+    pages: "968"
+    answer: lenient
+    summary: >-
+      现行刑法第 88 条比 1979 年刑法第 77 条更不利于行为人；对追诉期限的延长也必须采取从旧兼从轻原则。
+      作者认为这是罪刑法定原则（同时也是宪法原则）的要求，刑法理论不应主张从新原则；1997 年最高人民法院关于时间效力的解释也采此立场，值得肯定。
+    reasons:
+      - 从旧兼从轻是罪刑法定原则的要求；刑法没有、也不应当规定追诉期限的延长采从新原则。
+    reported:
+      - label: 1997 年最高人民法院关于刑法时间效力的解释
+        answer: lenient
+        summary: 1997 年 9 月 30 日以前实施的犯罪，是否因逃避侦查、审判或被害人控告而不受追诉期限限制，适用修订前的 1979 年刑法第 77 条。
+        pages: "968"

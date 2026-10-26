@@ -1,0 +1,240 @@
+# 分论重点争议问题·第三批（据张明楷《刑法学》第七版整理）：概念、问题与先决关系为编者整理，全部待核实。
+concepts:
+  - id: robbery-extended
+    name: 事后抢劫与入户抢劫
+    kind: problem
+    area: sp-property
+    originPending: true
+    summary: >-
+      刑法第 269 条把「犯盗窃、诈骗、抢夺罪」后为窝藏赃物等当场使用暴力的情形拟制为抢劫（事后抢劫）；
+      第 263 条把「入户抢劫」等八种情形规定为加重抢劫。争点在于事后抢劫的前提行为要达到什么程度，以及入户抢劫的成立范围。
+
+  - id: card-fraud-misuse
+    name: 信用卡诈骗中的「冒用」
+    kind: problem
+    area: sp-economy
+    originPending: true
+    summary: >-
+      冒用他人信用卡是信用卡诈骗罪的行为类型之一。在自动柜员机上使用他人信用卡取款，是「冒用」，还是盗窃？
+      问题的核心在于机器能否被「骗」。
+
+  - id: kidnapping
+    name: 绑架罪的构造
+    kind: problem
+    area: sp-person
+    originPending: true
+    summary: >-
+      绑架罪的实行行为只是以实力支配被绑架人，还是还要包括向第三人勒索财物或提出其他不法要求？
+      这决定了绑架罪的既遂时点、与抢劫罪的关系，以及中途参与勒索的人是否成立共同正犯。
+
+questions:
+  - id: q-post-theft-robbery-precondition
+    concept: robbery-extended
+    text: 盗窃、诈骗、抢夺数额较小的财物后，为窝藏赃物等当场使用暴力的，能否成立事后抢劫？（「犯盗窃、诈骗、抢夺罪」的含义）
+    level: applied
+    aliases: [事后抢劫, 转化型抢劫, 准抢劫, 犯盗窃诈骗抢夺罪]
+    answers:
+      - id: amount-required
+        label: 须取得数额较大的财物
+        summary: 前行为取得的财物达到数额较大、构成犯罪，才可能成立事后抢劫。
+      - id: act-suffices
+        label: 实施盗窃等行为即可
+        summary: 抢劫罪没有数额要求，前行为不必构成犯罪。
+      - id: comprehensive
+        label: 综合判断（司法解释）
+        summary: 未达数额较大、情节较轻的一般不以犯罪论处；具有接近数额较大、致人轻微伤、使用凶器等情节之一的，以抢劫论处。
+      - id: crime-incl-attempt
+        label: 前行为须能评价为犯罪（含未遂）
+        summary: 既不要求实际占有数额较大的财物，也不能不考虑行为人意图和可能取得的数额。
+
+  - id: q-home-robbery-purpose
+    concept: robbery-extended
+    text: 认定「入户抢劫」，是否要求行为人以抢劫（含事后抢劫）为目的入户？
+    level: applied
+    aliases: [入户抢劫, 户内抢劫, 入户目的, 入户方式]
+    answers:
+      - id: crime-purpose
+        label: 以实施抢劫等犯罪（或侵害户内人员人身、财产）为目的入户即可
+        summary: 入户盗窃、诈骗等犯罪而转化为抢劫的也属入户抢劫；经允许入户后临时起意抢劫的不属于。
+      - id: robbery-purpose
+        label: 只有以抢劫故意入户
+        summary: 包括能偷就偷、不能偷就抢，以及入户时就有事后抢劫的目的；为了强奸、杀人等入户后改为抢劫的不是入户抢劫。
+
+  - id: q-atm-misuse
+    concept: card-fraud-misuse
+    text: 使用拾得（或以其他方式取得）的他人信用卡在自动柜员机上取款，成立信用卡诈骗罪还是盗窃罪？
+    level: applied
+    aliases: [ATM取款, 拾得信用卡, 冒用他人信用卡, 机器能否被骗]
+    answers:
+      - id: card-fraud
+        label: 信用卡诈骗罪（冒用他人信用卡）
+      - id: theft
+        label: 盗窃罪
+        summary: 冒用以欺骗自然人为前提，机器不会产生认识错误。
+      - id: by-method
+        label: 按取款方式区分
+        summary: 例如以是否需要输入密码、密码如何获得来区分盗窃与信用卡诈骗。
+
+  - id: q-kidnapping-act
+    concept: kidnapping
+    text: 绑架罪的实行行为是单一行为（以实力支配被绑架人），还是「绑架＋勒索（提出不法要求）」的复合行为？
+    level: intermediate
+    aliases: [绑架罪, 绑架既遂, 复合行为说, 勒索财物]
+    answers:
+      - id: single
+        label: 单一行为说
+        summary: 勒索财物等只是目的，不要求实施勒索行为；提出不法要求之前也可以既遂。
+      - id: compound
+        label: 复合行为说
+        summary: 绑架行为与勒索（提出要求）行为共同构成实行行为。
+
+prerequisites:
+  - question: q-post-theft-robbery-precondition
+    requires: q-formal-material
+    kind: systematic
+    why: 「犯盗窃、诈骗、抢夺罪」能否突破文义作扩张或限缩，以及能否以后面的暴力是否严重来反推前行为是否成立犯罪，取决于解释方法。
+    branches:
+      - answer: formal
+        leadsTo: 倾向于要求前行为在形式上构成犯罪。
+      - answer: material
+        leadsTo: 更重视事后抢劫与普通抢劫的等质性，但仍须受文义限制。
+
+  - question: q-post-theft-robbery-precondition
+    requires: q-attempt-basis
+    kind: conceptual
+    why: 「犯……罪」是否包括未遂，牵涉未遂犯的成立与处罚根据。
+
+  - question: q-home-robbery-purpose
+    requires: q-post-theft-robbery-precondition
+    kind: systematic
+    why: 入户盗窃后在户内当场施暴是否属于入户抢劫，要以事后抢劫的成立为前提。
+
+  - question: q-home-robbery-purpose
+    requires: q-formal-material
+    kind: systematic
+    why: 入户抢劫是法定刑很重的加重构成要件，是否要从入户目的和入户方式上作限制解释，取决于对罪刑相适应与文义的权衡。
+
+  - question: q-atm-misuse
+    requires: q-fraud-disposal-awareness
+    kind: conceptual
+    why: 诈骗以使受骗者产生认识错误并处分财产为构造；机器没有意识，能否「受骗」并「处分」决定了冒用的范围。
+    branches:
+      - answer: required
+        leadsTo: 处分要有处分意识，机器不可能具有，在机器上取款只能是盗窃。
+
+  - question: q-kidnapping-act
+    requires: q-kidnapping-rechtsgut
+    kind: foundational
+    why: 绑架罪保护的是人身法益，还是兼及财产与第三人的意思决定自由，决定勒索行为是否属于实行行为的一部分。
+    branches:
+      - answer: liberty-safety
+        leadsTo: 勒索财物只是目的，以实力支配被绑架人即侵害了法益，采单一行为说。
+      - answer: self-determination
+        leadsTo: 第三者的自决权受到侵害时才完整实现不法，倾向复合行为说。
+      - answer: multi
+        leadsTo: 把财产纳入法益，容易把勒索行为也算作实行行为。
+
+bookViews:
+  - id: zmk7-post-theft-robbery-precondition
+    work: zmk-xingfaxue-7
+    question: q-post-theft-robbery-precondition
+    pages: "1525-1527"
+    answer: crime-incl-attempt
+    summary: >-
+      作者原则上赞成第四种观点：「犯盗窃、诈骗、抢夺罪」描述的是动态过程，意味着行为人有实施这些犯罪的行为与故意，
+      只要前行为能被评价为盗窃、诈骗、抢夺「罪」（既遂或未遂），就可以进而成立事后抢劫。
+      客观上不可能取得数额较大财物、主观上没有取得数额较大财物的故意，或者没有非法占有目的的，都不符合这一前提。
+    reasons:
+      - 事后抢劫之所以是财产罪，是因为前行为是财产罪；前行为只是一般违法行为的，后面的暴力再严重也不能成立财产罪。
+      - 抗拒抓捕、毁灭罪证也是事后抢劫的目的，说明前罪没有取得财物也可能成立；抢劫罪本身没有数额限制。
+      - 第一种观点先作有缺陷的解释再要求修法，方法论上不可取；第二种观点混同了治安违法与犯罪，否定了事后抢劫的财产罪性质。
+      - 司法解释把前行为的判断转化为后面暴力情节的判断，并以情节是否严重代替「是否足以压制反抗」，会使盗窃几个苹果后持凶器威胁的也成立抢劫。
+    reported:
+      - label: 第一种观点
+        answer: amount-required
+        summary: 前行为须取得数额较大的财物；有的以「转化犯」为理由，有的认为严格依照罪刑法定只能如此解释，但又主张修改法条。
+        pages: "1525-1526"
+      - label: 第二种观点
+        answer: act-suffices
+        summary: 抢劫罪不以数额较大为前提，只要实施了盗窃等行为即可。
+        pages: "1526"
+      - label: 第三种观点（《办理两抢案件意见》等）
+        answer: comprehensive
+        summary: 未达数额较大、情节较轻危害不大的一般不以犯罪论处；具有接近数额较大、入户或在公共交通工具上实施、致人轻微伤、使用凶器等情节之一的，以抢劫论处。
+        pages: "1526"
+      - label: 第四种观点
+        answer: crime-incl-attempt
+        summary: 既不要求实际占有的财物达到数额较大，也不能完全不考虑行为人意图和可能非法占有的数额；盗窃未遂也可以成立事后抢劫。
+        pages: "1527"
+
+  - id: zmk7-home-robbery-purpose
+    work: zmk-xingfaxue-7
+    question: q-home-robbery-purpose
+    pages: "1544-1545"
+    answer: robbery-purpose
+    summary: >-
+      作者主张只有以抢劫故意入户后实施抢劫的，才是入户抢劫；以抢劫为目的入户包括为实施普通抢劫、能偷就偷不能偷就抢、
+      以及入户时就有事后抢劫的目的。此外还要从入户方式上限制：只有违反被害人意志携带凶器入户，或者以暴力、胁迫方式入户的，才能认定为入户；
+      单纯尾随、乘门未锁溜入、用偷配的钥匙或以欺骗方式入户后抢劫的，不宜认定为入户抢劫。暴力、胁迫须发生在户内，行为人还须认识到所进入的是「户」。
+    reasons:
+      - 「入户抢劫」的表述本身意味着入户就是为了抢劫，与「入户后抢劫」不是一回事。
+      - 以抢劫为目的入户，使入户与抢劫的违法性有机结合（事先准备工具、分工、计划），违法性明显增大；预谋也表明特殊预防的必要性更大。
+      - 司法解释虽然限制了入户抢劫的范围，但为盗窃入户与为杀人、强奸入户后抢劫的处理仍不协调，不能完全实现罪刑相适应。
+    reported:
+      - label: 《办理两抢案件意见》
+        answer: crime-purpose
+        summary: 进入他人住所须以实施抢劫等犯罪为目的；在户内临时起意抢劫的，不属于入户抢劫。
+        pages: "1544"
+      - label: 《办理抢劫案件指导》
+        answer: crime-purpose
+        summary: 以侵害户内人员人身、财产为目的入户后抢劫，包括入户实施盗窃、诈骗等犯罪而转化为抢劫的，应当认定为入户抢劫。
+        pages: "1544"
+
+  - id: zmk7-atm-misuse
+    work: zmk-xingfaxue-7
+    question: q-atm-misuse
+    pages: "1219-1220"
+    answer: theft
+    summary: >-
+      作者认为冒用他人信用卡只限于对自然人使用；在机器上使用他人信用卡取款的，不可能成立信用卡诈骗罪，只能认定为盗窃罪。
+      使用伪造、作废的信用卡在机器上取得财物的，同样成立盗窃罪。
+    reasons:
+      - 「冒用」本身包含欺骗的含义，诈骗要使他人陷入处分财产的认识错误；机器不存在认识错误的问题。
+      - 2008 年最高人民检察院的批复与该院 2003 年关于非法 IC 电话卡按盗窃论处的答复自相矛盾，后者是正确的。
+      - 以是否输入密码或密码如何获得来区分，也不可行：密码不是身份验证，机器无法识别取款人身份，也无法判断密码是怎么来的。
+    reported:
+      - label: 2008 年最高人民检察院批复
+        answer: card-fraud
+        summary: 拾得他人信用卡并在自动柜员机上使用，属于「冒用他人信用卡」，构成犯罪的以信用卡诈骗罪追究。
+        pages: "1220"
+      - label: 部分司法人员的看法（以是否输入密码区分）
+        answer: by-method
+        summary: 不需要输入密码就能取款的是盗窃，需要输入密码的是冒用他人信用卡。
+        pages: "1220"
+      - label: 部分司法人员的看法（以密码来源区分）
+        answer: by-method
+        summary: 正常获得或卡背面写有密码的是盗窃，猜出密码的是信用卡诈骗。
+        pages: "1220"
+
+  - id: zmk7-kidnapping-act
+    work: zmk-xingfaxue-7
+    question: q-kidnapping-act
+    pages: "1377"
+    answer: single
+    summary: >-
+      作者不赞成复合行为说。绑架罪是侵犯人身权利的犯罪，勒索财物只是行为人的目的，刑法第 239 条并不要求实现这一目的；
+      绑架人质后还没来得及提出要求就被抓获，或者第三人对勒索并不在意的，按复合行为说都只能认定为未遂，这样的结论不妥当。
+    reasons:
+      - 把侵犯财产的勒索行为纳入实行行为，不符合绑架罪作为人身犯罪的本质；绑架罪的法益也不包括第三人的意思决定自由。
+      - 《刑法修正案（七）》降低法定刑后，已不存在通过改变构造来限制处罚范围的必要。
+      - 复合行为说在共同犯罪中适得其反：知情后只帮忙打勒索电话的人，可能被认定为共同正犯。
+      - 复合行为说缺乏刑法上的文理根据。
+    reported:
+      - label: 复合行为说
+        answer: compound
+        summary: 只有把客观行为解释为绑架与勒索的复合行为，才能与抢劫罪相协调，或才能说明对第三人自决权的侵害。
+        pages: "1377"
+      - label: 人质交换说
+        answer: compound
+        summary: 绑架是以人质安全为筹码向第三人换取对价；对人质的控制要足以引发第三人的救助义务，才成立绑架罪。
+        pages: "1377"

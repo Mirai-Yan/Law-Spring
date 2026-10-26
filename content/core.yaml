@@ -1,0 +1,222 @@
+# 法域、概念与概念之间的关系
+# 起草：AI（Claude）；全部条目初始为 draft，待人工核实。
+
+jurisdictions:
+  - id: uk-ew
+    name: 英格兰与威尔士
+    short: 英
+    tradition: common
+    order: 1
+    summary: 普通法的发源地。刑法总论问题多在判例与 Law Commission 报告中展开，学说以主观主义与客观主义之争为主线。
+  - id: us
+    name: 美国
+    short: 美
+    tradition: common
+    order: 2
+    summary: 以《模范刑法典》（MPC，1962）为分水岭；刑法理论界在 1970 年代后大量吸收德国学说。
+  - id: de
+    name: 德国
+    short: 德
+    tradition: civil
+    order: 3
+    summary: 阶层式犯罪论体系的发源地。违法性本质之争（客观违法论、人的不法论、一元论与二元论）主要在这里展开。
+  - id: jp
+    name: 日本
+    short: 日
+    tradition: civil
+    order: 4
+    summary: 继受德国刑法学；战后形成行为无价值论与结果无价值论的长期对峙，并深刻影响了台湾地区与中国大陆。
+  - id: tw
+    name: 台湾地区
+    short: 台
+    tradition: civil
+    order: 5
+    summary: 同时继受德、日学说；2005 年刑法修正对不能未遂改采不罚。
+  - id: cn
+    name: 中国大陆
+    short: 中
+    tradition: civil
+    order: 6
+    summary: 1950 年代继受苏俄的犯罪构成理论与社会危害性理论；2000 年后经历刑法知识的「去苏俄化」，转向德日阶层论，行为无价值论与结果无价值论之争随之展开。
+
+concepts:
+  # ---------------- 根据论 ----------------
+  - id: wrongfulness-essence
+    name: 违法性的本质
+    original:
+      de: Wesen der Rechtswidrigkeit / Unrecht
+      ja: 違法性の本質
+      en: nature of wrongdoing
+    kind: foundation
+    area: unrecht
+    summary: >-
+      违法性（不法）的内容由什么构成：是对法益的侵害或危险（结果无价值），还是行为对行为规范的违反（行为无价值），抑或两者兼有。
+      这个根据论会在偶然防卫、不能犯、主观的违法要素、过失犯、正当化原理、共犯处罚根据等问题上推出不同的结论。
+
+  - id: rechtsgut
+    name: 法益
+    original:
+      de: Rechtsgut
+      ja: 法益
+      en: legal good / legally protected interest
+    kind: foundation
+    area: foundations
+    summary: >-
+      刑法所保护的利益。法益概念是结果无价值论的支点，也是「刑法的任务是什么」之争的焦点。
+      在英美法上，功能上与之对应的是 [[concept:harm-principle|伤害原则]]。
+
+  - id: cl-subjectivism
+    name: 主观主义与客观主义（英美）
+    original:
+      en: subjectivism vs. objectivism
+    kind: foundation
+    area: foundations
+    tradition: common
+    summary: >-
+      英美刑法理论中关于刑事责任根据的争论：责任是否只取决于行为人的可责心态（主观主义），
+      还是外在行为与实际结果同样决定不法（客观主义）。功能上与大陆法的 [[concept:wrongfulness-essence|违法性本质之争]] 相对应，但二者的问题意识并不相同。
+
+  - id: harm-principle
+    name: 伤害原则
+    original:
+      en: harm principle
+    kind: foundation
+    area: foundations
+    tradition: common
+    summary: 国家只有为了防止对他人的伤害，才能正当地以刑罚干预个人自由。这是英美刑事立法正当性讨论的出发点。
+
+  # ---------------- 具体问题 ----------------
+  - id: accidental-defense
+    name: 偶然防卫
+    original:
+      de: zufällige Notwehr（fehlendes subjektives Rechtfertigungselement）
+      ja: 偶然防衛
+    kind: problem
+    area: unrecht
+    summary: >-
+      行为人出于加害意思实施行为，客观上却恰好制止了他人正在进行的不法侵害（例如甲开枪杀乙，而乙恰好正举枪射丙）。
+      它是检验行为无价值与结果无价值的经典「试金石」。
+
+  - id: putative-defense
+    name: 假想防卫
+    original:
+      de: Putativnotwehr / Erlaubnistatbestandsirrtum
+      ja: 誤想防衛
+    kind: problem
+    area: unrecht
+    summary: 客观上不存在不法侵害，行为人却误以为存在而实施「防卫」。它与偶然防卫在主客观要素上恰成镜像。
+
+  - id: unknowingly-justified-actor
+    name: 不知情的正当化行为人（英美）
+    original:
+      en: unknowingly justified actor
+    kind: problem
+    area: unrecht
+    tradition: common
+    summary: >-
+      英美法上与偶然防卫对应的问题：行为客观上满足正当化条件，但行为人并不知道。
+      经典判例是 [[event:e-uk-dadson-1850|R v Dadson（1850）]]。
+
+  - id: impossible-attempt
+    name: 不能犯与未遂
+    original:
+      de: untauglicher Versuch
+      ja: 不能犯
+    kind: problem
+    area: stages
+    summary: >-
+      行为在性质上不可能导致结果（如用白糖「毒杀」、向空床开枪）时，是成立未遂，还是不可罚的不能犯。
+      结论取决于未遂犯的处罚根据与危险判断的基准。
+
+  - id: impossible-attempt-cl
+    name: 不能未遂（英美）
+    original:
+      en: impossible attempts
+    kind: problem
+    area: stages
+    tradition: common
+    summary: 英美法上关于事实不能与法律不能的长期争论；经 Criminal Attempts Act 1981 与 MPC §5.01 走向主观化。
+
+  - id: subjective-unrecht
+    name: 主观的违法要素
+    original:
+      de: subjektive Unrechtselemente
+      ja: 主観的違法要素
+    kind: problem
+    area: unrecht
+    summary: >-
+      违法性是否以及在多大范围内取决于行为人的内心要素（目的犯的目的、倾向犯的倾向、未遂犯的故意乃至一般的故意）。
+      它的发现动摇了「违法是客观的，责任是主观的」这一古典公式。
+
+  - id: negligence-structure
+    name: 过失犯的构造
+    original:
+      de: Struktur des Fahrlässigkeitsdelikts
+      ja: 過失犯の構造
+    kind: problem
+    area: mens
+    summary: 过失犯的不法核心是结果预见可能性（旧过失论），还是客观注意义务即结果回避义务的违反（新过失论），以及在此基础上发展出的危惧感说（新新过失论）。
+
+  - id: justification-principle
+    name: 正当化的一般原理
+    original:
+      de: Prinzipien der Rechtfertigung
+      ja: 違法性阻却の一般原理
+    kind: problem
+    area: unrecht
+    summary: 各种违法阻却事由背后的统一原理：优越利益（法益衡量）、社会相当性，还是目的说。
+
+  - id: complicity-basis
+    name: 共犯的处罚根据
+    original:
+      de: Strafgrund der Teilnahme
+      ja: 共犯の処罰根拠
+    kind: problem
+    area: participation
+    tradition: both
+    summary: >-
+      教唆犯、帮助犯为什么要受处罚：因为使正犯堕落（责任共犯论）、使正犯实施违法行为（违法共犯论），
+      还是因为通过正犯间接引起了法益侵害（因果共犯论，即惹起说）。
+
+relations:
+  - from: accidental-defense
+    to: putative-defense
+    type: symmetric
+    description: 偶然防卫是客观上有防卫情状、主观上无防卫意思；假想防卫是主观上有防卫意思、客观上无防卫情状。两者在主客观要素上互为镜像，一种立场如何处理其中一个，通常也决定了它如何处理另一个。
+
+  - from: accidental-defense
+    to: unknowingly-justified-actor
+    type: functional_equivalent
+    description: 两者处理的是同一类事实结构（客观正当、主观不知），但大陆法在违法性阶层讨论，英美法则在 justification 与 culpability 的框架下讨论。
+
+  - from: impossible-attempt
+    to: impossible-attempt-cl
+    type: functional_equivalent
+    description: 大陆法以未遂的处罚根据与危险判断来区分未遂与不能犯；英美法则长期围绕事实不能与法律不能的区分展开，后经立法转向以行为人认识为准。
+
+  - from: rechtsgut
+    to: harm-principle
+    type: functional_equivalent
+    description: 两者都试图为刑事立法设定界限：法益概念要求刑法只保护法益，伤害原则要求刑罚只用于防止对他人的伤害。但法益概念同时承担解释论机能，伤害原则主要是政治哲学原则。
+
+  - from: wrongfulness-essence
+    to: cl-subjectivism
+    type: functional_equivalent
+    description: >-
+      两者都在追问「结果与行为人内心在多大程度上决定不法或可责性」。英美的极端主观主义（如 Alexander 与 Ferzan 的 culpability-only 立场）在结构上接近一元行为无价值论，
+      但英美讨论以「可责性」为中心，并不区分违法与责任两个阶层。
+
+  - from: rechtsgut
+    to: wrongfulness-essence
+    type: part_of
+    description: 法益侵害或危险是结果无价值的内容；在二元论中，它是不法的组成部分之一。
+
+  - from: subjective-unrecht
+    to: wrongfulness-essence
+    type: derived_from
+    description: 主观违法要素的发现，是从古典客观违法论走向人的不法论的关键一步。
+
+  - from: unknowingly-justified-actor
+    to: cl-subjectivism
+    type: derived_from
+    description: 英美法上对不知情正当化行为人的处理，直接取决于对主观主义与客观主义的选择。

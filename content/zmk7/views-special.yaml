@@ -1,0 +1,57 @@
+# 分论：张明楷《刑法学》（第七版）中的论述
+bookViews:
+  - id: zmk7-theft-rechtsgut
+    work: zmk-xingfaxue-7
+    question: q-theft-rechtsgut
+    pages: "1451-1457"
+    answer: intermediate
+    summary: >-
+      作者赞成中间说：财产犯（取得罪）的法益首先是财产所有权及其他本权，其次是需要通过法定程序恢复应有状态的占有；
+      这种占有如果没有与本权者相对抗的合理理由，对于本权者行使取回权的行为而言，就不是财产犯的法益。
+    reasons:
+      - 只保护所有权不足以保护合法占有：所有权人从质押权人、留置权人等合法占有者处窃回自己的财物，应当成立盗窃罪。
+      - 也不采单纯的占有说：对本权者恢复权利的行为，不应一概认定为财产犯罪。
+    reported:
+      - label: 本权说
+        answer: honken
+        summary: 盗窃罪的保护法益是所有权及其他本权（合法占有的权利等）。
+        pages: "1451"
+      - label: 占有说
+        answer: possession
+        summary: 盗窃罪的法益是他人对财物事实上的占有本身，被害人从窃贼处窃回也可能构成盗窃。
+        pages: "1451"
+
+  - id: zmk7-self-help-recovery
+    work: zmk-xingfaxue-7
+    question: q-self-help-recovery
+    pages: "1452-1456"
+    answer: null
+    summary: >-
+      作者的结论取决于从谁那里取回：盗窃犯对赃物的非法占有不属于需要通过法定程序恢复应有状态的占有，被害人从窃贼处取回自己的财物不构成盗窃罪；
+      但所有权人从质押权人、留置权人等合法占有者处窃回自己的财物，侵害了对方的合法占有，可以成立盗窃罪。
+    editorNote: 本库问题把「从窃贼处」与「从合法占有人处」放在一起问，而作者对两者结论不同，所以不归入单一答案。
+
+  - id: zmk7-fraud-property
+    work: zmk-xingfaxue-7
+    question: q-fraud-property
+    pages: "1449-1450"
+    answer: juristic-economic
+    summary: >-
+      作者采以经济的财产说为基础的折中说（类似但不完全等同于法律的、经济的财产说）：原则上，只要造成了他人经济上的财产损失，就侵害了财产；
+      但违法的利益不受保护。
+    reasons:
+      - 法律的财产说不适应复杂的财产关系，例如被害人基于不法原因给付时就无法认定诈骗。
+      - 纯粹的经济的财产说不利于保护所有权人，也会把违法的利益纳入保护。
+    reported:
+      - label: 法律的财产说
+        answer: juristic
+        summary: 一切财产罪都是侵害财产上的权利的犯罪。
+        pages: "1449"
+      - label: 经济的财产说
+        answer: economic
+        summary: 作为整体的、具有经济价值的利益就是财产。
+        pages: "1449"
+      - label: 法律的、经济的财产说（折中说）
+        answer: juristic-economic
+        summary: 财产是法秩序所保护的（违法的利益除外）、具有经济价值的利益。
+        pages: "1450"

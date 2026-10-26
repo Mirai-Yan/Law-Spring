@@ -1,0 +1,230 @@
+# 根据论层面的问题：违法性的本质、法益、英美的主观主义与客观主义、伤害原则
+
+questions:
+  - id: q-task
+    concept: rechtsgut
+    text: 刑法的任务是保护法益，还是维护社会伦理秩序（规范效力）？
+    level: foundation
+    aliases:
+      - 刑法的任务是什么
+      - 刑法的目的
+      - 法益保护还是规范维护
+      - 刑法是否保护伦理
+      - 规范违反说
+    summary: >-
+      这是违法性本质之争背后更深一层的问题。认为刑法只保护法益的立场，会把违法的实质理解为法益侵害；
+      认为刑法同时（或首先）维护社会伦理秩序、规范效力的立场，则会在违法中纳入对规范的违反。
+    answers:
+      - id: rechtsgut
+        label: 法益保护
+        summary: 刑法的任务在于保护法益；伦理本身不是刑法保护的对象。
+      - id: ethic
+        label: 社会伦理秩序 / 规范效力
+        summary: 刑法通过保护基本的社会伦理行为价值，或维护规范的效力，来（间接）保护法益。
+
+  - id: q-norm-type
+    concept: wrongfulness-essence
+    text: 刑法规范首先是评价规范，还是决定规范（行为规范）？
+    level: foundation
+    aliases:
+      - 评价规范与决定规范
+      - 刑法规范的性质
+      - 规范论
+      - 命令说
+      - 行为规范与制裁规范
+    answers:
+      - id: evaluation
+        label: 评价规范
+        summary: 违法判断是对客观事态的否定评价，与受规范者能否理解规范无关。
+      - id: determination
+        label: 决定规范（行为规范）
+        summary: 刑法规范首先是对人的命令或禁止；违法即对这一命令的违反。
+      - id: both
+        label: 两者兼具
+        summary: 刑法规范既是评价规范，也是面向一般人的行为规范，两者在违法判断中各有作用。
+
+  - id: q-objective-wrong
+    concept: wrongfulness-essence
+    text: 违法是否独立于行为人的责任能力而客观地判断？（客观违法论还是主观违法论）
+    level: foundation
+    aliases:
+      - 客观违法论
+      - 主观违法论
+      - 违法与责任的区分
+      - 无责任能力者能否实施违法行为
+      - 违法是客观的 责任是主观的
+    answers:
+      - id: objective
+        label: 客观违法论
+        summary: 违法与责任分离；无责任能力者的行为同样可以是违法的。
+      - id: subjective
+        label: 主观违法论
+        summary: 只有能够理解规范命令的人才能违反规范；无责任能力者的行为不违法。
+
+  - id: q-unrecht-core
+    concept: wrongfulness-essence
+    text: 违法性的本质：不法的重心在结果无价值，还是行为无价值？
+    level: foundation
+    aliases:
+      - 行为无价值和结果无价值
+      - 行为无价值论
+      - 结果无价值论
+      - 违法性的本质是什么
+      - 法益侵害说还是规范违反说
+      - 人的不法论
+      - 一元论 二元论
+      - 不法的本质
+    summary: >-
+      本专题的核心根据论。三种主要回答分别是：结果无价值论（违法即法益侵害或危险）、
+      二元行为无价值论（不法由行为无价值与结果无价值共同构成），以及一元行为无价值论（不法仅由行为无价值构成）。
+    answers:
+      - id: result
+        label: 结果无价值论
+        summary: 违法的实质是法益侵害或其危险；行为人的主观要素原则上属于责任。
+      - id: dual
+        label: 二元行为无价值论
+        summary: 不法由行为无价值（含故意等主观要素）与结果无价值共同构成。
+      - id: monist-act
+        label: 一元行为无价值论
+        summary: 不法仅由行为无价值构成；结果的发生只是客观处罚条件。
+
+  - id: q-rechtsgut-critical
+    concept: rechtsgut
+    text: 法益概念能否批判立法（限制入罪），还是只是对现行法保护目的的概括？
+    level: intermediate
+    aliases:
+      - 法益的立法批判机能
+      - 体系批判的法益概念
+      - 法益概念的功能
+      - 法益能否限制立法
+    answers:
+      - id: critical
+        label: 体系批判的法益概念
+        summary: 法益先于立法而存在，可以用来检验并批判刑事立法。
+      - id: immanent
+        label: 体系内在的法益概念
+        summary: 法益只是对现行规范保护目的的概括，主要发挥解释论机能。
+
+  # ---------------- 英美 ----------------
+  - id: q-harm
+    concept: harm-principle
+    text: 国家以刑罚干预的正当理由，是否限于防止对他人的伤害？
+    level: foundation
+    aliases:
+      - 伤害原则
+      - harm principle
+      - 法律道德主义
+      - 冒犯原则
+      - 刑法能否惩罚不道德行为
+      - Hart Devlin 之争
+    answers:
+      - id: harm-only
+        label: 仅限于防止伤害
+        summary: 只有防止对他人的伤害才能正当化刑罚（Mill）。
+      - id: harm-offense
+        label: 伤害与冒犯
+        summary: 防止伤害与防止严重冒犯都可以成为刑罚的理由（Feinberg）。
+      - id: moralism
+        label: 法律道德主义
+        summary: 社会可以用刑法维护其共享的道德（Devlin）。
+
+  - id: q-cl-basis
+    concept: cl-subjectivism
+    text: 刑事责任的根据：主观主义，还是客观主义？
+    level: foundation
+    aliases:
+      - 主观主义
+      - 客观主义
+      - subjectivism
+      - objectivism
+      - 英美刑法 刑事责任的根据
+      - manifest criminality
+    answers:
+      - id: subjectivism
+        label: 主观主义
+        summary: 刑事责任取决于行为人在行为时的意图、认识与信念。
+      - id: objectivism
+        label: 客观主义
+        summary: 外在行为与实际结果本身也构成不法的一部分。
+
+  - id: q-cl-result-relevance
+    concept: cl-subjectivism
+    text: 实际发生的结果（道德运气）是否应影响刑事责任的轻重？
+    level: intermediate
+    aliases:
+      - 道德运气
+      - moral luck
+      - 结果是否重要
+      - 既遂与未遂是否应同罚
+    answers:
+      - id: irrelevant
+        label: 不应影响
+        summary: 结果是行为人无法控制的运气；未遂与既遂原则上同等可责。
+      - id: relevant
+        label: 应当影响
+        summary: 结果改变了行为人实际所做的事，因而影响不法与刑罚。
+
+prerequisites:
+  - question: q-unrecht-core
+    requires: q-objective-wrong
+    kind: logical
+    why: 只有先把违法与责任区分开，才谈得上「违法（不法）由什么构成」。
+    branches:
+      - answer: objective
+        leadsTo: 违法独立于责任，下一步才是追问不法的内容是结果还是行为。
+      - answer: subjective
+        leadsTo: 违法与责任合一，行为无价值与结果无价值的区分失去意义。
+
+  - question: q-objective-wrong
+    requires: q-norm-type
+    kind: foundational
+    why: 主观违法论以「法是命令」为前提；客观违法论则以评价规范为前提。
+    branches:
+      - answer: evaluation
+        leadsTo: 违法是对客观事态的评价 → 客观违法论。
+      - answer: determination
+        leadsTo: 若彻底贯彻「规范只能对能理解它的人发出」，就会走向主观违法论。
+      - answer: both
+        leadsTo: 以评价规范维持违法的客观性，以行为规范说明行为无价值 → 修正的客观违法论。
+
+  - question: q-unrecht-core
+    requires: q-norm-type
+    kind: foundational
+    why: 把违法理解为对评价规范的违反，重心就落在客观的结果上；理解为对行为规范的违反，重心就落在行为上。
+    branches:
+      - answer: evaluation
+        leadsTo: 违法评价的对象是客观事态 → 倾向结果无价值论。
+      - answer: determination
+        leadsTo: 规范只能命令或禁止行为，不能命令结果 → 倾向一元行为无价值论。
+      - answer: both
+        leadsTo: 评价规范说明结果无价值，行为规范说明行为无价值 → 二元论。
+
+  - question: q-unrecht-core
+    requires: q-task
+    kind: foundational
+    why: 刑法要保护什么，决定了违法的内容是什么。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 违法的实质是法益侵害或危险。结果无价值论与多数二元论者都接受这一点，分歧在于行为无价值是否也是不法的独立要素。
+      - answer: ethic
+        leadsTo: 违法包含对社会伦理规范的违反 → 行为无价值成为违法的核心（规范违反说）。
+
+  - question: q-rechtsgut-critical
+    requires: q-task
+    kind: foundational
+    why: 只有先承认刑法的任务是保护法益，才需要追问法益概念能否反过来约束立法。
+    branches:
+      - answer: rechtsgut
+        leadsTo: 法益保护是刑法的任务，法益概念可能成为检验立法正当性的标准。
+      - answer: ethic
+        leadsTo: 刑法也维护伦理秩序，法益概念难以承担限制立法的功能。
+
+  - question: q-cl-result-relevance
+    requires: q-cl-basis
+    kind: foundational
+    why: 结果是否重要，正是主观主义与客观主义分歧的焦点。
+    branches:
+      - answer: subjectivism
+        leadsTo: 责任只取决于行为人可以控制的东西 → 结果不应影响责任。
+      - answer: objectivism
+        leadsTo: 行为人实际造成了什么本身就是不法的一部分 → 结果应当影响责任。

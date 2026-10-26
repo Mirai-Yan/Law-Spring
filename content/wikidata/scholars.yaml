@@ -1,0 +1,1471 @@
+# 由 npm run wiki:scholars 自动生成，请勿手改；数据来自 Wikidata（CC0），抓取于 2026-10-24
+scholarWiki:
+  - scholar: feuerbach
+    qid: Q61929
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Paul Johann Anselm von Feuerbach
+    description: 德国法学家（1775－1833）
+    born: '1775-11-14'
+    died: '1833-05-29'
+    birthPlace: 海尼兴
+    citizenship:
+      - 萨克森-魏玛-艾森纳赫
+    employers:
+      - 基尔大学
+      - 耶拿大学
+      - 慕尼黑大学
+    education:
+      - 耶拿大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E4%BF%9D%E7%BD%97%C2%B7%E7%BA%A6%E7%BF%B0%C2%B7%E5%AE%89%E5%A1%9E%E5%B0%94%E5%A7%86%C2%B7%E5%86%AF%C2%B7%E8%B4%B9%E5%B0%94%E5%B7%B4%E5%93%88
+      de: https://de.wikipedia.org/wiki/Paul_Johann_Anselm_von_Feuerbach
+      ja: https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%B3%E3%82%BC%E3%83%AB%E3%83%A0%E3%83%BB%E3%83%95%E3%82%A9%E3%82%A4%E3%82%A8%E3%83%AB%E3%83%90%E3%83%83%E3%83%8F
+      en: https://en.wikipedia.org/wiki/Paul_Johann_Anselm_Ritter_von_Feuerbach
+    image:
+      src: /scholars/feuerbach.jpg
+      page: https://commons.wikimedia.org/wiki/File:Anselm_von_Feuerbach.jpg
+      license: Public domain
+      credit: Unknown artistUnknown artist
+  - scholar: hegel
+    qid: Q9235
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Georg Wilhelm Friedrich Hegel
+    description: 德国哲学家
+    born: '1770-08-27'
+    died: '1831-11-14'
+    birthPlace: 斯图加特
+    citizenship:
+      - 符腾堡王国
+    employers:
+      - 耶拿大学
+      - 弗里德里希·威廉大学
+      - 海德堡大学
+    education:
+      - 蒂宾根大学
+      - 耶拿大学
+      - 斯图加特Eberhard-Ludwigs-Gymnasium中学
+      - 神学院
+    advisors:
+      - qid: Q60070
+        label: 弗里德里希·谢林
+    students:
+      - qid: Q64623
+        label: 约翰·爱德华·哈特曼
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E6%A0%BC%C2%B7%E5%A8%81%E5%BB%89%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E9%BB%91%E6%A0%BC%E5%B0%94
+      de: https://de.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel
+      ja: https://ja.wikipedia.org/wiki/%E3%82%B2%E3%82%AA%E3%83%AB%E3%82%AF%E3%83%BB%E3%83%B4%E3%82%A3%E3%83%AB%E3%83%98%E3%83%AB%E3%83%A0%E3%83%BB%E3%83%95%E3%83%AA%E3%83%BC%E3%83%89%E3%83%AA%E3%83%92%E3%83%BB%E3%83%98%E3%83%BC%E3%82%B2%E3%83%AB
+      en: https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel
+    image:
+      src: /scholars/hegel.jpg
+      page: https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg
+      license: Public domain
+      credit: Jakob Schlesinger
+  - scholar: birnbaum
+    qid: Q111873
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Johann Michael Franz Birnbaum
+    description: German playwright (1792-1877)
+    born: '1792-09-19'
+    died: '1877-12-14'
+    birthPlace: 班贝格
+    citizenship:
+      - 巴伐利亚王国
+    employers:
+      - 弗赖堡大学
+      - 吉森大学
+      - 乌得勒支大学
+    education:
+      - 埃尔朗根-纽伦堡大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Johann_Michael_Franz_Birnbaum
+    image:
+      src: /scholars/birnbaum.jpg
+      page: https://commons.wikimedia.org/wiki/File:Michael-franz-birnbaum.jpg
+      license: Public domain
+      credit: Karl von Gareis
+  - scholar: jhering
+    qid: Q62605
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Rudolf von Jhering
+    description: German jurist (1818–1892)
+    born: '1818-08-22'
+    died: '1892-09-17'
+    birthPlace: 奥里希
+    citizenship:
+      - 普鲁士王国
+    employers:
+      - 维也纳大学
+      - 基尔大学
+      - 哥廷根大学
+      - 巴塞尔大学
+      - 吉森大学
+      - 柏林洪堡大学
+      - 莱比锡大学
+      - 海德堡大学
+      - 罗斯托克大学
+    education:
+      - 哥廷根大学
+      - 海德堡大学
+      - 柏林洪堡大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E9%B2%81%E9%81%93%E5%A4%AB%C2%B7%E5%86%AF%C2%B7%E8%80%B6%E6%9E%97
+      de: https://de.wikipedia.org/wiki/Rudolf_von_Jhering
+      ja: https://ja.wikipedia.org/wiki/%E3%83%AB%E3%83%89%E3%83%AB%E3%83%95%E3%83%BB%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%A4%E3%82%A7%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0
+      en: https://en.wikipedia.org/wiki/Rudolf_von_Jhering
+    image:
+      src: /scholars/jhering.jpg
+      page: https://commons.wikimedia.org/wiki/File:RudolfvonIhering2.jpg
+      license: Public domain
+      credit: Unknown photographer
+  - scholar: merkel-adolf
+    qid: Q3605400
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Adolf Merkel
+    description: German university teacher (1836-1896)
+    born: '1836-01-11'
+    died: '1896-03-30'
+    birthPlace: 美因茨
+    citizenship:
+      - 黑森-达姆施塔特
+      - 德意志国
+    employers:
+      - 维也纳大学
+      - 查理大学
+      - 吉森大学
+      - 斯特拉斯堡大学
+    education:
+      - 吉森大学
+      - 哥廷根大学
+      - 弗里德里希·威廉大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Adolf_Merkel
+    image:
+      src: /scholars/merkel-adolf.jpg
+      page: https://commons.wikimedia.org/wiki/File:Adolf_Merkel_001.JPG
+      license: Public domain
+      credit: Unknown authorUnknown author
+  - scholar: binding
+    qid: Q75787
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Karl Binding
+    description: German jurist (1841-1920)
+    born: '1841-06-04'
+    died: '1920-04-07'
+    birthPlace: 美因河畔法兰克福
+    citizenship:
+      - 德国
+    employers:
+      - 莱比锡大学
+      - 弗赖堡大学
+      - 巴塞尔大学
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Karl_Binding
+      ja: https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%93%E3%83%B3%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0
+      en: https://en.wikipedia.org/wiki/Karl_Binding
+    image:
+      src: /scholars/binding.jpg
+      page: https://commons.wikimedia.org/wiki/File:Karl_Binding_(um_1882_UAZ_DOK.001.001).tiff
+      license: Public domain
+      credit: Georg Brokesch
+  - scholar: liszt
+    qid: Q680207
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Franz von Liszt
+    description: German jurist, criminologist and international law reformer (1851-1919)
+    born: '1851-03-02'
+    died: '1919-06-21'
+    birthPlace: 维也纳
+    citizenship:
+      - 內萊塔尼亞
+      - 德意志帝国
+    employers:
+      - 吉森大学
+      - 哈雷-维滕贝格大学
+      - 柏林洪堡大学
+      - 马尔堡大学
+    education:
+      - 维也纳大学
+    advisors: []
+    students:
+      - qid: Q61922
+        label: 古斯塔夫·拉德布鲁赫
+        scholar: radbruch
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E6%B3%95%E8%98%AD%E8%8C%B2%C2%B7%E5%B0%81%C2%B7%E6%9D%8E%E6%96%AF%E7%89%B9
+      de: https://de.wikipedia.org/wiki/Franz_von_Liszt
+      ja: https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%83%B3%E3%83%84%E3%83%BB%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%83%AA%E3%82%B9%E3%83%88
+      en: https://en.wikipedia.org/wiki/Franz_von_Liszt
+    image:
+      src: /scholars/liszt.jpg
+      page: https://commons.wikimedia.org/wiki/File:Liszt_1851-1919_(cropped).jpg
+      license: Public domain
+      credit: Wikimedia Commons
+  - scholar: beling
+    qid: Q77908
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Ernst von Beling
+    description: German jurist (1866-1932)
+    born: '1866'
+    died: '1932'
+    birthPlace: 格沃古夫
+    citizenship:
+      - 德国
+    employers:
+      - 弗罗茨瓦夫大学
+      - 吉森大学
+      - 蒂宾根大学
+      - 慕尼黑大学
+    education: []
+    advisors: []
+    students:
+      - qid: Q121353466
+        label: Hugo Mayer
+    links:
+      de: https://de.wikipedia.org/wiki/Ernst_von_Beling
+      ja: https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%AB%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BB%E3%83%99%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0
+    image:
+      src: /scholars/beling.jpg
+      page: https://commons.wikimedia.org/wiki/File:Ernst-Beling.jpg
+      license: CC BY 4.0
+      credit: Paschkow Jr., N.
+  - scholar: mayer-me
+    qid: Q105496
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Max Ernst Mayer
+    description: German jurist
+    born: '1875-07-02'
+    died: '1923-06-25'
+    birthPlace: 曼海姆
+    citizenship:
+      - 德国
+    employers:
+      - 约翰-沃尔夫冈-歌德法兰克福大学
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Max_Ernst_Mayer
+      ja: https://ja.wikipedia.org/wiki/%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%83%BB%E3%82%A8%E3%83%AB%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BB%E3%83%9E%E3%82%A4%E3%83%A4%E3%83%BC
+  - scholar: mezger
+    qid: Q95660
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Edmund Mezger
+    description: German criminologist (1883-1962)
+    born: '1883-10-15'
+    died: '1962-03-24'
+    birthPlace: 巴塞尔
+    citizenship:
+      - 德国
+    employers:
+      - 慕尼黑大学
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Edmund_Mezger
+  - scholar: engisch
+    qid: Q1730876
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Karl Engisch
+    description: German jurist (1899–1990)
+    born: '1899-03-15'
+    died: '1990-09-11'
+    birthPlace: 吉森
+    citizenship:
+      - 德国
+    employers:
+      - 慕尼黑大学
+      - 海德堡大学
+    education:
+      - 慕尼黑大学
+      - 吉森大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E6%81%A9%E5%90%89%E6%96%BD
+      de: https://de.wikipedia.org/wiki/Karl_Engisch
+      ja: https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%82%A8%E3%83%B3%E3%82%AE%E3%83%83%E3%82%B7%E3%83%A5
+      en: https://en.wikipedia.org/wiki/Karl_Engisch
+    image:
+      src: /scholars/engisch.png
+      page: https://commons.wikimedia.org/wiki/File:KarlEngisch_Portrait_1968.png
+      license: CC BY-SA 3.0 de
+      credit: Unknown authorUnknown author
+  - scholar: welzel
+    qid: Q77910
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Hans Welzel
+    description: German jurist (1904-1977)
+    born: '1904-03-25'
+    died: '1977-05-05'
+    birthPlace: 阿尔滕
+    citizenship:
+      - 德国
+    employers:
+      - 波恩大学
+      - 哥廷根大学
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Hans_Welzel
+      ja: https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%B3%E3%82%B9%E3%83%BB%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%84%E3%82%A7%E3%83%AB
+  - scholar: henkel
+    qid: Q1346002
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Heinrich Henkel
+    description: German jurist (1903-1981)
+    born: '1903-09-12'
+    died: '1981-02-28'
+    birthPlace: 布劳恩费尔斯
+    citizenship:
+      - 德国
+    employers:
+      - 汉堡大学
+      - 马尔堡大学
+      - 弗罗茨瓦夫大学
+    education:
+      - 约翰-沃尔夫冈-歌德法兰克福大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%C2%B7%E4%BA%A8%E5%85%8B%E5%B0%94
+      de: https://de.wikipedia.org/wiki/Heinrich_Henkel_(Rechtswissenschaftler)
+  - scholar: gallas
+    qid: Q1233514
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Wilhelm Gallas
+    description: German jurist (1903–1989)
+    born: '1903-07-22'
+    died: '1989-11-05'
+    birthPlace: 圣彼得堡
+    citizenship:
+      - 德国
+    employers:
+      - 莱比锡大学
+      - 海德堡大学
+      - 吉森大学
+    education:
+      - 柏林洪堡大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Wilhelm_Gallas
+  - scholar: armin-kaufmann
+    qid: Q28652162
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Armin Kaufmann
+    description: German jurist and university teacher (1922-1985)
+    born: '1922-07-06'
+    died: '1985-03-20'
+    birthPlace: 班特尔恩
+    citizenship: []
+    employers:
+      - 蒂宾根大学
+      - 波恩大学
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Armin_Kaufmann_(Jurist)
+  - scholar: hirsch
+    qid: Q1580508
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Hans Joachim Hirsch
+    description: German jurist (1929-2011)
+    born: '1929-04-11'
+    died: '2011-09-09'
+    birthPlace: 维滕贝尔格
+    citizenship:
+      - 德国
+    employers:
+      - 科隆大学
+      - 雷根斯堡大学
+      - 哈雷-维滕贝格大学
+    education:
+      - 波恩大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Hans_Joachim_Hirsch
+  - scholar: jescheck
+    qid: Q91429
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Hans-Heinrich Jescheck
+    description: German jurist (1915–2009)
+    born: '1915-01-10'
+    died: '2009-09-27'
+    birthPlace: 莱格尼察
+    citizenship:
+      - 德国
+    employers:
+      - 弗赖堡大学
+    education:
+      - 慕尼黑大学
+      - 弗赖堡大学
+      - 哥廷根大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E6%B1%89%E6%96%AF-%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%C2%B7%E8%80%B6%E5%A1%9E%E5%85%8B
+      de: https://de.wikipedia.org/wiki/Hans-Heinrich_Jescheck
+      en: https://en.wikipedia.org/wiki/Hans-Heinrich_Jescheck
+    image:
+      src: /scholars/jescheck.jpg
+      page: https://commons.wikimedia.org/wiki/File:Prof._Hans-Heinrich_Jescheck_erh%C3%A4lt_von_Wissenschaftsminister_Helmut_Engler_das_Bundesverdienstkreuz_(1985)_(cropped).jpg
+      license: CC BY 3.0 de
+      credit: Marlis Decker
+  - scholar: roxin
+    qid: Q71157
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Claus Roxin
+    description: 德國法學家
+    born: '1931-05-15'
+    died: '2025-02-18'
+    birthPlace: 汉堡
+    citizenship:
+      - 德国
+    employers:
+      - 慕尼黑大学
+      - 哥廷根大学
+    education:
+      - 慕尼黑大学
+      - 汉堡大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E5%85%8B%E5%8B%9E%E6%96%AF%C2%B7%E7%BE%85%E5%8F%AF%E8%BE%9B
+      de: https://de.wikipedia.org/wiki/Claus_Roxin
+      en: https://en.wikipedia.org/wiki/Claus_Roxin
+    image:
+      src: /scholars/roxin.jpg
+      page: https://commons.wikimedia.org/wiki/File:Claus-Roxin-2.jpg
+      license: CC BY 2.5
+      credit: Pablo de Olavide University
+  - scholar: jakobs
+    qid: Q74576
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Günther Jakobs
+    description: 德国哲学家、刑法学家
+    born: '1937-07-26'
+    birthPlace: 门兴格拉德巴赫
+    citizenship:
+      - 德国
+    employers:
+      - 波恩大学
+      - 雷根斯堡大学
+    education:
+      - 波恩大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/G%C3%BCnther_Jakobs
+      en: https://en.wikipedia.org/wiki/G%C3%BCnther_Jakobs
+  - scholar: luederssen
+    qid: Q1745406
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Klaus Lüderssen
+    description: German jurist (1932–2016)
+    born: '1932-05-02'
+    died: '2016-06-04'
+    birthPlace: Germerode
+    citizenship:
+      - 德国
+    employers:
+      - 约翰-沃尔夫冈-歌德法兰克福大学
+    education:
+      - 约翰-沃尔夫冈-歌德法兰克福大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Klaus_L%C3%BCderssen
+  - scholar: ono-seiichiro
+    qid: Q11464158
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 小野清一郎
+    description: Japanese jurist
+    born: '1891-01-10'
+    died: '1986-03-09'
+    birthPlace: 岩手县
+    citizenship:
+      - 日本
+      - 大日本帝国
+    employers:
+      - 东京大学
+      - 爱知学院大学
+    education:
+      - 東京帝國大學
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Ono_Seiichir%C5%8D
+      ja: https://ja.wikipedia.org/wiki/%E5%B0%8F%E9%87%8E%E6%B8%85%E4%B8%80%E9%83%8E
+  - scholar: dando
+    qid: Q1159446
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 團藤重光
+    description: 日本法律学者
+    born: '1913-11-08'
+    died: '2012-06-25'
+    birthPlace: 山口市
+    citizenship:
+      - 日本
+      - 大日本帝国
+    employers:
+      - 东京大学
+      - 庆应义塾大学
+      - 最高裁判所
+    education:
+      - 东京大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Dand%C5%8D_Shigemitsu
+      ja: https://ja.wikipedia.org/wiki/%E5%9C%98%E8%97%A4%E9%87%8D%E5%85%89
+      en: https://en.wikipedia.org/wiki/Shigemitsu_Dand%C5%8D
+    image:
+      src: /scholars/dando.jpg
+      page: https://commons.wikimedia.org/wiki/File:Shigemitsu_Dando_19811212_color.jpg
+      license: CC BY 4.0
+      credit: 日本学士院
+  - scholar: hirano
+    qid: Q11483761
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 平野龍一
+    description: Japanese jurist
+    born: '1920-09-29'
+    died: '2004-07-16'
+    birthPlace: 熊本市
+    citizenship:
+      - 日本
+      - 大日本帝国
+    employers:
+      - 东京大学
+    education:
+      - 東京帝國大學
+    advisors: []
+    students: []
+    links:
+      ja: https://ja.wikipedia.org/wiki/%E5%B9%B3%E9%87%8E%E9%BE%8D%E4%B8%80
+  - scholar: fujiki
+    qid: Q11624097
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 藤木英雄
+    description: Japanese jurist
+    born: '1932-02-20'
+    died: '1977-07-09'
+    birthPlace: 松本市
+    citizenship:
+      - 日本
+      - 大日本帝国
+    employers:
+      - 东京大学
+    education:
+      - 东京大学
+      - 旧制第一高等学校
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E8%97%A4%E6%9C%A8%E8%8B%B1%E9%9B%84
+      ja: https://ja.wikipedia.org/wiki/%E8%97%A4%E6%9C%A8%E8%8B%B1%E9%9B%84
+  - scholar: maeda
+    qid: Q11397772
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 前田雅英
+    description: Japanese legal scholar
+    born: '1949-07-23'
+    birthPlace: 目黑区
+    citizenship:
+      - 日本
+    employers:
+      - 東京都立大學
+      - 日本大学
+    education:
+      - 东京大学
+      - 筑波大学附属驹场中学校及高等学校
+    advisors: []
+    students: []
+    links:
+      ja: https://ja.wikipedia.org/wiki/%E5%89%8D%E7%94%B0%E9%9B%85%E8%8B%B1
+  - scholar: yamaguchi
+    qid: Q11466698
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 山口厚
+    description: 日本法律学者
+    born: 1953-11
+    citizenship:
+      - 日本
+    employers:
+      - 东京大学
+      - 早稻田大学
+      - 最高裁判所
+    education:
+      - 东京大学
+      - 筑波大学附属驹场中学校及高等学校
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E5%B1%B1%E5%8F%A3%E5%8E%9A
+      ja: https://ja.wikipedia.org/wiki/%E5%B1%B1%E5%8F%A3%E5%8E%9A
+      en: https://en.wikipedia.org/wiki/Atsushi_Yamaguchi
+  - scholar: ida
+    qid: Q11373718
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 井田良
+    description: Japanese legal scholar
+    born: '1956'
+    birthPlace: 东京都
+    citizenship:
+      - 日本
+    employers:
+      - 庆应义塾大学
+      - 中央大学
+    education:
+      - 庆应义塾大学
+      - 庆应义塾高等学校
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Makoto_Ida
+      ja: https://ja.wikipedia.org/wiki/%E4%BA%95%E7%94%B0%E8%89%AF
+  - scholar: kant
+    qid: Q9312
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Immanuel Kant
+    description: 德國哲學家（1724—1804）
+    born: '1724-04-22'
+    died: '1804-02-12'
+    birthPlace: 柯尼斯堡
+    citizenship:
+      - 普鲁士王国
+    employers:
+      - 柯尼斯堡大学
+    education:
+      - 柯尼斯堡大学
+      - 弗里德里希学院
+    advisors: []
+    students:
+      - qid: Q60865
+        label: 安东·弗里德尼希·尤斯图斯·蒂博
+      - qid: Q72151
+        label: 马库斯·赫兹
+      - qid: Q102585
+        label: 约翰·戈特利布·费希特
+      - qid: Q112258
+        label: 莱因霍尔德
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E4%BC%8A%E6%9B%BC%E5%8A%AA%E5%B0%94%C2%B7%E5%BA%B7%E5%BE%B7
+      de: https://de.wikipedia.org/wiki/Immanuel_Kant
+      ja: https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%9E%E3%83%8C%E3%82%A8%E3%83%AB%E3%83%BB%E3%82%AB%E3%83%B3%E3%83%88
+      en: https://en.wikipedia.org/wiki/Immanuel_Kant
+    image:
+      src: /scholars/kant.jpg
+      page: https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_2.jpg
+      license: Public domain
+      credit: Becker
+  - scholar: buri
+    qid: Q1914129
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Maximilian von Buri
+    description: German judge (1825–1902)
+    born: '1825-03-07'
+    died: '1902-04-20'
+    birthPlace: 比丁根
+    citizenship:
+      - 德国
+    employers: []
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Maximilian_von_Buri
+  - scholar: kries
+    qid: Q85929
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Johannes von Kries
+    description: German physiological psychologist (1853–1928)
+    born: '1853-10-06'
+    died: '1928-12-30'
+    birthPlace: Rogóźno
+    citizenship:
+      - 德国
+    employers:
+      - 弗赖堡大学
+    education:
+      - 哈雷-维滕贝格大学
+      - 莱比锡大学
+      - 苏黎世大学
+    advisors: []
+    students:
+      - qid: Q120183
+        label: Alfred Kühn
+    links:
+      de: https://de.wikipedia.org/wiki/Johannes_von_Kries
+      ja: https://ja.wikipedia.org/wiki/%E3%83%A8%E3%83%8F%E3%83%8D%E3%82%B9%E3%83%BB%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%AF%E3%83%AA%E3%83%BC%E3%82%B9
+      en: https://en.wikipedia.org/wiki/Johannes_von_Kries
+    image:
+      src: /scholars/kries.jpg
+      page: https://commons.wikimedia.org/wiki/File:Johannes_von_Kries_(1853%E2%80%931928).jpg
+      license: Public domain
+      credit: Unknown photographerUnknown photographer
+  - scholar: larenz
+    qid: Q71144
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Karl Larenz
+    description: 德国民法学家、法理学家
+    born: '1903-04-23'
+    died: '1993-01-24'
+    birthPlace: 韦瑟尔
+    citizenship:
+      - 德国
+    employers:
+      - 慕尼黑大学
+      - 基尔大学
+    education:
+      - 弗里德里希·威廉大学
+      - 马尔堡大学
+      - 慕尼黑大学
+      - 哥廷根大学
+    advisors:
+      - qid: Q108388
+        label: 尤里乌斯·宾德
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E6%8B%89%E4%BC%A6%E8%8C%A8
+      de: https://de.wikipedia.org/wiki/Karl_Larenz
+      ja: https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%BC%E3%83%AB%E3%83%BB%E3%83%A9%E3%83%BC%E3%83%AC%E3%83%B3%E3%83%84
+      en: https://en.wikipedia.org/wiki/Karl_Larenz
+  - scholar: honig
+    qid: Q215052
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Richard Honig
+    description: German penologist (1890-1981)
+    born: '1890-01-03'
+    died: '1981-02-25'
+    birthPlace: 波茲南
+    citizenship:
+      - 德国
+    employers:
+      - 哥廷根大学
+    education:
+      - 哥廷根大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Richard_Honig
+      en: https://en.wikipedia.org/wiki/Richard_Honig
+  - scholar: frank
+    qid: Q100485
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Reinhard Frank
+    description: German professor of criminal law (1860–1934)
+    born: '1860-08-16'
+    died: '1934-03-21'
+    birthPlace: Reddighausen
+    citizenship:
+      - 德国
+    employers:
+      - 蒂宾根大学
+      - 慕尼黑大学
+      - 吉森大学
+      - 哈雷-维滕贝格大学
+      - 马尔堡大学
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Reinhard_Frank_(Rechtswissenschaftler)
+      en: https://en.wikipedia.org/wiki/Reinhard_Frank
+  - scholar: birkmeyer
+    qid: Q108043
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Karl von Birkmeyer
+    description: German jurist (1847-1920)
+    born: '1847-06-27'
+    died: '1920-02-29'
+    birthPlace: 纽伦堡
+    citizenship:
+      - 德国
+    employers:
+      - 慕尼黑大学
+      - 罗斯托克大学
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Karl_von_Birkmeyer
+    image:
+      src: /scholars/birkmeyer.jpg
+      page: https://commons.wikimedia.org/wiki/File:KarlBirkmeyer.jpg
+      license: Public domain
+      credit: Unknown authorUnknown author
+  - scholar: goldschmidt
+    qid: Q98063
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: James Goldschmidt
+    description: German jurist (1874–1940)
+    born: '1874-12-17'
+    died: '1940-06-28'
+    birthPlace: 柏林
+    citizenship:
+      - 德意志国
+    employers:
+      - 柏林洪堡大学
+    education:
+      - 柏林洪堡大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/James_Goldschmidt
+      en: https://en.wikipedia.org/wiki/James_Goldschmidt
+  - scholar: freudenthal
+    qid: Q827887
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Berthold Freudenthal
+    description: German jurist (1872–1929)
+    born: '1872-08-23'
+    died: '1929-07-13'
+    birthPlace: 弗罗茨瓦夫
+    citizenship:
+      - 德国
+    employers:
+      - 约翰-沃尔夫冈-歌德法兰克福大学
+    education: []
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Berthold_Freudenthal
+  - scholar: berner
+    qid: Q106110
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Albert Friedrich Berner
+    description: German jurist (1818–1907)
+    born: '1818-11-30'
+    died: '1907-01-13'
+    birthPlace: 斯特拉斯堡
+    citizenship:
+      - 德意志帝国
+    employers:
+      - 柏林洪堡大学
+    education:
+      - 柏林洪堡大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E5%A5%A7%E4%BC%AF%E7%89%B9%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E5%8D%91%E7%88%BE%E8%A8%A5_(%E5%88%91%E6%B3%95%E5%AD%B8%E8%80%85)
+      de: https://de.wikipedia.org/wiki/Albert_Friedrich_Berner
+  - scholar: radbruch
+    qid: Q61922
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Gustav Radbruch
+    description: German politician (1878-1949)
+    born: '1878-11-21'
+    died: '1949-11-23'
+    birthPlace: 吕贝克
+    citizenship:
+      - 德意志国
+    employers:
+      - 基尔大学
+      - 海德堡大学
+    education:
+      - 弗里德里希·威廉大学
+      - 慕尼黑大学
+      - 莱比锡大学
+      - Katharineum zu Lübeck
+    advisors:
+      - qid: Q680207
+        label: 法蘭茲·封·李斯特
+        scholar: liszt
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E5%8F%A4%E6%96%AF%E5%A1%94%E5%A4%AB%C2%B7%E6%8B%89%E5%BE%B7%E5%B8%83%E9%B2%81%E8%B5%AB
+      de: https://de.wikipedia.org/wiki/Gustav_Radbruch
+      ja: https://ja.wikipedia.org/wiki/%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%95%E3%83%BB%E3%83%A9%E3%83%BC%E3%83%88%E3%83%96%E3%83%AB%E3%83%95
+      en: https://en.wikipedia.org/wiki/Gustav_Radbruch
+    image:
+      src: /scholars/radbruch.jpg
+      page: https://commons.wikimedia.org/wiki/File:RadbruchGustav.jpg
+      license: Public domain
+      credit: Unknown
+  - scholar: makino
+    qid: Q11570603
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 牧野英一
+    description: japanischer Jurist
+    born: '1878-03-20'
+    died: '1970-04-18'
+    birthPlace: 高山市
+    citizenship:
+      - 日本
+      - 大日本帝国
+    employers:
+      - 东京大学
+      - 九州大学
+      - 白梅学园短期大学
+      - 中央大学
+      - 东北大学
+    education:
+      - 东京大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Makino_Eiichi
+      ja: https://ja.wikipedia.org/wiki/%E7%89%A7%E9%87%8E%E8%8B%B1%E4%B8%80
+    image:
+      src: /scholars/makino.jpg
+      page: https://commons.wikimedia.org/wiki/File:MAKINO_Eiichi.jpg
+      license: Public domain
+      credit: Unknown authorUnknown author
+  - scholar: miyamoto
+    qid: Q11454904
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 宮本英脩
+    description: Japanese legal scholar
+    born: '1882'
+    died: '1944-04-22'
+    citizenship:
+      - 日本
+    employers:
+      - 京都大学
+    education:
+      - 东京大学
+    advisors: []
+    students: []
+    links:
+      ja: https://ja.wikipedia.org/wiki/%E5%AE%AE%E6%9C%AC%E8%8B%B1%E8%84%A9
+    image:
+      src: /scholars/miyamoto.jpg
+      page: https://commons.wikimedia.org/wiki/File:Miyamoto_Hidenaga.jpg
+      license: Public domain
+      credit: Unknown authorUnknown author
+  - scholar: takigawa
+    qid: Q1041930
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 瀧川幸辰
+    description: Japanese jurist (1891-1962)
+    born: '1891-02-24'
+    died: '1962-11-16'
+    birthPlace: 冈山市
+    citizenship:
+      - 日本
+      - 大日本帝国
+    employers:
+      - 京都大学
+    education:
+      - 京都帝國大學
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E6%B3%B7%E5%B7%9D%E5%B9%B8%E8%BE%B0
+      de: https://de.wikipedia.org/wiki/Takikawa_Yukitoki
+      ja: https://ja.wikipedia.org/wiki/%E7%80%A7%E5%B7%9D%E5%B9%B8%E8%BE%B0
+    image:
+      src: /scholars/takigawa.jpg
+      page: https://commons.wikimedia.org/wiki/File:A_Japanese_Tragedy_1946_film_(11)_wmplayer_2013-04-09_19-27-01-561_R.jpg
+      license: Public domain
+      credit: 日本映画社
+  - scholar: gao-mingxuan
+    qid: Q22099580
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 高铭暄
+    description: 中国法学家和法学教育家
+    born: '1928-05-24'
+    died: '2026-02-26'
+    birthPlace: 浙江省
+    citizenship:
+      - 中华人民共和国
+    employers: []
+    education:
+      - 北京大学
+      - 浙江大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E9%AB%98%E9%93%AD%E6%9A%84
+  - scholar: bentham
+    qid: Q60887
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Jeremy Bentham
+    description: 英国哲学家、法学家和社会改革家
+    born: '1749-02-15'
+    died: '1832-06-06'
+    birthPlace: 沟渠街
+    citizenship:
+      - 大不列颠王国
+      - 法国
+      - 大不列颠及爱尔兰联合王国
+    employers: []
+    education:
+      - 西敏公学
+      - 牛津大学王后学院
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E6%9D%B0%E9%87%8C%E7%B1%B3%C2%B7%E8%BE%B9%E6%B2%81
+      de: https://de.wikipedia.org/wiki/Jeremy_Bentham
+      ja: https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%AC%E3%83%9F%E3%83%BB%E3%83%99%E3%83%B3%E3%82%B5%E3%83%A0
+      en: https://en.wikipedia.org/wiki/Jeremy_Bentham
+    image:
+      src: /scholars/bentham.jpg
+      page: https://commons.wikimedia.org/wiki/File:Jeremy_Bentham_by_Henry_William_Pickersgill_detail.jpg
+      license: Public domain
+      credit: Henry William Pickersgill
+  - scholar: honore
+    qid: Q15488534
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Tony Honoré
+    description: British lawyer and jurist (1921–2019)
+    born: '1921-03-30'
+    died: '2019-02-26'
+    birthPlace: 伦敦
+    citizenship:
+      - 英国
+    employers: []
+    education:
+      - 开普顿大学
+      - 牛津大学新学院
+      - 主教學院
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Tony_Honor%C3%A9
+      en: https://en.wikipedia.org/wiki/Tony_Honor%C3%A9
+  - scholar: von-hirsch
+    qid: Q4759036
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Andrew von Hirsch
+    description: British academic
+    born: '1934-07-16'
+    citizenship: []
+    employers:
+      - 剑桥大学
+    education:
+      - 哈佛法学院
+    advisors: []
+    students: []
+    links:
+      en: https://en.wikipedia.org/wiki/Andrew_von_Hirsch
+  - scholar: martinson
+    qid: Q20950026
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Robert Magnus Martinson
+    description: American criminologist
+    born: '1927-05-19'
+    died: '1979-08-11'
+    birthPlace: 明尼阿波利斯
+    citizenship:
+      - 美国
+    employers: []
+    education:
+      - 加州大学伯克利分校
+    advisors: []
+    students: []
+    links:
+      en: https://en.wikipedia.org/wiki/Robert_Martinson
+  - scholar: zhang-mingkai
+    qid: Q9085334
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 张明楷
+    description: 中华人民共和国刑法学学者
+    born: '1959'
+    birthPlace: 北京市
+    citizenship:
+      - 中华人民共和国
+    employers: []
+    education:
+      - 中南财经政法大学
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E5%BC%A0%E6%98%8E%E6%A5%B7
+  - scholar: chen-xingliang
+    qid: Q8940312
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: 陈兴良
+    description: 中华人民共和国刑法学学者
+    born: '1957-03-21'
+    citizenship:
+      - 中华人民共和国
+    employers:
+      - 中国人民大学
+      - 北京大学
+    education:
+      - 北京大学
+    advisors: []
+    students:
+      - qid: Q10920163
+        label: 周光权
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E9%99%88%E5%85%B4%E8%89%AF
+  - scholar: mill
+    qid: Q50020
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: John Stuart Mill
+    description: 英国哲学家、政治经济学家
+    born: '1806-05-20'
+    died: '1873-05-08'
+    birthPlace: 伊斯灵顿伦敦区
+    citizenship:
+      - 大不列颠及爱尔兰联合王国
+    employers:
+      - 不列颠东印度公司
+    education:
+      - 伦敦大学学院
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%BF%B0%C2%B7%E6%96%AF%E5%9B%BE%E5%B0%94%E7%89%B9%C2%B7%E5%AF%86%E5%B0%94
+      de: https://de.wikipedia.org/wiki/John_Stuart_Mill
+      ja: https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%82%B9%E3%83%81%E3%83%A5%E3%82%A2%E3%83%BC%E3%83%88%E3%83%BB%E3%83%9F%E3%83%AB
+      en: https://en.wikipedia.org/wiki/John_Stuart_Mill
+    image:
+      src: /scholars/mill.jpg
+      page: https://commons.wikimedia.org/wiki/File:John_Stuart_Mill_by_London_Stereoscopic_Company,_c1870.jpg
+      license: Public domain
+      credit: London Stereoscopic Company
+  - scholar: hart
+    qid: Q374834
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: H. L. A. Hart
+    description: English legal philosopher (1907–1992)
+    born: '1907-07-18'
+    died: '1992-12-19'
+    birthPlace: 哈罗盖特
+    citizenship:
+      - 英国
+    employers:
+      - 牛津大学
+      - 英国安全局
+    education:
+      - 切尔滕纳姆学院
+      - 牛津大学新学院
+      - 布莱福德文理中学
+    advisors: []
+    students:
+      - qid: Q3312283
+        label: 约翰·菲尼斯
+      - qid: Q1380371
+        label: 約瑟夫·雷斯
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E8%B3%80%E4%BC%AF%E7%89%B9%C2%B7%E8%B3%B4%E5%B0%BC%E7%88%BE%C2%B7%E9%98%BF%E9%81%93%E5%BC%97%E6%96%AF%C2%B7%E5%93%88%E7%89%B9
+      de: https://de.wikipedia.org/wiki/H._L._A._Hart
+      ja: https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%BC%E3%83%90%E3%83%BC%E3%83%88%E3%83%BB%E3%83%8F%E3%83%BC%E3%83%88
+      en: https://en.wikipedia.org/wiki/H._L._A._Hart
+    image:
+      src: /scholars/hart.jpg
+      page: https://commons.wikimedia.org/wiki/File:H.L.A.Hart.jpg
+      license: CC BY-SA 4.0
+      credit: Robespierre 7
+  - scholar: glanville-williams
+    qid: Q5566655
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Glanville Williams
+    description: Welsh legal scholar (1911–1997)
+    born: '1911-02-15'
+    died: '1997-04-10'
+    birthPlace: 布里真德市
+    citizenship:
+      - 英国
+    employers:
+      - 伦敦大学学院
+    education:
+      - 剑桥大学圣约翰学院
+    advisors:
+      - qid: Q5809754
+        label: 霍资华斯
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Glanville_Llewelyn_Williams
+      en: https://en.wikipedia.org/wiki/Glanville_Williams
+  - scholar: jc-smith
+    qid: Q6228055
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: John Cyril Smith
+    description: British legal scholar (1922-2003)
+    born: '1922-01-15'
+    died: '2003-02-14'
+    birthPlace: 巴纳堡
+    citizenship:
+      - 英国
+    employers:
+      - 诺丁汉大学
+    education:
+      - 剑桥大学唐宁学院
+    advisors: []
+    students: []
+    links:
+      en: https://en.wikipedia.org/wiki/John_Cyril_Smith
+  - scholar: ashworth
+    qid: Q4756232
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Andrew Ashworth
+    description: British academic
+    born: '1947-10-11'
+    citizenship:
+      - 英国
+    employers: []
+    education:
+      - 曼彻斯特大学
+      - 威斯威夫学校
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Andrew_Ashworth
+      en: https://en.wikipedia.org/wiki/Andrew_Ashworth
+  - scholar: duff
+    qid: Q113044445
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Antony Duff
+    description: philosopher
+    born: '1945'
+    citizenship: []
+    employers:
+      - 斯特灵大学
+      - 明尼苏达大学
+    education:
+      - 牛津大学
+    advisors: []
+    students: []
+    links:
+      en: https://en.wikipedia.org/wiki/Antony_Duff_(philosopher)
+  - scholar: gardner
+    qid: Q1700166
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: John Gardner
+    description: British legal scholar (1965–2019)
+    born: '1965-03-23'
+    died: '2019-07-11'
+    birthPlace: 格拉斯哥
+    citizenship:
+      - 英国
+    employers:
+      - 牛津大学
+      - 伦敦国王学院
+    education:
+      - 牛津大学新学院
+      - 格拉斯哥学院
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/John_Gardner_(Rechtsphilosoph)
+      en: https://en.wikipedia.org/wiki/John_Gardner_(legal_philosopher)
+  - scholar: holmes
+    qid: Q360574
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Oliver Wendell Holmes
+    description: 美国法官
+    born: '1841-03-08'
+    died: '1935-03-06'
+    birthPlace: 波士顿
+    citizenship:
+      - 美国
+    employers:
+      - 哈佛大学
+    education:
+      - 哈佛法学院
+      - 哈佛学院
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E5%B0%8F%E5%A5%A5%E5%88%A9%E5%BC%97%C2%B7%E6%B8%A9%E5%BE%B7%E5%B0%94%C2%B7%E9%9C%8D%E5%A7%86%E6%96%AF
+      de: https://de.wikipedia.org/wiki/Oliver_Wendell_Holmes%2C_Jr.
+      ja: https://ja.wikipedia.org/wiki/%E3%82%AA%E3%83%AA%E3%83%90%E3%83%BC%E3%83%BB%E3%82%A6%E3%82%A7%E3%83%B3%E3%83%87%E3%83%AB%E3%83%BB%E3%83%9B%E3%83%BC%E3%83%A0%E3%82%BA%E3%83%BB%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2
+      en: https://en.wikipedia.org/wiki/Oliver_Wendell_Holmes_Jr.
+    image:
+      src: /scholars/holmes.jpg
+      page: https://commons.wikimedia.org/wiki/File:Oliver_Wendell_Holmes_Jr_circa_1930.jpg
+      license: Public domain
+      credit: Harris &amp; Ewing
+  - scholar: wechsler
+    qid: Q15516042
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Herbert Wechsler
+    description: 美国法律学者（1909－2000）
+    born: '1909-12-04'
+    died: '2000-04-26'
+    birthPlace: 纽约
+    citizenship:
+      - 美国
+    employers:
+      - 哥伦比亚法学院
+    education:
+      - 纽约市立学院
+      - 哥伦比亚法学院
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E8%B5%AB%E4%BC%AF%E7%89%B9%C2%B7%E9%9F%8B%E5%85%8B%E6%96%AF%E5%8B%92
+      en: https://en.wikipedia.org/wiki/Herbert_Wechsler
+  - scholar: fletcher
+    qid: Q5543109
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: George P. Fletcher
+    description: American legal scholar
+    born: '1939-03-05'
+    birthPlace: 芝加哥
+    citizenship:
+      - 美国
+    employers:
+      - 哥伦比亚法学院
+    education:
+      - 加州大学伯克利分校
+      - 康奈尔大学
+      - 芝加哥大学法学院
+    advisors: []
+    students: []
+    links:
+      en: https://en.wikipedia.org/wiki/George_P._Fletcher
+  - scholar: robinson
+    qid: Q65029062
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Paul H. Robinson
+    description: professor at the University of Pennsylvania Law School
+    born: '1948'
+    birthPlace: 沃特伯里
+    citizenship:
+      - 美国
+    employers:
+      - 宾夕法尼亚大学法学院
+    education:
+      - 伦斯勒理工学院
+      - 哈佛法学院
+    advisors: []
+    students: []
+    links:
+      en: https://en.wikipedia.org/wiki/Paul_H._Robinson
+  - scholar: feinberg
+    qid: Q1691712
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Joel Feinberg
+    description: American legal philosopher (1926–2004)
+    born: '1926-10-19'
+    died: '2004-03-29'
+    birthPlace: 底特律
+    citizenship:
+      - 美国
+    employers:
+      - 布朗大学
+      - 普林斯顿大学
+      - 亚利桑那大学
+      - 加州大学洛杉矶分校
+      - 洛克菲勒大学
+    education:
+      - 密歇根大学
+    advisors: []
+    students: []
+    links:
+      de: https://de.wikipedia.org/wiki/Joel_Feinberg
+      ja: https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%82%A8%E3%83%AB%E3%83%BB%E3%83%95%E3%82%A1%E3%82%A4%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0
+      en: https://en.wikipedia.org/wiki/Joel_Feinberg
+  - scholar: kadish
+    qid: Q18249279
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Sanford Kadish
+    description: American criminologist
+    born: '1921-09-07'
+    died: '2014-09-05'
+    birthPlace: 纽约州
+    citizenship:
+      - 美国
+    employers:
+      - 密歇根大学
+      - 加州大学伯克利分校法学院
+    education:
+      - 哥伦比亚法学院
+    advisors: []
+    students: []
+    links:
+      zh: https://zh.wikipedia.org/wiki/%E6%A1%91%E7%A6%8F%E5%BE%B7%C2%B7%E5%8D%A1%E8%BF%AA%E4%BB%80
+      en: https://en.wikipedia.org/wiki/Sanford_Kadish
+  - scholar: moore
+    qid: Q30608090
+    matchedBy: auto
+    retrieved: '2026-10-24'
+    label: Michael S. Moore
+    description: American lawyer
+    born: '1943-07-31'
+    citizenship: []
+    employers:
+      - 南加州大学
+      - 耶鲁法学院
+    education:
+      - 哈佛法学院
+      - 俄勒岡大學
+    advisors: []
+    students: []
+    links:
+      ja: https://ja.wikipedia.org/wiki/%E3%83%9E%E3%82%A4%E3%82%B1%E3%83%AB%E3%83%BB%E3%83%A0%E3%83%BC%E3%82%A2_(%E6%B3%95%E5%93%B2%E5%AD%A6%E8%80%85)
+      en: https://en.wikipedia.org/wiki/Michael_S._Moore_(academic)

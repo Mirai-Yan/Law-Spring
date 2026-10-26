@@ -1,0 +1,118 @@
+# 第二批根据论学说：学派之争、刑罚根据、责任的本质
+# 代表学者名单为编者归纳，需逐一核实。
+
+theories:
+  # ---------------- 学派之争 ----------------
+  - id: classical-school
+    name: 古典学派（客观主义）
+    original:
+      de: klassische Schule
+      ja: 旧派（古典学派）
+    question: q-school
+    answer: act
+    thesis: >-
+      以意志自由为前提，刑法评价的对象是外部的行为及其结果；刑罚是对行为的报应（后期古典学派）或一般预防（前期古典学派）。
+      在未遂、共犯、罪数等问题上坚持客观主义：未遂须有客观危险，共犯从属于正犯的实行。
+    proponents: [feuerbach, binding, birkmeyer, beling, takigawa, ono-seiichiro]
+    jurisdictions: [de, jp]
+    needsSource: true
+    editorNote: 费尔巴哈属于前期古典学派（一般预防），宾丁、比克迈尔属于后期古典学派（报应）；小野清一郎的道义刑法学也常被归入旧派。
+
+  - id: modern-school
+    name: 近代学派（主观主义）
+    original:
+      de: moderne Schule
+      ja: 新派（近代学派）
+    question: q-school
+    answer: actor
+    thesis: >-
+      犯罪是行为人危险性格的表现，由素质与环境决定；「应受处罚的不是行为，而是行为人」。刑罚的目的是特别预防与社会防卫。
+      在未遂、共犯等问题上采主观主义：犯意一旦确定地表现出来即可处罚，教唆行为本身即可罚。
+    proponents: [liszt, makino, miyamoto]
+    jurisdictions: [de, jp]
+    needsSource: true
+
+  # ---------------- 刑罚的正当化根据 ----------------
+  - id: retributivism
+    name: 报应刑论
+    original:
+      de: absolute Straftheorie (Vergeltung)
+      ja: 応報刑論
+      en: retributivism
+    question: q-punish-basis
+    answer: retribution
+    thesis: 刑罚之所以正当，是因为犯罪人应得；刑罚是对罪责的回应，其轻重应与罪责相均衡，而不以预防效果为依据。从 [[scholar:kant]]、[[scholar:hegel]] 到当代英美的应得论（[[scholar:von-hirsch]]、[[scholar:moore]]）。
+    proponents: [kant, hegel, binding, birkmeyer, von-hirsch, moore]
+    jurisdictions: [de, us]
+
+  - id: deterrence
+    name: 一般预防论（威慑）
+    original:
+      de: Generalprävention (negative)
+      ja: 一般予防論
+      en: deterrence
+    question: q-punish-basis
+    answer: general-prevention
+    thesis: 刑罚的正当性在于预防社会一般人犯罪：以刑罚的痛苦抵消犯罪的利益（[[scholar:feuerbach]] 的心理强制说），或以最小的痛苦换取最大的幸福（[[scholar:bentham]]）。
+    proponents: [bentham, feuerbach]
+    jurisdictions: [uk-ew, de]
+
+  - id: special-prevention
+    name: 特别预防论（目的刑论）
+    original:
+      de: Spezialprävention
+      ja: 特別予防論（目的刑論）
+    question: q-punish-basis
+    answer: special-prevention
+    thesis: 刑罚的目的是防止犯罪人本人再犯：对可改善者予以改善，对不需改善者予以威吓，对不可改善者予以隔离（[[scholar:liszt]]）。
+    proponents: [liszt, makino]
+    jurisdictions: [de, jp]
+
+  - id: union-theory
+    name: 并合主义（综合理论）
+    original:
+      de: Vereinigungstheorie
+      ja: 相対的応報刑論（併合主義）
+      en: mixed theories of punishment
+    question: q-punish-basis
+    answer: union
+    thesis: 刑罚的正当化同时需要报应与预防：预防是刑罚的目的，责任（应得）是刑罚的前提与上限。代表性表述有 [[scholar:roxin]] 的辩证综合理论，以及 [[scholar:hart]] 对「一般正当化目的」与「分配原则」的区分。
+    proponents: [roxin, hart]
+    jurisdictions: [de, uk-ew, jp, cn]
+    needsSource: true
+    editorNote: 日本与中国大陆的通说多为并合主义，具体代表学者待补。
+
+  # ---------------- 责任的本质 ----------------
+  - id: psychological-culp
+    name: 心理责任论
+    original:
+      de: psychologischer Schuldbegriff
+      ja: 心理的責任論
+    question: q-culp-essence
+    answer: psychological
+    thesis: 责任就是行为人对结果的心理关系，即故意与过失；责任的有无只看是否存在这种心理事实。古典犯罪论体系的责任观。
+    proponents: [liszt, beling]
+    jurisdictions: [de]
+
+  - id: normative-culp
+    name: 规范责任论
+    original:
+      de: normativer Schuldbegriff
+      ja: 規範的責任論
+    question: q-culp-essence
+    answer: normative
+    thesis: 责任是对行为人的「非难可能性」：仅有故意或过失还不够，还要能够期待行为人实施合法行为。由 [[scholar:frank]] 奠基，经 [[scholar:goldschmidt]]、[[scholar:freudenthal]] 发展；目的行为论进一步把故意移出责任，形成纯粹的规范责任论。
+    proponents: [frank, goldschmidt, freudenthal, welzel]
+    jurisdictions: [de, jp, tw, cn]
+
+  - id: functional-culp
+    name: 功能责任论
+    original:
+      de: funktionaler Schuldbegriff
+      ja: 機能的責任論
+    question: q-culp-essence
+    answer: functional
+    thesis: 责任不是先于刑罚目的的事实，而是由预防需要决定的：[[scholar:jakobs]] 认为责任由一般预防（规范信赖的维护）的需要来界定；[[scholar:roxin]] 则以「答责性」（责任＋预防必要性）修正传统责任概念。
+    proponents: [jakobs, roxin]
+    jurisdictions: [de]
+    editorNote: Roxin 的答责性理论与 Jakobs 的功能责任论差别很大，归为一类只是就「责任与预防相联系」这一点而言。

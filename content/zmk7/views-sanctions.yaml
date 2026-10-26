@@ -1,0 +1,52 @@
+# 刑罚论：张明楷《刑法学》（第七版）中的论述
+bookViews:
+  - id: zmk7-punish-basis
+    work: zmk-xingfaxue-7
+    question: q-punish-basis
+    pages: "771-784"
+    answer: union
+    summary: >-
+      作者采并合主义（相对的报应刑论）：报应不是刑罚的目的，而是刑罚的正当化根据之一；刑罚的目的是包括特殊预防与一般预防的综合预防。
+      刑罚因为犯罪而科处（报应），同时为了预防犯罪而科处，但只能在报应（责任）的限度内追求预防。
+    reasons:
+      - 法定刑的制定与刑罚制度的设计针对一般人，体现一般预防；具体量刑时还要考虑特殊预防。
+      - 所谓「满足效果」只不过是报应刑的另一种表述。
+    reported:
+      - label: 报应刑论（绝对主义）
+        answer: retribution
+        summary: 刑罚是对犯罪的报应，本身就是正当的，不追求其他目的。
+        pages: "771"
+      - label: 目的刑论（预防论）
+        answer: general-prevention
+        summary: 刑罚只有为了预防犯罪才正当，包括一般预防论与特殊预防论。
+        pages: "771"
+
+  - id: zmk7-desert-limit
+    work: zmk-xingfaxue-7
+    question: q-desert-limit
+    pages: "99, 821"
+    answer: upper-limit
+    summary: >-
+      作者采消极的责任主义：在犯罪成立层面，没有责任就没有犯罪；在量刑层面，责任是刑罚的上限，禁止刑罚超过责任的程度，
+      但有责任并不当然要求科处与之相当的刑罚（否定积极的责任主义）。
+    reported:
+      - label: 积极的责任主义
+        answer: ground
+        summary: 「有责任就有刑罚」：有多少责任就应科处多少刑罚。
+        pages: "99"
+
+  - id: zmk7-sentencing-structure
+    work: zmk-xingfaxue-7
+    question: q-sentencing-structure
+    pages: "821-824, 855-856"
+    answer: point
+    summary: >-
+      作者采点的理论：与责任相适应的刑罚（责任刑）是一个点，预防刑只能在责任刑的点之下根据预防必要性的大小裁量；
+      责任刑情节与预防刑情节不能等量齐观，也不能综合考虑。点的理论是消极的责任主义在量刑中的具体表现。
+    reasons:
+      - 幅的理论允许在责任幅度内为预防而接近上限，会导致积极的责任主义，使没有预防必要的人也受到与责任相当的刑罚。
+    reported:
+      - label: 幅的理论
+        answer: spielraum
+        summary: 与责任相适应的刑罚是一个幅度，在幅度内根据预防目的确定宣告刑。
+        pages: "822-823"

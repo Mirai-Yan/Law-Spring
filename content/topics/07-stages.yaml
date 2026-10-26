@@ -1,0 +1,473 @@
+# 未完成形态：实行的着手、中止犯
+# 起草：AI（Claude）。全部为 draft。
+
+concepts:
+  - id: commencement
+    name: 实行的着手
+    original:
+      de: unmittelbares Ansetzen
+      ja: 実行の着手
+      en: attempt — proximity / substantial step
+    kind: problem
+    area: stages
+    tradition: both
+    summary: >-
+      预备与未遂的界线在哪里：开始实施构成要件行为（形式客观说），开始实施具有实现构成要件危险的行为，结果发生的危险达到具体紧迫的程度（实质客观说），
+      以行为人的计划为基础判断是否直接接近构成要件的实现（个别客观说），还是犯意确定地表现于外部（主观说）。英美法上则是「危险接近」「超出单纯预备」与「实质步骤」之争。
+
+  - id: withdrawal
+    name: 中止犯
+    original:
+      de: Rücktritt vom Versuch
+      ja: 中止犯
+      en: abandonment / renunciation
+    kind: problem
+    area: stages
+    tradition: both
+    summary: >-
+      行为人自动放弃犯罪或防止结果发生时，为什么减免处罚：刑事政策上的「黄金桥」、刑罚目的的消失、违法或责任的减少？「自动性」应如何判断？
+      英美法上，美国《模范刑法典》承认自愿放弃的抗辩，英格兰则不承认。
+
+questions:
+  - id: q-commencement
+    concept: commencement
+    text: 实行的着手应如何认定？
+    level: intermediate
+    aliases:
+      - 着手
+      - 实行的着手
+      - 预备与未遂的区分
+      - 着手的认定标准
+      - more than merely preparatory
+      - substantial step
+      - 形式客观说
+      - 实质客观说
+    answers:
+      - id: formal
+        label: 形式客观说（开始实施构成要件行为）
+      - id: material-act
+        label: 实质客观说·行为说（开始实施具有实现构成要件现实危险的行为）
+      - id: material-result
+        label: 实质客观说·结果说（结果发生的危险达到具体、紧迫的程度）
+      - id: individual
+        label: 个别客观说（以行为人的计划为基础，判断是否直接接近构成要件的实现）
+      - id: subjective
+        label: 主观说（犯意确定地表现于外部）
+
+  - id: q-premature-realization
+    concept: commencement
+    text: 「构成要件的提前实现」（计划先使被害人昏迷再加以杀害，却在第一阶段就致其死亡）应如何处理？
+    level: applied
+    aliases:
+      - 构成要件的提前实现
+      - 早すぎた構成要件の実現
+      - 氯仿事件
+      - クロロホルム事件
+      - 因果关系的错误
+    answers:
+      - id: completed
+        label: 成立故意既遂（着手已经开始，因果进程的偏离不重要）
+      - id: attempt-plus-negligence
+        label: 第一行为只成立未遂（若已着手）与过失致死
+
+  - id: q-cl-attempt-actus
+    concept: commencement
+    text: 英美法上，未遂的行为要件应采何种标准？
+    level: applied
+    aliases:
+      - substantial step
+      - more than merely preparatory
+      - dangerous proximity
+      - Rizzo 案
+      - Gullefer
+      - Geddes
+      - 英美法 未遂的行为
+    answers:
+      - id: proximity
+        label: 危险接近（接近完成）
+      - id: more-than-preparatory
+        label: 超出单纯预备（英格兰 1981 年法）
+      - id: substantial-step
+        label: 实质步骤（MPC）
+
+  - id: q-withdrawal-basis
+    concept: withdrawal
+    text: 中止犯为什么减免处罚？
+    level: intermediate
+    aliases:
+      - 中止犯的减免根据
+      - 黄金桥
+      - 中止犯为什么减免
+      - 刑罚目的说
+      - 违法减少说
+      - 责任减少说
+    answers:
+      - id: policy
+        label: 刑事政策说（「黄金桥」）
+      - id: purpose
+        label: 刑罚目的说（行为人的危险性降低，预防必要性消失）
+      - id: unrecht-decrease
+        label: 违法减少说
+      - id: schuld-decrease
+        label: 责任减少说
+      - id: premium
+        label: 奖赏说（恩惠说）
+
+  - id: q-voluntariness
+    concept: withdrawal
+    text: 中止的「自动性」应如何判断？
+    level: applied
+    aliases:
+      - 中止的自动性
+      - 自动性
+      - 弗兰克公式
+      - 能而不欲
+      - 欲而不能
+      - 中止的任意性
+    answers:
+      - id: frank
+        label: 弗兰克公式（「能达目的而不欲」为中止，「欲达目的而不能」为未遂）
+      - id: normative
+        label: 规范说（须出于回归合法的动机，如悔悟）
+      - id: objective
+        label: 客观说（以一般人的经验判断是否存在外部障碍）
+
+  - id: q-cl-abandonment
+    concept: withdrawal
+    text: 自愿放弃（abandonment / renunciation）能否成为未遂的抗辩？
+    level: applied
+    aliases:
+      - abandonment
+      - renunciation
+      - 英美法上的中止
+      - 放弃犯罪
+    answers:
+      - id: recognized
+        label: 承认
+      - id: not-recognized
+        label: 不承认（未遂一经成立，放弃只影响量刑）
+
+prerequisites:
+  - question: q-commencement
+    requires: q-attempt-basis
+    kind: foundational
+    why: 未遂为什么可罚，决定了处罚从哪一刻开始。
+    branches:
+      - answer: objective
+        leadsTo: 处罚的是法益侵害的危险 → 实质客观说（危险达到一定程度时着手）。
+      - answer: subjective
+        leadsTo: 处罚的是行为人敌对法的意思 → 主观说，着手可以大幅提前。
+      - answer: impression
+        leadsTo: 处罚的是动摇法秩序的印象 → 以行为人的计划为基础判断是否直接接近构成要件的实现（个别客观说，德国刑法第 22 条）。
+
+  - question: q-commencement
+    requires: q-school
+    kind: foundational
+    why: 着手论是新旧学派对立最直接的战场之一。
+    branches:
+      - answer: act
+        leadsTo: 以客观的行为为准 → 形式客观说或实质客观说。
+      - answer: actor
+        leadsTo: 犯意的飞跃性表现即为着手（牧野英一）→ 主观说。
+      - answer: mixed
+        leadsTo: 个别客观说。
+
+  - question: q-premature-realization
+    requires: q-commencement
+    kind: logical
+    why: 首先要判断第一行为时是否已经着手；如果还在预备阶段，就谈不上故意既遂。
+    branches:
+      - answer: material-result
+        leadsTo: 第一行为若已使死亡的危险迫切化，即为着手，进而讨论因果进程的偏离 → 多数结论为既遂。
+      - answer: individual
+        leadsTo: 按计划，第一行为与杀害行为紧密相连，已经直接接近构成要件的实现 → 着手，既遂。
+      - answer: formal
+        leadsTo: 第一行为不是杀害行为本身 → 尚未着手，只成立过失致死。
+      - answer: material-act
+        leadsTo: 第一行为若具有导致死亡的现实危险，即为着手。
+      - answer: subjective
+        leadsTo: 犯意已经表现于外部 → 着手，既遂。
+
+  - question: q-premature-realization
+    requires: q-mistake-standard
+    kind: conceptual
+    why: 在已经着手的前提下，结果以行为人未预想的方式提前发生，是一种因果关系的错误。
+    branches:
+      - answer: legal
+        leadsTo: 因果进程的偏离在同一构成要件内不重要 → 故意既遂。
+      - answer: concrete
+        leadsTo: 多数具体符合说论者同样认为因果关系的错误原则上不阻却故意，但要求偏离在相当的范围内。
+
+  - question: q-cl-attempt-actus
+    requires: q-cl-basis
+    kind: foundational
+    why: 未遂的行为要件要求多少「外在的行为」，取决于刑事责任以行为人的内心还是外在行为为准。
+    branches:
+      - answer: subjectivism
+        leadsTo: 以行为人的危险意图得到确证为准 → 实质步骤（MPC）。
+      - answer: objectivism
+        leadsTo: 要求行为接近完成、在外部显现出犯罪性 → 危险接近。
+
+  - question: q-withdrawal-basis
+    requires: q-punish-basis
+    kind: foundational
+    why: 中止为什么值得奖励，取决于刑罚为什么正当。
+    branches:
+      - answer: general-prevention
+        leadsTo: 给行为人一座回头的「黄金桥」，以保护被害人 → 刑事政策说。
+      - answer: special-prevention
+        leadsTo: 中止表明行为人的危险性不大，预防的必要性消失 → 刑罚目的说。
+      - answer: retribution
+        leadsTo: 自动回到合法的轨道，减少了应受的非难 → 责任减少说，或奖赏说。
+      - answer: union
+        leadsTo: 一般预防与特别预防的必要性都降低 → 刑罚目的说（德国通说）。
+
+  - question: q-withdrawal-basis
+    requires: q-unrecht-core
+    kind: foundational
+    why: 中止是否改变了已经发生的不法，取决于不法由什么构成。
+    branches:
+      - answer: result
+        leadsTo: 中止消除了法益侵害的危险 → 违法减少说。
+      - answer: dual
+        leadsTo: 中止意思使行为无价值减少，或使责任减少 → 违法减少说或责任减少说。
+      - answer: monist-act
+        leadsTo: 行为无价值在着手时已经完成，中止只能影响责任或刑罚目的。
+
+  - question: q-voluntariness
+    requires: q-withdrawal-basis
+    kind: logical
+    why: 中止要「自动」到什么程度，取决于中止为什么值得奖励。
+    branches:
+      - answer: policy
+        leadsTo: 只要行为人自己决定放弃即可 → 弗兰克公式（心理学的判断）。
+      - answer: purpose
+        leadsTo: 看放弃是否表明行为人回归了合法的态度 → 倾向规范的判断。
+      - answer: schuld-decrease
+        leadsTo: 要求一定的规范的动机 → 规范说。
+      - answer: unrecht-decrease
+        leadsTo: 不问动机，只要自己消除了危险即可。
+      - answer: premium
+        leadsTo: 奖赏值得奖赏的动机 → 倾向规范说。
+
+  - question: q-cl-abandonment
+    requires: q-cl-basis
+    kind: foundational
+    why: 放弃能否免责，取决于刑法评价的是行为人的危险意图还是已经发生的外在行为。
+    branches:
+      - answer: subjectivism
+        leadsTo: 自愿而彻底的放弃表明行为人并不危险 → 承认（MPC 第 5.01 条第 4 款）。
+      - answer: objectivism
+        leadsTo: 未遂的外在不法已经完成，事后的放弃不能抹去它 → 不承认，只影响量刑（英格兰）。
+
+relations:
+  - from: commencement
+    to: impossible-attempt
+    type: derived_from
+    description: 着手与不能犯是未遂论的两个支柱：前者决定未遂何时开始，后者决定没有危险的行为是否可罚；两者都取决于未遂的处罚根据。
+  - from: withdrawal
+    to: commencement
+    type: derived_from
+    description: 中止以已经着手为前提；着手前的放弃是预备阶段的中止。
+
+works:
+  - id: w-jp-chloroform-2004
+    title: 最決平成16年3月22日（クロロホルム事件）
+    titleZh: 氯仿案
+    authorText: 最高裁判所
+    year: 2004
+    type: case
+    jurisdiction: jp
+    needsSource: true
+  - id: w-gullefer-1987
+    title: R v Gullefer [1990] 1 WLR 1063
+    authorText: Court of Appeal
+    year: 1987
+    type: case
+    jurisdiction: uk-ew
+  - id: w-geddes-1996
+    title: R v Geddes (1996) 160 JP 697
+    authorText: Court of Appeal
+    year: 1996
+    type: case
+    jurisdiction: uk-ew
+  - id: w-rizzo-1927
+    title: People v. Rizzo, 246 N.Y. 334 (1927)
+    authorText: New York Court of Appeals
+    year: 1927
+    type: case
+    jurisdiction: us
+
+events:
+  - id: e-de-liszt-bridge
+    year: 1881
+    jurisdiction: de
+    type: origin
+    originOf: withdrawal
+    originType: term
+    title: 李斯特：中止犯是一座「黄金桥」
+    description: 立法者在行为人已经越过未遂的界线之后，为他架起一座退回的「黄金桥」，以鼓励他放弃犯罪、保护被害人。中止犯的减免根据由此成为独立的问题。
+    concepts: [withdrawal]
+    scholars: [liszt]
+    works: [w-liszt-1881]
+    derivedFrom: [e-de-stgb-1871]
+    needsSource: true
+    editorNote: 中止的规定在 1871 年刑法典中已经存在；这里以「为什么减免」这一问题的经典表述作为起点。
+
+  - id: e-us-rizzo-1927
+    year: 1927
+    jurisdiction: us
+    type: case
+    title: People v. Rizzo：危险接近
+    description: 被告人与同伙携枪驾车寻找预定抢劫的工资押运员，却始终没有找到他，随即被捕。法院认为，他们的行为尚未达到「危险接近」犯罪完成的程度，不成立抢劫未遂。
+    concepts: [commencement]
+    works: [w-rizzo-1927]
+
+  - id: e-uk-gullefer-1987
+    year: 1987
+    jurisdiction: uk-ew
+    type: case
+    title: R v Gullefer：开始实施犯罪本身
+    description: 被告人冲进赛狗场跑道，想让比赛作废以收回赌注。上诉法院认为，「超出单纯预备」意味着行为人已经开始实施「犯罪本身」，本案尚未达到这一程度。
+    concepts: [commencement]
+    works: [w-gullefer-1987]
+    derivedFrom: [e-uk-caa-1981]
+
+  - id: e-uk-geddes-1996
+    year: 1996
+    jurisdiction: uk-ew
+    type: case
+    title: R v Geddes：在学校厕所里等待
+    description: 被告人带着绳索与胶带藏在学校的男厕所里，显然意图绑架学生，但尚未接触任何人。上诉法院认为，他只是做了准备，不成立未遂。英格兰标准的严格程度由此显现。
+    concepts: [commencement]
+    works: [w-geddes-1996]
+    derivedFrom: [e-uk-gullefer-1987]
+
+  - id: e-jp-chloroform-2004
+    year: 2004
+    jurisdiction: jp
+    type: case
+    title: 氯仿案：构成要件的提前实现
+    description: 被告人计划先用氯仿使被害人昏迷，再连车推入海中溺死，但被害人可能在吸入氯仿时就已死亡。最高裁判所认为，使用氯仿的行为与推入海中的行为紧密相连，在使用氯仿时已经着手，成立杀人既遂。
+    concepts: [commencement]
+    works: [w-jp-chloroform-2004]
+    derivedFrom: [e-jp-code-1907]
+    needsSource: true
+
+positions:
+  # ---- 着手 ----
+  - theory: result-disvalue
+    question: q-commencement
+    answer: material-result
+    derivation:
+      - 未遂的处罚根据是法益侵害的危险。
+      - 只有当这种危险达到具体、紧迫的程度时，才进入未遂 → 实质客观说（结果说）。
+    alternatives:
+      - answer: material-act
+        note: 也有结果无价值论者采行为说。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-commencement
+    answer: individual
+    derivation:
+      - 未遂的不法包含行为人的意思。
+      - 以行为人的计划为基础，判断行为是否直接接近构成要件的实现（德国刑法第 22 条）。
+    alternatives:
+      - answer: material-act
+        note: 日本的行为无价值论者多采实质客观说（行为说）。
+        jurisdictions: [jp]
+  - theory: monist-act-disvalue
+    question: q-commencement
+    answer: individual
+    derivation:
+      - 未遂与既遂的不法相同，核心是行为人的意志。
+      - 以行为人的计划为基础判断着手。
+    needsSource: true
+  - theory: classical-school
+    question: q-commencement
+    answer: formal
+    derivation:
+      - 刑法评价的是构成要件所描述的行为。
+      - 开始实施构成要件行为时才是着手 → 形式客观说。
+  - theory: modern-school
+    question: q-commencement
+    answer: subjective
+    derivation:
+      - 刑法评价的是行为人的危险性格。
+      - 犯意确定地、飞跃性地表现于外部时即为着手 → 主观说。
+  - theory: cl-subjectivism
+    question: q-cl-attempt-actus
+    answer: substantial-step
+    derivation:
+      - 以行为人的危险意图为核心。
+      - 只要行为强有力地确证了犯罪意图即可 → 实质步骤（MPC）。
+  - theory: cl-objectivism
+    question: q-cl-attempt-actus
+    answer: proximity
+    derivation:
+      - 未遂要求外在的、显现的犯罪性。
+      - 行为须接近完成 → 危险接近。
+    needsSource: true
+  - theory: dual-act-disvalue
+    question: q-premature-realization
+    answer: completed
+    derivation:
+      - 按行为人的计划，第一行为已经直接接近构成要件的实现 → 已经着手。
+      - 已着手后的因果偏离在同一构成要件内不重要 → 故意既遂。
+  - theory: result-disvalue
+    question: q-premature-realization
+    answer: completed
+    derivation:
+      - 第一行为若已使死亡的危险迫切化，即为着手。
+      - 结果是该危险的现实化 → 故意既遂。
+    alternatives:
+      - answer: attempt-plus-negligence
+        note: 也有学者认为故意必须在实际导致结果的行为时存在，第一行为只成立未遂与过失致死。
+    needsSource: true
+
+  # ---- 中止 ----
+  - theory: dual-act-disvalue
+    question: q-withdrawal-basis
+    answer: purpose
+    derivation:
+      - 自动中止表明行为人的犯罪意志并不坚定。
+      - 一般预防与特别预防的必要性都降低 → 刑罚目的说（德国通说）。
+    alternatives:
+      - answer: schuld-decrease
+        note: 日本与中国大陆的学说多从违法减少或责任减少说明。
+        jurisdictions: [jp, cn]
+  - theory: result-disvalue
+    question: q-withdrawal-basis
+    answer: unrecht-decrease
+    derivation:
+      - 中止消除了法益侵害的危险。
+      - 违法因此减少 → 违法减少说。
+    alternatives:
+      - answer: schuld-decrease
+        note: 也有结果无价值论者采责任减少说，或两者并用。
+    needsSource: true
+  - theory: special-prevention
+    question: q-withdrawal-basis
+    answer: purpose
+    derivation:
+      - 中止表明行为人没有再犯的危险。
+      - 特别预防的必要性消失 → 减免刑罚。
+  - theory: deterrence
+    question: q-withdrawal-basis
+    answer: policy
+    derivation:
+      - 以减免刑罚为诱因，鼓励行为人中途放弃 → 黄金桥。
+  - theory: cl-subjectivism
+    question: q-cl-abandonment
+    answer: recognized
+    derivation:
+      - 刑法针对的是行为人的危险意图。
+      - 自愿而彻底的放弃表明这种危险已经消失 → 承认（MPC）。
+    needsSource: true
+  - theory: cl-objectivism
+    question: q-cl-abandonment
+    answer: not-recognized
+    derivation:
+      - 未遂的外在不法已经完成。
+      - 事后的放弃不能抹去已经发生的不法 → 不承认（英格兰）。
+    needsSource: true

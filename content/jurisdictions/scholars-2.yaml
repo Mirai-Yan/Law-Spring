@@ -1,0 +1,179 @@
+# 第二批专题新增的学者
+# 起草：AI（Claude）。生卒年、师承与立场归属均待核实。
+
+scholars:
+  # ---------------- 德国 ----------------
+  - id: kant
+    name: 康德
+    nameOriginal: Immanuel Kant
+    jurisdiction: de
+    born: 1724
+    died: 1804
+    bio: 哲学家。《道德形而上学》中的刑罚论是报应刑论的经典表述：刑罚只能因为犯罪而科处，不能把人当作实现其他目的的手段。
+  - id: buri
+    name: 冯·布里
+    nameOriginal: Maximilian von Buri
+    jurisdiction: de
+    born: 1825
+    died: 1902
+    bio: 帝国法院法官。提出条件说（等价说）：一切不可想象其不存在而结果仍会发生的条件，在刑法上都是等价的原因；并据此主张以主观意思区分正犯与共犯。
+    needsSource: true
+  - id: kries
+    name: 冯·克里斯
+    nameOriginal: Johannes von Kries
+    jurisdiction: de
+    born: 1853
+    died: 1928
+    bio: 生理学家与概率论学者。以「客观可能性」概念提出相当因果关系说。
+  - id: larenz
+    name: 拉伦茨
+    nameOriginal: Karl Larenz
+    jurisdiction: de
+    born: 1903
+    died: 1993
+    bio: 民法与法哲学学者。1927 年从黑格尔的归责理论出发提出「客观归责」概念。
+  - id: honig
+    name: 霍尼希
+    nameOriginal: Richard Honig
+    jurisdiction: de
+    born: 1890
+    died: 1981
+    bio: 1930 年将客观归责概念引入刑法学，主张结果只有在可以被视为行为人「有目的地设定」时才能归责于他。
+    needsSource: true
+  - id: frank
+    name: 弗兰克
+    nameOriginal: Reinhard Frank
+    jurisdiction: de
+    born: 1860
+    died: 1934
+    bio: 规范责任论的奠基者（1907 年提出责任即「非难可能性」）；其名字也与故意论、中止犯自动性判断中的「弗兰克公式」相连。
+  - id: birkmeyer
+    name: 比克迈尔
+    nameOriginal: Karl von Birkmeyer
+    jurisdiction: de
+    born: 1847
+    died: 1920
+    bio: 后期古典学派的代表，在学派之争中与李斯特正面论战，坚持报应刑论。
+    needsSource: true
+  - id: goldschmidt
+    name: 戈尔德施密特
+    nameOriginal: James Goldschmidt
+    jurisdiction: de
+    born: 1874
+    died: 1940
+    bio: 以「义务规范」与「法规范」的区分发展规范责任论，并从责任角度理解部分紧急避险。
+    needsSource: true
+  - id: freudenthal
+    name: 弗洛伊登塔尔
+    nameOriginal: Berthold Freudenthal
+    jurisdiction: de
+    born: 1872
+    died: 1929
+    bio: 主张期待不可能可以作为超法规的责任阻却事由。
+    needsSource: true
+  - id: berner
+    name: 贝尔纳
+    nameOriginal: Albert Friedrich Berner
+    jurisdiction: de
+    born: 1818
+    died: 1907
+    bio: 黑格尔学派刑法学者，以「法无须向不法让步」表述正当防卫的严格立场。
+    needsSource: true
+  - id: radbruch
+    name: 拉德布鲁赫
+    nameOriginal: Gustav Radbruch
+    jurisdiction: de
+    born: 1878
+    died: 1949
+    teachers: [liszt]
+    bio: 法哲学家、魏玛共和国司法部长。1946 年提出「拉德布鲁赫公式」：实在法与正义的冲突达到不能容忍的程度时，法律应让位于正义。
+    needsSource: true
+    editorNote: 师承关系待核。
+
+  # ---------------- 日本 ----------------
+  - id: makino
+    name: 牧野英一
+    nameOriginal: 牧野英一
+    jurisdiction: jp
+    born: 1878
+    died: 1970
+    affiliations: [东京大学]
+    influencedBy: [liszt]
+    bio: 日本近代学派（新派、主观主义刑法学）的代表，倡导目的刑论、社会责任论与共犯独立性说。
+    needsSource: true
+  - id: miyamoto
+    name: 宫本英脩
+    nameOriginal: 宮本英脩
+    jurisdiction: jp
+    born: 1882
+    died: 1944
+    affiliations: [京都大学]
+    bio: 主观主义倾向的刑法学者，「可罚的违法性」思想的先驱之一。
+    needsSource: true
+  - id: takigawa
+    name: 泷川幸辰
+    nameOriginal: 滝川幸辰
+    jurisdiction: jp
+    born: 1891
+    died: 1962
+    affiliations: [京都大学]
+    bio: 古典学派（客观主义）的代表之一。1933 年因其刑法学说被文部省停职，引发「泷川事件」。
+  - id: saeki-chihiro
+    name: 佐伯千仞
+    nameOriginal: 佐伯千仞
+    jurisdiction: jp
+    born: 1907
+    died: 2006
+    affiliations: [京都大学, 立命馆大学]
+    teachers: [miyamoto]
+    bio: 系统引入期待可能性理论，并发展了可罚的违法性论。
+    needsSource: true
+    editorNote: 师承关系待核。
+
+  # ---------------- 中国大陆 ----------------
+  - id: gao-mingxuan
+    name: 高铭暄
+    nameOriginal: 高铭暄
+    jurisdiction: cn
+    born: 1928
+    affiliations: [中国人民大学]
+    bio: 参与 1979 年刑法的起草，是四要件犯罪构成理论的主要坚持者。
+  - id: liu-mingxiang
+    name: 刘明祥
+    nameOriginal: 刘明祥
+    jurisdiction: cn
+    affiliations: [中国人民大学]
+    bio: 主张以单一正犯体系理解中国刑法的共同犯罪规定。
+    needsSource: true
+
+  # ---------------- 英格兰与威尔士 ----------------
+  - id: bentham
+    name: 边沁
+    nameOriginal: Jeremy Bentham
+    jurisdiction: uk-ew
+    born: 1748
+    died: 1832
+    bio: 功利主义的奠基者。刑罚本身是一种恶，只有在能够避免更大的恶时才是正当的。
+  - id: honore
+    name: 奥诺尔
+    nameOriginal: Tony Honoré
+    jurisdiction: uk-ew
+    born: 1921
+    died: 2019
+    affiliations: [牛津大学]
+    bio: 与哈特合著《法律中的因果关系》，提出自愿介入行为中断因果关系等常识性因果原则。
+
+  # ---------------- 美国 ----------------
+  - id: von-hirsch
+    name: 冯·赫希
+    nameOriginal: Andrew von Hirsch
+    jurisdiction: us
+    born: 1934
+    bio: 1976 年《实现正义》提出「应得」（just deserts）模式，推动美国从矫正理想转向以应得为基础的量刑。后任教于英国剑桥大学。
+  - id: martinson
+    name: 马丁森
+    nameOriginal: Robert Martinson
+    jurisdiction: us
+    born: 1927
+    died: 1979
+    bio: 社会学家。1974 年《什么有效？》一文对矫正项目的效果提出全面质疑，被概括为「没有什么有效」。
