@@ -10,9 +10,13 @@ const nextConfig: NextConfig = {
   // 线上演示版开关（见 src/lib/deploy.ts）：构建时写进代码，Netlify 的服务器函数运行时读不到构建环境变量
   env: { FM_ONLINE_DEMO: process.env.FM_ONLINE_DEMO ?? "" },
   // 接口在运行时读取 content/ 的 YAML 与示例案情，部署到 Netlify 等平台时要一并打包；
-  // 私有锚点、草稿箱、书籍与 AI 缓存、用户数据库、密钥一律不打包
+  // 私有锚点、草稿箱、书籍与 AI 缓存、用户数据库、密钥一律不打包。
+  // 注意：Next 按「路径中包含」匹配排除规则，且键 "*" 会连 Next 自身的服务器文件一起排除，
+  // 写成 "data/**" 会误删 next/dist/lib/metadata/…，导致线上崩溃。所以键只匹配页面与接口，规则写到具体文件。
   outputFileTracingIncludes: { "/**/*": ["./content/**/*.yaml", "./content/_demo/**"] },
-  outputFileTracingExcludes: { "*": ["./content/_private/**", "./content/_inbox/**", "./.cache/**", "./data/**", "./.env*"] },
+  outputFileTracingExcludes: {
+    "/**/*": ["content/_private/**", "content/_inbox/**", ".cache/ai/**", ".cache/books/**", ".cache/wikidata/**", "data/app.db*", ".env.local"],
+  },
   // Service Worker 本身不能被浏览器长期缓存，否则更新不到
   async headers() {
     return [{ source: "/sw.js", headers: [{ key: "Cache-Control", value: "no-cache, no-store, must-revalidate" }] }];

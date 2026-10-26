@@ -2,7 +2,7 @@
 # 账号与同步、个人资料库、建议与纠错在线上版关闭（Netlify 的服务器没有可长期保存数据的磁盘）。
 # DEEPSEEK_API_KEY 与 ACCESS_CODE 是密钥，不写在这里，在 Netlify 后台的 Environment variables 里设置。
 [build]
-  command = "npm run build"
+  command = "node scripts/check-deploy.mjs && npm run build"
   publish = ".next"
 
 [build.environment]
