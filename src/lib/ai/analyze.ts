@@ -32,6 +32,18 @@ export function loadDemoCases(): DemoCase[] {
   }
 }
 
+/** 内置示例的预置分析结果；不调用大模型。没有访问口令的访客也能看 */
+export function presetCaseResult(ix: Index, text: string): { source: "demo"; result: CaseResult } | null {
+  const demo = loadDemoCases().find((d) => d.result && norm(d.text) === norm(text));
+  return demo ? { source: "demo", result: validateCaseResult(ix, demo.result) } : null;
+}
+
+/** 内置口语化示例的预置第一轮整理结果；之后的轮次需要大模型 */
+export function presetCaseBrief(text: string, turns: ChatTurn[]): { source: "demo"; brief: CaseBrief } | null {
+  const demo = turns.length === 0 ? loadDemoCases().find((d) => d.brief && norm(d.text) === norm(text)) : undefined;
+  return demo ? { source: "demo", brief: validateCaseBrief(demo.brief) } : null;
+}
+
 export async function analyzeCase(
   ix: Index,
   text: string,
@@ -53,8 +65,8 @@ export async function analyzeCase(
       error = e as Error;
     }
   }
-  const demo = loadDemoCases().find((d) => d.result && norm(d.text) === norm(text));
-  if (demo) return { source: "demo", result: validateCaseResult(ix, demo.result) };
+  const preset = presetCaseResult(ix, text);
+  if (preset) return preset;
   throw error ?? new LlmUnavailableError("未配置 DEEPSEEK_API_KEY，且这不是内置的示例案情");
 }
 
@@ -83,8 +95,8 @@ export async function briefCase(
       error = e as Error;
     }
   }
-  const demo = turns.length === 0 ? loadDemoCases().find((d) => d.brief && norm(d.text) === norm(text)) : undefined;
-  if (demo) return { source: "demo", brief: validateCaseBrief(demo.brief) };
+  const preset = presetCaseBrief(text, turns);
+  if (preset) return preset;
   throw error ?? new LlmUnavailableError("未配置 DEEPSEEK_API_KEY，且这不是内置的示例案情");
 }
 

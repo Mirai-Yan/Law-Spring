@@ -237,7 +237,13 @@ export default function CaseClient({ bundle, demos, sample }: { bundle: Bundle; 
               </button>
               <span className="text-xs text-ink-3">{text.length} / 2000</span>
               <span className="ml-auto text-xs text-ink-3">
-                {status === null ? "" : status.configured ? `已连接大模型：${status.model}` : "未配置大模型：只能分析内置示例案情（使用预置演示结果）"}
+                {status === null
+                  ? ""
+                  : !status.configured
+                    ? "未配置大模型：只能分析内置示例案情（使用预置演示结果）"
+                    : status.accessCodeRequired
+                      ? `实时 AI 需要访问口令；示例案情不用口令，直接查看预置结果`
+                      : `已连接大模型：${status.model}`}
               </span>
             </div>
           </div>
